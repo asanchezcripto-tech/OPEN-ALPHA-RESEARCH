@@ -1,0 +1,619 @@
+[
+  {
+    "id": "infra-provider-defillama-api",
+    "name": "DefiLlama: servicio y metodología",
+    "url": "https://docs.llama.fi/",
+    "organization": "DefiLlama",
+    "categories": [
+      "E",
+      "D",
+      "M"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Agregados DeFi; permisos y acceso del servicio se revisan aparte de adaptadores.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-defillama-api"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-defillama-api"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Agregados DeFi; permisos y acceso del servicio se revisan aparte de adaptadores.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null
+  },
+  {
+    "id": "infra-provider-hyperliquid-api",
+    "name": "Hyperliquid: API pública",
+    "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api",
+    "organization": "Hyperliquid",
+    "categories": [
+      "B",
+      "C",
+      "M"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Contexto/info de mercados; diferenciar snapshot actual, histórico y retención.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-hyperliquid-api"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-hyperliquid-api"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Contexto/info de mercados; diferenciar snapshot actual, histórico y retención.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null
+  },
+  {
+    "id": "infra-provider-polymarket-api",
+    "name": "Polymarket: API de datos",
+    "url": "https://docs.polymarket.com/api-reference/predictions/overview",
+    "organization": "Polymarket",
+    "categories": [
+      "N",
+      "J",
+      "M"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Datos de eventos, mercados, precios e historial; no se invocaron operaciones.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-polymarket-api"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-polymarket-api"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Datos de eventos, mercados, precios e historial; no se invocaron operaciones.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null
+  },
+  {
+    "id": "infra-provider-dune-service",
+    "name": "Dune Analytics API",
+    "url": "https://docs.dune.com/api-reference/overview/introduction",
+    "organization": "Dune Analytics API",
+    "categories": [
+      "D",
+      "M",
+      "L"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Servicio de consultas/resultados: referencia funcional cerrada; clientes/Spellbook tienen permisos diferentes.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-dune-service",
+      "crypto-src-3e5ce1674aa0"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-dune-service"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Servicio de consultas/resultados: referencia funcional cerrada; clientes/Spellbook tienen permisos diferentes.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null,
+    "additional_notes": {
+      "name": "Dune hosted analytics",
+      "category": "Servicio cerrado con cliente y modelos públicos separados",
+      "use": "Contraste de consultas y exploración de resultados",
+      "constraint": "Cuenta/clave, cuotas y derechos de exportación/redistribución por revisar; Spellbook BUSL, cliente Apache-2.0",
+      "cost": "No cotizado ni contratado",
+      "substitute": "Cryo o Ponder + SQL propio sobre contratos acotados",
+      "verification_level": "V1",
+      "verified_at": "2026-11-04",
+      "not_open_source_substitute": true,
+      "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+      "confidence": "media documental; no resultados propios ejecutados.",
+      "categories": [],
+      "url": "https://docs.dune.com/api-reference/overview/introduction"
+    }
+  },
+  {
+    "id": "infra-provider-tokenterminal-service",
+    "name": "Token Terminal: métricas",
+    "url": "https://tokenterminal.com/explorer/metrics/tokenholder_revenue",
+    "organization": "Token Terminal",
+    "categories": [
+      "E",
+      "L"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Referencia comercial de definiciones; no implica datos/código abiertos ni validación independiente.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-tokenterminal-service",
+      "crypto-src-232a0557a14b",
+      "crypto-src-b2b0c8e776cb",
+      "crypto-src-28df4ae0e892"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-tokenterminal-service"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Referencia comercial de definiciones; no implica datos/código abiertos ni validación independiente.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null,
+    "additional_notes": {
+      "name": "Token Terminal",
+      "category": "Servicio analítico comercial cerrado",
+      "use": "Comparar definiciones, métricas y forma de presentar estados económicos",
+      "constraint": "No se accedió a API autenticada, planes ni dataset íntegro; metodología textual generada automáticamente no prueba implementación",
+      "cost": "No cotizado ni contratado",
+      "substitute": "Adaptador revisado + eventos originales + reconciliación manual",
+      "verification_level": "V1",
+      "verified_at": "2026-11-04",
+      "not_open_source_substitute": true,
+      "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+      "confidence": "media documental; no resultados propios ejecutados.",
+      "categories": [],
+      "url": "https://tokenterminal.com/"
+    }
+  },
+  {
+    "id": "quant-alfred",
+    "name": "FRED / ALFRED",
+    "url": "https://alfred.stlouisfed.org/help",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "proveedor/dataset",
+    "description": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "outputs": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "La documentación confirma archivo de revisiones; fechas desconocidas pueden asignarse por primera disponibilidad en FRED. API requiere clave; derechos de cada serie separados."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-c58b31cabba1"
+    ],
+    "source_ids": [
+      "src-quant-2ecbd04c5b67",
+      "src-quant-4ae564a6ee3e"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-bis-api",
+    "name": "BIS SDMX API",
+    "url": "https://data.bis.org/help/tools",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A",
+      "M"
+    ],
+    "resource_type": "proveedor",
+    "description": "API de datos y metadata estadística del BIS.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": "Condiciones BIS, no licencia de software",
+    "license_status": "COMPATIBLE CON OBLIGACIONES",
+    "license_url": "https://data.bis.org/help/legal",
+    "dependencies": [],
+    "data_inputs": "API de datos y metadata estadística del BIS.",
+    "outputs": "API de datos y metadata estadística del BIS.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Uso exige atribución, evitar afiliación implícita y restricciones del portal; no confundir API v1/v2."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-97ed1aab4c0e"
+    ],
+    "source_ids": [
+      "src-quant-11c58c704617",
+      "src-quant-092e4b8e7cba"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-ecb-api",
+    "name": "ECB Data Portal API",
+    "url": "https://data.ecb.europa.eu/help/api/data",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A",
+      "M"
+    ],
+    "resource_type": "proveedor",
+    "description": "Estadísticas monetarias y financieras via SDMX.",
+    "verification_level": "D0",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Estadísticas monetarias y financieras via SDMX.",
+    "outputs": "Estadísticas monetarias y financieras via SDMX.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Documentación indexada consultada; apertura directa devolvió 503. updatedAfter informa cambios; no equivale a archivo point-in-time completo."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-d3ac335d9819"
+    ],
+    "source_ids": [
+      "src-quant-efaa6ba65b72"
+    ],
+    "scores": null,
+    "confidence": "baja: extracto indexado, apertura directa503",
+    "blockers": [
+      "Acceso directo a documentación pendiente; no afirmar validación funcional."
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-treasury-fiscal",
+    "name": "US Treasury Fiscal Data / DTS",
+    "url": "https://fiscaldata.treasury.gov/api-documentation/",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A",
+      "M"
+    ],
+    "resource_type": "proveedor",
+    "description": "Datos de caja del Tesoro y deuda pública.",
+    "verification_level": "D0",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Datos de caja del Tesoro y deuda pública.",
+    "outputs": "Datos de caja del Tesoro y deuda pública.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Documentación API devolvió 403. Página oficial Receipts & Outlays confirma DTS al siguiente día hábil; endpoints no probados."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-5bd66f42149c"
+    ],
+    "source_ids": [
+      "src-quant-ef13a13c404a",
+      "src-quant-c0b159b1d72b"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Resolver acceso y términos específicos antes de ingesta o redistribución"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-nyfed-sofr",
+    "name": "NY Fed Markets / SOFR",
+    "url": "https://markets.newyorkfed.org/static/docs/markets-api.html",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "proveedor",
+    "description": "Tasas overnight de financiación garantizada y referencias monetarias.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Tasas overnight de financiación garantizada y referencias monetarias.",
+    "outputs": "Tasas overnight de financiación garantizada y referencias monetarias.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Página API accesible sin líneas extraídas; términos anunciados por fuente oficial; API no probada ni derechos completos revisados."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-3fb7e4915f7c"
+    ],
+    "source_ids": [
+      "src-quant-76a059b7e800",
+      "src-quant-9c454b171513"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "crypto-provider-deribit",
+    "name": "Deribit public market API",
+    "category": "Mercado cerrado con documentación/API pública",
+    "source_ids": [
+      "crypto-src-1252acd36e5e"
+    ],
+    "use": "OI, mark/index, IV y funding de instrumentos específicos",
+    "constraint": "Mark IV es magnitud modelada y específica del instrumento; no histórico integral por consultar snapshot",
+    "cost": "No cotizado ni autenticado",
+    "substitute": "Observación prospectiva limitada; API de otro venue con especificación comparable",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "not_open_source_substitute": true,
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [],
+    "url": "https://docs.deribit.com/api-reference/market-data/public-get_book_summary_by_currency"
+  },
+  {
+    "id": "crypto-provider-circle",
+    "name": "Circle documentation and CCTP",
+    "category": "Emisor/protocolo con documentación pública",
+    "source_ids": [
+      "crypto-src-c7e6dd4bc23e"
+    ],
+    "use": "Identificar migraciones de oferta y evitar contar mint intercadena como entrada fiat",
+    "constraint": "Documentación no es prueba de reservas ni licencia de datos general",
+    "cost": "No transacciones ni contratación",
+    "substitute": "Eventos del contrato y reconciliación entre cadenas",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "not_open_source_substitute": true,
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [],
+    "url": "https://developers.circle.com/cctp"
+  },
+  {
+    "id": "infra-ptdata-methodology",
+    "name": "ptdata-methodology",
+    "url": "https://github.com/ptdata-io/ptdata-methodology",
+    "organization": "ptdata-io",
+    "categories": [
+      "M"
+    ],
+    "resource_type": "especificación de servicio; documentación abierta",
+    "description": "Especificación pública de servicio de datos point-in-time; no confundir con implementación abierta.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "120cfbef3ee121809da20524745245c88119e4d7",
+    "maintenance_status": "accesible y sin aviso de archivo; cadencia no medida",
+    "last_significant_release": null,
+    "languages": null,
+    "license_code": "CC-BY-4.0 para documentación",
+    "license_status": "COMPATIBLE CON OBLIGACIONES",
+    "license_url": "https://raw.githubusercontent.com/ptdata-io/ptdata-methodology/120cfbef3ee121809da20524745245c88119e4d7/LICENSE",
+    "dependencies": "No auditadas; consultar manifiesto antes de adoptar.",
+    "data_inputs": "Tablas, documentos o series aportados por el usuario; no suministra por sí mismo históricos financieros.",
+    "outputs": "Especificación pública de servicio de datos point-in-time; no confundir con implementación abierta.",
+    "implemented_features": "Existencia y alcance documental revisados; implementación no auditada.",
+    "announced_only": "No se contrastó cada promesa de rendimiento o funcionalidad comercial.",
+    "practical_use": "Especificación pública de servicio de datos point-in-time; no confundir con implementación abierta.",
+    "limitations": "Revisión de selección: faltan ensayo aislado, incidencias, compatibilidad de versiones e históricos representativos.",
+    "alternatives": "Consultar comparativas por familia antes de añadir una dependencia.",
+    "evidence_ids": [
+      "infra-E0168",
+      "infra-E0169"
+    ],
+    "source_ids": [
+      "infra-S0242",
+      "infra-S0243",
+      "infra-S0244"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 7,
+      "data": 12,
+      "ease": 8,
+      "license": 8,
+      "maintenance": 4,
+      "usability": 6,
+      "differentiation": 3
+    },
+    "score_total": 66,
+    "confidence": "media en existencia/licencia; baja en idoneidad operativa",
+    "blockers": [],
+    "commercial_dependencies": "No verificadas; el núcleo y servicios alojados deben tratarse por separado.",
+    "maturity": "no medida mediante ejecución",
+    "cost_relative": "bajo/medio; estimación de alcance local",
+    "adoption_mode": "Investigar más",
+    "hardware": "No medido; proporcional al volumen y backend.",
+    "test_status": "No se inspeccionó batería ni se midió cobertura.",
+    "security": "No ejecutado. Revisar dependencias, extensiones, serializadores y acceso de red antes de instalar.",
+    "api_credentials": "La biblioteca no implica permiso ni credenciales para datos de terceros.",
+    "deep_review_path": null,
+    "license_weights": null,
+    "license_data": null,
+    "tests_executed": false,
+    "coverage_measured": null,
+    "open_issues_reviewed": null,
+    "tests_located": null,
+    "tests_inspected": null,
+    "documentation_quality": null,
+    "history_availability": null,
+    "implementation_complexity": null,
+    "immediate_use": null,
+    "evaluation_scope": "Ver nivel y fuentes: los campos nulos no se comprobaron o no aplican; no implican ausencia de riesgo."
+  }
+]

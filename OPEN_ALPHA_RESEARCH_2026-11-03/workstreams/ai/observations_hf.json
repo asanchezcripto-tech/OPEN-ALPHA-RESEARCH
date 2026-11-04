@@ -1,0 +1,641 @@
+[
+  {
+    "kind": "model",
+    "rid": "amazon/chronos-2",
+    "url": "https://huggingface.co/amazon/chronos-2",
+    "commit": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "lastModified": "2026-06-05T11:55:42.000Z",
+    "license_declared": "apache-2.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/amazon/chronos-2",
+      "resolved_url": "https://huggingface.co/api/models/amazon/chronos-2",
+      "status": 200,
+      "sha256": "1d9395f7518adfbda7c8c89f223334a41725b877fc3c7f3b784ac153d25efcd9",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/amazon/chronos-2/resolve/29ec3766d36d6f73f0696f85560a422f50e8498c/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/amazon/chronos-2/29ec3766d36d6f73f0696f85560a422f50e8498c/README.md?%2Famazon%2Fchronos-2%2Fresolve%2F29ec3766d36d6f73f0696f85560a422f50e8498c%2FREADME.md=&etag=%22f612bbc4b27e0a7bc8fca91d9ddfdc35aaf701bc%22",
+        "status": 200,
+        "sha256": "c7b29bc88f5bc3ebc6e7213b6353be80090d671fefa4aa74ed20498838c16558",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/amazon/chronos-2/resolve/29ec3766d36d6f73f0696f85560a422f50e8498c/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/amazon/chronos-2/resolve/29ec3766d36d6f73f0696f85560a422f50e8498c/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/amazon/chronos-2/29ec3766d36d6f73f0696f85560a422f50e8498c/config.json?%2Famazon%2Fchronos-2%2Fresolve%2F29ec3766d36d6f73f0696f85560a422f50e8498c%2Fconfig.json=&etag=%22f3207394965100a2aa18820b87da3d2bbad3b1f0%22",
+        "status": 200,
+        "sha256": "ef1143bfdc9c0376d9a056eefca46cb4b1ec3d0ffacd541ff56feb40fb708031",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "amazon/chronos-bolt-small",
+    "url": "https://huggingface.co/amazon/chronos-bolt-small",
+    "commit": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
+    "lastModified": "2025-11-21T12:54:10.000Z",
+    "license_declared": "apache-2.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/amazon/chronos-bolt-small",
+      "resolved_url": "https://huggingface.co/api/models/amazon/chronos-bolt-small",
+      "status": 200,
+      "sha256": "e2c5598acd4e58bd25db37a0172b580a6c9c128ebbe762b73fc9ae4ffbcca1ec",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/amazon/chronos-bolt-small/resolve/772f3d25d38aec6d914c8949dab4462e2d46f5d8/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/amazon/chronos-bolt-small/772f3d25d38aec6d914c8949dab4462e2d46f5d8/README.md?%2Famazon%2Fchronos-bolt-small%2Fresolve%2F772f3d25d38aec6d914c8949dab4462e2d46f5d8%2FREADME.md=&etag=%229bd53dd2cbf678614dcd6c3dd1f004e95de158c8%22",
+        "status": 200,
+        "sha256": "e7a41f030a7250d67a01200512dd9fb8619d3c708f9e68ef18bc620521979219",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/amazon/chronos-bolt-small/resolve/772f3d25d38aec6d914c8949dab4462e2d46f5d8/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/amazon/chronos-bolt-small/resolve/772f3d25d38aec6d914c8949dab4462e2d46f5d8/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/amazon/chronos-bolt-small/772f3d25d38aec6d914c8949dab4462e2d46f5d8/config.json?%2Famazon%2Fchronos-bolt-small%2Fresolve%2F772f3d25d38aec6d914c8949dab4462e2d46f5d8%2Fconfig.json=&etag=%22d8f9b65552d4d211e28d332ad5666484092bbf77%22",
+        "status": 200,
+        "sha256": "9ca0ebbe049ccebacb0546361e8aa728f0cf104cd18d1838d78d296aa317bd21",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "google/timesfm-3.0-pytorch",
+    "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+    "commit": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+    "lastModified": "2026-09-02T15:44:59.000Z",
+    "license_declared": "other",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/google/timesfm-3.0-pytorch",
+      "resolved_url": "https://huggingface.co/api/models/google/timesfm-3.0-pytorch",
+      "status": 200,
+      "sha256": "13c098c9d8c45ae7153fef40fce66b2d273d1fd26e0f365a2d0c5aa048a51de5",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/google/timesfm-3.0-pytorch/resolve/43046b85ec22d584a13f8098c2ed39c889e129c2/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/google/timesfm-3.0-pytorch/43046b85ec22d584a13f8098c2ed39c889e129c2/README.md?%2Fgoogle%2Ftimesfm-3.0-pytorch%2Fresolve%2F43046b85ec22d584a13f8098c2ed39c889e129c2%2FREADME.md=&etag=%2298c2720f9d51017934ec873c8b0a419b8428bb9b%22",
+        "status": 200,
+        "sha256": "eb66e35dd67cc44dc711b18bc2b833d8f0fcd48892b7341042a5b4a36fc37228",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/google/timesfm-3.0-pytorch/resolve/43046b85ec22d584a13f8098c2ed39c889e129c2/LICENSE",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/google/timesfm-3.0-pytorch/43046b85ec22d584a13f8098c2ed39c889e129c2/LICENSE?%2Fgoogle%2Ftimesfm-3.0-pytorch%2Fresolve%2F43046b85ec22d584a13f8098c2ed39c889e129c2%2FLICENSE=&etag=%22a91b931cb18b7c36e501366a4acec4cc51abc2d3%22",
+        "status": 200,
+        "sha256": "3e36db7240d23adb6ac6d7d931892dcc5706a14a7d31581f08c35d2f25736dfd",
+        "truncated": false
+      },
+      "config.json": {
+        "url": "https://huggingface.co/google/timesfm-3.0-pytorch/resolve/43046b85ec22d584a13f8098c2ed39c889e129c2/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/google/timesfm-3.0-pytorch/43046b85ec22d584a13f8098c2ed39c889e129c2/config.json?%2Fgoogle%2Ftimesfm-3.0-pytorch%2Fresolve%2F43046b85ec22d584a13f8098c2ed39c889e129c2%2Fconfig.json=&etag=%22c1de41214b9c86940224b802a0d1744d65ad7781%22",
+        "status": 200,
+        "sha256": "ff17bbc07b792c5a904cca265b8468579d736a4fe84981da25eb871b0a125bc6",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "google/timesfm-2.5-200m-pytorch",
+    "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch",
+    "commit": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+    "lastModified": "2025-10-02T17:21:38.000Z",
+    "license_declared": "apache-2.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/google/timesfm-2.5-200m-pytorch",
+      "resolved_url": "https://huggingface.co/api/models/google/timesfm-2.5-200m-pytorch",
+      "status": 200,
+      "sha256": "19f55cde38ee9de52fe320117831b9279c225b9797c3bfa2cea1b09bffc1f9cd",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/google/timesfm-2.5-200m-pytorch/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/README.md?%2Fgoogle%2Ftimesfm-2.5-200m-pytorch%2Fresolve%2F1d952420fba87f3c6dee4f240de0f1a0fbc790e3%2FREADME.md=&etag=%2247cb047b13feb010b7c8c0fa33ece5cc4110c15f%22",
+        "status": 200,
+        "sha256": "4c3f16633a3d8b9324904bf004429aced2ee009b84e64effb59a902520cc7f2e",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/google/timesfm-2.5-200m-pytorch/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json?%2Fgoogle%2Ftimesfm-2.5-200m-pytorch%2Fresolve%2F1d952420fba87f3c6dee4f240de0f1a0fbc790e3%2Fconfig.json=&etag=%2294445b5415c93256bbab9cf759df2ffce2671b16%22",
+        "status": 200,
+        "sha256": "cd3315b760d5cc7e278d7afdf41b897031ced888fc6c115bd9b3ac0ea2c47408",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "Salesforce/moirai-2.0-R-small",
+    "url": "https://huggingface.co/Salesforce/moirai-2.0-R-small",
+    "commit": "30f43ff08c8494f4943ae1521e9d4e94a0fbb389",
+    "lastModified": "2026-01-29T02:01:22.000Z",
+    "license_declared": "cc-by-nc-4.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/Salesforce/moirai-2.0-R-small",
+      "resolved_url": "https://huggingface.co/api/models/Salesforce/moirai-2.0-R-small",
+      "status": 200,
+      "sha256": "20942f5c3670ee43eeb49280ed0bff830ff769a421220144c858d0edba516ac4",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/Salesforce/moirai-2.0-R-small/resolve/30f43ff08c8494f4943ae1521e9d4e94a0fbb389/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-2.0-R-small/30f43ff08c8494f4943ae1521e9d4e94a0fbb389/README.md?%2FSalesforce%2Fmoirai-2.0-R-small%2Fresolve%2F30f43ff08c8494f4943ae1521e9d4e94a0fbb389%2FREADME.md=&etag=%22c8833bb32cb3909694efb546c58f857e54f4603a%22",
+        "status": 200,
+        "sha256": "f6dbd74f440ef637ba986147717c2ddf38979b3fba3c35ed6768939822aec73a",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/Salesforce/moirai-2.0-R-small/resolve/30f43ff08c8494f4943ae1521e9d4e94a0fbb389/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/Salesforce/moirai-2.0-R-small/resolve/30f43ff08c8494f4943ae1521e9d4e94a0fbb389/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-2.0-R-small/30f43ff08c8494f4943ae1521e9d4e94a0fbb389/config.json?%2FSalesforce%2Fmoirai-2.0-R-small%2Fresolve%2F30f43ff08c8494f4943ae1521e9d4e94a0fbb389%2Fconfig.json=&etag=%22e5117c0f34056ab8b5ef57202b9dffa6ad39059a%22",
+        "status": 200,
+        "sha256": "6b74b03c8ec199fabc352c0203465958142ca468183da68549652734836f853d",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "Salesforce/moirai-1.1-R-small",
+    "url": "https://huggingface.co/Salesforce/moirai-1.1-R-small",
+    "commit": "0c24ab99db2c1a70ea2a0fc03bf113329772ac64",
+    "lastModified": "2025-01-21T09:20:27.000Z",
+    "license_declared": "cc-by-nc-4.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/Salesforce/moirai-1.1-R-small",
+      "resolved_url": "https://huggingface.co/api/models/Salesforce/moirai-1.1-R-small",
+      "status": 200,
+      "sha256": "cfb4d0196b16fbc837fe3ad6fb946666c7d2becf02b23c46fd7c9cc2a016dc81",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/README.md?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2F0c24ab99db2c1a70ea2a0fc03bf113329772ac64%2FREADME.md=&etag=%220e056654aa7b28e06964fda656cbc2105810cf75%22",
+        "status": 200,
+        "sha256": "6af4bdf28250daca3766ec8a69af6218593391f8f7b32410f2841039d230f2a9",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/Salesforce/moirai-1.1-R-small/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/config.json?%2FSalesforce%2Fmoirai-1.1-R-small%2Fresolve%2F0c24ab99db2c1a70ea2a0fc03bf113329772ac64%2Fconfig.json=&etag=%22ae2a0de8172dba3af57413d0d459723ecf714773%22",
+        "status": 200,
+        "sha256": "37b9eca5a0c3e58c2cdac3ecdbf897acbd009a20d6ba0f8a2ae0e8d92002fd47",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "ProsusAI/finbert",
+    "url": "https://huggingface.co/ProsusAI/finbert",
+    "commit": "0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031",
+    "lastModified": "2026-10-12T09:04:17.000Z",
+    "license_declared": "cc-by-nc-sa-4.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/ProsusAI/finbert",
+      "resolved_url": "https://huggingface.co/api/models/ProsusAI/finbert",
+      "status": 200,
+      "sha256": "89f1d7898e27358e144d73c71adcc7c1b27436bb86b72f6e852be27d5295fcd4",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/ProsusAI/finbert/resolve/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031/README.md?%2FProsusAI%2Ffinbert%2Fresolve%2F0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031%2FREADME.md=&etag=%22001b655adf73ad7308d1743d0616d85793a64fdb%22",
+        "status": 200,
+        "sha256": "32d38310f6343e42bb827b47b8342babf6173cfb47f4d28b8b557b4d92f80cb1",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/ProsusAI/finbert/resolve/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/ProsusAI/finbert/resolve/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/ProsusAI/finbert/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031/config.json?%2FProsusAI%2Ffinbert%2Fresolve%2F0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031%2Fconfig.json=&etag=%22e3d6323dc93e170f3eef66cebb32dbaf4589aee0%22",
+        "status": 200,
+        "sha256": "f6449ddda85eb726207a40be59c0cd3bd4b142ccb27298d5e45f9ae3396b1abe",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "BAAI/bge-m3",
+    "url": "https://huggingface.co/BAAI/bge-m3",
+    "commit": "5617a9f61b028005a4858fdac845db406aefb181",
+    "lastModified": "2024-07-03T14:50:10.000Z",
+    "license_declared": "mit",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/BAAI/bge-m3",
+      "resolved_url": "https://huggingface.co/api/models/BAAI/bge-m3",
+      "status": 200,
+      "sha256": "86f31dc7d51645f8f1876803783b4b900e18d56fa03c647e62d88fe3def814af",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/README.md?%2FBAAI%2Fbge-m3%2Fresolve%2F5617a9f61b028005a4858fdac845db406aefb181%2FREADME.md=&etag=%22e5a320176edd6ee1cfb256e68ee5ac0004de9447%22",
+        "status": 200,
+        "sha256": "0b81ccf9134e5874d620a86e6905062ea999e779c34eb1a7e65eaeb7fe00e450",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/BAAI/bge-m3/5617a9f61b028005a4858fdac845db406aefb181/config.json?%2FBAAI%2Fbge-m3%2Fresolve%2F5617a9f61b028005a4858fdac845db406aefb181%2Fconfig.json=&etag=%22e6eda1c72da8f9dc30fdd9b69c73d35af3b7a7ad%22",
+        "status": 200,
+        "sha256": "26159e7ad065073448460117eb24b7a4572f6f4e78eadff65dc0a11c052449fa",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "BAAI/bge-small-en-v1.5",
+    "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+    "commit": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "lastModified": "2024-02-22T03:36:23.000Z",
+    "license_declared": "mit",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/BAAI/bge-small-en-v1.5",
+      "resolved_url": "https://huggingface.co/api/models/BAAI/bge-small-en-v1.5",
+      "status": 200,
+      "sha256": "124246682aa33beef0dec482ea587033d2d8f7cebc420d2c5f7482a8d473434d",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md?%2FBAAI%2Fbge-small-en-v1.5%2Fresolve%2F5c38ec7c405ec4b44b94cc5a9bb96e735b38267a%2FREADME.md=&etag=%228b8567d75ffa619486d9590cb0eb76d66ad46c49%22",
+        "status": 200,
+        "sha256": "ddb964361a55c6e5dfca6361615854b260c9c960205d04c7520151aaa1d75837",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/BAAI/bge-small-en-v1.5/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/config.json?%2FBAAI%2Fbge-small-en-v1.5%2Fresolve%2F5c38ec7c405ec4b44b94cc5a9bb96e735b38267a%2Fconfig.json=&etag=%223992bf890728a92476c700e6e657fd696eb94160%22",
+        "status": 200,
+        "sha256": "094f8e891b932f2000c92cfc663bac4c62069f5d8af5b5278c4306aef3084750",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "ibm-granite/granite-timeseries-ttm-r2",
+    "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2",
+    "commit": "d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f",
+    "lastModified": "2025-02-26T13:33:01.000Z",
+    "license_declared": "apache-2.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/ibm-granite/granite-timeseries-ttm-r2",
+      "resolved_url": "https://huggingface.co/api/models/ibm-granite/granite-timeseries-ttm-r2",
+      "status": 200,
+      "sha256": "a37b2d5188fa99be5ae55d95147f9538f194fedfaf680897b5dea9d62b13cf91",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/resolve/d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/ibm-granite/granite-timeseries-ttm-r2/d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f/README.md?%2Fibm-granite%2Fgranite-timeseries-ttm-r2%2Fresolve%2Fd6a79570cac0f33d526601cd3a0fc7c80a8f9a2f%2FREADME.md=&etag=%224c00db826f5c4d4d7ef741fba28b4d7251112551%22",
+        "status": 200,
+        "sha256": "e20234ff1a9eec054fd643d5ef7a4683857c8b24c7b00b466a9f55b6e22728ff",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/resolve/d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      "config.json": {
+        "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/resolve/d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f/config.json",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/ibm-granite/granite-timeseries-ttm-r2/d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f/config.json?%2Fibm-granite%2Fgranite-timeseries-ttm-r2%2Fresolve%2Fd6a79570cac0f33d526601cd3a0fc7c80a8f9a2f%2Fconfig.json=&etag=%2209e937ef5082573c0785a180f23753110b78696c%22",
+        "status": 200,
+        "sha256": "5e2367547c103e92cb8ebc63cbd5ad4d7bf83facad5a2a2ec261fa770ed659d5",
+        "truncated": false
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "model",
+    "rid": "NX-AI/TiRex",
+    "url": "https://huggingface.co/NX-AI/TiRex",
+    "commit": "63c740922493f5fbe60b277609ec62babfba2762",
+    "lastModified": "2026-02-05T13:20:11.000Z",
+    "license_declared": "other",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/models/NX-AI/TiRex",
+      "resolved_url": "https://huggingface.co/api/models/NX-AI/TiRex",
+      "status": 200,
+      "sha256": "8e10351967cd6b6da6fe02279ef7f078d150e1ec4e18c221b6c2788cc6fc4196",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/NX-AI/TiRex/resolve/63c740922493f5fbe60b277609ec62babfba2762/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/NX-AI/TiRex/63c740922493f5fbe60b277609ec62babfba2762/README.md?%2FNX-AI%2FTiRex%2Fresolve%2F63c740922493f5fbe60b277609ec62babfba2762%2FREADME.md=&etag=%22bb8b091cbe420bb976034c053754167877fc02c8%22",
+        "status": 200,
+        "sha256": "f87b23f89e41a5cd12e8178a1f8db17639c48ab04185c0a4a2f4631c76d0f52a",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/NX-AI/TiRex/resolve/63c740922493f5fbe60b277609ec62babfba2762/LICENSE",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/models/NX-AI/TiRex/63c740922493f5fbe60b277609ec62babfba2762/LICENSE?%2FNX-AI%2FTiRex%2Fresolve%2F63c740922493f5fbe60b277609ec62babfba2762%2FLICENSE=&etag=%22c08bb84ea7acb1d324f29e362af688e7f3fa9684%22",
+        "status": 200,
+        "sha256": "1e5c072a7193944da8366ebbdf857e572eb6ce5916a219ee66961749d92a0e4e",
+        "truncated": false
+      },
+      "config.json": {
+        "url": "https://huggingface.co/NX-AI/TiRex/resolve/63c740922493f5fbe60b277609ec62babfba2762/config.json",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "dataset",
+    "rid": "PatronusAI/financebench",
+    "url": "https://huggingface.co/datasets/PatronusAI/financebench",
+    "commit": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+    "lastModified": "2024-11-17T18:42:59.000Z",
+    "license_declared": "cc-by-nc-4.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/datasets/PatronusAI/financebench",
+      "resolved_url": "https://huggingface.co/api/datasets/PatronusAI/financebench",
+      "status": 200,
+      "sha256": "92b64e05248bccb79604e4bf08084f11eca3cfe09c17e25a83e3c61cf9624d62",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/datasets/PatronusAI/financebench/resolve/e04404e3a97f69f79c14d42f24981a1c9c3bcd18/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/PatronusAI/financebench/e04404e3a97f69f79c14d42f24981a1c9c3bcd18/README.md?%2Fdatasets%2FPatronusAI%2Ffinancebench%2Fresolve%2Fe04404e3a97f69f79c14d42f24981a1c9c3bcd18%2FREADME.md=&etag=%22ce38279dd92e5c2d7466e51cd8d39d6e44ba545e%22",
+        "status": 200,
+        "sha256": "b344ca600c3a0788554bc24556a395e690260a801da1ee83e2ad1b26270f06b9",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/datasets/PatronusAI/financebench/resolve/e04404e3a97f69f79c14d42f24981a1c9c3bcd18/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "dataset",
+    "rid": "takala/financial_phrasebank",
+    "url": "https://huggingface.co/datasets/takala/financial_phrasebank",
+    "commit": "8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964",
+    "lastModified": "2025-12-15T05:51:57.000Z",
+    "license_declared": [
+      "cc-by-nc-sa-3.0"
+    ],
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/datasets/takala/financial_phrasebank",
+      "resolved_url": "https://huggingface.co/api/datasets/takala/financial_phrasebank",
+      "status": 200,
+      "sha256": "3198239a6cf17530f9942b5c1574ee626b2f9ecf852286d511fd08408bede941",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/datasets/takala/financial_phrasebank/resolve/8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/takala/financial_phrasebank/8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964/README.md?%2Fdatasets%2Ftakala%2Ffinancial_phrasebank%2Fresolve%2F8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964%2FREADME.md=&etag=%22b2cf286b66db7c77255fe2fb57cf9ab941d823af%22",
+        "status": 200,
+        "sha256": "274523f90fee5ef947c24bd95388818a551dbd2c1d9ee55469446329cb6c82e0",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/datasets/takala/financial_phrasebank/resolve/8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "dataset",
+    "rid": "ibm/finqa",
+    "url": "https://huggingface.co/datasets/ibm/finqa",
+    "commit": "1d0076a55b609744218081ff6ea693aefe824677",
+    "lastModified": "2024-06-06T08:56:37.000Z",
+    "license_declared": "cc-by-4.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/datasets/ibm/finqa",
+      "resolved_url": "https://huggingface.co/api/datasets/ibm-research/finqa",
+      "status": 200,
+      "sha256": "91bbe588f2c5e778014064d9edadd8ac3d2b41956147a9a8320b56f03064a292",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/datasets/ibm/finqa/resolve/1d0076a55b609744218081ff6ea693aefe824677/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/ibm-research/finqa/1d0076a55b609744218081ff6ea693aefe824677/README.md?%2Fdatasets%2Fibm-research%2Ffinqa%2Fresolve%2F1d0076a55b609744218081ff6ea693aefe824677%2FREADME.md=&etag=%22873db5cc29e74c6bcaa04c092f1249600d212393%22",
+        "status": 200,
+        "sha256": "bf9725d047f2e3ae42c58cc564d705ae56d7174042b53cafa7eee479cb40a955",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/datasets/ibm/finqa/resolve/1d0076a55b609744218081ff6ea693aefe824677/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "dataset",
+    "rid": "Salesforce/GiftEval",
+    "url": "https://huggingface.co/datasets/Salesforce/GiftEval",
+    "commit": "30841734ac5cfddbd0c3bad6d09d2b6b32becbb0",
+    "lastModified": "2025-01-21T09:23:29.000Z",
+    "license_declared": "apache-2.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/datasets/Salesforce/GiftEval",
+      "resolved_url": "https://huggingface.co/api/datasets/Salesforce/GiftEval",
+      "status": 200,
+      "sha256": "c96b9009e49e2f6ef5a7e4c03dced3db2834fa8ccc6a4500b9f74b9a473d14da",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/datasets/Salesforce/GiftEval/resolve/30841734ac5cfddbd0c3bad6d09d2b6b32becbb0/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/Salesforce/GiftEval/30841734ac5cfddbd0c3bad6d09d2b6b32becbb0/README.md?%2Fdatasets%2FSalesforce%2FGiftEval%2Fresolve%2F30841734ac5cfddbd0c3bad6d09d2b6b32becbb0%2FREADME.md=&etag=%22c55e0a25cf2ac61ce409bc278fc50f4f444e851f%22",
+        "status": 200,
+        "sha256": "4a88f7313563edf75f2b868c5c03b3b7c77642cf60af92f796026c3cdf6a31f2",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/datasets/Salesforce/GiftEval/resolve/30841734ac5cfddbd0c3bad6d09d2b6b32becbb0/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "dataset",
+    "rid": "Salesforce/GiftEvalPretrain",
+    "url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain",
+    "commit": "6830b624de7ed2b3d3e5b85bb6959d81dcc5d874",
+    "lastModified": "2025-01-21T09:20:58.000Z",
+    "license_declared": "apache-2.0",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/datasets/Salesforce/GiftEvalPretrain",
+      "resolved_url": "https://huggingface.co/api/datasets/Salesforce/GiftEvalPretrain",
+      "status": 200,
+      "sha256": "408da163a8fe8989a22503d5ae77d6276764cc079351005eab3da2a70dbb39b3",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain/resolve/6830b624de7ed2b3d3e5b85bb6959d81dcc5d874/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/Salesforce/GiftEvalPretrain/6830b624de7ed2b3d3e5b85bb6959d81dcc5d874/README.md?%2Fdatasets%2FSalesforce%2FGiftEvalPretrain%2Fresolve%2F6830b624de7ed2b3d3e5b85bb6959d81dcc5d874%2FREADME.md=&etag=%2256ecae79848e636eec9d4e1627ec035f699da199%22",
+        "status": 200,
+        "sha256": "0a62c3bcab467c8f31ea790b03029d9e5ec6df20d2cb1a49f7e6e7a84bf4d04d",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain/resolve/6830b624de7ed2b3d3e5b85bb6959d81dcc5d874/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "dataset",
+    "rid": "autogluon/chronos_datasets",
+    "url": "https://huggingface.co/datasets/autogluon/chronos_datasets",
+    "commit": "eeecad0b82a8c237e212ce6f8d1abecb513e2cec",
+    "lastModified": "2025-03-18T10:38:52.000Z",
+    "license_declared": "other",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/datasets/autogluon/chronos_datasets",
+      "resolved_url": "https://huggingface.co/api/datasets/autogluon/chronos_datasets",
+      "status": 200,
+      "sha256": "0db1696ee98c974890f57006963178a43cbd399ab2ca57cd0ab44591dbc627b7",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/datasets/autogluon/chronos_datasets/resolve/eeecad0b82a8c237e212ce6f8d1abecb513e2cec/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/autogluon/chronos_datasets/eeecad0b82a8c237e212ce6f8d1abecb513e2cec/README.md?%2Fdatasets%2Fautogluon%2Fchronos_datasets%2Fresolve%2Feeecad0b82a8c237e212ce6f8d1abecb513e2cec%2FREADME.md=&etag=%22ca1eeac0bd3d0fe890c35f019027e9db04ed2f29%22",
+        "status": 200,
+        "sha256": "1726bc69085b71b2189ff116b61951ae318e77a82b2103308297cf626ce14862",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/datasets/autogluon/chronos_datasets/resolve/eeecad0b82a8c237e212ce6f8d1abecb513e2cec/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "accessed_at": "2026-11-04"
+  },
+  {
+    "kind": "dataset",
+    "rid": "autogluon/fev_datasets",
+    "url": "https://huggingface.co/datasets/autogluon/fev_datasets",
+    "commit": "d3e7e720f4158eab03ebcb021f1cce779cd92acc",
+    "lastModified": "2026-10-21T15:48:01.000Z",
+    "license_declared": "other",
+    "gated": false,
+    "metadata_source": {
+      "url": "https://huggingface.co/api/datasets/autogluon/fev_datasets",
+      "resolved_url": "https://huggingface.co/api/datasets/autogluon/fev_datasets",
+      "status": 200,
+      "sha256": "d5602e11988d8aece6909afa4119625c08bfcd94896bb22491f3625e33cb7994",
+      "truncated": false
+    },
+    "files": {
+      "README.md": {
+        "url": "https://huggingface.co/datasets/autogluon/fev_datasets/resolve/d3e7e720f4158eab03ebcb021f1cce779cd92acc/README.md",
+        "resolved_url": "https://huggingface.co/api/resolve-cache/datasets/autogluon/fev_datasets/d3e7e720f4158eab03ebcb021f1cce779cd92acc/README.md?%2Fdatasets%2Fautogluon%2Ffev_datasets%2Fresolve%2Fd3e7e720f4158eab03ebcb021f1cce779cd92acc%2FREADME.md=&etag=%22f0d55cae7e509863e9021870815698ed179b8965%22",
+        "status": 200,
+        "sha256": "b0b86c1c1dfd87d704c21cb158de0da06dd46122debd3a083c7c5c5d08d03834",
+        "truncated": false
+      },
+      "LICENSE": {
+        "url": "https://huggingface.co/datasets/autogluon/fev_datasets/resolve/d3e7e720f4158eab03ebcb021f1cce779cd92acc/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    },
+    "accessed_at": "2026-11-04"
+  }
+]

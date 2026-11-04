@@ -1,0 +1,266 @@
+[
+  {
+    "id": "quant-dsr-paper",
+    "name": "The Deflated Sharpe Ratio",
+    "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "G"
+    ],
+    "resource_type": "paper",
+    "description": "Corrección por selección de ensayos y no normalidad del Sharpe.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "2014-07-31",
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Corrección por selección de ensayos y no normalidad del Sharpe.",
+    "outputs": "Corrección por selección de ensayos y no normalidad del Sharpe.",
+    "practical_use": "Método de validación",
+    "limitations": [
+      "Requiere registrar experimentos y estimar su dependencia; no corrige datos con leakage. Versión31-jul-2014 consultada."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-75b669a906de"
+    ],
+    "source_ids": [
+      "src-quant-8ff3cf4021d0"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Extraer una técnica",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-pbo-paper",
+    "name": "The Probability of Backtest Overfitting",
+    "url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "G"
+    ],
+    "resource_type": "paper",
+    "description": "CSCV para cuantificar deterioro de selección dentro/fuera de muestra.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "2015-02-27",
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "CSCV para cuantificar deterioro de selección dentro/fuera de muestra.",
+    "outputs": "CSCV para cuantificar deterioro de selección dentro/fuera de muestra.",
+    "practical_use": "Método de validación",
+    "limitations": [
+      "PBO depende del conjunto de pruebas y de supuestos de partición; no sustituye test prospectivo. Versión27-feb-2015 consultada."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-e9e856d47e6f"
+    ],
+    "source_ids": [
+      "src-quant-915fd7ab2c42"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Extraer una técnica",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-bsts-paper",
+    "name": "Inferring causal impact using Bayesian structural time-series models",
+    "url": "https://arxiv.org/abs/1506.00356",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "J",
+      "A"
+    ],
+    "resource_type": "paper",
+    "description": "Contrafactual mediante modelo estructural bayesiano de series.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "arXiv:1506.00356",
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Contrafactual mediante modelo estructural bayesiano de series.",
+    "outputs": "Contrafactual mediante modelo estructural bayesiano de series.",
+    "practical_use": "Método de validación",
+    "limitations": [
+      "Se leyó abstract/ficha y alcance, no se reprodujeron experimentos; exige controles no afectados y estabilidad pre/post."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-ef7eb2caf5b8"
+    ],
+    "source_ids": [
+      "src-quant-e720bf00caeb"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Extraer una técnica",
+    "deep_review_path": null
+  },
+  {
+    "id": "crypto-paper-blocksci",
+    "title": "BlockSci: Design and applications of a blockchain analysis platform",
+    "authors": "Harry Kalodner, Malte Möser, Kevin Lee, Steven Goldfeder, Martin Plattner, Alishah Chator, Arvind Narayanan",
+    "publication": "USENIX Security 2020; preprint de 2017 como versión anterior",
+    "source_ids": [
+      "crypto-src-a8eb4ff87b30",
+      "crypto-src-eac87883f415"
+    ],
+    "candidate_id": "crypto-citp-blocksci",
+    "reading_scope": "Ficha original y abstract; no lectura completa de benchmarks ni reproducción",
+    "contribution": "Arquitectura orientada a análisis blockchain y representación eficiente",
+    "limitations": "Implementación sin desarrollo activo declarado desde 2020; no adoptar como stack vigente sin nuevo mantenimiento",
+    "reproducibility": "Código asociado localizado; datasets y experimentos no reproducidos",
+    "verified_at": "2026-11-04",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "D",
+      "N"
+    ],
+    "url": "https://www.usenix.org/conference/usenixsecurity20/presentation/kalodner"
+  },
+  {
+    "id": "crypto-paper-hyperliquid-paths",
+    "title": "Price Trajectories, Impact and Sunshine Trading",
+    "authors": "Davide Barone y Fabrizio Lillo según nota del repositorio",
+    "publication": "Nota pública asociada a 0xBaro/hyperliquid; revisión/publicación formal no verificada",
+    "source_ids": [
+      "crypto-src-5cefa51ff2e3",
+      "crypto-src-e80eddf02643",
+      "crypto-src-cfc54a379cad",
+      "crypto-src-4dbd1604e512",
+      "crypto-src-247ae4505c74"
+    ],
+    "candidate_id": "crypto-0xbaro-hyperliquid",
+    "reading_scope": "Documentación/repositorio; no revisión completa del estudio",
+    "contribution": "Pista para estudiar trayectoria de precios e impacto con datos de mercado públicos",
+    "limitations": "Dataset, selección de eventos, vigencia y licencia no comprobados; no evidencia de alpha validada",
+    "reproducibility": "Repositorio con src/scripts localizado, implementación no auditada ni ejecutada",
+    "verified_at": "2026-11-04",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "C",
+      "G"
+    ],
+    "url": "https://raw.githubusercontent.com/0xBaro/hyperliquid/c4d3743c65923c6e921f731d753e580961d2328b/README.md"
+  },
+  {
+    "id": "AI-PAPER-2606-27100",
+    "title": "Pretrained Time-Series Foundation Models for Financial Return Forecasting",
+    "url": "https://arxiv.org/abs/2606.27100v1",
+    "authors": [
+      "Miquel Noguer I Alonso",
+      "Rodolfo Pereira Franklin"
+    ],
+    "version_or_commit": "v1; 2026-06-25",
+    "categories": [
+      "G",
+      "H"
+    ],
+    "verified_at": "2026-11-04",
+    "verification_level": "V1",
+    "maintenance_status": "preprint, no software auditado",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "confidence": "media sobre abstract; resultados no reproducidos",
+    "contribution": "Comparación rolling-origin en cinco acciones; mejoras frente random walk pequeñas/poco generalizadas según autores.",
+    "limitations": [
+      "No extrapolar a crypto o3-18meses",
+      "Solo abstract e historial examinados",
+      "No auditoría de muestras, costes o pruebas estadísticas del texto completo"
+    ],
+    "source_ids": [
+      "S-AI-PAPER-2606-27100"
+    ]
+  },
+  {
+    "id": "AI-PAPER-2510-13654",
+    "title": "Rethinking Evaluation in the Era of Time Series Foundation Models: (Un)known Information Leakage Challenges",
+    "url": "https://arxiv.org/abs/2510.13654v3",
+    "authors": [
+      "Marcel Meyer",
+      "Sascha Kaltenpoth",
+      "Kevin Zalipski",
+      "Oliver Müller"
+    ],
+    "version_or_commit": "v3; 2026-02-25",
+    "categories": [
+      "G",
+      "H"
+    ],
+    "verified_at": "2026-11-04",
+    "verification_level": "V1",
+    "maintenance_status": "preprint revisado",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "confidence": "media sobre abstract",
+    "contribution": "Distingue solapamiento de muestras y solapamiento temporal de series correlacionadas.",
+    "limitations": [
+      "No reproducción",
+      "No demuestra contaminación de cada checkpoint del catálogo"
+    ],
+    "source_ids": [
+      "S-AI-PAPER-2510-13654"
+    ]
+  },
+  {
+    "id": "AI-PAPER-2608-03259",
+    "title": "FinVerse: Toward More Realistic Evaluation for Financial Time-Series Forecasting",
+    "url": "https://arxiv.org/abs/2608.03259v3",
+    "authors": [
+      "Jaehoon Lee et al."
+    ],
+    "version_or_commit": "v3; 2026-10-23",
+    "categories": [
+      "G",
+      "H",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "verification_level": "V1",
+    "maintenance_status": "preprint revisado",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "confidence": "media sobre abstract; baja sobre reproducibilidad no auditada",
+    "contribution": "Evaluación financiera por significado económico, ranking transversal y cartera; orden de modelos varía frente benchmark genérico.",
+    "limitations": [
+      "Solo abstract e historial examinados",
+      "Código/datos/permiso/coste pendientes",
+      "No recomendar modelos por ranking sin reproducción"
+    ],
+    "source_ids": [
+      "S-AI-PAPER-2608-03259"
+    ]
+  }
+]

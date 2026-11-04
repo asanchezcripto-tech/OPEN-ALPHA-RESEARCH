@@ -1,0 +1,184 @@
+[
+  {
+    "id": "cmp-quant-backtest",
+    "name": "Exploración vs secuencia de ejecución",
+    "candidate_ids": [
+      "quant-vectorbt",
+      "quant-bt",
+      "quant-backtesting-py",
+      "quant-nautilus-trader",
+      "quant-lean"
+    ],
+    "winner_by_scenario": {
+      "barridos y sensibilidad": "vectorbt condicionado por licencia y registro de ensayos",
+      "asignación mensual": "bt o cálculo de ledger simple",
+      "orden de eventos/funding/latencia material": "Nautilus o LEAN tras verificar instrumento y datos"
+    },
+    "tradeoff": "Mayor fidelidad de motor no compensa datos malos ni hace útil un problema de HFT fuera de alcance.",
+    "confidence": "media; estático",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-f9593f1f6735",
+      "src-quant-cf2ecc2fca26",
+      "src-quant-23097088dac5",
+      "src-quant-db60e9f1f770",
+      "src-quant-3c3bf8f64d60"
+    ]
+  },
+  {
+    "id": "cmp-quant-portfolios",
+    "name": "Optimización y validación de cartera",
+    "candidate_ids": [
+      "quant-pyportfolioopt",
+      "quant-skfolio",
+      "quant-riskfolio-lib",
+      "quant-cvxportfolio"
+    ],
+    "winner_by_scenario": {
+      "covarianza y escenarios fáciles de inspeccionar": "PyPortfolioOpt",
+      "validación y selección integradas": "skfolio",
+      "catálogo amplio de medidas de riesgo": "Riskfolio-Lib",
+      "costes de negociación en asignación": "cvxportfolio"
+    },
+    "tradeoff": "Más objetivos amplían el espacio de búsqueda; exigir equal-weight/BTC-ETH de referencia y sensibilidad.",
+    "confidence": "media-alta para dos primeras revisadas",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-ef1281afffe9",
+      "src-quant-6f7eab9a9664",
+      "src-quant-f82b41f44759",
+      "src-quant-7de3d2fa2ef5"
+    ]
+  },
+  {
+    "id": "cmp-quant-macro",
+    "name": "Conector macro ligero vs plataforma",
+    "candidate_ids": [
+      "quant-fredapi",
+      "quant-openbb",
+      "quant-sdmx",
+      "quant-pandasdmx"
+    ],
+    "winner_by_scenario": {
+      "FRED/ALFRED y trazabilidad estrecha": "fredapi con selección correcta de vintages o HTTP oficial",
+      "muchos proveedores": "OpenBB con snapshot original independiente",
+      "agencias SDMX": "sdmx1, revisar capacidades por organismo"
+    },
+    "tradeoff": "La normalización puede eliminar campos de conocimiento; retener respuesta bruta y derechos.",
+    "confidence": "alta en rutas fredapi/OpenBB inspeccionadas",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-18c2e3ea2386",
+      "src-quant-f3d50a990482",
+      "src-quant-d7177639a659",
+      "src-quant-88d72837ba6a"
+    ]
+  },
+  {
+    "id": "cmp-quant-regime",
+    "name": "Cambio estructural vs estado latente",
+    "candidate_ids": [
+      "quant-ruptures",
+      "quant-strucchange",
+      "quant-hmmlearn",
+      "quant-statsmodels"
+    ],
+    "winner_by_scenario": {
+      "explorar retrospectivamente": "ruptures",
+      "monitorizar residuo con umbral": "strucchange/CUSUM",
+      "estados probabilísticos con supuestos": "MarkovRegression/HMM"
+    },
+    "tradeoff": "Offline, filtrado y suavizado responden preguntas distintas; replay obligatorio para alertas.",
+    "confidence": "media-alta",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-15f65d50dc59",
+      "src-quant-a0b7439a4aa0",
+      "src-quant-928a89280ed9",
+      "src-quant-f2162116a2fb"
+    ]
+  },
+  {
+    "id": "cmp-quant-robustness",
+    "name": "Pruebas estadísticas de selección",
+    "candidate_ids": [
+      "quant-arch",
+      "quant-skepsis",
+      "quant-dsr-paper",
+      "quant-pbo-paper"
+    ],
+    "winner_by_scenario": {
+      "comparación múltiple de pérdidas": "arch SPA/StepM/MCS",
+      "diagnóstico DSR/PBO": "papers y candidato skepsis para revisión adicional"
+    },
+    "tradeoff": "Ningún test estadístico certifica ausencia de leakage; skepsis alpha no auditado integralmente.",
+    "confidence": "alta para arch estático; baja para skepsis",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-db7852bd19a2",
+      "src-quant-8ff3cf4021d0",
+      "src-quant-e91e270877d1",
+      "src-quant-915fd7ab2c42"
+    ]
+  },
+  {
+    "id": "cmp-quant-events",
+    "name": "Asociación de evento vs identificación causal",
+    "candidate_ids": [
+      "quant-eventstudy",
+      "quant-pyfixest",
+      "quant-dowhy",
+      "quant-bsts-paper"
+    ],
+    "winner_by_scenario": {
+      "reacción descriptiva": "event study con benchmark",
+      "cambio comparativo con controles plausibles": "DiD/contrafactual",
+      "explicitar supuestos y refutaciones": "DoWhy"
+    },
+    "tradeoff": "Elegir diseño identificable antes que biblioteca; contagio entre protocolos compromete controles.",
+    "confidence": "media",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-426fad7b9b9a",
+      "src-quant-e720bf00caeb",
+      "src-quant-ea53b38aafa7",
+      "src-quant-78e452dbcb9a"
+    ]
+  }
+]

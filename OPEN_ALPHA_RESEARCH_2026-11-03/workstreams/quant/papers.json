@@ -1,0 +1,132 @@
+[
+  {
+    "id": "quant-dsr-paper",
+    "name": "The Deflated Sharpe Ratio",
+    "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "G"
+    ],
+    "resource_type": "paper",
+    "description": "Corrección por selección de ensayos y no normalidad del Sharpe.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "2014-07-31",
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Corrección por selección de ensayos y no normalidad del Sharpe.",
+    "outputs": "Corrección por selección de ensayos y no normalidad del Sharpe.",
+    "practical_use": "Método de validación",
+    "limitations": [
+      "Requiere registrar experimentos y estimar su dependencia; no corrige datos con leakage. Versión31-jul-2014 consultada."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-75b669a906de"
+    ],
+    "source_ids": [
+      "src-quant-8ff3cf4021d0"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Extraer una técnica",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-pbo-paper",
+    "name": "The Probability of Backtest Overfitting",
+    "url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "G"
+    ],
+    "resource_type": "paper",
+    "description": "CSCV para cuantificar deterioro de selección dentro/fuera de muestra.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "2015-02-27",
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "CSCV para cuantificar deterioro de selección dentro/fuera de muestra.",
+    "outputs": "CSCV para cuantificar deterioro de selección dentro/fuera de muestra.",
+    "practical_use": "Método de validación",
+    "limitations": [
+      "PBO depende del conjunto de pruebas y de supuestos de partición; no sustituye test prospectivo. Versión27-feb-2015 consultada."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-e9e856d47e6f"
+    ],
+    "source_ids": [
+      "src-quant-915fd7ab2c42"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Extraer una técnica",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-bsts-paper",
+    "name": "Inferring causal impact using Bayesian structural time-series models",
+    "url": "https://arxiv.org/abs/1506.00356",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "J",
+      "A"
+    ],
+    "resource_type": "paper",
+    "description": "Contrafactual mediante modelo estructural bayesiano de series.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "arXiv:1506.00356",
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Contrafactual mediante modelo estructural bayesiano de series.",
+    "outputs": "Contrafactual mediante modelo estructural bayesiano de series.",
+    "practical_use": "Método de validación",
+    "limitations": [
+      "Se leyó abstract/ficha y alcance, no se reprodujeron experimentos; exige controles no afectados y estabilidad pre/post."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-ef7eb2caf5b8"
+    ],
+    "source_ids": [
+      "src-quant-e720bf00caeb"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Extraer una técnica",
+    "deep_review_path": null
+  }
+]

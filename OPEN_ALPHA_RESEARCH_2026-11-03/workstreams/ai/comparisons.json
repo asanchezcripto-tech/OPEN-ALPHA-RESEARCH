@@ -1,0 +1,99 @@
+[
+  {
+    "id": "AI-CMP-forecasting",
+    "topic": "Forecasting de magnitudes económicas",
+    "candidate_ids": [
+      "AI-statsforecast",
+      "AI-mlforecast",
+      "AI-chronos",
+      "AI-timesfm",
+      "AI-uni2ts"
+    ],
+    "preferred": "StatsForecast/MLForecast baseline; Chronos2 comparador",
+    "reason": "Menor coste inicial y evaluación más controlable; últimas generaciones restringidas no ganan por novedad.",
+    "limits": "No benchmark crypto reproducido; preferencia de ingeniería provisional.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": []
+  },
+  {
+    "id": "AI-CMP-evaluation",
+    "topic": "Evaluación de foundation models",
+    "candidate_ids": [
+      "AI-fev",
+      "AI-gift-eval"
+    ],
+    "preferred": "fev para tareas propias; GIFT como referencia",
+    "reason": "Declarar corte, horizonte y covariables por problema; leaderboard no reemplaza validación prospectiva.",
+    "limits": "Ambos relacionados con proveedores de modelos; FinVerse solo abstract consultado.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": []
+  },
+  {
+    "id": "AI-CMP-documents",
+    "topic": "Extracción documental",
+    "candidate_ids": [
+      "AI-docling",
+      "AI-trafilatura",
+      "AI-unstructured",
+      "AI-marker"
+    ],
+    "preferred": "Trafilatura HTML; Docling tablas/PDF",
+    "reason": "Escoger parser por formato y evidencia; comprobar pesos/servicios por separado.",
+    "limits": "No corpus local convertido; exactitud aún pendiente.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": []
+  },
+  {
+    "id": "AI-CMP-agents",
+    "topic": "Investigación asistida por agentes",
+    "candidate_ids": [
+      "AI-tradingagents",
+      "AI-fingpt",
+      "AI-finrobot",
+      "AI-ai-hedge-fund"
+    ],
+    "preferred": "Extraer controles temporales y comparar contra flujo determinista",
+    "reason": "TradingAgents actual tiene controles as-of observados; FinGPTForecaster mantiene ruta temporal problemática.",
+    "limits": "No coste ni calidad de salida medidos; no rentabilidad demostrada.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": []
+  },
+  {
+    "id": "AI-CMP-drift",
+    "topic": "Drift/anomalías ligeras",
+    "candidate_ids": [
+      "AI-river",
+      "AI-pyod",
+      "AI-adtk",
+      "AI-alibi-detect",
+      "AI-merlion"
+    ],
+    "preferred": "River para online; PyOD para comparación multivariable",
+    "reason": "BSD y piezas reutilizables; Alibi restringido y Merlion archivado.",
+    "limits": "Sensibilidad a autocorrelación y falsos positivos debe medirse.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": []
+  },
+  {
+    "id": "AI-CMP-qa",
+    "topic": "Benchmarks de QA financiero",
+    "candidate_ids": [
+      "AI-finqa",
+      "AI-tatqa",
+      "AI-financebench",
+      "AI-convfinqa",
+      "AI-finllm-eval"
+    ],
+    "preferred": "Gold set propio de protocolos apoyado en tareas FinQA/TAT-QA",
+    "reason": "Benchmarks fijos de acciones no cubren tokenomics; FinanceBench150públicos y Tencent depende parcialmente de datos internos.",
+    "limits": "Licencias y contaminación de benchmarks limitan reproducción.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": []
+  }
+]

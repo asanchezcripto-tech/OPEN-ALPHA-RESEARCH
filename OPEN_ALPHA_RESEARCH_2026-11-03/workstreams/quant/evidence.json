@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "ev-quant-81ef16c705a2",
+    "candidate_id": "quant-qlib",
+    "source_id": "src-quant-c750f525fc3d",
+    "claim": "Framework de investigación cuantitativa y modelos con datos point-in-time.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-65a9ba5b17f4",
+    "candidate_id": "quant-qlib",
+    "source_id": "src-quant-851a55e6ac7f",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-e7f2ca6bd74f",
+    "candidate_id": "quant-qlib",
+    "source_id": "src-quant-7e0bcbc9fdb8",
+    "claim": "En qlib/data/pit.py se rechaza una ventana que refiera a un periodo futuro; la ausencia de fichero produce warning y serie vacía. En tests/test_pit.py hay fixtures de publicaciones revisadas, pruebas de consultas, expresiones y datos inexistentes. Se leyó también la interfaz PITProvider y la documentación de datos. El test de normalización con fecha ausente introduce una fecha por regla: un dato imputado no debe convertirse en fecha de publicación comprobada.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-990e150a6dcf",
+    "candidate_id": "quant-qlib",
+    "source_id": "src-quant-dd2db319cd63",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-7386c51672e8",
+    "candidate_id": "quant-qlib",
+    "source_id": "src-quant-99d5d6593921",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-2c03c1c62403",
+    "candidate_id": "quant-qlib",
+    "source_id": "src-quant-b8fdcffe4a79",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-ad459a1262fa",
+    "candidate_id": "quant-freqtrade",
+    "source_id": "src-quant-538bbf2ca517",
+    "claim": "Backtesting cripto, análisis de sesgos y motor de trading; ejecución fuera de alcance.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-9f12e0c825aa",
+    "candidate_id": "quant-freqtrade",
+    "source_id": "src-quant-051f967a6206",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-0b3b0e4b4be8",
+    "candidate_id": "quant-freqtrade",
+    "source_id": "src-quant-ac1cbcf00d94",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-75f3faabcabb",
+    "candidate_id": "quant-freqtrade",
+    "source_id": "src-quant-7fa3eab9e11d",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-430df5183def",
+    "candidate_id": "quant-nautilus-trader",
+    "source_id": "src-quant-f9593f1f6735",
+    "claim": "Motor por eventos con instrumentos y simulación de ejecución.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-89fa4631b4ac",
+    "candidate_id": "quant-nautilus-trader",
+    "source_id": "src-quant-6c43fbbbbaae",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-f967cef44fa9",
+    "candidate_id": "quant-nautilus-trader",
+    "source_id": "src-quant-5400d371c6a4",
+    "claim": "run revisa errores previos de callbacks, funding y balances, y aborta en estados inválidos. Se leyeron tests dentro de engine.rs sobre secuencias de modificaciones, fills, timers, cambios de instrumentos y restauración. FillModel permite un libro sintético y rutas probabilísticas; la existencia de una interfaz realista no garantiza una calibración realista.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-8c35714bc524",
+    "candidate_id": "quant-nautilus-trader",
+    "source_id": "src-quant-baebd1664d07",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-dd81343c42af",
+    "candidate_id": "quant-nautilus-trader",
+    "source_id": "src-quant-3ca27f7cb929",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-bd041f39df63",
+    "candidate_id": "quant-lean",
+    "source_id": "src-quant-db60e9f1f770",
+    "claim": "Motor multiactivo de backtest y ejecución con modelos de realidad.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-e83ca6228d25",
+    "candidate_id": "quant-lean",
+    "source_id": "src-quant-93bb0f4a3f0e",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-ad648062c3d5",
+    "candidate_id": "quant-lean",
+    "source_id": "src-quant-d8ca021671f2",
+    "claim": "MarketFill obtiene bid/ask según tipos de datos realmente suscritos y añade slippage. La ruta stop-limit examinada rechaza barras cuyo cierre no sea posterior a la orden. Los tests comprueban datos obsoletos, precio bid/ask, horas de mercado y órdenes antes de la barra. Esto es mejor evidencia de implementación que una lista comercial de activos soportados.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-5817791b70a8",
+    "candidate_id": "quant-lean",
+    "source_id": "src-quant-15a4547d56d0",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-5fec728453b4",
+    "candidate_id": "quant-lean",
+    "source_id": "src-quant-cf7021d26474",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-c4546a95269a",
+    "candidate_id": "quant-vectorbt",
+    "source_id": "src-quant-23097088dac5",
+    "claim": "Simulación vectorizada y barridos de parámetros.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-efe9079e03a8",
+    "candidate_id": "quant-vectorbt",
+    "source_id": "src-quant-d54976f3546b",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-a88c08e902bf",
+    "candidate_id": "quant-vectorbt",
+    "source_id": "src-quant-b5a1b570c5a5",
+    "claim": "buy_nb aplica precio multiplicado por 1+slippage y sell_nb por 1-slippage; ambos consideran fees, límites de tamaño y cash. simulate_from_signal_func_nb tiene costes por defecto cero y configuración de stops. tests/test_portfolio.py contiene casos concretos de fees, slippage, partial fills, cash sharing y call sequence; se inspeccionaron nombres y fragmentos, no se ejecutó la suite.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-81106e8ad038",
+    "candidate_id": "quant-vectorbt",
+    "source_id": "src-quant-5fb6b20b5964",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-e37ecd275498",
+    "candidate_id": "quant-vectorbt",
+    "source_id": "src-quant-6a651676db21",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-316ef04d3461",
+    "candidate_id": "quant-quantstats",
+    "source_id": "src-quant-0b47282c5f42",
+    "claim": "Métricas de rentabilidad, riesgo y reportes.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-c8313a991bd0",
+    "candidate_id": "quant-quantstats",
+    "source_id": "src-quant-0366906a0252",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-ca3b852420c3",
+    "candidate_id": "quant-pyportfolioopt",
+    "source_id": "src-quant-ef1281afffe9",
+    "claim": "Optimización de cartera, covariance shrinkage, Black-Litterman y HRP.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-04788e541dd2",
+    "candidate_id": "quant-pyportfolioopt",
+    "source_id": "src-quant-2443c3a59469",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-680a702051ac",
+    "candidate_id": "quant-pyportfolioopt",
+    "source_id": "src-quant-2836d3742130",
+    "claim": "La reparación espectral de matrices sustituye autovalores negativos por cero y avisa; esto corrige factibilidad numérica, no errores económicos de datos. Ledoit-Wolf de varianza constante usa np.nan_to_num antes del estimador: el tratamiento previo de faltantes debe ser explícito. max_sharpe exige al menos una expectativa superior al tipo libre de riesgo y transforma variables. Tests de sample covariance, log returns y semidefinición usan respuestas esperadas.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-1dd13ade8c1f",
+    "candidate_id": "quant-pyportfolioopt",
+    "source_id": "src-quant-2e191177b31d",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-a3113226fe2b",
+    "candidate_id": "quant-pyportfolioopt",
+    "source_id": "src-quant-5259104a68be",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-fc6b63634536",
+    "candidate_id": "quant-openbb",
+    "source_id": "src-quant-f3d50a990482",
+    "claim": "Plataforma de acceso uniforme a proveedores financieros.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-d21acabcb54f",
+    "candidate_id": "quant-openbb",
+    "source_id": "src-quant-38148275107d",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-f4a8ef56390b",
+    "candidate_id": "quant-openbb",
+    "source_id": "src-quant-77fc7f9cc834",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-082eb099892a",
+    "candidate_id": "quant-openbb",
+    "source_id": "src-quant-5608bd59bb6d",
+    "claim": "En models/series.py se llama a series/observations y series para valores y metadata; se usa fred_get con caché/rate limiter. Antes de formar la serie se eliminan realtime_start y realtime_end, se convierten valores a float y se descartan faltantes. Esta ruta concreta devuelve una serie útil para lectura actual pero destruye columnas necesarias para auditar vintages; otras rutas FRED no se juzgan aquí. Tests del proveedor están presentes y sus casos fueron inspeccionados.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-e15ccd517a97",
+    "candidate_id": "quant-openbb",
+    "source_id": "src-quant-6f79468ea805",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-e23e39190039",
+    "candidate_id": "quant-openbb",
+    "source_id": "src-quant-3651518d9314",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-65a4e09f819e",
+    "candidate_id": "quant-arch",
+    "source_id": "src-quant-e91e270877d1",
+    "claim": "Volatilidad condicional, bootstrap, cointegración y comparación múltiple.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-aad9d1c2b8fa",
+    "candidate_id": "quant-arch",
+    "source_id": "src-quant-6834befa7a25",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-3e561f52e18d",
+    "candidate_id": "quant-arch",
+    "source_id": "src-quant-7df855c0f9dc",
+    "claim": "SPA exige benchmark unidimensional y alternativas T×K, pérdidas finitas y muestras compatibles. La longitud de bloque por defecto depende de sqrt(T), pero el propio contrato recomienda elegirla para los datos. nested=True con studentize requiere aproximadamente reps² remuestreos, por lo que es una opción cara. Los tests leídos comprueban kernels, studentización dentro del bootstrap, pérdidas idénticas, errores y reproducibilidad de semillas.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-a3cd753eb241",
+    "candidate_id": "quant-arch",
+    "source_id": "src-quant-eb2a3b87314c",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-7fe8632e2ef1",
+    "candidate_id": "quant-arch",
+    "source_id": "src-quant-42eed7d19a32",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-3e61540763b3",
+    "candidate_id": "quant-statsmodels",
+    "source_id": "src-quant-15f65d50dc59",
+    "claim": "Modelos econométricos, estados espaciales y series temporales.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-fa5389b455a1",
+    "candidate_id": "quant-statsmodels",
+    "source_id": "src-quant-fd94fc1a05c7",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-dea499c4c44e",
+    "candidate_id": "quant-ruptures",
+    "source_id": "src-quant-928a89280ed9",
+    "claim": "Detección offline de cambios estructurales.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-5e3343d1038e",
+    "candidate_id": "quant-ruptures",
+    "source_id": "src-quant-d7c0eb8eda4c",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-51bf7de2917f",
+    "candidate_id": "quant-ruptures",
+    "source_id": "src-quant-2ca76ae6111e",
+    "claim": "Pelt usa por defecto model=l2, min_size=2 y jump=5. predict comprueba que la segmentación sea posible. fit almacena toda la señal; la recursión evalúa particiones hasta el final recibido. tests/test_detection.py existe y fue leído a nivel de estructura; no se ejecutó ni se midió cobertura.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-d83175498328",
+    "candidate_id": "quant-ruptures",
+    "source_id": "src-quant-f0b84bc2e61c",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-df1e479ae910",
+    "candidate_id": "quant-ruptures",
+    "source_id": "src-quant-cf5d1ab39033",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-3b17cec8763b",
+    "candidate_id": "quant-skfolio",
+    "source_id": "src-quant-6f7eab9a9664",
+    "claim": "Selección y validación de carteras con interfaz scikit-learn.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-caf1f223e430",
+    "candidate_id": "quant-skfolio",
+    "source_id": "src-quant-0df9226e7f7c",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-4af94ad8141e",
+    "candidate_id": "quant-skfolio",
+    "source_id": "src-quant-e2471a33b1e8",
+    "claim": "El constructor verificado fija n_folds=10, n_test_folds=8, purged_size=0 y embargo_size=0. split usa índices de filas y elimina posiciones alrededor de fronteras. Los tests incluyen folds desiguales, límites de purga/embargo, errores de configuración y regresión de índices concatenados. No se midió cobertura porcentual ni se ejecutaron.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-36b56bfe9bd3",
+    "candidate_id": "quant-skfolio",
+    "source_id": "src-quant-721de4b00f09",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-f6f5a0e57087",
+    "candidate_id": "quant-skfolio",
+    "source_id": "src-quant-1af4a465ef90",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-358a9f70dc34",
+    "candidate_id": "quant-skfolio",
+    "source_id": "src-quant-1ea124688299",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-7556475e02f7",
+    "candidate_id": "quant-riskfolio-lib",
+    "source_id": "src-quant-f82b41f44759",
+    "claim": "Optimización de carteras con medidas de riesgo alternativas.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-f7ca62dbe911",
+    "candidate_id": "quant-riskfolio-lib",
+    "source_id": "src-quant-b3f756ba655d",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-52df964e43a8",
+    "candidate_id": "quant-bt",
+    "source_id": "src-quant-cf2ecc2fca26",
+    "claim": "Backtesting de estrategias de asignación de activos.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-8ab140b6e337",
+    "candidate_id": "quant-bt",
+    "source_id": "src-quant-16aff1d70a95",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-bd8cb03b40f0",
+    "candidate_id": "quant-backtesting-py",
+    "source_id": "src-quant-3c3bf8f64d60",
+    "claim": "Motor compacto de backtesting sobre barras.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-fa263fe8203b",
+    "candidate_id": "quant-backtesting-py",
+    "source_id": "src-quant-0f95d4ca4f3a",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-39197a348116",
+    "candidate_id": "quant-backtrader",
+    "source_id": "src-quant-663a08eeae90",
+    "claim": "Framework histórico de backtesting por eventos.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-09d21875ea88",
+    "candidate_id": "quant-backtrader",
+    "source_id": "src-quant-6e9f75a57446",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-410fc36fb520",
+    "candidate_id": "quant-zipline-reloaded",
+    "source_id": "src-quant-d0eb137f8c8a",
+    "claim": "Continuación de Zipline con bundles, calendarios y datos de acciones.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-2b77096c7a9c",
+    "candidate_id": "quant-zipline-reloaded",
+    "source_id": "src-quant-1a9ce51ac1b2",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-1ab47b688241",
+    "candidate_id": "quant-pyfolio-reloaded",
+    "source_id": "src-quant-a142262b59d6",
+    "claim": "Continuación de reportes de rendimiento de Pyfolio.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-8a5a7a71736e",
+    "candidate_id": "quant-pyfolio-reloaded",
+    "source_id": "src-quant-fc05dc4e002f",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-1d7e7623304c",
+    "candidate_id": "quant-empyrical-reloaded",
+    "source_id": "src-quant-b6e540b2bc1c",
+    "claim": "Métricas financieras reutilizables.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-4d4ab4cd72e8",
+    "candidate_id": "quant-empyrical-reloaded",
+    "source_id": "src-quant-e97208d0722e",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-2b5a6a922da2",
+    "candidate_id": "quant-alphalens-reloaded",
+    "source_id": "src-quant-025ccb806a3c",
+    "claim": "Continuación de análisis de factores transversales.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-fc40612c30db",
+    "candidate_id": "quant-alphalens-reloaded",
+    "source_id": "src-quant-11bea47dce85",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-66027e57cf50",
+    "candidate_id": "quant-alphalens",
+    "source_id": "src-quant-925c0d7722f0",
+    "claim": "Análisis original de factores; contrastar con forks mantenidos.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-3415aad8b03f",
+    "candidate_id": "quant-alphalens",
+    "source_id": "src-quant-bf58922dc869",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-1bafac8ab69e",
+    "candidate_id": "quant-empyrical",
+    "source_id": "src-quant-03f5513f1963",
+    "claim": "Origen de métricas financieras; contrastar mantenimiento.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-bdf9224c15ac",
+    "candidate_id": "quant-empyrical",
+    "source_id": "src-quant-b303173ccd4a",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-179409bb477a",
+    "candidate_id": "quant-mlfinlab",
+    "source_id": "src-quant-c5e17bfafd8b",
+    "claim": "Implementaciones de machine learning financiero; verificar acceso y licencia.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-6a6fb7d96f31",
+    "candidate_id": "quant-mlfinlab",
+    "source_id": "src-quant-e3bca437c86a",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-eb777b1fc78b",
+    "candidate_id": "quant-arbitragelab",
+    "source_id": "src-quant-61dfe2af237f",
+    "claim": "Métodos de cointegración y estrategias relativas.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-3734bf24140b",
+    "candidate_id": "quant-arbitragelab",
+    "source_id": "src-quant-a66acd728378",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-e17f5f028d83",
+    "candidate_id": "quant-rqalpha",
+    "source_id": "src-quant-f83fa676ca3e",
+    "claim": "Framework chino de backtesting y trading modular.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-5f590ae0cab9",
+    "candidate_id": "quant-rqalpha",
+    "source_id": "src-quant-cdc153c250de",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-8e09bf747c3c",
+    "candidate_id": "quant-vnpy",
+    "source_id": "src-quant-f7903e7d9e15",
+    "claim": "Framework chino de trading y extensiones cuantitativas.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-d1720a976b42",
+    "candidate_id": "quant-vnpy",
+    "source_id": "src-quant-dd41c8f661ad",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-b8f67e821dfa",
+    "candidate_id": "quant-ffn",
+    "source_id": "src-quant-9eac3a2c5b29",
+    "claim": "Funciones de análisis de activos y carteras.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-d51640149103",
+    "candidate_id": "quant-ffn",
+    "source_id": "src-quant-5a7d14be35f0",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-e119e8a33a81",
+    "candidate_id": "quant-linearmodels",
+    "source_id": "src-quant-392c8eeebe6b",
+    "claim": "Paneles, variables instrumentales y estimación econométrica.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-59525b81d8e3",
+    "candidate_id": "quant-linearmodels",
+    "source_id": "src-quant-ee2ad53250a3",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-feb0b5a904dc",
+    "candidate_id": "quant-hmmlearn",
+    "source_id": "src-quant-a0b7439a4aa0",
+    "claim": "Modelos ocultos de Markov para estados latentes.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-6bd15f6bdefe",
+    "candidate_id": "quant-hmmlearn",
+    "source_id": "src-quant-237edb33215f",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-0776b20dffbd",
+    "candidate_id": "quant-pykalman",
+    "source_id": "src-quant-85dc6125fc18",
+    "claim": "Filtros y suavizadores de Kalman.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-9f565055ebee",
+    "candidate_id": "quant-pykalman",
+    "source_id": "src-quant-b926e2d52caa",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-ee84685962c2",
+    "candidate_id": "quant-dowhy",
+    "source_id": "src-quant-426fad7b9b9a",
+    "claim": "Identificación, estimación y refutación causal.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-fa14d9f024f6",
+    "candidate_id": "quant-dowhy",
+    "source_id": "src-quant-9db87f64481d",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-2ee6415b2dd7",
+    "candidate_id": "quant-econml",
+    "source_id": "src-quant-6db700170405",
+    "claim": "Estimación de efectos heterogéneos con ML.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-be2c66b37013",
+    "candidate_id": "quant-econml",
+    "source_id": "src-quant-aa38c403a0fc",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-600d23ecb1ab",
+    "candidate_id": "quant-rugarch",
+    "source_id": "src-quant-2a33c4cf8a40",
+    "claim": "Modelos GARCH en R.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-88362b61d90e",
+    "candidate_id": "quant-rugarch",
+    "source_id": "src-quant-60ca4d0326e3",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-b10be5d6a2f1",
+    "candidate_id": "quant-performanceanalytics",
+    "source_id": "src-quant-013ff28358f7",
+    "claim": "Analítica de rentabilidad y riesgo en R.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-6d981b288d82",
+    "candidate_id": "quant-performanceanalytics",
+    "source_id": "src-quant-cce9bcaa9cfa",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-84e920093e70",
+    "candidate_id": "quant-portfolioanalytics",
+    "source_id": "src-quant-bdb4e07b8264",
+    "claim": "Especificación y optimización de carteras en R.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-0f2b35d6d8fd",
+    "candidate_id": "quant-portfolioanalytics",
+    "source_id": "src-quant-ceb3c230ba9c",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-b59344d7c752",
+    "candidate_id": "quant-quantstrat",
+    "source_id": "src-quant-7bc1c4be1928",
+    "claim": "Framework R de estrategias y reglas sobre datos financieros.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-3b5e1594f271",
+    "candidate_id": "quant-quantstrat",
+    "source_id": "src-quant-8d261f6070a1",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-4811119dc6e5",
+    "candidate_id": "quant-quantmod",
+    "source_id": "src-quant-71cf9b5beb37",
+    "claim": "Modelización y adquisición de series financieras en R.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-9e74882a2fe9",
+    "candidate_id": "quant-quantmod",
+    "source_id": "src-quant-db912fac023b",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-2f27d7a33869",
+    "candidate_id": "quant-ttr",
+    "source_id": "src-quant-a11186d3dac7",
+    "claim": "Funciones técnicas de series en R.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-626611d5cd8e",
+    "candidate_id": "quant-ttr",
+    "source_id": "src-quant-2a1d8046cf48",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-9fb96f6be752",
+    "candidate_id": "quant-strucchange",
+    "source_id": "src-quant-f2162116a2fb",
+    "claim": "Tests de cambio estructural; mirror de paquete original.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-aeaed01825a6",
+    "candidate_id": "quant-strucchange",
+    "source_id": "src-quant-e4f65f96555b",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-b2d2aad4d77e",
+    "candidate_id": "quant-eventstudy",
+    "source_id": "src-quant-78e452dbcb9a",
+    "claim": "Estudios de eventos con retornos anormales.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-e3174f7d9b7b",
+    "candidate_id": "quant-eventstudy",
+    "source_id": "src-quant-371df6d4e63f",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-fb763fba0d7a",
+    "candidate_id": "quant-pandas-datareader",
+    "source_id": "src-quant-96ade6604503",
+    "claim": "Conectores para fuentes económicas y financieras.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-639110e94766",
+    "candidate_id": "quant-pandas-datareader",
+    "source_id": "src-quant-a1ebe7a5ac96",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-f79d9fdb4325",
+    "candidate_id": "quant-fredapi",
+    "source_id": "src-quant-d7177639a659",
+    "claim": "Cliente FRED/ALFRED con datos históricos por vintage.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-44ab7660628e",
+    "candidate_id": "quant-fredapi",
+    "source_id": "src-quant-40a2b4a3b227",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-f8436e394684",
+    "candidate_id": "quant-fredapi",
+    "source_id": "src-quant-24ab5fbf8f3f",
+    "claim": "get_series_as_of_date convierte la fecha y filtra realtime_start<=as_of_date, pero retorna ese DataFrame completo: puede contener varias revisiones para el mismo periodo, pese a que el docstring describe último dato conocido. El consumidor debe ordenar por fecha de conocimiento y seleccionar última fila por date, sin eliminar el historial original. Los tests leídos usan urlopen simulado y validan consultas/errores, no se ejecutaron.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-d6f906bf1d35",
+    "candidate_id": "quant-fredapi",
+    "source_id": "src-quant-e14ce9fcf87a",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-cffe0d49ea7a",
+    "candidate_id": "quant-fredapi",
+    "source_id": "src-quant-7a52483bf01c",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-6d6ffe965306",
+    "candidate_id": "quant-pyfixest",
+    "source_id": "src-quant-ea53b38aafa7",
+    "claim": "Efectos fijos, inferencia y diferencias en diferencias.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-c25a9b3248b0",
+    "candidate_id": "quant-pyfixest",
+    "source_id": "src-quant-0bbc1758842d",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-6da84d6f2580",
+    "candidate_id": "quant-sdmx",
+    "source_id": "src-quant-18c2e3ea2386",
+    "claim": "Cliente y objetos SDMX para estadísticas oficiales.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-c58b00e52633",
+    "candidate_id": "quant-sdmx",
+    "source_id": "src-quant-df2f7066b611",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-f1adb2ebf600",
+    "candidate_id": "quant-pandasdmx",
+    "source_id": "src-quant-88d72837ba6a",
+    "claim": "Cliente SDMX para bancos centrales y agencias.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-982942a2d646",
+    "candidate_id": "quant-pandasdmx",
+    "source_id": "src-quant-8fb09e5792b6",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-21bb10352133",
+    "candidate_id": "quant-financial-data-science",
+    "source_id": "src-quant-386a00726cbd",
+    "claim": "Herramientas de investigación, lectores macro y estudios de eventos.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-1e867d457f2a",
+    "candidate_id": "quant-financial-data-science",
+    "source_id": "src-quant-ca52b64275ee",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-26cfdd3f6715",
+    "candidate_id": "quant-quantecon-py",
+    "source_id": "src-quant-5e237ba472a5",
+    "claim": "Métodos computacionales económicos, cadenas de Markov y simulación.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-a11e41142f3f",
+    "candidate_id": "quant-quantecon-py",
+    "source_id": "src-quant-370f054560ca",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-7b1d50966559",
+    "candidate_id": "quant-gingado",
+    "source_id": "src-quant-c89a7e689319",
+    "claim": "Caja de herramientas de ML para economía del BIS.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-4e7afe387489",
+    "candidate_id": "quant-gingado",
+    "source_id": "src-quant-cb2b1b3f00b2",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-35f9900624e3",
+    "candidate_id": "quant-cvxportfolio",
+    "source_id": "src-quant-7de3d2fa2ef5",
+    "claim": "Optimización de cartera y simulación considerando costes.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-96729ec0f602",
+    "candidate_id": "quant-cvxportfolio",
+    "source_id": "src-quant-dbb48aa1b5f3",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-4e24b961223e",
+    "candidate_id": "quant-cvxpy",
+    "source_id": "src-quant-4ced7a41c56a",
+    "claim": "Modelado de optimización convexa como componente matemático.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-47e4e0e22a3c",
+    "candidate_id": "quant-cvxpy",
+    "source_id": "src-quant-996c6c355b22",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-e99eb4e4a543",
+    "candidate_id": "quant-skepsis",
+    "source_id": "src-quant-db7852bd19a2",
+    "claim": "Validación y auditoría estadística de backtests; candidato reciente.",
+    "evidence_type": "descripción/estructura original",
+    "limitations": "Solo confirma alcance declarado, no implementación completa."
+  },
+  {
+    "id": "ev-quant-b53d280d58a2",
+    "candidate_id": "quant-skepsis",
+    "source_id": "src-quant-cf77eef6bfa8",
+    "claim": "Condiciones de licencia o declaración de paquete examinadas; ver license_code.",
+    "evidence_type": "licencia/manifiesto",
+    "limitations": "No cubre datos, servicios, modelos ni dependencias por transitividad."
+  },
+  {
+    "id": "ev-quant-6e14c0b30bbc",
+    "candidate_id": "quant-skepsis",
+    "source_id": "src-quant-e8794c10476d",
+    "claim": "Archivo técnico leído; estructura/interfaces/tests descritos en revisión o findings.",
+    "evidence_type": "observación estática",
+    "limitations": "Sin ejecución; no demuestra exactitud económica ni rentabilidad."
+  },
+  {
+    "id": "ev-quant-c58b31cabba1",
+    "candidate_id": "quant-alfred",
+    "source_id": "src-quant-2ecbd04c5b67",
+    "claim": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad. La documentación confirma archivo de revisiones; fechas desconocidas pueden asignarse por primera disponibilidad en FRED. API requiere clave; derechos de cada serie separados.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-18e3e5964e06",
+    "candidate_id": "quant-fred-md",
+    "source_id": "src-quant-6e38ac63fd95",
+    "claim": "Panel macro mensual con transformaciones y vintages. No mezclar current.csv con evaluación histórica; vintage mensual no reproduce todos los instantes de publicación.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-a1574fc81e8f",
+    "candidate_id": "quant-fred-qd",
+    "source_id": "src-quant-6e38ac63fd95",
+    "claim": "Panel macro trimestral para factores y nowcasting. Frecuencia trimestral y revisiones impiden tratar cada día como observación independiente.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-97ed1aab4c0e",
+    "candidate_id": "quant-bis-api",
+    "source_id": "src-quant-11c58c704617",
+    "claim": "API de datos y metadata estadística del BIS. Uso exige atribución, evitar afiliación implícita y restricciones del portal; no confundir API v1/v2.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-d3ac335d9819",
+    "candidate_id": "quant-ecb-api",
+    "source_id": "src-quant-efaa6ba65b72",
+    "claim": "Estadísticas monetarias y financieras via SDMX. Documentación indexada consultada; apertura directa devolvió 503. updatedAfter informa cambios; no equivale a archivo point-in-time completo.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-5bd66f42149c",
+    "candidate_id": "quant-treasury-fiscal",
+    "source_id": "src-quant-ef13a13c404a",
+    "claim": "Datos de caja del Tesoro y deuda pública. Documentación API devolvió 403. Página oficial Receipts & Outlays confirma DTS al siguiente día hábil; endpoints no probados.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-3fb7e4915f7c",
+    "candidate_id": "quant-nyfed-sofr",
+    "source_id": "src-quant-76a059b7e800",
+    "claim": "Tasas overnight de financiación garantizada y referencias monetarias. Página API accesible sin líneas extraídas; términos anunciados por fuente oficial; API no probada ni derechos completos revisados.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-40968e7f95d4",
+    "candidate_id": "quant-ofr-fsi",
+    "source_id": "src-quant-ae1878ff4f31",
+    "claim": "Índice diario de estrés financiero global. Publica con retraso de dos días hábiles; aviso de corrección de feed en mayo2026 demuestra riesgo de revisiones. No es señal cripto validada.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-c5322ac8e48a",
+    "candidate_id": "quant-nfci",
+    "source_id": "src-quant-5d95134052de",
+    "claim": "Condiciones financieras semanales de EEUU. Índice revisable; distinguir fechado de semana, publicación y descarga. Verificar vintage por fecha antes de backtest.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-9678260c64bc",
+    "candidate_id": "quant-gdpnow",
+    "source_id": "src-quant-87b24950cc1f",
+    "claim": "Nowcast del PIB antes de la publicación oficial. Nowcast macro no anticipación de retornos; cobertura de históricos intravintage no auditada.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-6d4aab4bfa60",
+    "candidate_id": "quant-bis-gli",
+    "source_id": "src-quant-e38a6152e3e7",
+    "claim": "Crédito a prestatarios no bancarios, incluido crédito en divisas. Serie trimestral; no igualar GLI con M2 ni con liquidez negociable de un exchange.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-75b669a906de",
+    "candidate_id": "quant-dsr-paper",
+    "source_id": "src-quant-8ff3cf4021d0",
+    "claim": "Corrección por selección de ensayos y no normalidad del Sharpe. Requiere registrar experimentos y estimar su dependencia; no corrige datos con leakage. Versión31-jul-2014 consultada.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-e9e856d47e6f",
+    "candidate_id": "quant-pbo-paper",
+    "source_id": "src-quant-915fd7ab2c42",
+    "claim": "CSCV para cuantificar deterioro de selección dentro/fuera de muestra. PBO depende del conjunto de pruebas y de supuestos de partición; no sustituye test prospectivo. Versión27-feb-2015 consultada.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  },
+  {
+    "id": "ev-quant-ef7eb2caf5b8",
+    "candidate_id": "quant-bsts-paper",
+    "source_id": "src-quant-e720bf00caeb",
+    "claim": "Contrafactual mediante modelo estructural bayesiano de series. Se leyó abstract/ficha y alcance, no se reprodujeron experimentos; exige controles no afectados y estabilidad pre/post.",
+    "evidence_type": "documentación primaria",
+    "limitations": "No descarga completa ni reproducción de dataset/modelo."
+  }
+]

@@ -1,0 +1,725 @@
+[
+  {
+    "id": "infra-duckdb",
+    "name": "duckdb",
+    "url": "https://github.com/duckdb/duckdb",
+    "organization": "duckdb",
+    "categories": [
+      "M"
+    ],
+    "description": "Motor SQL embebido para consultar Parquet y unir series; candidato base de almacenamiento analítico."
+  },
+  {
+    "id": "infra-polars",
+    "name": "polars",
+    "url": "https://github.com/pola-rs/polars",
+    "organization": "pola-rs",
+    "categories": [
+      "M"
+    ],
+    "description": "Dataframes columnares con ejecución lazy y joins temporales."
+  },
+  {
+    "id": "infra-arrow",
+    "name": "arrow",
+    "url": "https://github.com/apache/arrow",
+    "organization": "apache",
+    "categories": [
+      "M"
+    ],
+    "description": "Formato y bibliotecas de intercambio columnar; evitar conversiones innecesarias."
+  },
+  {
+    "id": "infra-pandas",
+    "name": "pandas",
+    "url": "https://github.com/pandas-dev/pandas",
+    "organization": "pandas-dev",
+    "categories": [
+      "M"
+    ],
+    "description": "Dataframes para investigación y compatibilidad con bibliotecas cuantitativas."
+  },
+  {
+    "id": "infra-ibis",
+    "name": "ibis",
+    "url": "https://github.com/ibis-project/ibis",
+    "organization": "ibis-project",
+    "categories": [
+      "M"
+    ],
+    "description": "Expresiones analíticas portables entre motores; evaluar coste de abstracción."
+  },
+  {
+    "id": "infra-dbt-duckdb",
+    "name": "dbt-duckdb",
+    "url": "https://github.com/duckdb/dbt-duckdb",
+    "organization": "duckdb",
+    "categories": [
+      "M"
+    ],
+    "description": "Adaptador dbt para transformaciones SQL y pruebas sobre DuckDB."
+  },
+  {
+    "id": "infra-sqlglot",
+    "name": "sqlglot",
+    "url": "https://github.com/tobymao/sqlglot",
+    "organization": "tobymao",
+    "categories": [
+      "M"
+    ],
+    "description": "Parser/transpilador SQL; extracción de linaje limitada a semántica SQL."
+  },
+  {
+    "id": "infra-dlt",
+    "name": "dlt",
+    "url": "https://github.com/dlt-hub/dlt",
+    "organization": "dlt-hub",
+    "categories": [
+      "M"
+    ],
+    "description": "Ingesta incremental declarativa con estado y destinos analíticos."
+  },
+  {
+    "id": "infra-ingestr",
+    "name": "ingestr",
+    "url": "https://github.com/bruin-data/ingestr",
+    "organization": "bruin-data",
+    "categories": [
+      "M"
+    ],
+    "description": "Traslado incremental entre fuentes y destinos; dependencia de conectores."
+  },
+  {
+    "id": "infra-meltano",
+    "name": "meltano",
+    "url": "https://github.com/meltano/meltano",
+    "organization": "meltano",
+    "categories": [
+      "M"
+    ],
+    "description": "Orquestación de conectores Singer; evaluar coste operativo personal."
+  },
+  {
+    "id": "infra-ducklake",
+    "name": "ducklake",
+    "url": "https://github.com/duckdb/ducklake",
+    "organization": "duckdb",
+    "categories": [
+      "M"
+    ],
+    "description": "Catálogo transaccional de datos Parquet; más complejidad que ficheros simples."
+  },
+  {
+    "id": "infra-delta-rs",
+    "name": "delta-rs",
+    "url": "https://github.com/delta-io/delta-rs",
+    "organization": "delta-io",
+    "categories": [
+      "M"
+    ],
+    "description": "Lectura/escritura de tablas Delta en Rust y Python."
+  },
+  {
+    "id": "infra-datafusion",
+    "name": "datafusion",
+    "url": "https://github.com/apache/datafusion",
+    "organization": "apache",
+    "categories": [
+      "M"
+    ],
+    "description": "Motor SQL embebible en Rust; alternativa de ingeniería a DuckDB."
+  },
+  {
+    "id": "infra-questdb",
+    "name": "questdb",
+    "url": "https://github.com/questdb/questdb",
+    "organization": "questdb",
+    "categories": [
+      "M"
+    ],
+    "description": "Base de series temporales con ingestión y consultas temporales."
+  },
+  {
+    "id": "infra-clickhouse",
+    "name": "ClickHouse",
+    "url": "https://github.com/ClickHouse/ClickHouse",
+    "organization": "ClickHouse",
+    "categories": [
+      "M"
+    ],
+    "description": "Motor analítico columnar servidor para volúmenes superiores al uso personal inicial."
+  },
+  {
+    "id": "infra-timescaledb",
+    "name": "timescaledb",
+    "url": "https://github.com/timescale/timescaledb",
+    "organization": "timescale",
+    "categories": [
+      "M"
+    ],
+    "description": "Extensión temporal PostgreSQL; revisar capas de licencias."
+  },
+  {
+    "id": "infra-sqlite",
+    "name": "sqlite",
+    "url": "https://github.com/sqlite/sqlite",
+    "organization": "sqlite",
+    "categories": [
+      "M"
+    ],
+    "description": "Mirror de SQLite; metadatos locales y catálogos pequeños."
+  },
+  {
+    "id": "infra-datasette",
+    "name": "datasette",
+    "url": "https://github.com/simonw/datasette",
+    "organization": "simonw",
+    "categories": [
+      "L",
+      "M"
+    ],
+    "description": "Exploración y publicación controlada de tablas SQLite."
+  },
+  {
+    "id": "infra-sqlite-utils",
+    "name": "sqlite-utils",
+    "url": "https://github.com/simonw/sqlite-utils",
+    "organization": "simonw",
+    "categories": [
+      "M"
+    ],
+    "description": "Utilidades para carga y mantenimiento de tablas SQLite."
+  },
+  {
+    "id": "infra-frictionless",
+    "name": "frictionless-py",
+    "url": "https://github.com/frictionlessdata/frictionless-py",
+    "organization": "frictionlessdata",
+    "categories": [
+      "M"
+    ],
+    "description": "Esquemas y validación de paquetes de datos intercambiables."
+  },
+  {
+    "id": "infra-pandera",
+    "name": "pandera",
+    "url": "https://github.com/unionai-oss/pandera",
+    "organization": "unionai-oss",
+    "categories": [
+      "M"
+    ],
+    "description": "Validación de esquemas y restricciones de tablas."
+  },
+  {
+    "id": "infra-great-expectations",
+    "name": "great_expectations",
+    "url": "https://github.com/great-expectations/great_expectations",
+    "organization": "great-expectations",
+    "categories": [
+      "M"
+    ],
+    "description": "Framework de expectativas y documentación de calidad; evaluar complejidad."
+  },
+  {
+    "id": "infra-soda-core",
+    "name": "soda-core",
+    "url": "https://github.com/sodadata/soda-core",
+    "organization": "sodadata",
+    "categories": [
+      "M"
+    ],
+    "description": "Comprobaciones declarativas de datos; distinguir núcleo y oferta comercial."
+  },
+  {
+    "id": "infra-pydantic",
+    "name": "pydantic",
+    "url": "https://github.com/pydantic/pydantic",
+    "organization": "pydantic",
+    "categories": [
+      "M"
+    ],
+    "description": "Validación de tipos en contratos de entrada/salida."
+  },
+  {
+    "id": "infra-patito",
+    "name": "patito",
+    "url": "https://github.com/J178/patito",
+    "organization": "J178",
+    "categories": [
+      "M"
+    ],
+    "description": "Esquemas sobre Polars con modelos Pydantic."
+  },
+  {
+    "id": "infra-tenacity",
+    "name": "tenacity",
+    "url": "https://github.com/jd/tenacity",
+    "organization": "jd",
+    "categories": [
+      "M"
+    ],
+    "description": "Reintentos programables; no sustituyen límites del proveedor."
+  },
+  {
+    "id": "infra-requests-cache",
+    "name": "requests-cache",
+    "url": "https://github.com/requests-cache/requests-cache",
+    "organization": "requests-cache",
+    "categories": [
+      "M"
+    ],
+    "description": "Caché HTTP persistente con políticas de expiración."
+  },
+  {
+    "id": "infra-hishel",
+    "name": "hishel",
+    "url": "https://github.com/karpetrosyan/hishel",
+    "organization": "karpetrosyan",
+    "categories": [
+      "M"
+    ],
+    "description": "Caché HTTP respetuosa de semántica HTTP para clientes modernos."
+  },
+  {
+    "id": "infra-httpx",
+    "name": "httpx",
+    "url": "https://github.com/encode/httpx",
+    "organization": "encode",
+    "categories": [
+      "M"
+    ],
+    "description": "Cliente HTTP síncrono/asíncrono; núcleo de conectores pequeños."
+  },
+  {
+    "id": "infra-fsspec",
+    "name": "filesystem_spec",
+    "url": "https://github.com/fsspec/filesystem_spec",
+    "organization": "fsspec",
+    "categories": [
+      "M"
+    ],
+    "description": "Interfaz homogénea a sistemas de ficheros locales/remotos."
+  },
+  {
+    "id": "infra-intake",
+    "name": "intake",
+    "url": "https://github.com/intake/intake",
+    "organization": "intake",
+    "categories": [
+      "M"
+    ],
+    "description": "Catálogos declarativos de fuentes y acceso a datos."
+  },
+  {
+    "id": "infra-dvc",
+    "name": "dvc",
+    "url": "https://github.com/iterative/dvc",
+    "organization": "iterative",
+    "categories": [
+      "M"
+    ],
+    "description": "Versionado de datos y procesos con almacén externo."
+  },
+  {
+    "id": "infra-lakefs",
+    "name": "lakeFS",
+    "url": "https://github.com/treeverse/lakeFS",
+    "organization": "treeverse",
+    "categories": [
+      "M"
+    ],
+    "description": "Versionado tipo Git sobre almacenamiento de objetos."
+  },
+  {
+    "id": "infra-openlineage",
+    "name": "OpenLineage",
+    "url": "https://github.com/OpenLineage/OpenLineage",
+    "organization": "OpenLineage",
+    "categories": [
+      "M"
+    ],
+    "description": "Especificación y clientes de eventos de linaje."
+  },
+  {
+    "id": "infra-datahub",
+    "name": "datahub",
+    "url": "https://github.com/datahub-project/datahub",
+    "organization": "datahub-project",
+    "categories": [
+      "M"
+    ],
+    "description": "Catálogo de metadatos empresarial; referencia más que componente inicial."
+  },
+  {
+    "id": "infra-dagster",
+    "name": "dagster",
+    "url": "https://github.com/dagster-io/dagster",
+    "organization": "dagster-io",
+    "categories": [
+      "M"
+    ],
+    "description": "Orquestación basada en activos y estado de materializaciones."
+  },
+  {
+    "id": "infra-prefect",
+    "name": "prefect",
+    "url": "https://github.com/PrefectHQ/prefect",
+    "organization": "PrefectHQ",
+    "categories": [
+      "M"
+    ],
+    "description": "Orquestación Python con reintentos y observabilidad."
+  },
+  {
+    "id": "infra-luigi",
+    "name": "luigi",
+    "url": "https://github.com/spotify/luigi",
+    "organization": "spotify",
+    "categories": [
+      "M"
+    ],
+    "description": "Dependencias de tareas batch y objetivos persistentes."
+  },
+  {
+    "id": "infra-apscheduler",
+    "name": "apscheduler",
+    "url": "https://github.com/agronholm/apscheduler",
+    "organization": "agronholm",
+    "categories": [
+      "M"
+    ],
+    "description": "Planificación local de trabajos periódicos."
+  },
+  {
+    "id": "infra-joblib",
+    "name": "joblib",
+    "url": "https://github.com/joblib/joblib",
+    "organization": "joblib",
+    "categories": [
+      "M"
+    ],
+    "description": "Caché de cálculos y paralelismo local."
+  },
+  {
+    "id": "infra-diskcache",
+    "name": "python-diskcache",
+    "url": "https://github.com/grantjenks/python-diskcache",
+    "organization": "grantjenks",
+    "categories": [
+      "M"
+    ],
+    "description": "Caché local persistente sobre disco."
+  },
+  {
+    "id": "infra-orjson",
+    "name": "orjson",
+    "url": "https://github.com/ijl/orjson",
+    "organization": "ijl",
+    "categories": [
+      "M"
+    ],
+    "description": "Serialización JSON rápida; atención a timestamps y números."
+  },
+  {
+    "id": "infra-streamlit",
+    "name": "streamlit",
+    "url": "https://github.com/streamlit/streamlit",
+    "organization": "streamlit",
+    "categories": [
+      "L"
+    ],
+    "description": "Dashboards interactivos Python; distinguir framework y hosting."
+  },
+  {
+    "id": "infra-marimo",
+    "name": "marimo",
+    "url": "https://github.com/marimo-team/marimo",
+    "organization": "marimo-team",
+    "categories": [
+      "L"
+    ],
+    "description": "Cuadernos reactivos reproducibles guardados como Python."
+  },
+  {
+    "id": "infra-panel",
+    "name": "panel",
+    "url": "https://github.com/holoviz/panel",
+    "organization": "holoviz",
+    "categories": [
+      "L"
+    ],
+    "description": "Aplicaciones de datos sobre Bokeh y ecosistema HoloViz."
+  },
+  {
+    "id": "infra-voila",
+    "name": "voila",
+    "url": "https://github.com/voila-dashboards/voila",
+    "organization": "voila-dashboards",
+    "categories": [
+      "L"
+    ],
+    "description": "Convierte notebooks en interfaces; evaluar estado oculto."
+  },
+  {
+    "id": "infra-plotly",
+    "name": "plotly.py",
+    "url": "https://github.com/plotly/plotly.py",
+    "organization": "plotly",
+    "categories": [
+      "L"
+    ],
+    "description": "Gráficos interactivos exportables."
+  },
+  {
+    "id": "infra-altair",
+    "name": "altair",
+    "url": "https://github.com/vega/altair",
+    "organization": "vega",
+    "categories": [
+      "L"
+    ],
+    "description": "Gráficos declarativos basados en Vega-Lite."
+  },
+  {
+    "id": "infra-echarts",
+    "name": "echarts",
+    "url": "https://github.com/apache/echarts",
+    "organization": "apache",
+    "categories": [
+      "L"
+    ],
+    "description": "Gráficos interactivos web de propósito general."
+  },
+  {
+    "id": "infra-lightweight-charts",
+    "name": "lightweight-charts",
+    "url": "https://github.com/tradingview/lightweight-charts",
+    "organization": "tradingview",
+    "categories": [
+      "L"
+    ],
+    "description": "Gráficos financieros web; revisar atribución de interfaz."
+  },
+  {
+    "id": "infra-perspective",
+    "name": "perspective",
+    "url": "https://github.com/finos/perspective",
+    "organization": "finos",
+    "categories": [
+      "L"
+    ],
+    "description": "Visor analítico con pivotes, filtros y motor WebAssembly."
+  },
+  {
+    "id": "infra-hvplot",
+    "name": "hvplot",
+    "url": "https://github.com/holoviz/hvplot",
+    "organization": "holoviz",
+    "categories": [
+      "L"
+    ],
+    "description": "Visualización declarativa desde dataframes."
+  },
+  {
+    "id": "infra-bokeh",
+    "name": "bokeh",
+    "url": "https://github.com/bokeh/bokeh",
+    "organization": "bokeh",
+    "categories": [
+      "L"
+    ],
+    "description": "Visualización interactiva web desde Python."
+  },
+  {
+    "id": "infra-networkx",
+    "name": "networkx",
+    "url": "https://github.com/networkx/networkx",
+    "organization": "networkx",
+    "categories": [
+      "D",
+      "N"
+    ],
+    "description": "Análisis de grafos; las direcciones no equivalen a entidades."
+  },
+  {
+    "id": "infra-igraph",
+    "name": "python-igraph",
+    "url": "https://github.com/igraph/python-igraph",
+    "organization": "igraph",
+    "categories": [
+      "D",
+      "N"
+    ],
+    "description": "Bindings Python para analítica de grafos."
+  },
+  {
+    "id": "infra-cytoscapejs",
+    "name": "cytoscape.js",
+    "url": "https://github.com/cytoscape/cytoscape.js",
+    "organization": "cytoscape",
+    "categories": [
+      "L"
+    ],
+    "description": "Visualización y manipulación de grafos en navegador."
+  },
+  {
+    "id": "infra-graphistry",
+    "name": "pygraphistry",
+    "url": "https://github.com/graphistry/pygraphistry",
+    "organization": "graphistry",
+    "categories": [
+      "L"
+    ],
+    "description": "Cliente de análisis visual de grafos; backend/servicios separados."
+  },
+  {
+    "id": "infra-pyvis",
+    "name": "pyvis",
+    "url": "https://github.com/WestHealth/pyvis",
+    "organization": "WestHealth",
+    "categories": [
+      "L"
+    ],
+    "description": "Visualización ligera de redes desde Python."
+  },
+  {
+    "id": "infra-xtdb",
+    "name": "xtdb",
+    "url": "https://github.com/xtdb/xtdb",
+    "organization": "xtdb",
+    "categories": [
+      "M"
+    ],
+    "description": "Base bitemporal SQL con tiempos válido/sistema."
+  },
+  {
+    "id": "infra-sirix",
+    "name": "sirix",
+    "url": "https://github.com/sirixdb/sirix",
+    "organization": "sirixdb",
+    "categories": [
+      "M"
+    ],
+    "description": "Historial inmutable bitemporal y snapshots estructuralmente compartidos."
+  },
+  {
+    "id": "infra-narwhals",
+    "name": "narwhals",
+    "url": "https://github.com/narwhals-dev/narwhals",
+    "organization": "narwhals-dev",
+    "categories": [
+      "M"
+    ],
+    "description": "Compatibilidad entre bibliotecas de dataframes."
+  },
+  {
+    "id": "infra-ydata-profiling",
+    "name": "ydata-profiling",
+    "url": "https://github.com/ydataai/ydata-profiling",
+    "organization": "ydataai",
+    "categories": [
+      "M"
+    ],
+    "description": "Perfilado exploratorio; no confundir descriptivos con integridad temporal."
+  },
+  {
+    "id": "infra-data-diff",
+    "name": "data-diff",
+    "url": "https://github.com/datafold/data-diff",
+    "organization": "datafold",
+    "categories": [
+      "M"
+    ],
+    "description": "Comparación de tablas; comprobar mantenimiento y transición a comercial."
+  },
+  {
+    "id": "infra-datacompy",
+    "name": "datacompy",
+    "url": "https://github.com/capitalone/datacompy",
+    "organization": "capitalone",
+    "categories": [
+      "M"
+    ],
+    "description": "Comparación tabular para detectar revisiones de series."
+  },
+  {
+    "id": "infra-visidata",
+    "name": "visidata",
+    "url": "https://github.com/saulpw/visidata",
+    "organization": "saulpw",
+    "categories": [
+      "L"
+    ],
+    "description": "Exploración de tablas desde terminal."
+  },
+  {
+    "id": "infra-evidence",
+    "name": "evidence",
+    "url": "https://github.com/evidence-dev/evidence",
+    "organization": "evidence-dev",
+    "categories": [
+      "L"
+    ],
+    "description": "Informes de datos con SQL y Markdown."
+  },
+  {
+    "id": "infra-observable-framework",
+    "name": "framework",
+    "url": "https://github.com/observablehq/framework",
+    "organization": "observablehq",
+    "categories": [
+      "L"
+    ],
+    "description": "Aplicaciones e informes de datos estáticos interactivos."
+  },
+  {
+    "id": "infra-qfs",
+    "name": "quant-feature-store",
+    "url": "https://github.com/sophie-nguyenthuthuy/quant-feature-store",
+    "organization": "sophie-nguyenthuthuy",
+    "categories": [
+      "M"
+    ],
+    "description": "Prototipo bitemporal pequeño de prevención de leakage descubierto en búsqueda."
+  },
+  {
+    "id": "infra-point-in-time-datawarehouse",
+    "name": "point-in-time-datawarehouse",
+    "url": "https://github.com/winstongarth/point-in-time-datawarehouse",
+    "organization": "winstongarth",
+    "categories": [
+      "M"
+    ],
+    "description": "Ejemplo de restricciones bitemporales y reconciliación de proveedores."
+  },
+  {
+    "id": "infra-alpha-lake",
+    "name": "alpha-lake",
+    "url": "https://github.com/mblaauw/alpha-lake",
+    "organization": "mblaauw",
+    "categories": [
+      "M"
+    ],
+    "description": "Lakehouse de investigación tritemporal; extraer patrones sin adoptar plataforma."
+  },
+  {
+    "id": "infra-ptdata-methodology",
+    "name": "ptdata-methodology",
+    "url": "https://github.com/ptdata-io/ptdata-methodology",
+    "organization": "ptdata-io",
+    "categories": [
+      "M"
+    ],
+    "description": "Especificación pública de servicio de datos point-in-time; no confundir con implementación abierta."
+  },
+  {
+    "id": "infra-row-level-prov",
+    "name": "row-level-prov",
+    "url": "https://github.com/stevenblough/row-level-prov",
+    "organization": "stevenblough",
+    "categories": [
+      "M"
+    ],
+    "description": "Prototipo de linaje por fila/campo con restricciones de uso comercial."
+  }
+]

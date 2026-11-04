@@ -1,0 +1,43 @@
+# Revisiones técnicas estáticas
+
+Se inspeccionaron rutas críticas y sus límites; no se ejecutaron proyectos ni tests de terceros. Una revisión parcial no es auditoría completa de seguridad, licencia transitiva o desempeño.
+
+- [duckdb](infra_duckdb.md) — `infra-duckdb`, commit `6bb57d29dbc1f9032005816e6bb08763bd1a8fb2`.
+- [polars](infra_polars.md) — `infra-polars`, commit `f07718c97e3d06eee3babaa6fb7c0b4b5cc054df`.
+- [dlt](infra_dlt.md) — `infra-dlt`, commit `75ea7f33e24dbf3e46a42e4b9739404ea4d9631e`.
+- [pandera](infra_pandera.md) — `infra-pandera`, commit `7ad5f3948d9d1810217d5a25070e6b65e9154059`.
+- [patito](infra_patito.md) — `infra-patito`, commit `e4590c3508a2d716733df2353d95563a2f008a6f`.
+- [requests-cache](infra_requests-cache.md) — `infra-requests-cache`, commit `abe06a833cfb35a885f371d1b3db1199b3a968b5`.
+- [marimo](infra_marimo.md) — `infra-marimo`, commit `54552ec3137df83992ac29aa73d1adf73eb252b1`.
+- [datacompy](infra_datacompy.md) — `infra-datacompy`, commit `5a7a1eac257c2efdfa9a6f162647233c4ee7de9f`.
+- [quant-feature-store](infra_qfs.md) — `infra-qfs`, commit `61b8fb9b58a6d9ea0d783112e075ede0be79a65b`.
+- [Qlib](quant_qlib.md) — `quant-qlib`, commit `54355232463878d2eebb91fe0ee5fa7fa1f5976c`.
+- [NautilusTrader](quant_nautilus-trader.md) — `quant-nautilus-trader`, commit `66479c13eda08f75c95c65c815a43a5674c08ed2`.
+- [LEAN](quant_lean.md) — `quant-lean`, commit `9ecfed98339c27849a2a708edc03455caf151e91`.
+- [vectorbt](quant_vectorbt.md) — `quant-vectorbt`, commit `c923f74c9e4d1e07e626ae9002f7382cd8264833`.
+- [PyPortfolioOpt](quant_pyportfolioopt.md) — `quant-pyportfolioopt`, commit `a6638d2e06dae6f444fd022cfd4b3c528902a85b`.
+- [OpenBB / OpenBQ](quant_openbb.md) — `quant-openbb`, commit `2a392e890f6eb1f0f4e3a71742720af8f056333a`.
+- [arch](quant_arch.md) — `quant-arch`, commit `8f0f8f214852071245d4d8bf310110a0a781e493`.
+- [ruptures](quant_ruptures.md) — `quant-ruptures`, commit `ee1c8ff8a548d54c641b2bb471562165931f31c7`.
+- [skfolio](quant_skfolio.md) — `quant-skfolio`, commit `0db206ed812622088cbd33af2e34a0f4762fa71e`.
+- [fredapi](quant_fredapi.md) — `quant-fredapi`, commit `d0a0ba3001ebbbceafdcbdd3eb23828f0537cdff`.
+- [CCXT](crypto_ccxt.md) — `crypto-ccxt-ccxt`, commit `28d9b2ca6e06173ce00f020cfd5bfac3275604d4`.
+- [DefiLlama dimension adapters](crypto_defillama_dimensions.md) — `crypto-defillama-dimension-adapters`, commit `c0bbb1a8a1fb5d1342d9d499daeb960d7f277ce9`.
+- [Hyperliquid Python SDK](crypto_hyperliquid_sdk.md) — `crypto-hyperliquid-dex-hyperliquid-python-sdk`, commit `2fdb18f9517675ea03695a0962bd19eece9c83f0`.
+- [Polymarket unified Python SDK](crypto_polymarket_sdk.md) — `crypto-polymarket-py-sdk`, commit `aa94ec431e3d4946576fb7c0d079fe1c14fcf676`.
+- [Uniswap protocol fees](crypto_uniswap_protocol_fees.md) — `crypto-uniswap-protocol-fees`, commit `00066e1cad8b5e78f768860e4169b39baf4b300c`.
+- [Raydium SDK V2](crypto_raydium_sdk.md) — `crypto-raydium-io-raydium-sdk-v2`, commit `f3fa7cbfd649fa5bfd20c9e693cfbf3b7ce69966`.
+- [Cryo](crypto_cryo.md) — `crypto-paradigmxyz-cryo`, commit `80eedf5355ca7b141d48123126515e6c9dd7d290`.
+- [Ponder](crypto_ponder.md) — `crypto-ponder-sh-ponder`, commit `cdc960f4b4b97391466967980edfe291e0047c77`.
+- [GraphSense lib](crypto_graphsense.md) — `crypto-graphsense-graphsense-lib`, commit `cb54f2a4b768258abc2d408ca79e6fee5ebbb215`.
+- [Cryptofeed](crypto_cryptofeed.md) — `crypto-bmoscon-cryptofeed`, commit `3128a3bed0c06812751b528d35f89debb22a5202`.
+- [Chronos forecasting library](ai_chronos.md) — `AI-chronos`, commit `1224fafa91e1ecd6674f5204066b159e40b5e4a1`.
+- [TimesFM library](ai_timesfm.md) — `AI-timesfm`, commit `e51928e27119cb17bebc005be2696b75e0a9e688`.
+- [Uni2TS / Moirai](ai_uni2ts.md) — `AI-uni2ts`, commit `cfd46d4510ed8896f263116f32928eede05b0a75`.
+- [Forecast Evaluation (fev)](ai_fev.md) — `AI-fev`, commit `13b1913881bb7c680d47262bbc32327304bb0571`.
+- [MLForecast](ai_mlforecast.md) — `AI-mlforecast`, commit `74ba65e49cb39282e5f490c8dfd25e4bacacedaf`.
+- [River](ai_river.md) — `AI-river`, commit `4768de0579f977315e65cd23ee658534c1d62c26`.
+- [FinGPT](ai_fingpt.md) — `AI-fingpt`, commit `ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8`.
+- [TradingAgents](ai_tradingagents.md) — `AI-tradingagents`, commit `c4544913a14ed3df5f1ed7b9e8483270ce20682a`.
+- [FinBERT code](ai_finbert.md) — `AI-finbert`, commit `3b4bfed383a8bb6b013db2f1ce9c766ff5100d24`.
+- [Docling](ai_docling.md) — `AI-docling`, commit `0634e2f74561e5950d69b2cace67ef95400506ad`.

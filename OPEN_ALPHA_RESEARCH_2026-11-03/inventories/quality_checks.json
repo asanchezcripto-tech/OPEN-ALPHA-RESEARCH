@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "Integridad de entrega, sin tests de terceros ni validación empírica.",
+  "checked_at": "2026-11-04",
+  "checks": {
+    "unique_ids": 17,
+    "csv_json_parity": 34,
+    "csv_json_values": 52729,
+    "source_references": 3184,
+    "candidate_references": 789,
+    "evidence_references": 1260,
+    "scores": 4922,
+    "artifact_paths": 99,
+    "license_classes": 288,
+    "static_scope": 288,
+    "verification_levels": 291,
+    "deep_reviews": 39,
+    "graph_nodes": 86,
+    "required_artifacts": 20,
+    "encoding": 72,
+    "local_links": 313,
+    "counts": 7
+  },
+  "total_checks": 64438,
+  "errors": [],
+  "external_urls_rechecked_in_this_pass": false,
+  "markdown_files_checked": 72
+}

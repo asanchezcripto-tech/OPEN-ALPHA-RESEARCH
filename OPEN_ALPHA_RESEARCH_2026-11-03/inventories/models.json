@@ -1,0 +1,677 @@
+[
+  {
+    "id": "AI-model-amazon-chronos-2",
+    "name": "amazon/chronos-2",
+    "url": "https://huggingface.co/amazon/chronos-2",
+    "organization": "amazon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Modelo120M para forecasting multivariable con covariables y cuantiles.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "maintenance_status": "lastModified 2026-06-05T11:55:42.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "apache-2.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/amazon/chronos-2/resolve/29ec3766d36d6f73f0696f85560a422f50e8498c/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Modelo120M para forecasting multivariable con covariables y cuantiles.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-amazon-chronos-2-1",
+      "E-AI-model-amazon-chronos-2-2"
+    ],
+    "source_ids": [
+      "S-AI-model-amazon-chronos-2-README-md",
+      "S-AI-model-amazon-chronos-2-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-amazon-chronos-bolt-small",
+    "name": "amazon/chronos-bolt-small",
+    "url": "https://huggingface.co/amazon/chronos-bolt-small",
+    "organization": "amazon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Baseline compacto de forecasting univariado por patches.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
+    "maintenance_status": "lastModified 2025-11-21T12:54:10.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "apache-2.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/amazon/chronos-bolt-small/resolve/772f3d25d38aec6d914c8949dab4462e2d46f5d8/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Baseline compacto de forecasting univariado por patches.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-amazon-chronos-bolt-small-1",
+      "E-AI-model-amazon-chronos-bolt-small-2"
+    ],
+    "source_ids": [
+      "S-AI-model-amazon-chronos-bolt-small-README-md",
+      "S-AI-model-amazon-chronos-bolt-small-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-google-timesfm-3-0-pytorch",
+    "name": "google/timesfm-3.0-pytorch",
+    "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+    "organization": "google",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Pesos multivariables TimesFM3, licencia no comercial/no producción.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+    "maintenance_status": "lastModified 2026-09-02T15:44:59.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "TimesFM Non-Commercial License v1.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/google/timesfm-3.0-pytorch/resolve/43046b85ec22d584a13f8098c2ed39c889e129c2/LICENSE",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Pesos multivariables TimesFM3, licencia no comercial/no producción.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-google-timesfm-3-0-pytorch-1",
+      "E-AI-model-google-timesfm-3-0-pytorch-2",
+      "E-AI-model-google-timesfm-3-0-pytorch-3"
+    ],
+    "source_ids": [
+      "S-AI-model-google-timesfm-3-0-pytorch-README-md",
+      "S-AI-model-google-timesfm-3-0-pytorch-LICENSE",
+      "S-AI-model-google-timesfm-3-0-pytorch-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-google-timesfm-2-5-200m-pytorch",
+    "name": "google/timesfm-2.5-200m-pytorch",
+    "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch",
+    "organization": "google",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Checkpoint200M anterior con declaración Apache2.0.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+    "maintenance_status": "lastModified 2025-10-02T17:21:38.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "apache-2.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Checkpoint200M anterior con declaración Apache2.0.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-google-timesfm-2-5-200m-pytorch-1",
+      "E-AI-model-google-timesfm-2-5-200m-pytorch-2"
+    ],
+    "source_ids": [
+      "S-AI-model-google-timesfm-2-5-200m-pytorch-README-md",
+      "S-AI-model-google-timesfm-2-5-200m-pytorch-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-salesforce-moirai-2-0-r-small",
+    "name": "Salesforce/moirai-2.0-R-small",
+    "url": "https://huggingface.co/Salesforce/moirai-2.0-R-small",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Modelo11.4M, cuantiles, máscaras de observación; CC-BY-NC.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "30f43ff08c8494f4943ae1521e9d4e94a0fbb389",
+    "maintenance_status": "lastModified 2026-01-29T02:01:22.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "cc-by-nc-4.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/Salesforce/moirai-2.0-R-small/resolve/30f43ff08c8494f4943ae1521e9d4e94a0fbb389/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Modelo11.4M, cuantiles, máscaras de observación; CC-BY-NC.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-salesforce-moirai-2-0-r-small-1",
+      "E-AI-model-salesforce-moirai-2-0-r-small-2"
+    ],
+    "source_ids": [
+      "S-AI-model-salesforce-moirai-2-0-r-small-README-md",
+      "S-AI-model-salesforce-moirai-2-0-r-small-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-salesforce-moirai-1-1-r-small",
+    "name": "Salesforce/moirai-1.1-R-small",
+    "url": "https://huggingface.co/Salesforce/moirai-1.1-R-small",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Checkpoint Moirai anterior útil como comparación; CC-BY-NC.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0c24ab99db2c1a70ea2a0fc03bf113329772ac64",
+    "maintenance_status": "lastModified 2025-01-21T09:20:27.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "cc-by-nc-4.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Checkpoint Moirai anterior útil como comparación; CC-BY-NC.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-salesforce-moirai-1-1-r-small-1",
+      "E-AI-model-salesforce-moirai-1-1-r-small-2"
+    ],
+    "source_ids": [
+      "S-AI-model-salesforce-moirai-1-1-r-small-README-md",
+      "S-AI-model-salesforce-moirai-1-1-r-small-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-prosusai-finbert",
+    "name": "ProsusAI/finbert",
+    "url": "https://huggingface.co/ProsusAI/finbert",
+    "organization": "ProsusAI",
+    "categories": [
+      "H",
+      "I",
+      "J"
+    ],
+    "resource_type": "model",
+    "description": "Pesos de sentimiento financiero inglés; CC-BY-NC-SA4.0.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031",
+    "maintenance_status": "lastModified 2026-10-12T09:04:17.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "cc-by-nc-sa-4.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/ProsusAI/finbert/resolve/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "texto",
+    "outputs": "sentimiento",
+    "practical_use": "Pesos de sentimiento financiero inglés; CC-BY-NC-SA4.0.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-prosusai-finbert-1",
+      "E-AI-model-prosusai-finbert-2"
+    ],
+    "source_ids": [
+      "S-AI-model-prosusai-finbert-README-md",
+      "S-AI-model-prosusai-finbert-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-baai-bge-m3",
+    "name": "BAAI/bge-m3",
+    "url": "https://huggingface.co/BAAI/bge-m3",
+    "organization": "BAAI",
+    "categories": [
+      "H",
+      "I",
+      "J"
+    ],
+    "resource_type": "model",
+    "description": "Recuperación multilingüe densa, sparse y multivector.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "5617a9f61b028005a4858fdac845db406aefb181",
+    "maintenance_status": "lastModified 2024-07-03T14:50:10.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "mit",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "texto",
+    "outputs": "embeddings",
+    "practical_use": "Recuperación multilingüe densa, sparse y multivector.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-baai-bge-m3-1",
+      "E-AI-model-baai-bge-m3-2"
+    ],
+    "source_ids": [
+      "S-AI-model-baai-bge-m3-README-md",
+      "S-AI-model-baai-bge-m3-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-baai-bge-small-en-v1-5",
+    "name": "BAAI/bge-small-en-v1.5",
+    "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+    "organization": "BAAI",
+    "categories": [
+      "H",
+      "I",
+      "J"
+    ],
+    "resource_type": "model",
+    "description": "Embeddings compactos para documentos en inglés.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "maintenance_status": "lastModified 2024-02-22T03:36:23.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "mit",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "texto",
+    "outputs": "embeddings",
+    "practical_use": "Embeddings compactos para documentos en inglés.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-baai-bge-small-en-v1-5-1",
+      "E-AI-model-baai-bge-small-en-v1-5-2"
+    ],
+    "source_ids": [
+      "S-AI-model-baai-bge-small-en-v1-5-README-md",
+      "S-AI-model-baai-bge-small-en-v1-5-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-ibm-granite-granite-timeseries-ttm-r2",
+    "name": "ibm-granite/granite-timeseries-ttm-r2",
+    "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2",
+    "organization": "ibm-granite",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Familia compacta TinyTimeMixer; variante por frecuencia/horizonte.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f",
+    "maintenance_status": "lastModified 2025-02-26T13:33:01.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "apache-2.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/resolve/d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Familia compacta TinyTimeMixer; variante por frecuencia/horizonte.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-ibm-granite-granite-timeseries-ttm-r2-1",
+      "E-AI-model-ibm-granite-granite-timeseries-ttm-r2-2"
+    ],
+    "source_ids": [
+      "S-AI-model-ibm-granite-granite-timeseries-ttm-r2-README-md",
+      "S-AI-model-ibm-granite-granite-timeseries-ttm-r2-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-nx-ai-tirex",
+    "name": "NX-AI/TiRex",
+    "url": "https://huggingface.co/NX-AI/TiRex",
+    "organization": "NX-AI",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Pesos35M xLSTM con licencia comunitaria.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "63c740922493f5fbe60b277609ec62babfba2762",
+    "maintenance_status": "lastModified 2026-02-05T13:20:11.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "NXAI Community License",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/NX-AI/TiRex/resolve/63c740922493f5fbe60b277609ec62babfba2762/LICENSE",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Pesos35M xLSTM con licencia comunitaria.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-nx-ai-tirex-1",
+      "E-AI-model-nx-ai-tirex-2"
+    ],
+    "source_ids": [
+      "S-AI-model-nx-ai-tirex-README-md",
+      "S-AI-model-nx-ai-tirex-LICENSE"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  }
+]

@@ -1,0 +1,1298 @@
+[
+  {
+    "id": "E-AI-chronos-1",
+    "candidate_id": "AI-chronos",
+    "source_id": "S-AI-chronos-readme",
+    "claim": "Forecast probabilístico con covariables y comparación zero-shot",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-chronos-2",
+    "candidate_id": "AI-chronos",
+    "source_id": "S-AI-chronos-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-chronos-3",
+    "candidate_id": "AI-chronos",
+    "source_id": "S-AI-chronos-code-4",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-timesfm-1",
+    "candidate_id": "AI-timesfm",
+    "source_id": "S-AI-timesfm-readme",
+    "claim": "Estudiar forecasting multivariable y comparar generaciones de modelos",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-timesfm-2",
+    "candidate_id": "AI-timesfm",
+    "source_id": "S-AI-timesfm-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-timesfm-3",
+    "candidate_id": "AI-timesfm",
+    "source_id": "S-AI-timesfm-code-4",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-uni2ts-1",
+    "candidate_id": "AI-uni2ts",
+    "source_id": "S-AI-uni2ts-readme",
+    "claim": "Aprovechar tratamiento de máscaras y adaptación de horizontes",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-uni2ts-2",
+    "candidate_id": "AI-uni2ts",
+    "source_id": "S-AI-uni2ts-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-uni2ts-3",
+    "candidate_id": "AI-uni2ts",
+    "source_id": "S-AI-uni2ts-code-4",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-gift-eval-1",
+    "candidate_id": "AI-gift-eval",
+    "source_id": "S-AI-gift-eval-readme",
+    "claim": "Reutilizar protocolo de evaluación y separación pretrain/test",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-gift-eval-2",
+    "candidate_id": "AI-gift-eval",
+    "source_id": "S-AI-gift-eval-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-fev-1",
+    "candidate_id": "AI-fev",
+    "source_id": "S-AI-fev-readme",
+    "claim": "Definir tareas con cortes, covariables y fingerprints reproducibles",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-fev-2",
+    "candidate_id": "AI-fev",
+    "source_id": "S-AI-fev-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-fev-3",
+    "candidate_id": "AI-fev",
+    "source_id": "S-AI-fev-code-4",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-autogluon-1",
+    "candidate_id": "AI-autogluon",
+    "source_id": "S-AI-autogluon-readme",
+    "claim": "Comparar modelos tabulares y temporales dentro de un experimento",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-autogluon-2",
+    "candidate_id": "AI-autogluon",
+    "source_id": "S-AI-autogluon-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-gluonts-1",
+    "candidate_id": "AI-gluonts",
+    "source_id": "S-AI-gluonts-readme",
+    "claim": "Modelos probabilísticos y representaciones de forecasts",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-gluonts-2",
+    "candidate_id": "AI-gluonts",
+    "source_id": "S-AI-gluonts-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-statsforecast-1",
+    "candidate_id": "AI-statsforecast",
+    "source_id": "S-AI-statsforecast-readme",
+    "claim": "Baselines ARIMA/ETS/Theta y naive económicos en CPU",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-statsforecast-2",
+    "candidate_id": "AI-statsforecast",
+    "source_id": "S-AI-statsforecast-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-mlforecast-1",
+    "candidate_id": "AI-mlforecast",
+    "source_id": "S-AI-mlforecast-readme",
+    "claim": "Lags y boosting con validación temporal reproducible",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-mlforecast-2",
+    "candidate_id": "AI-mlforecast",
+    "source_id": "S-AI-mlforecast-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-mlforecast-3",
+    "candidate_id": "AI-mlforecast",
+    "source_id": "S-AI-mlforecast-code-4",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-neuralforecast-1",
+    "candidate_id": "AI-neuralforecast",
+    "source_id": "S-AI-neuralforecast-readme",
+    "claim": "Comparación de NBEATS/NHITS/TFT y otras arquitecturas",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-neuralforecast-2",
+    "candidate_id": "AI-neuralforecast",
+    "source_id": "S-AI-neuralforecast-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-darts-1",
+    "candidate_id": "AI-darts",
+    "source_id": "S-AI-darts-readme",
+    "claim": "Interfaz común para forecasting, backtesting y anomalías",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-darts-2",
+    "candidate_id": "AI-darts",
+    "source_id": "S-AI-darts-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-sktime-1",
+    "candidate_id": "AI-sktime",
+    "source_id": "S-AI-sktime-readme",
+    "claim": "Pipelines y validación temporal con múltiples estimadores",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-sktime-2",
+    "candidate_id": "AI-sktime",
+    "source_id": "S-AI-sktime-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-pytorch-forecasting-1",
+    "candidate_id": "AI-pytorch-forecasting",
+    "source_id": "S-AI-pytorch-forecasting-readme",
+    "claim": "TFT y redes con interfaces de entrenamiento",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-pytorch-forecasting-2",
+    "candidate_id": "AI-pytorch-forecasting",
+    "source_id": "S-AI-pytorch-forecasting-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-timeseries-library-1",
+    "candidate_id": "AI-timeseries-library",
+    "source_id": "S-AI-timeseries-library-readme",
+    "claim": "Extraer implementaciones comparables de modelos académicos",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-timeseries-library-2",
+    "candidate_id": "AI-timeseries-library",
+    "source_id": "S-AI-timeseries-library-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-lag-llama-1",
+    "candidate_id": "AI-lag-llama",
+    "source_id": "S-AI-lag-llama-readme",
+    "claim": "Estudiar pronósticos probabilísticos con lags",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-lag-llama-2",
+    "candidate_id": "AI-lag-llama",
+    "source_id": "S-AI-lag-llama-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-moment-1",
+    "candidate_id": "AI-moment",
+    "source_id": "S-AI-moment-readme",
+    "claim": "Explorar representación general para clasificación/anomalías",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-moment-2",
+    "candidate_id": "AI-moment",
+    "source_id": "S-AI-moment-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-granite-tsfm-1",
+    "candidate_id": "AI-granite-tsfm",
+    "source_id": "S-AI-granite-tsfm-readme",
+    "claim": "Explorar forecasters compactos y ajuste ligero",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-granite-tsfm-2",
+    "candidate_id": "AI-granite-tsfm",
+    "source_id": "S-AI-granite-tsfm-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tirex-1",
+    "candidate_id": "AI-tirex",
+    "source_id": "S-AI-tirex-readme",
+    "claim": "Referencia xLSTM de forecasting",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tirex-2",
+    "candidate_id": "AI-tirex",
+    "source_id": "S-AI-tirex-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tabpfn-1",
+    "candidate_id": "AI-tabpfn",
+    "source_id": "S-AI-tabpfn-readme",
+    "claim": "Baseline para pequeños paneles de características",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tabpfn-2",
+    "candidate_id": "AI-tabpfn",
+    "source_id": "S-AI-tabpfn-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-lightgbm-1",
+    "candidate_id": "AI-lightgbm",
+    "source_id": "S-AI-lightgbm-readme",
+    "claim": "Baseline de árboles para factores y clasificación de escenarios",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-lightgbm-2",
+    "candidate_id": "AI-lightgbm",
+    "source_id": "S-AI-lightgbm-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-catboost-1",
+    "candidate_id": "AI-catboost",
+    "source_id": "S-AI-catboost-readme",
+    "claim": "Comparar árboles con variables categóricas de protocolos",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-catboost-2",
+    "candidate_id": "AI-catboost",
+    "source_id": "S-AI-catboost-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-xgboost-1",
+    "candidate_id": "AI-xgboost",
+    "source_id": "S-AI-xgboost-readme",
+    "claim": "Baseline de boosting ampliamente reutilizable",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-xgboost-2",
+    "candidate_id": "AI-xgboost",
+    "source_id": "S-AI-xgboost-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-river-1",
+    "candidate_id": "AI-river",
+    "source_id": "S-AI-river-readme",
+    "claim": "Detectar drift en residuos y métricas de calidad de datos",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-river-2",
+    "candidate_id": "AI-river",
+    "source_id": "S-AI-river-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-river-3",
+    "candidate_id": "AI-river",
+    "source_id": "S-AI-river-code-4",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-pyod-1",
+    "candidate_id": "AI-pyod",
+    "source_id": "S-AI-pyod-readme",
+    "claim": "Comparar detectores de anomalías multivariadas",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-pyod-2",
+    "candidate_id": "AI-pyod",
+    "source_id": "S-AI-pyod-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-merlion-1",
+    "candidate_id": "AI-merlion",
+    "source_id": "S-AI-merlion-readme",
+    "claim": "Extraer arquitectura de ensembles de anomalías",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-merlion-2",
+    "candidate_id": "AI-merlion",
+    "source_id": "S-AI-merlion-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-adtk-1",
+    "candidate_id": "AI-adtk",
+    "source_id": "S-AI-adtk-readme",
+    "claim": "Detectores interpretables basados en reglas y agregadores",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-adtk-2",
+    "candidate_id": "AI-adtk",
+    "source_id": "S-AI-adtk-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-alibi-detect-1",
+    "candidate_id": "AI-alibi-detect",
+    "source_id": "S-AI-alibi-detect-readme",
+    "claim": "Referencia de drift multivariable y pruebas de distribución",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-alibi-detect-2",
+    "candidate_id": "AI-alibi-detect",
+    "source_id": "S-AI-alibi-detect-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-evidently-1",
+    "candidate_id": "AI-evidently",
+    "source_id": "S-AI-evidently-readme",
+    "claim": "Informes de calidad y drift de entradas/salidas",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-evidently-2",
+    "candidate_id": "AI-evidently",
+    "source_id": "S-AI-evidently-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-dowhy-1",
+    "candidate_id": "AI-dowhy",
+    "source_id": "S-AI-dowhy-readme",
+    "claim": "Explicitar supuestos causales y refutaciones de hipótesis",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-dowhy-2",
+    "candidate_id": "AI-dowhy",
+    "source_id": "S-AI-dowhy-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-econml-1",
+    "candidate_id": "AI-econml",
+    "source_id": "S-AI-econml-readme",
+    "claim": "Explorar efectos heterogéneos y double ML",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-econml-2",
+    "candidate_id": "AI-econml",
+    "source_id": "S-AI-econml-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-causal-learn-1",
+    "candidate_id": "AI-causal-learn",
+    "source_id": "S-AI-causal-learn-readme",
+    "claim": "Descubrimiento causal como generador de hipótesis",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-causal-learn-2",
+    "candidate_id": "AI-causal-learn",
+    "source_id": "S-AI-causal-learn-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-fingpt-1",
+    "candidate_id": "AI-fingpt",
+    "source_id": "S-AI-fingpt-readme",
+    "claim": "Extraer tareas financieras y estudiar errores de diseño temporal",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-fingpt-2",
+    "candidate_id": "AI-fingpt",
+    "source_id": "S-AI-fingpt-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-fingpt-3",
+    "candidate_id": "AI-fingpt",
+    "source_id": "S-AI-fingpt-code-5",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-finrobot-1",
+    "candidate_id": "AI-finrobot",
+    "source_id": "S-AI-finrobot-readme",
+    "claim": "Referencia de organización de herramientas y análisis financiero",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-finrobot-2",
+    "candidate_id": "AI-finrobot",
+    "source_id": "S-AI-finrobot-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tradingagents-1",
+    "candidate_id": "AI-tradingagents",
+    "source_id": "S-AI-tradingagents-readme",
+    "claim": "Extraer controles as-of, abstención y registro de contexto",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tradingagents-2",
+    "candidate_id": "AI-tradingagents",
+    "source_id": "S-AI-tradingagents-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tradingagents-3",
+    "candidate_id": "AI-tradingagents",
+    "source_id": "S-AI-tradingagents-code-5",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-ai-hedge-fund-1",
+    "candidate_id": "AI-ai-hedge-fund",
+    "source_id": "S-AI-ai-hedge-fund-readme",
+    "claim": "Referencia educativa de análisis por agentes",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-ai-hedge-fund-2",
+    "candidate_id": "AI-ai-hedge-fund",
+    "source_id": "S-AI-ai-hedge-fund-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-finbert-1",
+    "candidate_id": "AI-finbert",
+    "source_id": "S-AI-finbert-readme",
+    "claim": "Baseline de sentimiento y estudio de truncado/calibración",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-finbert-2",
+    "candidate_id": "AI-finbert",
+    "source_id": "S-AI-finbert-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-finbert-3",
+    "candidate_id": "AI-finbert",
+    "source_id": "S-AI-finbert-code-3",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-finqa-1",
+    "candidate_id": "AI-finqa",
+    "source_id": "S-AI-finqa-readme",
+    "claim": "Evaluar aritmética verificable sobre informes",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-finqa-2",
+    "candidate_id": "AI-finqa",
+    "source_id": "S-AI-finqa-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tatqa-1",
+    "candidate_id": "AI-tatqa",
+    "source_id": "S-AI-tatqa-readme",
+    "claim": "Evaluar combinación de tabla y texto financiero",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tatqa-2",
+    "candidate_id": "AI-tatqa",
+    "source_id": "S-AI-tatqa-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-financebench-1",
+    "candidate_id": "AI-financebench",
+    "source_id": "S-AI-financebench-readme",
+    "claim": "Referencia de preguntas con evidencias documentales",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-convfinqa-1",
+    "candidate_id": "AI-convfinqa",
+    "source_id": "S-AI-convfinqa-readme",
+    "claim": "Pruebas de razonamiento numérico conversacional",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-convfinqa-2",
+    "candidate_id": "AI-convfinqa",
+    "source_id": "S-AI-convfinqa-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-docling-1",
+    "candidate_id": "AI-docling",
+    "source_id": "S-AI-docling-readme",
+    "claim": "Extraer tablas y contenido con estados de fallo para citar fuentes",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-docling-2",
+    "candidate_id": "AI-docling",
+    "source_id": "S-AI-docling-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-docling-3",
+    "candidate_id": "AI-docling",
+    "source_id": "S-AI-docling-code-5",
+    "claim": "Se inspeccionaron rutas de implementación y límites; véase revisión técnica.",
+    "evidence_type": "revisión estática",
+    "limitations": "Sin ejecutar tests, modelos ni dependencias."
+  },
+  {
+    "id": "E-AI-unstructured-1",
+    "candidate_id": "AI-unstructured",
+    "source_id": "S-AI-unstructured-readme",
+    "claim": "Particionar documentos en elementos",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-unstructured-2",
+    "candidate_id": "AI-unstructured",
+    "source_id": "S-AI-unstructured-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-marker-1",
+    "candidate_id": "AI-marker",
+    "source_id": "S-AI-marker-readme",
+    "claim": "Conversión PDF a formato procesable",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-marker-2",
+    "candidate_id": "AI-marker",
+    "source_id": "S-AI-marker-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-trafilatura-1",
+    "candidate_id": "AI-trafilatura",
+    "source_id": "S-AI-trafilatura-readme",
+    "claim": "Extracción ligera de texto y metadatos web",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-trafilatura-2",
+    "candidate_id": "AI-trafilatura",
+    "source_id": "S-AI-trafilatura-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-sentence-transformers-1",
+    "candidate_id": "AI-sentence-transformers",
+    "source_id": "S-AI-sentence-transformers-readme",
+    "claim": "Embeddings y rerankers para recuperar evidencia",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-sentence-transformers-2",
+    "candidate_id": "AI-sentence-transformers",
+    "source_id": "S-AI-sentence-transformers-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-flagembedding-1",
+    "candidate_id": "AI-flagembedding",
+    "source_id": "S-AI-flagembedding-readme",
+    "claim": "Recuperación híbrida/multilingüe BGE",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-flagembedding-2",
+    "candidate_id": "AI-flagembedding",
+    "source_id": "S-AI-flagembedding-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-haystack-1",
+    "candidate_id": "AI-haystack",
+    "source_id": "S-AI-haystack-readme",
+    "claim": "Pipelines de recuperación y composición verificable",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-haystack-2",
+    "candidate_id": "AI-haystack",
+    "source_id": "S-AI-haystack-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-llamaindex-1",
+    "candidate_id": "AI-llamaindex",
+    "source_id": "S-AI-llamaindex-readme",
+    "claim": "Conectores y herramientas de documentos",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-llamaindex-2",
+    "candidate_id": "AI-llamaindex",
+    "source_id": "S-AI-llamaindex-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-langgraph-1",
+    "candidate_id": "AI-langgraph",
+    "source_id": "S-AI-langgraph-readme",
+    "claim": "Estado durable y pasos explícitos de investigación",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-langgraph-2",
+    "candidate_id": "AI-langgraph",
+    "source_id": "S-AI-langgraph-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-pydantic-ai-1",
+    "candidate_id": "AI-pydantic-ai",
+    "source_id": "S-AI-pydantic-ai-readme",
+    "claim": "Esquemas de salida, herramientas tipadas y validación",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-pydantic-ai-2",
+    "candidate_id": "AI-pydantic-ai",
+    "source_id": "S-AI-pydantic-ai-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-dspy-1",
+    "candidate_id": "AI-dspy",
+    "source_id": "S-AI-dspy-readme",
+    "claim": "Optimizar prompts/pipelines contra tareas medibles",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-dspy-2",
+    "candidate_id": "AI-dspy",
+    "source_id": "S-AI-dspy-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-ragas-1",
+    "candidate_id": "AI-ragas",
+    "source_id": "S-AI-ragas-readme",
+    "claim": "Medir aspectos de recuperación y respuesta",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-ragas-2",
+    "candidate_id": "AI-ragas",
+    "source_id": "S-AI-ragas-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-inspect-ai-1",
+    "candidate_id": "AI-inspect-ai",
+    "source_id": "S-AI-inspect-ai-readme",
+    "claim": "Evaluaciones reproducibles de LLM y tool use",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-inspect-ai-2",
+    "candidate_id": "AI-inspect-ai",
+    "source_id": "S-AI-inspect-ai-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-garak-1",
+    "candidate_id": "AI-garak",
+    "source_id": "S-AI-garak-readme",
+    "claim": "Ensayar resistencia a fallos e inyección en entorno controlado",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-garak-2",
+    "candidate_id": "AI-garak",
+    "source_id": "S-AI-garak-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-pyrit-1",
+    "candidate_id": "AI-pyrit",
+    "source_id": "S-AI-pyrit-readme",
+    "claim": "Referencia histórica de evaluación de riesgo",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-pyrit-2",
+    "candidate_id": "AI-pyrit",
+    "source_id": "S-AI-pyrit-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-promptfoo-1",
+    "candidate_id": "AI-promptfoo",
+    "source_id": "S-AI-promptfoo-readme",
+    "claim": "Comparar prompts y automatizar evaluaciones",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-promptfoo-2",
+    "candidate_id": "AI-promptfoo",
+    "source_id": "S-AI-promptfoo-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-llm-guard-1",
+    "candidate_id": "AI-llm-guard",
+    "source_id": "S-AI-llm-guard-readme",
+    "claim": "Referencia de scanners de contenido",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-llm-guard-2",
+    "candidate_id": "AI-llm-guard",
+    "source_id": "S-AI-llm-guard-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tsfel-1",
+    "candidate_id": "AI-tsfel",
+    "source_id": "S-AI-tsfel-readme",
+    "claim": "Features estadísticas/temporales/espectrales de bajo coste",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tsfel-2",
+    "candidate_id": "AI-tsfel",
+    "source_id": "S-AI-tsfel-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tsfresh-1",
+    "candidate_id": "AI-tsfresh",
+    "source_id": "S-AI-tsfresh-readme",
+    "claim": "Extracción y selección estadística de features",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tsfresh-2",
+    "candidate_id": "AI-tsfresh",
+    "source_id": "S-AI-tsfresh-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-aeon-1",
+    "candidate_id": "AI-aeon",
+    "source_id": "S-AI-aeon-readme",
+    "claim": "Clasificación, clustering y anomalías de series con interfaces comunes",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-aeon-2",
+    "candidate_id": "AI-aeon",
+    "source_id": "S-AI-aeon-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tirex2-1",
+    "candidate_id": "AI-tirex2",
+    "source_id": "S-AI-tirex2-readme",
+    "claim": "Alternativa actual multivariable al TiRex original",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-tirex2-2",
+    "candidate_id": "AI-tirex2",
+    "source_id": "S-AI-tirex2-license",
+    "claim": "Licencia del código inspeccionada; alcance separado de pesos/datos.",
+    "evidence_type": "texto de licencia",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-finllm-eval-1",
+    "candidate_id": "AI-finllm-eval",
+    "source_id": "S-AI-finllm-eval-readme",
+    "claim": "Separar hechos, cadenas lógicas y tripletas activo-fecha-métrica",
+    "evidence_type": "documentación primaria",
+    "limitations": "No ejecución; no auditoría de todas las dependencias."
+  },
+  {
+    "id": "E-AI-model-amazon-chronos-2-1",
+    "candidate_id": "AI-model-amazon-chronos-2",
+    "source_id": "S-AI-model-amazon-chronos-2-README-md",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-amazon-chronos-2-2",
+    "candidate_id": "AI-model-amazon-chronos-2",
+    "source_id": "S-AI-model-amazon-chronos-2-config-json",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-amazon-chronos-bolt-small-1",
+    "candidate_id": "AI-model-amazon-chronos-bolt-small",
+    "source_id": "S-AI-model-amazon-chronos-bolt-small-README-md",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-amazon-chronos-bolt-small-2",
+    "candidate_id": "AI-model-amazon-chronos-bolt-small",
+    "source_id": "S-AI-model-amazon-chronos-bolt-small-config-json",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-google-timesfm-3-0-pytorch-1",
+    "candidate_id": "AI-model-google-timesfm-3-0-pytorch",
+    "source_id": "S-AI-model-google-timesfm-3-0-pytorch-README-md",
+    "claim": "Fuente declara licencia TimesFM Non-Commercial License v1.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-google-timesfm-3-0-pytorch-2",
+    "candidate_id": "AI-model-google-timesfm-3-0-pytorch",
+    "source_id": "S-AI-model-google-timesfm-3-0-pytorch-LICENSE",
+    "claim": "Fuente declara licencia TimesFM Non-Commercial License v1.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-google-timesfm-3-0-pytorch-3",
+    "candidate_id": "AI-model-google-timesfm-3-0-pytorch",
+    "source_id": "S-AI-model-google-timesfm-3-0-pytorch-config-json",
+    "claim": "Fuente declara licencia TimesFM Non-Commercial License v1.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-google-timesfm-2-5-200m-pytorch-1",
+    "candidate_id": "AI-model-google-timesfm-2-5-200m-pytorch",
+    "source_id": "S-AI-model-google-timesfm-2-5-200m-pytorch-README-md",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-google-timesfm-2-5-200m-pytorch-2",
+    "candidate_id": "AI-model-google-timesfm-2-5-200m-pytorch",
+    "source_id": "S-AI-model-google-timesfm-2-5-200m-pytorch-config-json",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-salesforce-moirai-2-0-r-small-1",
+    "candidate_id": "AI-model-salesforce-moirai-2-0-r-small",
+    "source_id": "S-AI-model-salesforce-moirai-2-0-r-small-README-md",
+    "claim": "Fuente declara licencia cc-by-nc-4.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-salesforce-moirai-2-0-r-small-2",
+    "candidate_id": "AI-model-salesforce-moirai-2-0-r-small",
+    "source_id": "S-AI-model-salesforce-moirai-2-0-r-small-config-json",
+    "claim": "Fuente declara licencia cc-by-nc-4.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-salesforce-moirai-1-1-r-small-1",
+    "candidate_id": "AI-model-salesforce-moirai-1-1-r-small",
+    "source_id": "S-AI-model-salesforce-moirai-1-1-r-small-README-md",
+    "claim": "Fuente declara licencia cc-by-nc-4.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-salesforce-moirai-1-1-r-small-2",
+    "candidate_id": "AI-model-salesforce-moirai-1-1-r-small",
+    "source_id": "S-AI-model-salesforce-moirai-1-1-r-small-config-json",
+    "claim": "Fuente declara licencia cc-by-nc-4.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-prosusai-finbert-1",
+    "candidate_id": "AI-model-prosusai-finbert",
+    "source_id": "S-AI-model-prosusai-finbert-README-md",
+    "claim": "Fuente declara licencia cc-by-nc-sa-4.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-prosusai-finbert-2",
+    "candidate_id": "AI-model-prosusai-finbert",
+    "source_id": "S-AI-model-prosusai-finbert-config-json",
+    "claim": "Fuente declara licencia cc-by-nc-sa-4.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-baai-bge-m3-1",
+    "candidate_id": "AI-model-baai-bge-m3",
+    "source_id": "S-AI-model-baai-bge-m3-README-md",
+    "claim": "Fuente declara licencia mit; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-baai-bge-m3-2",
+    "candidate_id": "AI-model-baai-bge-m3",
+    "source_id": "S-AI-model-baai-bge-m3-config-json",
+    "claim": "Fuente declara licencia mit; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-baai-bge-small-en-v1-5-1",
+    "candidate_id": "AI-model-baai-bge-small-en-v1-5",
+    "source_id": "S-AI-model-baai-bge-small-en-v1-5-README-md",
+    "claim": "Fuente declara licencia mit; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-baai-bge-small-en-v1-5-2",
+    "candidate_id": "AI-model-baai-bge-small-en-v1-5",
+    "source_id": "S-AI-model-baai-bge-small-en-v1-5-config-json",
+    "claim": "Fuente declara licencia mit; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-ibm-granite-granite-timeseries-ttm-r2-1",
+    "candidate_id": "AI-model-ibm-granite-granite-timeseries-ttm-r2",
+    "source_id": "S-AI-model-ibm-granite-granite-timeseries-ttm-r2-README-md",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-ibm-granite-granite-timeseries-ttm-r2-2",
+    "candidate_id": "AI-model-ibm-granite-granite-timeseries-ttm-r2",
+    "source_id": "S-AI-model-ibm-granite-granite-timeseries-ttm-r2-config-json",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-nx-ai-tirex-1",
+    "candidate_id": "AI-model-nx-ai-tirex",
+    "source_id": "S-AI-model-nx-ai-tirex-README-md",
+    "claim": "Fuente declara licencia NXAI Community License; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-model-nx-ai-tirex-2",
+    "candidate_id": "AI-model-nx-ai-tirex",
+    "source_id": "S-AI-model-nx-ai-tirex-LICENSE",
+    "claim": "Fuente declara licencia NXAI Community License; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "configuración/licencia",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-dataset-patronusai-financebench-1",
+    "candidate_id": "AI-dataset-patronusai-financebench",
+    "source_id": "S-AI-dataset-patronusai-financebench-README-md",
+    "claim": "Fuente declara licencia cc-by-nc-4.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-dataset-takala-financial-phrasebank-1",
+    "candidate_id": "AI-dataset-takala-financial-phrasebank",
+    "source_id": "S-AI-dataset-takala-financial-phrasebank-README-md",
+    "claim": "Fuente declara licencia cc-by-nc-sa-3.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-dataset-ibm-finqa-1",
+    "candidate_id": "AI-dataset-ibm-finqa",
+    "source_id": "S-AI-dataset-ibm-finqa-README-md",
+    "claim": "Fuente declara licencia cc-by-4.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-dataset-salesforce-gifteval-1",
+    "candidate_id": "AI-dataset-salesforce-gifteval",
+    "source_id": "S-AI-dataset-salesforce-gifteval-README-md",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-dataset-salesforce-giftevalpretrain-1",
+    "candidate_id": "AI-dataset-salesforce-giftevalpretrain",
+    "source_id": "S-AI-dataset-salesforce-giftevalpretrain-README-md",
+    "claim": "Fuente declara licencia apache-2.0; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-dataset-autogluon-chronos-datasets-1",
+    "candidate_id": "AI-dataset-autogluon-chronos-datasets",
+    "source_id": "S-AI-dataset-autogluon-chronos-datasets-README-md",
+    "claim": "Fuente declara licencia other; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  },
+  {
+    "id": "E-AI-dataset-autogluon-fev-datasets-1",
+    "candidate_id": "AI-dataset-autogluon-fev-datasets",
+    "source_id": "S-AI-dataset-autogluon-fev-datasets-README-md",
+    "claim": "Fuente declara licencia other; las condiciones de datos y servicios asociados son independientes.",
+    "evidence_type": "model/dataset card",
+    "limitations": "Declaración del titular examinada; no auditoría jurídica ni prueba de inferencia."
+  }
+]

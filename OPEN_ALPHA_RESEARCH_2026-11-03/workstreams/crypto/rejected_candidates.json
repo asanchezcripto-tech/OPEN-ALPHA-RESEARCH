@@ -1,0 +1,172 @@
+[
+  {
+    "url": "https://github.com/DefiLlama/stablecoins-server",
+    "reason": "URL candidata no confirmada por contenido original suficiente; retirada del catálogo cualificado",
+    "attempts": [
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/stablecoins-server/HEAD/README.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/stablecoins-server/HEAD/README.rst",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/stablecoins-server/HEAD/README",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/stablecoins-server/HEAD/LICENSE",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/stablecoins-server/HEAD/LICENSE.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/stablecoins-server/HEAD/LICENSE.txt",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/stablecoins-server/HEAD/COPYING",
+        "status": "failed"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/DefiLlama/defillama-server",
+    "reason": "URL candidata no confirmada por contenido original suficiente; retirada del catálogo cualificado",
+    "attempts": [
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/defillama-server/HEAD/README.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/defillama-server/HEAD/README.rst",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/defillama-server/HEAD/README",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/defillama-server/HEAD/LICENSE",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/defillama-server/HEAD/LICENSE.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/defillama-server/HEAD/LICENSE.txt",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/DefiLlama/defillama-server/HEAD/COPYING",
+        "status": "failed"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/banteg/abiregistry",
+    "reason": "URL candidata no confirmada por contenido original suficiente; retirada del catálogo cualificado",
+    "attempts": [
+      {
+        "url": "https://raw.githubusercontent.com/banteg/abiregistry/HEAD/README.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/banteg/abiregistry/HEAD/README.rst",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/banteg/abiregistry/HEAD/README",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/banteg/abiregistry/HEAD/LICENSE",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/banteg/abiregistry/HEAD/LICENSE.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/banteg/abiregistry/HEAD/LICENSE.txt",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/banteg/abiregistry/HEAD/COPYING",
+        "status": "failed"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/nansen-ai/evmchain-data",
+    "reason": "URL candidata no confirmada por contenido original suficiente; retirada del catálogo cualificado",
+    "attempts": [
+      {
+        "url": "https://raw.githubusercontent.com/nansen-ai/evmchain-data/HEAD/README.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nansen-ai/evmchain-data/HEAD/README.rst",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nansen-ai/evmchain-data/HEAD/README",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nansen-ai/evmchain-data/HEAD/LICENSE",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nansen-ai/evmchain-data/HEAD/LICENSE.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nansen-ai/evmchain-data/HEAD/LICENSE.txt",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/nansen-ai/evmchain-data/HEAD/COPYING",
+        "status": "failed"
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/deribit/deribit-api-clients",
+    "reason": "URL candidata no confirmada por contenido original suficiente; retirada del catálogo cualificado",
+    "attempts": [
+      {
+        "url": "https://raw.githubusercontent.com/deribit/deribit-api-clients/HEAD/README.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/deribit/deribit-api-clients/HEAD/README.rst",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/deribit/deribit-api-clients/HEAD/README",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/deribit/deribit-api-clients/HEAD/LICENSE",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/deribit/deribit-api-clients/HEAD/LICENSE.md",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/deribit/deribit-api-clients/HEAD/LICENSE.txt",
+        "status": "failed"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/deribit/deribit-api-clients/HEAD/COPYING",
+        "status": "failed"
+      }
+    ]
+  }
+]

@@ -1,0 +1,540 @@
+[
+  {
+    "id": "method-quant-point-in-time",
+    "name": "Disponibilidad temporal y vintages",
+    "url": "https://alfred.stlouisfed.org/help",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Reproducir lo que podía conocerse cuando se formuló una hipótesis.",
+    "assumptions": "Fechas de publicación/revisión reales; fuente y versión conservadas.",
+    "data_frequency": "Periodos contables/macro y timestamps de disponibilidad; diario o semanal.",
+    "validation": "Prueba de invariancia: añadir una revisión futura no altera ninguna consulta anterior.",
+    "common_failures": "Usar fecha del periodo como publicación; mezclar first-release con última vintage conocida.",
+    "implementations": [
+      "quant-fredapi",
+      "quant-qlib"
+    ],
+    "simple_implementation": "Tabla append-only y selección última vintage por periodo con available_at<=t.",
+    "crypto_value": "Evita que revenue revisado o PIB final mejore falsamente un screener.",
+    "do_not_use_when": "Si falta fecha de conocimiento, abstenerse o analizar escenarios de retraso; no backtest exacto.",
+    "source_ids": [
+      "src-quant-2ecbd04c5b67"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-mixed-frequency",
+    "name": "Factores dinámicos de frecuencia mixta",
+    "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.statespace.dynamic_factor_mq.DynamicFactorMQ.html",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Resumir series macro publicadas de forma asíncrona.",
+    "assumptions": "Modelo de estados razonable, transformaciones y datos faltantes especificados.",
+    "data_frequency": "Series mensuales/trimestrales con vintages y borde incompleto.",
+    "validation": "Nowcast pseudo-real-time por fecha de publicación contra último valor/AR simple.",
+    "common_failures": "Forward-fill que simula información diaria, normalización global y smoothing retrospectivo.",
+    "implementations": [
+      "quant-statsmodels",
+      "quant-fred-md",
+      "quant-fred-qd"
+    ],
+    "simple_implementation": "DynamicFactorMQ o pocos indicadores normalizados con calendario de publicación.",
+    "crypto_value": "Contexto de crecimiento/liquidez con incertidumbre, separado de retorno cripto.",
+    "do_not_use_when": "Cuando solo existen 2-3 series o no se dispone de vintages; preferir tablero transparente.",
+    "source_ids": [
+      "src-quant-a81365235e24"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-pelt",
+    "name": "PELT y costes de cambio estructural",
+    "url": "https://github.com/deepcharles/ruptures",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Localizar rupturas en nivel, dispersión o composición multivariable.",
+    "assumptions": "Segmentos suficientemente largos, coste apropiado y penalización predefinida.",
+    "data_frequency": "Diario/semanal; variables escaladas con información pasada.",
+    "validation": "Replay de prefijos; medir retraso, falsas alarmas y desplazamiento de ruptura.",
+    "common_failures": "Etiquetas retrospectivas usadas como señales tempranas; seleccionar penalización por resultado de inversión.",
+    "implementations": [
+      "quant-ruptures"
+    ],
+    "simple_implementation": "PELT sobre un índice sencillo; comparar CUSUM.",
+    "crypto_value": "Detectar cambios de revenue, financiación o amplitud que merecen investigación.",
+    "do_not_use_when": "No usar como prueba de régimen causal ni detector prospectivo sin replay.",
+    "source_ids": [
+      "src-quant-928a89280ed9"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-cusum",
+    "name": "Monitorización CUSUM/MOSUM",
+    "url": "https://zeileis.codeberg.page/strucchange/man/mefp.html",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Avisar cuando residuos o parámetros dejan de ser compatibles con una referencia.",
+    "assumptions": "Periodo de referencia estable y error definido.",
+    "data_frequency": "Residuos de modelos sencillos o series estandarizadas; diario/semanal.",
+    "validation": "Calibrar tasa de falsa alarma fuera de muestra y sensibilidad a outliers.",
+    "common_failures": "Confundir un outlier con ruptura persistente; recalibrar umbral tras observar el evento.",
+    "implementations": [
+      "quant-strucchange",
+      "quant-statsmodels"
+    ],
+    "simple_implementation": "CUSUM sobre residuo robusto con umbral fijado.",
+    "crypto_value": "Alerta ligera para cambios de régimen sin estados de caja negra.",
+    "do_not_use_when": "Referencia inestable o alertas múltiples sin control de falsos descubrimientos.",
+    "source_ids": [
+      "src-quant-169bda55788a"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-markov-regime",
+    "name": "Modelos de Markov/HMM con probabilidades filtradas",
+    "url": "https://www.statsmodels.org/stable/generated/statsmodels.tsa.regime_switching.markov_regression.MarkovRegression.predict.html",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Representar estados latentes y transiciones inciertas.",
+    "assumptions": "Número de estados razonable, distribuciones y persistencia compatibles con datos.",
+    "data_frequency": "Retornos/volatilidad/funding diario; suficiente duración por estado.",
+    "validation": "Reajuste walk-forward; probabilidades filtradas, estabilidad de etiquetas y calibración.",
+    "common_failures": "Usar estados suavizados con datos futuros; múltiples óptimos e intercambio de etiquetas.",
+    "implementations": [
+      "quant-hmmlearn",
+      "quant-statsmodels"
+    ],
+    "simple_implementation": "Dos estados y baseline umbral de volatilidad.",
+    "crypto_value": "Resumen probabilístico de fragilidad; nunca orden de inversión directa.",
+    "do_not_use_when": "Pocas crisis independientes o estados que cambian por completo al mover la ventana.",
+    "source_ids": [
+      "src-quant-0439b7ae6812"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-purged-cv",
+    "name": "Walk-forward, purga y embargo",
+    "url": "https://github.com/skfolio/skfolio",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Reducir contaminación entre muestras con etiquetas solapadas.",
+    "assumptions": "Horizonte de etiqueta/feature identificado y universo histórico correcto.",
+    "data_frequency": "Panel de features con intervalos de resultado, no solo filas.",
+    "validation": "Comprobar intersección de intervalos y pipeline ajustado solo en entrenamiento.",
+    "common_failures": "Purga cero por defecto, usar filas en tiempo irregular, normalizar antes del split.",
+    "implementations": [
+      "quant-skfolio"
+    ],
+    "simple_implementation": "WalkForward más eliminación explícita de intervalos superpuestos.",
+    "crypto_value": "Auditar screeners a 3–18 meses; su tamaño efectivo puede ser mucho menor que filas diarias.",
+    "do_not_use_when": "CPCV no sustituye un periodo prospectivo ni resuelve cambios estructurales.",
+    "source_ids": [
+      "src-quant-6f7eab9a9664"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-block-bootstrap",
+    "name": "Bootstrap temporal por bloques",
+    "url": "https://github.com/bashtage/arch",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Cuantificar dispersión preservando dependencia local.",
+    "assumptions": "Dependencia de corto alcance y cierta estabilidad local.",
+    "data_frequency": "Retornos/pérdidas sincronizados de todas las variantes.",
+    "validation": "Rango de longitudes de bloque, semillas registradas y sensibilidad por régimen.",
+    "common_failures": "Barajar puntos independientes, bloques demasiado cortos, creer que remuestreo crea información.",
+    "implementations": [
+      "quant-arch"
+    ],
+    "simple_implementation": "StationaryBootstrap con bloque justificado y varias longitudes.",
+    "crypto_value": "Intervalos de ES, diferencias de métricas y estabilidad del ranking.",
+    "do_not_use_when": "Historial muy corto o único episodio que domina el resultado.",
+    "source_ids": [
+      "src-quant-e91e270877d1"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-spa-mcs",
+    "name": "SPA, StepM y Model Confidence Set",
+    "url": "https://bashtage.github.io/arch/multiple-comparison/multiple-comparisons.html",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Comparar muchas variantes contra baseline sin ignorar búsqueda múltiple.",
+    "assumptions": "Conjunto de intentos registrado, pérdidas homogéneas y dependencia controlable.",
+    "data_frequency": "Matriz T×K de pérdidas sobre fechas idénticas.",
+    "validation": "Baseline simple, bloques apropiados, todas las variantes incluidas.",
+    "common_failures": "Presentar solo ganadores; confundir p-value con probabilidad de beneficio.",
+    "implementations": [
+      "quant-arch"
+    ],
+    "simple_implementation": "SPA primero; MCS si interesa conjunto de modelos indistinguibles.",
+    "crypto_value": "Evitar escoger señales de fundamentos por casualidad de backtest.",
+    "do_not_use_when": "Datos con leakage: corregirlos antes, la estadística no los detecta.",
+    "source_ids": [
+      "src-quant-b34003f22df5"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-deflated-sharpe",
+    "name": "Deflated Sharpe Ratio",
+    "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Descontar inflación del Sharpe por múltiples ensayos y no normalidad.",
+    "assumptions": "Número efectivo de ensayos, duración, sesgo y curtosis estimados de modo honesto.",
+    "data_frequency": "Retornos y registro completo de búsqueda; frecuencia coherente.",
+    "validation": "Reproducir ejemplo del paper, escenarios para dependencia de ensayos y baseline nulo.",
+    "common_failures": "Contar solo estrategias publicadas; usar independencia ficticia; tratar DSR como certificado.",
+    "implementations": [
+      "quant-skepsis"
+    ],
+    "simple_implementation": "Implementación compatible auditada contra ejemplo; fórmula no ejecutada aquí.",
+    "crypto_value": "Diagnóstico complementario al comparar muchas reglas de selección.",
+    "do_not_use_when": "Cuando no se conoce el proceso de búsqueda; reportar rango o abstención.",
+    "source_ids": [
+      "src-quant-8ff3cf4021d0"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-pbo",
+    "name": "Probabilidad de backtest overfitting / CSCV",
+    "url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Medir si ganador dentro de muestra pierde posición fuera de ella.",
+    "assumptions": "Familia de variantes comparable y particiones razonables.",
+    "data_frequency": "Matriz de resultados de todas las estrategias sobre mismas fechas.",
+    "validation": "Registrar proceso completo y comparar con holdout verdaderamente futuro.",
+    "common_failures": "Confundir CSCV con walk-forward; asumir que PBO bajo elimina leakage.",
+    "implementations": [
+      "quant-skepsis"
+    ],
+    "simple_implementation": "Técnica del paper; implementación candidata aún no auditada integralmente.",
+    "crypto_value": "Advertir cuando una aparente ventaja depende de selección del mejor ensayo.",
+    "do_not_use_when": "Escasez de datos o enorme dependencia entre horizontes largos.",
+    "source_ids": [
+      "src-quant-915fd7ab2c42"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-event-study",
+    "name": "Estudio de eventos con retornos anormales",
+    "url": "https://github.com/LemaireJean-Baptiste/eventstudy",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Medir reacción asociada a un catalizador respecto a un modelo de mercado.",
+    "assumptions": "Fecha de anuncio conocida, ventana de estimación previa y benchmark razonable.",
+    "data_frequency": "Precios/volumen intradía o diarios y registro de anuncios; mercado24/7.",
+    "validation": "CAR con intervalos agrupados por evento/activo, placebo temporal y controles negativos.",
+    "common_failures": "Seleccionar retrospectivamente eventos ganadores, confundir anuncio/ejecución y eventos simultáneos.",
+    "implementations": [
+      "quant-eventstudy",
+      "quant-financial-data-science",
+      "quant-statsmodels"
+    ],
+    "simple_implementation": "AR=r-beta*benchmark; CAR=sum AR; comparar varias ventanas predefinidas.",
+    "crypto_value": "Unlocks, cambios de fees y listados: reacción y dispersión, no causalidad automática.",
+    "do_not_use_when": "Si todos los activos comparten el shock o el evento se filtró antes.",
+    "source_ids": [
+      "src-quant-78e452dbcb9a"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-bsts",
+    "name": "Contrafactual con modelo estructural bayesiano",
+    "url": "https://arxiv.org/abs/1506.00356",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Estimar trayectoria sin intervención y su incertidumbre.",
+    "assumptions": "Controles no afectados por evento, relación estable y ausencia de otro shock concurrente.",
+    "data_frequency": "Series objetivo/controles pre y post, fecha de disponibilidad.",
+    "validation": "Placebos de fecha y activo, error preintervención, sensibilidad a controles.",
+    "common_failures": "Controles contaminados por contagio cripto; extrapolación de relación que cambió.",
+    "implementations": [
+      "quant-statsmodels"
+    ],
+    "simple_implementation": "Baseline regresión/estado espacial antes de arquitectura causal compleja.",
+    "crypto_value": "Analizar cambios de incentivos o comisiones de un protocolo.",
+    "do_not_use_when": "Shock sistémico o ausencia de controles plausibles; describir asociación.",
+    "source_ids": [
+      "src-quant-e720bf00caeb"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-did",
+    "name": "Diferencias en diferencias y event-time moderno",
+    "url": "https://arxiv.org/abs/2201.01194",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Separar cambios relativos entre grupos tratados y controles.",
+    "assumptions": "Tendencias paralelas plausibles, no anticipación e interferencia limitada.",
+    "data_frequency": "Panel protocolo/tiempo, calendario de adopción y variables de confusión.",
+    "validation": "Pretrends como diagnóstico limitado, placebos, inferencia cluster y sensibilidad.",
+    "common_failures": "TWFE ingenuo con adopción escalonada y efectos heterogéneos; pocos clusters.",
+    "implementations": [
+      "quant-pyfixest",
+      "quant-linearmodels",
+      "quant-dowhy"
+    ],
+    "simple_implementation": "Diseño de grupos y calendario antes de escoger estimador.",
+    "crypto_value": "Evaluar reducción de incentivos o cambios de parámetros comparables.",
+    "do_not_use_when": "Contagio generalizado, selección endógena muy fuerte o controles inexistentes.",
+    "source_ids": [
+      "src-quant-50dfc883a49c"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-covariance-shrinkage",
+    "name": "Shrinkage y escenarios de covarianza",
+    "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Estabilizar estimación de exposición y construcción de cartera.",
+    "assumptions": "Ventana representativa y precios/frecuencias alineados.",
+    "data_frequency": "Retornos de activos y benchmark con faltantes tratados explícitamente.",
+    "validation": "Walk-forward contra sample covariance y equal-weight; sensibilidad de pesos.",
+    "common_failures": "Confundir matriz PSD reparada con datos correctos; annualization252 en cripto365.",
+    "implementations": [
+      "quant-pyportfolioopt",
+      "quant-skfolio"
+    ],
+    "simple_implementation": "Ledoit-Wolf más límites de concentración.",
+    "crypto_value": "Comparar dependencia de BTC, riesgo incremental de token y escenarios.",
+    "do_not_use_when": "No pronostica medias; no elegir max-Sharpe con expectativas inestables.",
+    "source_ids": [
+      "src-quant-ef1281afffe9"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-expected-shortfall",
+    "name": "Expected shortfall, drawdown y escenarios",
+    "url": "https://github.com/skfolio/skfolio",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Cuantificar pérdidas extremas y trayectoria adversa.",
+    "assumptions": "Distribución histórica es solo escenario; cola estimable con incertidumbre.",
+    "data_frequency": "Retornos, exposición, liquidez, stablecoin y contraparte.",
+    "validation": "Bootstrap de cola, episodios retenidos y shocks hipotéticos explícitos.",
+    "common_failures": "VaR como peor pérdida máxima, ignorar liquidez/custodia o pocos puntos de cola.",
+    "implementations": [
+      "quant-riskfolio-lib",
+      "quant-quantstats",
+      "quant-skfolio"
+    ],
+    "simple_implementation": "ES histórico con rango y stress manual BTC/ETH/depeg.",
+    "crypto_value": "Riesgo de cartera comprensible para decidir tamaño y liquidez.",
+    "do_not_use_when": "No usar una cifra puntual como límite garantizado de pérdidas.",
+    "source_ids": [
+      "src-quant-6f7eab9a9664"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-factor-rank",
+    "name": "Ranking transversal, IC y spreads por cuantiles",
+    "url": "https://github.com/stefan-jansen/alphalens-reloaded",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Comprobar relación entre factores y resultados futuros.",
+    "assumptions": "Universo point-in-time, datos comparables y etiquetas no contaminadas.",
+    "data_frequency": "Panel mensual de tokens incluidos/excluidos y factores de valoración/crecimiento.",
+    "validation": "IC por fecha, turnover, neutralización sectorial y prueba por régimen.",
+    "common_failures": "Survivorship, capitalización seleccionada hoy, doble conteo de señales correlacionadas.",
+    "implementations": [
+      "quant-alphalens-reloaded",
+      "quant-qlib"
+    ],
+    "simple_implementation": "Ranking robusto y distribución de retornos, no precio objetivo.",
+    "crypto_value": "Screener de candidatos para investigar por qué fundamento/precio divergen.",
+    "do_not_use_when": "Cuando revenue o supply no son comparables entre protocolos.",
+    "source_ids": [
+      "src-quant-025ccb806a3c"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-cointegration",
+    "name": "Cointegración y ajuste relativo",
+    "url": "https://github.com/bashtage/arch",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Estudiar relaciones de equilibrio de largo plazo entre series no estacionarias.",
+    "assumptions": "Integración compatible, estabilidad del vector y sentido económico.",
+    "data_frequency": "Precios largos y sincronizados; cambios de especificación documentados.",
+    "validation": "Tests con corrección múltiple, estabilidad y walk-forward de residuos.",
+    "common_failures": "Correlación confundida con cointegración; relación que desaparece por cambio de tokenomics.",
+    "implementations": [
+      "quant-arch",
+      "quant-arbitragelab",
+      "quant-statsmodels"
+    ],
+    "simple_implementation": "Engle-Granger como diagnóstico, no ejecución automática.",
+    "crypto_value": "Comparación relativa dentro de exposiciones económicamente vinculadas.",
+    "do_not_use_when": "No para cualquier par de tokens encontrado por barrido estadístico.",
+    "source_ids": [
+      "src-quant-e91e270877d1"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  },
+  {
+    "id": "method-quant-garch",
+    "name": "Volatilidad condicional y cobertura de intervalos",
+    "url": "https://github.com/bashtage/arch",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "Método documentado; versiones de implementaciones en candidates",
+    "confidence": "media-alta en método; utilidad cripto propuesta no demostrada",
+    "problem": "Describir heterocedasticidad y riesgo variable en el tiempo.",
+    "assumptions": "Innovaciones y especificación ajustadas, escalas consistentes.",
+    "data_frequency": "Retornos diarios/intradía suficientemente extensos.",
+    "validation": "Pérdida QLIKE/likelihood, cobertura de intervalos y comparación EWMA.",
+    "common_failures": "Usar menor error como alpha de retorno; cola mal especificada o escala incorrecta.",
+    "implementations": [
+      "quant-arch",
+      "quant-rugarch"
+    ],
+    "simple_implementation": "EWMA primero; GARCH si mejora calibración fuera de muestra.",
+    "crypto_value": "Contexto para tamaño de riesgo y alertas de volatilidad.",
+    "do_not_use_when": "No predice dirección ni reemplaza escenario de salto/depeg.",
+    "source_ids": [
+      "src-quant-e91e270877d1"
+    ],
+    "execution_status": "No ejecutado; diseño de validación propuesto"
+  }
+]

@@ -1,0 +1,186 @@
+[
+  {
+    "id": "Q-AI-1",
+    "query": "site:huggingface.co amazon chronos-2 model card license",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Resultado indirecto; confirmación posterior abriendo card oficial.",
+    "results": [
+      "https://huggingface.co/amazon/chronos-2"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-2",
+    "query": "site:huggingface.co google timesfm-3.0-pytorch model card",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Card oficial confirma existencia y licencia no comercial.",
+    "results": [
+      "https://huggingface.co/google/timesfm-3.0-pytorch"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-3",
+    "query": "site:github.com SalesforceAIResearch uni2ts Moirai license",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Código y modelos separados; expansión a Moirai2.",
+    "results": [
+      "https://github.com/SalesforceAIResearch/uni2ts"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-4",
+    "query": "site:github.com TsinghuaAI fin financial agents TradingAgents benchmark",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "No prueba suficiente del proyecto buscado; acceso directo a TauricResearch después.",
+    "results": [
+      "https://github.com/TauricResearch/TradingAgents"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-5",
+    "query": "site:github.com autogluon fev benchmark leakage time series foundation models",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "fev y evaluación por ventanas; contraste de independencia.",
+    "results": [
+      "https://github.com/autogluon/fev"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-6",
+    "query": "site:huggingface.co ProsusAI finbert license financial phrasebank",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Pesos con licencia distinta y datos restringidos.",
+    "results": [
+      "https://huggingface.co/ProsusAI/finbert"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-7",
+    "query": "site:github.com patronus-ai financebench dataset license",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Resultados secundarios contradictorios; resuelto en card HF oficial, sin LICENSE en rutas estándar GitHub.",
+    "results": [
+      "https://github.com/patronus-ai/financebench",
+      "https://huggingface.co/datasets/PatronusAI/financebench"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-8",
+    "query": "site:github.com 金融 大模型 评测 FinGPT FinRobot 数据 泄漏",
+    "engine": "web.search",
+    "language": "zh/en",
+    "searched_at": "2026-11-04",
+    "outcome": "Tencent finLLM-Eval; capacidad de datos internos no abierta.",
+    "results": [
+      "https://github.com/Tencent/finLLM-Eval"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-9",
+    "query": "site:forecastbench.org benchmark github forecasting research institute long horizon",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Benchmark prospectivo; seguir documentación oficial.",
+    "results": [
+      "https://www.forecastbench.org/about/"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-10",
+    "query": "site:github.com NX-AI tirex-2 license",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Sucesor Apache; issue histórico dependencia contrastado con pyproject actual.",
+    "results": [
+      "https://github.com/NX-AI/tirex-2"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-11",
+    "query": "site:github.com SeldonIO alibi-detect LICENSE Business Source",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "BSL corroborado en archivo original; no adoptar como Apache.",
+    "results": [
+      "https://github.com/SeldonIO/alibi-detect"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-12",
+    "query": "site:github.com PyRIT archived successor 2026",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Archivo confirmado en HTML; sucesor no cualificado.",
+    "results": [
+      "https://github.com/Azure/PyRIT"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-13",
+    "query": "site:forecastbench.org ForecastBench benchmark dataset models humans paper",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Metodología de preguntas futuras y comparabilidad de cohortes.",
+    "results": [
+      "https://www.forecastbench.org/about/",
+      "https://www.forecastbench.org/datasets/"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-14",
+    "query": "site:arxiv.org time series foundation models financial forecasting benchmark leakage evaluation 2026",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Tres preprints primarios sobre evaluación financiera y leakage; abstract e historial leídos.",
+    "results": [
+      "https://arxiv.org/abs/2606.27100v1",
+      "https://arxiv.org/abs/2510.13654v3",
+      "https://arxiv.org/abs/2608.03259v3"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-15",
+    "query": "site:github.com forecastbench forecastingresearch",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Repositorio encontrado; no se añade cuota ni se audita código.",
+    "results": [
+      "https://github.com/forecastingresearch/forecastbench"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  }
+]

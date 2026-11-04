@@ -1,0 +1,761 @@
+[
+  {
+    "id": "query-infra-001",
+    "query": "site.github.com DuckDB financial research parquet point in time",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "DuckDB y Parquet; resultados de proveedores no usados como evidencia técnica.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-002",
+    "query": "site.docs.llama.fi fees revenue adapters methodology",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Documentación de dimensiones, advertencias sobre datos ausentes y definiciones.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-003",
+    "query": "site:github.com point in time financial data bitemporal duckdb open source",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "QFS, point-in-time-datawarehouse, alpha-lake, XTDB y prototipos de linaje.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-004",
+    "query": "site:codeberg.org financial data analysis",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Acceso bloqueado por robots en el motor; no se eludió.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-005",
+    "query": "site:gitlab.com finance portfolio python",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Resultados principalmente no pertinentes; cobertura insuficiente.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-006",
+    "query": "site:sr.ht finance data python",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Acceso bloqueado por robots en el motor; no se eludió.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-007",
+    "query": "site:duckdb.org docs asof join timestamps closest match inequality",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Documentación oficial ASOF y su semántica.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-008",
+    "query": "site:dlthub.com docs incremental cursor lag refresh primary_key",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Cursor, deduplicación y lag; seguimiento al código.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-009",
+    "query": "site:requests-cache.readthedocs.io stale_if_error expire_after financial data",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Expiración y respuestas caducadas durante errores.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-010",
+    "query": "site:github.com herramientas análisis financiero datos GitLab Codeberg",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Consulta española de descubrimiento; sin nuevo candidato suficientemente pertinente.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-011",
+    "query": "patito Polars pydantic github",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Se corrigió URL inicial incorrecta a JakobGM/patito; original404 conservado en caché de trabajo.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-012",
+    "query": "site:gitlab.com portfolio performance python financial open source",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Pocos resultados pertinentes; no completar cuota con ellos.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-013",
+    "query": "site:codeberg.org finanz portfolio",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Consulta alemana; sin candidato adicional comprobado.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-014",
+    "query": "site:sr.ht \"finance\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Cobertura inaccesible/insuficiente.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-015",
+    "query": "site:docs.uniswap.org protocol fees burn UNI 2026 TokenJar",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Seguimiento de mecanismos y contratos, no asumir activación por código.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-016",
+    "query": "site:hyperliquid.gitbook.io assistance fund HYPE fees buyback",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Fees y mecanismo documentado de assistance fund.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-017",
+    "query": "site:docs.raydium.io protocol fees RAY buybacks",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "URL antigua404; canonical posterior localizado por área crypto.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-018",
+    "query": "site:pump.fun fees revenue buyback PUMP documentation",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Panel oficial advierte cobertura incorrecta; preview hosts no usados como fuente final.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-019",
+    "query": "site:blog.uniswap.org UNIfication protocol fees burn UNI",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Propuesta2025, diferenciada de implementación y activación.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-020",
+    "query": "site:docs.uniswap.org \"TokenJar\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Rutas de arquitectura/contratos.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-infra-021",
+    "query": "site:blog.uniswap.org 2026 protocol fee burn",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Anuncios octubre2026 de aggregator hooks y TJAR; seguir al estado on-chain en piloto.",
+    "limitations": "Descubrimiento; nivel de verificación y URLs exactas constan por separado en sources/evidence."
+  },
+  {
+    "id": "query-quant-001",
+    "query": "site.github.com polakowo vectorbt license commons clause",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Licencia restringida verificada.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-002",
+    "query": "site.github.com microsoft qlib point in time data",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "PIT localizado; consulta devolvió también homónimo irrelevante descartado.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-003",
+    "query": "site.stlouisfed.org ALFRED vintage dates API",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Documentación original y fechas de vintage.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-004",
+    "query": "site.github.com bashtage arch bootstrap multiple comparison",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "SPA/MCS y documentación original.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-005",
+    "query": "site.github.com \"skfolio\" walk forward CombinatorialPurgedCV",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Splitter y tests seleccionados.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-006",
+    "query": "site.github.com \"ruptures\" \"License\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "BSD2 y PELT.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-007",
+    "query": "site.github.com \"OpenBB\" \"openbq-org\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Transición2026 y v5.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-008",
+    "query": "site.github.com \"mlfinpy\" cross validation purged",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Sin candidato cualificado suficiente; no incorporado.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-009",
+    "query": "site.github.com financial econometrics \"eventstudy\" Python",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "eventstudy y Financial Data Science.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-010",
+    "query": "site.codeberg.org quantitative finance backtesting",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Cobertura escasa; origen strucchange hallado mediante mirror.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-011",
+    "query": "site.gitlab.com financial econometrics bootstrap package",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Sin candidato cualificado incorporado.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-012",
+    "query": "site.github.com 量化 回测 rqalpha vnpy",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Ecosistema chino; revisar restricciones RQAlpha.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-013",
+    "query": "\"mlfinpy\" github repository",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Sin evidencia suficiente en resultados recuperados.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-014",
+    "query": "site.github.com \"eventstudy\" \"lemairejean-baptiste\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Proyecto GPL y documentación.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-015",
+    "query": "site.bis.org data portal API SDMX statistics",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "API/metadatos/condiciones BIS.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-016",
+    "query": "site.data.ecb.europa.eu API SDMX data revision",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "updatedAfter; fallo503 en apertura posterior.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-017",
+    "query": "site.davidhbailey.com \"Deflated Sharpe\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Paper fuente autor.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-018",
+    "query": "site.davidhbailey.com \"Probability of Backtest Overfitting\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Paper fuente autor.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-019",
+    "query": "site.github.com \"sdmx1\" \"sdmx\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "sdmx1/khaeru identificado.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-020",
+    "query": "site.github.com \"financial-data-science\" \"terence-lim\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Lectores ALFRED y eventos.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-021",
+    "query": "site.stlouisfed.org FRED MD QD McCracken Ng monthly database 2026",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Vintages macro.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-022",
+    "query": "site.financialresearch.gov financial stress index data csv",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Retraso2d y corrección feed2026.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-023",
+    "query": "site.chicagofed.org NFCI adjusted national financial conditions index data",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Serie semanal.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-024",
+    "query": "site.atlantafed.org GDPNow download data model",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Nowcast y modelo.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-025",
+    "query": "site.newyorkfed.org SOFR reference rates API markets data",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "API original, términos separados.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-026",
+    "query": "site.fiscaldata.treasury.gov API documentation daily treasury statement operating cash",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "DTS; API403.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-027",
+    "query": "site.arxiv.org \"Inferring causal impact using Bayesian structural time-series models\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Paper autor, evidencia general no cripto.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-028",
+    "query": "site.bis.org \"Global liquidity indicators\" methodology credit dollar",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Distinguir crédito, dinero y liquidez de negociación.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-029",
+    "query": "Barrido HTTP GET de 51 repositorios originales; seguimiento selectivo de README/LICENSE/manifiestos/código/tests",
+    "engine": "urllib biblioteca estándar, lectura estática",
+    "date": "2026-11-04",
+    "results": "Todos los repositorios respondieron tras corregir pywhy/dowhy→py-why/dowhy. No API GitHub, clonación, instalaciones ni importaciones externas.",
+    "limitations": "Lectura selectiva; sin auditoría completa de issues, releases o dependencias. Código temporal eliminado al consolidar."
+  },
+  {
+    "id": "query-quant-030",
+    "query": "site.zeileis.codeberg.page strucchange monitoring CUSUM",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Documentación mefp original indexada.",
+    "limitations": "Lectura de documentación; no ejecución."
+  },
+  {
+    "id": "query-quant-031",
+    "query": "site.hmmlearn.readthedocs.io tutorial predict predict_proba score_samples",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Distinguir smoothing y filtrado.",
+    "limitations": "Lectura de documentación; no ejecución."
+  },
+  {
+    "id": "query-quant-032",
+    "query": "site.github.com py-econometrics pyfixest difference differences staggered treatment",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "DiD moderno; supuestos de identificación.",
+    "limitations": "Lectura de documentación; no ejecución."
+  },
+  {
+    "id": "query-quant-033",
+    "query": "site.statsmodels.org MarkovRegression predict filtered smoothed probabilities",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Selector de probabilidades documentado.",
+    "limitations": "Lectura de documentación; no ejecución."
+  },
+  {
+    "id": "crypto-search-01",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Especialización y migraciones",
+    "queries": [
+      "site:github.com/Polymarket py-clob-client archived clob-client-v2 2026",
+      "site:github.com/Polymarket \"polymarket-client\" Python unified",
+      "site:github.com/graphsense graphsense-tagpack-tool archived successor"
+    ],
+    "outcome": "SDK unificado, deprecaciones y migraciones identificados; versiones verificadas contra README/release y archivos fijados por SHA",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-02",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Captura de valor y protocolo",
+    "queries": [
+      "site:hyperliquid.gitbook.io fees assistance fund HYPE burned",
+      "site:docs.raydium.io protocol fees RAY buyback",
+      "site:docs.uniswap.org protocol fee 2026 burn UNI",
+      "site:blog.uniswap.org UNIfication fees burn 2026",
+      "site:blog.uniswap.org protocol fees burn enabled December 2025 2026",
+      "site:github.com/Uniswap \"protocol-fees\""
+    ],
+    "outcome": "Fuentes oficiales de fees, programa y anuncios; distinguir documentación de estado desplegado",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-03",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Adaptadores, stablecoins y licencias",
+    "queries": [
+      "site:github.com DefiLlama dimension-adapters fees hyperliquid index.ts",
+      "site:github.com \"stablecoins\" DefiLlama",
+      "site:github.com/DefiLlama \"stablecoins\" \"License\"",
+      "site:github.com/DefiLlama \"emissions\" adapters",
+      "DefiLlama stablecoins github peggedassets-server",
+      "DefiLlama token unlocks github emissions adapters",
+      "site:github.com/DefiLlama/dimension-adapters \"license\"",
+      "site:github.com/DefiLlama/defillama-sdk \"license\""
+    ],
+    "outcome": "Ruta stablecoins corregida a peggedassets-server; emisiones no verificadas directamente; ausencia de licencia localizada no se convierte en permiso",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-04",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Infraestructura on-chain",
+    "queries": [
+      "site:github.com crypto onchain analytics open source sqd subsquid ethereum-etl cryo chainbase",
+      "site:github.com paradigmxyz cryo README license",
+      "site:github.com graphsense tagpacks confidence labels license",
+      "site:github.com raydium-io raydium-sdk-V2 license",
+      "site:github.com pump-fun pump-public-docs"
+    ],
+    "outcome": "Indexadores y esquemas comparados; rutas críticas inspeccionadas en diez proyectos",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-05",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Búsqueda internacional y fuera de GitHub",
+    "queries": [
+      "site:github.com 加密 链上 数据 分析 开源 Hyperliquid",
+      "site:codeberg.org blockchain analytics cryptocurrency"
+    ],
+    "outcome": "No produjo candidatos adicionales suficientemente verificados; Codeberg limitado por acceso/robots. Cobertura internacional débil, no exhaustiva",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-06",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Retención, derivados y acceso",
+    "queries": [
+      "site:docs.polymarket.com api rate limits historical data",
+      "site:docs.hyperliquid.xyz historical data candles snapshots retention",
+      "site:docs.deribit.com public get_book_summary_by_currency mark_iv open_interest",
+      "site:developers.binance.com liquidation order streams 1000ms all market",
+      "site:developers.binance.com \"only the latest one liquidation\""
+    ],
+    "outcome": "Rate limits y snapshots documentados; no confirmación actual del supuesto Binance 1/s; no inventar retención completa",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-07",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Fuentes comerciales y definiciones",
+    "queries": [
+      "site:docs.tokenterminal.com financial metrics fees revenue tokenholder revenue",
+      "site:docs.dune.com api pricing query credits data export",
+      "site:tokenterminal.com \"Fees\" \"Tokenholder revenue\"",
+      "site:tokenterminal.com \"Tokenholder revenue\" metrics",
+      "site:tokenterminal.com \"Financial statements\" fees revenue"
+    ],
+    "outcome": "Dune/Token Terminal conservados como servicios cerrados; acceso documental, sin cuenta ni API pagada",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-08",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Contraejemplos de captura y oferta",
+    "queries": [
+      "site:docs.raydium.io \"12%\" buybacks fees",
+      "site:hyperliquid.gitbook.io \"assistance fund\" \"burn\"",
+      "site:hyperliquid.gitbook.io \"HYPE\" \"burned\"",
+      "site:developers.circle.com CCTP burn mint USDC transfer supply"
+    ],
+    "outcome": "Nueva ruta Raydium consultada; RAY recomprado conservado en cuenta; CCTP aporta contraejemplo mint local versus entrada fiat",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-direct",
+    "date": "2026-11-04",
+    "engine": "GitHub HTML, raw.githubusercontent.com, git ls-remote (sólo lectura)",
+    "purpose": "Comprobación directa y fijación de versiones",
+    "queries": [
+      "HEAD y rutas README/licencia/manifest/rutas críticas de candidatos; URLs exactas en sources.json"
+    ],
+    "outcome": "63 candidatos catalogados: 62 con lectura directa, 1 D0. Cinco URLs iniciales rechazadas/corregidas se conservan aparte. Diez revisiones estáticas V3",
+    "precision": "HTTP status y SHA256 por ruta recuperada; fecha de commit no recuperada sistemáticamente"
+  },
+  {
+    "id": "crypto-search-canonical-docs",
+    "date": "2026-11-04",
+    "engine": "Navegación directa de documentación oficial",
+    "purpose": "Resolver enlaces rotos y leer mecanismos actuales",
+    "queries": [
+      "docs.raydium.io → reference/fee-comparison → ray/protocol-fees → ray/ray-buybacks",
+      "docs.polymarket.com → api-reference/rate-limits",
+      "developers.circle.com/cctp",
+      "tokenterminal.com/explorer/metrics/tokenholder_revenue"
+    ],
+    "outcome": "URLs canónicas recuperadas y límites documentales anotados; fallos originales preservados",
+    "precision": "Sin autenticación, consultas a servicios de datos, contratos ni estado de wallets"
+  },
+  {
+    "id": "Q-AI-1",
+    "query": "site:huggingface.co amazon chronos-2 model card license",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Resultado indirecto; confirmación posterior abriendo card oficial.",
+    "results": [
+      "https://huggingface.co/amazon/chronos-2"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-2",
+    "query": "site:huggingface.co google timesfm-3.0-pytorch model card",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Card oficial confirma existencia y licencia no comercial.",
+    "results": [
+      "https://huggingface.co/google/timesfm-3.0-pytorch"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-3",
+    "query": "site:github.com SalesforceAIResearch uni2ts Moirai license",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Código y modelos separados; expansión a Moirai2.",
+    "results": [
+      "https://github.com/SalesforceAIResearch/uni2ts"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-4",
+    "query": "site:github.com TsinghuaAI fin financial agents TradingAgents benchmark",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "No prueba suficiente del proyecto buscado; acceso directo a TauricResearch después.",
+    "results": [
+      "https://github.com/TauricResearch/TradingAgents"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-5",
+    "query": "site:github.com autogluon fev benchmark leakage time series foundation models",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "fev y evaluación por ventanas; contraste de independencia.",
+    "results": [
+      "https://github.com/autogluon/fev"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-6",
+    "query": "site:huggingface.co ProsusAI finbert license financial phrasebank",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Pesos con licencia distinta y datos restringidos.",
+    "results": [
+      "https://huggingface.co/ProsusAI/finbert"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-7",
+    "query": "site:github.com patronus-ai financebench dataset license",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Resultados secundarios contradictorios; resuelto en card HF oficial, sin LICENSE en rutas estándar GitHub.",
+    "results": [
+      "https://github.com/patronus-ai/financebench",
+      "https://huggingface.co/datasets/PatronusAI/financebench"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-8",
+    "query": "site:github.com 金融 大模型 评测 FinGPT FinRobot 数据 泄漏",
+    "engine": "web.search",
+    "language": "zh/en",
+    "searched_at": "2026-11-04",
+    "outcome": "Tencent finLLM-Eval; capacidad de datos internos no abierta.",
+    "results": [
+      "https://github.com/Tencent/finLLM-Eval"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-9",
+    "query": "site:forecastbench.org benchmark github forecasting research institute long horizon",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Benchmark prospectivo; seguir documentación oficial.",
+    "results": [
+      "https://www.forecastbench.org/about/"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-10",
+    "query": "site:github.com NX-AI tirex-2 license",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Sucesor Apache; issue histórico dependencia contrastado con pyproject actual.",
+    "results": [
+      "https://github.com/NX-AI/tirex-2"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-11",
+    "query": "site:github.com SeldonIO alibi-detect LICENSE Business Source",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "BSL corroborado en archivo original; no adoptar como Apache.",
+    "results": [
+      "https://github.com/SeldonIO/alibi-detect"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-12",
+    "query": "site:github.com PyRIT archived successor 2026",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Archivo confirmado en HTML; sucesor no cualificado.",
+    "results": [
+      "https://github.com/Azure/PyRIT"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-13",
+    "query": "site:forecastbench.org ForecastBench benchmark dataset models humans paper",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Metodología de preguntas futuras y comparabilidad de cohortes.",
+    "results": [
+      "https://www.forecastbench.org/about/",
+      "https://www.forecastbench.org/datasets/"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-14",
+    "query": "site:arxiv.org time series foundation models financial forecasting benchmark leakage evaluation 2026",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Tres preprints primarios sobre evaluación financiera y leakage; abstract e historial leídos.",
+    "results": [
+      "https://arxiv.org/abs/2606.27100v1",
+      "https://arxiv.org/abs/2510.13654v3",
+      "https://arxiv.org/abs/2608.03259v3"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  },
+  {
+    "id": "Q-AI-15",
+    "query": "site:github.com forecastbench forecastingresearch",
+    "engine": "web.search",
+    "language": "en",
+    "searched_at": "2026-11-04",
+    "outcome": "Repositorio encontrado; no se añade cuota ni se audita código.",
+    "results": [
+      "https://github.com/forecastingresearch/forecastbench"
+    ],
+    "limitations": "Búsqueda seguida de fuente primaria cuando sustentó conclusión; snippet no basta para verificar implementación."
+  }
+]

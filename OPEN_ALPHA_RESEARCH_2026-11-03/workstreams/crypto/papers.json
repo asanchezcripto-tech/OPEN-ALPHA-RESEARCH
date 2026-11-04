@@ -1,0 +1,35 @@
+[
+  {
+    "id": "crypto-paper-blocksci",
+    "title": "BlockSci: Design and applications of a blockchain analysis platform",
+    "authors": "Harry Kalodner, Malte Möser, Kevin Lee, Steven Goldfeder, Martin Plattner, Alishah Chator, Arvind Narayanan",
+    "publication": "USENIX Security 2020; preprint de 2017 como versión anterior",
+    "source_ids": [
+      "crypto-src-a8eb4ff87b30",
+      "crypto-src-eac87883f415"
+    ],
+    "candidate_id": "crypto-citp-blocksci",
+    "reading_scope": "Ficha original y abstract; no lectura completa de benchmarks ni reproducción",
+    "contribution": "Arquitectura orientada a análisis blockchain y representación eficiente",
+    "limitations": "Implementación sin desarrollo activo declarado desde 2020; no adoptar como stack vigente sin nuevo mantenimiento",
+    "reproducibility": "Código asociado localizado; datasets y experimentos no reproducidos"
+  },
+  {
+    "id": "crypto-paper-hyperliquid-paths",
+    "title": "Price Trajectories, Impact and Sunshine Trading",
+    "authors": "Davide Barone y Fabrizio Lillo según nota del repositorio",
+    "publication": "Nota pública asociada a 0xBaro/hyperliquid; revisión/publicación formal no verificada",
+    "source_ids": [
+      "crypto-src-5cefa51ff2e3",
+      "crypto-src-e80eddf02643",
+      "crypto-src-cfc54a379cad",
+      "crypto-src-4dbd1604e512",
+      "crypto-src-247ae4505c74"
+    ],
+    "candidate_id": "crypto-0xbaro-hyperliquid",
+    "reading_scope": "Documentación/repositorio; no revisión completa del estudio",
+    "contribution": "Pista para estudiar trayectoria de precios e impacto con datos de mercado públicos",
+    "limitations": "Dataset, selección de eventos, vigencia y licencia no comprobados; no evidencia de alpha validada",
+    "reproducibility": "Repositorio con src/scripts localizado, implementación no auditada ni ejecutada"
+  }
+]

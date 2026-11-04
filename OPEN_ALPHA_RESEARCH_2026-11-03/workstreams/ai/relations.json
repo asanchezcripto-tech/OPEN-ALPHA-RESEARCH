@@ -1,0 +1,92 @@
+[
+  {
+    "from_id": "AI-chronos",
+    "to_id": "AI-model-amazon-chronos-2",
+    "relation": "runtime para pesos",
+    "evidence_source_id": "S-AI-chronos-readme"
+  },
+  {
+    "from_id": "AI-chronos",
+    "to_id": "AI-fev",
+    "relation": "integración implementada predict_fev",
+    "evidence_source_id": "S-AI-chronos-readme"
+  },
+  {
+    "from_id": "AI-timesfm",
+    "to_id": "AI-model-google-timesfm-3-0-pytorch",
+    "relation": "runtime para pesos; licencias distintas",
+    "evidence_source_id": "S-AI-timesfm-readme"
+  },
+  {
+    "from_id": "AI-uni2ts",
+    "to_id": "AI-model-salesforce-moirai-2-0-r-small",
+    "relation": "runtime para pesos; licencias distintas",
+    "evidence_source_id": "S-AI-uni2ts-readme"
+  },
+  {
+    "from_id": "AI-uni2ts",
+    "to_id": "AI-gluonts",
+    "relation": "dependencia observada en forecast.py",
+    "evidence_source_id": "S-AI-uni2ts-readme"
+  },
+  {
+    "from_id": "AI-mlforecast",
+    "to_id": "AI-lightgbm",
+    "relation": "combinación propuesta; estimador compatible",
+    "evidence_source_id": "S-AI-mlforecast-readme"
+  },
+  {
+    "from_id": "AI-tradingagents",
+    "to_id": "AI-langgraph",
+    "relation": "dependencia observada en tests y orquestación",
+    "evidence_source_id": "S-AI-tradingagents-readme"
+  },
+  {
+    "from_id": "AI-finbert",
+    "to_id": "AI-model-prosusai-finbert",
+    "relation": "código separado de checkpoint",
+    "evidence_source_id": "S-AI-finbert-readme"
+  },
+  {
+    "from_id": "AI-model-prosusai-finbert",
+    "to_id": "AI-dataset-takala-financial-phrasebank",
+    "relation": "datos de fine-tuning declarados",
+    "evidence_source_id": "S-AI-model-prosusai-finbert-config-json"
+  },
+  {
+    "from_id": "AI-docling",
+    "to_id": "AI-model-baai-bge-m3",
+    "relation": "combinación propuesta para extracción y búsqueda",
+    "evidence_source_id": "S-AI-docling-readme"
+  },
+  {
+    "from_id": "AI-river",
+    "to_id": "AI-mlforecast",
+    "relation": "combinación propuesta: monitorizar error predictivo",
+    "evidence_source_id": "S-AI-river-readme"
+  },
+  {
+    "from_id": "AI-fingpt",
+    "to_id": "AI-tradingagents",
+    "relation": "comparación de controles de conocimiento temporal",
+    "evidence_source_id": "S-AI-fingpt-readme"
+  },
+  {
+    "from_id": "AI-tirex",
+    "to_id": "AI-tirex2",
+    "relation": "generación sucesora; revisar licencia por versión",
+    "evidence_source_id": "S-AI-tirex-readme"
+  },
+  {
+    "from_id": "AI-gift-eval",
+    "to_id": "AI-dataset-salesforce-gifteval",
+    "relation": "benchmark y colección asociada",
+    "evidence_source_id": "S-AI-gift-eval-readme"
+  },
+  {
+    "from_id": "AI-fev",
+    "to_id": "AI-dataset-autogluon-fev-datasets",
+    "relation": "tareas sobre datasets asociados",
+    "evidence_source_id": "S-AI-fev-readme"
+  }
+]

@@ -1,0 +1,418 @@
+[
+  {
+    "id": "AI-dataset-patronusai-financebench",
+    "name": "PatronusAI/financebench",
+    "url": "https://huggingface.co/datasets/PatronusAI/financebench",
+    "organization": "PatronusAI",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Muestra pública150 casos QA con evidencia; CC-BY-NC4.0.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+    "maintenance_status": "lastModified 2024-11-17T18:42:59.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-nc-4.0",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/datasets/PatronusAI/financebench/resolve/e04404e3a97f69f79c14d42f24981a1c9c3bcd18/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Muestra pública150 casos QA con evidencia; CC-BY-NC4.0.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-patronusai-financebench-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-patronusai-financebench-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-takala-financial-phrasebank",
+    "name": "takala/financial_phrasebank",
+    "url": "https://huggingface.co/datasets/takala/financial_phrasebank",
+    "organization": "takala",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Frases financieras inglesas con etiquetas de sentimiento y acuerdo.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964",
+    "maintenance_status": "lastModified 2025-12-15T05:51:57.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-nc-sa-3.0",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/datasets/takala/financial_phrasebank/resolve/8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Frases financieras inglesas con etiquetas de sentimiento y acuerdo.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-takala-financial-phrasebank-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-takala-financial-phrasebank-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-ibm-finqa",
+    "name": "ibm/finqa",
+    "url": "https://huggingface.co/datasets/ibm/finqa",
+    "organization": "ibm",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Distribución HF de preguntas aritméticas financieras; declarar origen/versiones.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "1d0076a55b609744218081ff6ea693aefe824677",
+    "maintenance_status": "lastModified 2024-06-06T08:56:37.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-4.0",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/ibm/finqa/resolve/1d0076a55b609744218081ff6ea693aefe824677/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Distribución HF de preguntas aritméticas financieras; declarar origen/versiones.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-ibm-finqa-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-ibm-finqa-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-salesforce-gifteval",
+    "name": "Salesforce/GiftEval",
+    "url": "https://huggingface.co/datasets/Salesforce/GiftEval",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Benchmark heterogéneo de forecasting; validar permisos por componente.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "30841734ac5cfddbd0c3bad6d09d2b6b32becbb0",
+    "maintenance_status": "lastModified 2025-01-21T09:23:29.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/datasets/Salesforce/GiftEval/resolve/30841734ac5cfddbd0c3bad6d09d2b6b32becbb0/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Benchmark heterogéneo de forecasting; validar permisos por componente.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-salesforce-gifteval-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-salesforce-gifteval-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-salesforce-giftevalpretrain",
+    "name": "Salesforce/GiftEvalPretrain",
+    "url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección de preentrenamiento de gran tamaño; no descargar para este fin.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "6830b624de7ed2b3d3e5b85bb6959d81dcc5d874",
+    "maintenance_status": "lastModified 2025-01-21T09:20:58.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain/resolve/6830b624de7ed2b3d3e5b85bb6959d81dcc5d874/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección de preentrenamiento de gran tamaño; no descargar para este fin.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-salesforce-giftevalpretrain-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-salesforce-giftevalpretrain-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-autogluon-chronos-datasets",
+    "name": "autogluon/chronos_datasets",
+    "url": "https://huggingface.co/datasets/autogluon/chronos_datasets",
+    "organization": "autogluon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección multi-origen con licencias por configuración.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "eeecad0b82a8c237e212ce6f8d1abecb513e2cec",
+    "maintenance_status": "lastModified 2025-03-18T10:38:52.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "other",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/autogluon/chronos_datasets/resolve/eeecad0b82a8c237e212ce6f8d1abecb513e2cec/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección multi-origen con licencias por configuración.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-autogluon-chronos-datasets-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-autogluon-chronos-datasets-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-autogluon-fev-datasets",
+    "name": "autogluon/fev_datasets",
+    "url": "https://huggingface.co/datasets/autogluon/fev_datasets",
+    "organization": "autogluon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección para tareas de forecasting con condiciones por subdataset.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "d3e7e720f4158eab03ebcb021f1cce779cd92acc",
+    "maintenance_status": "lastModified 2026-10-21T15:48:01.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "other",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/autogluon/fev_datasets/resolve/d3e7e720f4158eab03ebcb021f1cce779cd92acc/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección para tareas de forecasting con condiciones por subdataset.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-autogluon-fev-datasets-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-autogluon-fev-datasets-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  }
+]

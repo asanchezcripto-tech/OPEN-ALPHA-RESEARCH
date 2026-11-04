@@ -1,0 +1,174 @@
+[
+  {
+    "id": "crypto-data-binance-public",
+    "candidate_id": "crypto-binance-binance-public-data",
+    "name": "Binance public data archives",
+    "access": "Archivos públicos descargables; sin descarga masiva realizada",
+    "coverage": "OHLCV/trades/aggTrades y productos documentados; no equiparar a histórico completo de OI/profundidad",
+    "temporal_risk": "Spot usa microsegundos desde 2025-01-01 según README; publicación diaria posterior al día observado y revisiones posibles",
+    "license": "No verificada para redistribución del dataset",
+    "free_alternative": "Snapshots prospectivos de endpoints públicos con permiso de uso revisado",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-fcefb8cd7e49",
+      "crypto-src-70e6e9607aef",
+      "crypto-src-055a011c9ab7",
+      "crypto-src-b225628dbc69",
+      "crypto-src-6d0a8f3aa57f"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo"
+  },
+  {
+    "id": "crypto-data-coinmetrics-community",
+    "candidate_id": "crypto-coinmetrics-data",
+    "name": "Coin Metrics community CSV",
+    "access": "Repositorio público de CSV",
+    "coverage": "Subconjunto de activos/métricas; archivos no descargados ni integridad medida",
+    "temporal_risk": "Última versión puede incluir revisiones retrospectivas; fecha de archivo no equivale a disponibilidad original",
+    "license": "CC-BY-NC-4.0 en dataset; cliente Python MIT separado",
+    "free_alternative": "Métricas derivadas de fuentes originales con definición propia",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-7d745ae80300",
+      "crypto-src-c3b35d7a288c"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo"
+  },
+  {
+    "id": "crypto-data-graphsense-tagpacks",
+    "candidate_id": "crypto-graphsense-graphsense-tagpacks",
+    "name": "GraphSense tagpacks",
+    "access": "Repositorio público; esquema y licencia inspeccionados",
+    "coverage": "Etiquetas parciales de direcciones/servicios, no censo de titulares",
+    "temporal_risk": "Etiquetas pueden conocerse después del evento; guardar observed_at, source y validez",
+    "license": "MIT del repositorio inspeccionado; verificar condiciones de fuentes externas de cada etiqueta",
+    "free_alternative": "Etiquetas documentadas manualmente y marcadas como hipótesis",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-d473cbed2ff9",
+      "crypto-src-6609a702fd4b"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo"
+  },
+  {
+    "id": "crypto-data-defillama-dimensions",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "name": "DefiLlama financial dimensions",
+    "access": "Código público de adaptadores; disponibilidad de upstreams desigual",
+    "coverage": "Protocolo/métrica/fecha/adaptador; no auditado el dataset completo",
+    "temporal_risk": "Cambios de fórmulas y fallback a contextos actuales; historial del proveedor no necesariamente vintage",
+    "license": "Licencia de copia del adaptador no localizada; derechos de servicio distintos",
+    "free_alternative": "Muestra manual de eventos y contratos públicos",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-78514f63effb",
+      "crypto-src-aae43ed26c93",
+      "crypto-src-fc329eba4d0e",
+      "crypto-src-0204002e5281",
+      "crypto-src-92fcd858b3fb",
+      "crypto-src-0d0c0164930e",
+      "crypto-src-676b9fd41448",
+      "crypto-src-16eb759e7c92",
+      "crypto-src-7f8fbbbef5f0",
+      "crypto-src-4d0d1f0f0a09",
+      "crypto-src-1c93b9685dba",
+      "crypto-src-317a0b2fbe13",
+      "crypto-src-6c9292c0068f",
+      "crypto-src-497fa3b1de8b",
+      "crypto-src-f01b354b1e55"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo"
+  },
+  {
+    "id": "crypto-data-stablecoin-supply",
+    "candidate_id": "crypto-defillama-peggedassets-server",
+    "name": "Stablecoin balances and supply",
+    "access": "Adaptadores públicos; frontend/API y permisos por revisar",
+    "coverage": "Oferta por activo/cadena; no reservas bancarias ni entrada fiat observada",
+    "temporal_risk": "Bridges, mint/burn, reclasificaciones de circulating supply y cambios de precios",
+    "license": "No verificada",
+    "free_alternative": "Balance/supply de contratos originales y documentos del emisor",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-bb7d794a77a4",
+      "crypto-src-df2be993e7c9",
+      "crypto-src-0e6c0caaf381",
+      "crypto-src-545b694f1307",
+      "crypto-src-1086d84bee0f",
+      "crypto-src-c7e6dd4bc23e"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo"
+  },
+  {
+    "id": "crypto-data-hyperliquid-public",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "name": "Hyperliquid Info public market data",
+    "access": "Documentación/API pública, sin necesidad de firmar para consultas de mercado",
+    "coverage": "Mercados y cuentas conocidas; retención/paginación específicas",
+    "temporal_risk": "Estado actual no sustituye archivo; muestras de wallets no son censo",
+    "license": "MIT del SDK no concede derechos generales sobre servicio/datos",
+    "free_alternative": "Snapshots prospectivos acotados",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-e19a1a17d6b7",
+      "crypto-src-c82fa6620a46",
+      "crypto-src-b47fb6c586cb",
+      "crypto-src-a8298909a38c",
+      "crypto-src-3749e1c1e193",
+      "crypto-src-2afaecf4b710",
+      "crypto-src-bc121834c28c",
+      "crypto-src-ece43d759c1f",
+      "crypto-src-53d77f2340fa"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo"
+  },
+  {
+    "id": "crypto-data-polymarket-public",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "name": "Polymarket public market and resolution data",
+    "access": "SDK PublicClient y endpoints documentados",
+    "coverage": "Mercados, precios, reglas, actividad; no se descargó universo histórico",
+    "temporal_risk": "Mercados cerrados/retirados y revisiones de resolución; cursores y truncamiento",
+    "license": "MIT del SDK; licencia/ToS de datos separadas",
+    "free_alternative": "Cesta manual de mercados y snapshots de reglas",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-1fbb1562d530",
+      "crypto-src-825e659fa1c8",
+      "crypto-src-cfdce6240159",
+      "crypto-src-8d824dce1b9e",
+      "crypto-src-718de229f375",
+      "crypto-src-f970475e773d",
+      "crypto-src-ff6dd60a3dba",
+      "crypto-src-c469eaf6e315",
+      "crypto-src-3c70240d0692",
+      "crypto-src-de9361a145aa"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo"
+  },
+  {
+    "id": "crypto-data-evm-events",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "name": "Selected EVM logs/transactions",
+    "access": "RPC público o propio con límites; cliente no garantiza archivo",
+    "coverage": "Cadena/contratos/bloques seleccionados; depende del nodo",
+    "temporal_risk": "Reorgs, finality, archive RPC y metadata que cambia; tx timestamp no equals acquisition",
+    "license": "Código Cryo MIT OR Apache-2.0; términos del proveedor RPC separados",
+    "free_alternative": "Explorador y muestras manuales para primer prototipo",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-bbee41f43f48",
+      "crypto-src-d839df8f226b",
+      "crypto-src-2ad6f54f0f1c",
+      "crypto-src-8b5b2f4216d8",
+      "crypto-src-395b136fc581",
+      "crypto-src-abe0618ac88c",
+      "crypto-src-6795aab63528",
+      "crypto-src-897927a77eda",
+      "crypto-src-ab0ee2c4c0c2",
+      "crypto-src-c75f790d807c",
+      "crypto-src-cddda0ab0459"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo"
+  }
+]

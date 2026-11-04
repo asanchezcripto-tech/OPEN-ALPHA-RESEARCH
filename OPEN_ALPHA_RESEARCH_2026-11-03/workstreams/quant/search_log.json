@@ -1,0 +1,266 @@
+[
+  {
+    "id": "query-quant-001",
+    "query": "site.github.com polakowo vectorbt license commons clause",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Licencia restringida verificada.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-002",
+    "query": "site.github.com microsoft qlib point in time data",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "PIT localizado; consulta devolvió también homónimo irrelevante descartado.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-003",
+    "query": "site.stlouisfed.org ALFRED vintage dates API",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Documentación original y fechas de vintage.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-004",
+    "query": "site.github.com bashtage arch bootstrap multiple comparison",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "SPA/MCS y documentación original.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-005",
+    "query": "site.github.com \"skfolio\" walk forward CombinatorialPurgedCV",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Splitter y tests seleccionados.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-006",
+    "query": "site.github.com \"ruptures\" \"License\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "BSD2 y PELT.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-007",
+    "query": "site.github.com \"OpenBB\" \"openbq-org\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Transición2026 y v5.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-008",
+    "query": "site.github.com \"mlfinpy\" cross validation purged",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Sin candidato cualificado suficiente; no incorporado.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-009",
+    "query": "site.github.com financial econometrics \"eventstudy\" Python",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "eventstudy y Financial Data Science.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-010",
+    "query": "site.codeberg.org quantitative finance backtesting",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Cobertura escasa; origen strucchange hallado mediante mirror.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-011",
+    "query": "site.gitlab.com financial econometrics bootstrap package",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Sin candidato cualificado incorporado.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-012",
+    "query": "site.github.com 量化 回测 rqalpha vnpy",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Ecosistema chino; revisar restricciones RQAlpha.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-013",
+    "query": "\"mlfinpy\" github repository",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Sin evidencia suficiente en resultados recuperados.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-014",
+    "query": "site.github.com \"eventstudy\" \"lemairejean-baptiste\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Proyecto GPL y documentación.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-015",
+    "query": "site.bis.org data portal API SDMX statistics",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "API/metadatos/condiciones BIS.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-016",
+    "query": "site.data.ecb.europa.eu API SDMX data revision",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "updatedAfter; fallo503 en apertura posterior.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-017",
+    "query": "site.davidhbailey.com \"Deflated Sharpe\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Paper fuente autor.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-018",
+    "query": "site.davidhbailey.com \"Probability of Backtest Overfitting\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Paper fuente autor.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-019",
+    "query": "site.github.com \"sdmx1\" \"sdmx\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "sdmx1/khaeru identificado.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-020",
+    "query": "site.github.com \"financial-data-science\" \"terence-lim\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Lectores ALFRED y eventos.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-021",
+    "query": "site.stlouisfed.org FRED MD QD McCracken Ng monthly database 2026",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Vintages macro.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-022",
+    "query": "site.financialresearch.gov financial stress index data csv",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Retraso2d y corrección feed2026.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-023",
+    "query": "site.chicagofed.org NFCI adjusted national financial conditions index data",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Serie semanal.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-024",
+    "query": "site.atlantafed.org GDPNow download data model",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Nowcast y modelo.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-025",
+    "query": "site.newyorkfed.org SOFR reference rates API markets data",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "API original, términos separados.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-026",
+    "query": "site.fiscaldata.treasury.gov API documentation daily treasury statement operating cash",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "DTS; API403.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-027",
+    "query": "site.arxiv.org \"Inferring causal impact using Bayesian structural time-series models\"",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Paper autor, evidencia general no cripto.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-028",
+    "query": "site.bis.org \"Global liquidity indicators\" methodology credit dollar",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Distinguir crédito, dinero y liquidez de negociación.",
+    "limitations": "Resultados de búsqueda utilizados para descubrimiento; ver sources para comprobación directa."
+  },
+  {
+    "id": "query-quant-029",
+    "query": "Barrido HTTP GET de 51 repositorios originales; seguimiento selectivo de README/LICENSE/manifiestos/código/tests",
+    "engine": "urllib biblioteca estándar, lectura estática",
+    "date": "2026-11-04",
+    "results": "Todos los repositorios respondieron tras corregir pywhy/dowhy→py-why/dowhy. No API GitHub, clonación, instalaciones ni importaciones externas.",
+    "limitations": "Lectura selectiva; sin auditoría completa de issues, releases o dependencias. Código temporal eliminado al consolidar."
+  },
+  {
+    "id": "query-quant-030",
+    "query": "site.zeileis.codeberg.page strucchange monitoring CUSUM",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Documentación mefp original indexada.",
+    "limitations": "Lectura de documentación; no ejecución."
+  },
+  {
+    "id": "query-quant-031",
+    "query": "site.hmmlearn.readthedocs.io tutorial predict predict_proba score_samples",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Distinguir smoothing y filtrado.",
+    "limitations": "Lectura de documentación; no ejecución."
+  },
+  {
+    "id": "query-quant-032",
+    "query": "site.github.com py-econometrics pyfixest difference differences staggered treatment",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "DiD moderno; supuestos de identificación.",
+    "limitations": "Lectura de documentación; no ejecución."
+  },
+  {
+    "id": "query-quant-033",
+    "query": "site.statsmodels.org MarkovRegression predict filtered smoothed probabilities",
+    "engine": "web.search",
+    "date": "2026-11-04",
+    "results": "Selector de probabilidades documentado.",
+    "limitations": "Lectura de documentación; no ejecución."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "candidates": 65,
+  "directly_verified": 63,
+  "deep_reviews": 10,
+  "levels": {
+    "D0": 2,
+    "V1": 10,
+    "V2": 43,
+    "V3": 10
+  },
+  "queries": 33,
+  "sources": 281,
+  "evidence": 152,
+  "external_code_executed": false,
+  "as_of": "2026-11-04",
+  "methods": 18,
+  "comparisons": 6
+}

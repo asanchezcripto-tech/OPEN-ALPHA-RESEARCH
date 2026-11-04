@@ -1,0 +1,924 @@
+[
+  {
+    "id": "cmp-infra-storage",
+    "name": "Almacén local frente a servidor",
+    "candidate_ids": [
+      "infra-duckdb",
+      "infra-sqlite",
+      "infra-polars",
+      "infra-clickhouse",
+      "infra-questdb",
+      "infra-timescaledb"
+    ],
+    "preferred": "DuckDB/Parquet para análisis local; SQLite para tesis/metadatos; servidor solo ante escala medida.",
+    "tradeoff": "Ficheros simples requieren disciplina de versiones; servidor añade operación.",
+    "confidence": "media; revisión estática",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "infra-S0001",
+      "infra-S0002",
+      "infra-S0003",
+      "infra-S0004",
+      "infra-S0005",
+      "infra-S0006",
+      "infra-S0007",
+      "infra-S0058",
+      "infra-S0059",
+      "infra-S0060",
+      "infra-S0008",
+      "infra-S0009",
+      "infra-S0010",
+      "infra-S0011",
+      "infra-S0012",
+      "infra-S0013",
+      "infra-S0052",
+      "infra-S0053",
+      "infra-S0054",
+      "infra-S0049",
+      "infra-S0050",
+      "infra-S0051",
+      "infra-S0055",
+      "infra-S0056",
+      "infra-S0057"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "M"
+    ],
+    "url": "https://github.com/duckdb/duckdb",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-infra-quality",
+    "name": "Validación estructural",
+    "candidate_ids": [
+      "infra-pandera",
+      "infra-patito",
+      "infra-pydantic",
+      "infra-great-expectations",
+      "infra-soda-core"
+    ],
+    "preferred": "Pandera para varios backends, Patito para Polars; Pydantic para objetos.",
+    "tradeoff": "No duplicar validadores; ninguna biblioteca conoce por sí sola la semántica económica. Soda actual tiene restricciones.",
+    "confidence": "media; revisión estática",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "infra-S0070",
+      "infra-S0071",
+      "infra-S0072",
+      "infra-S0073",
+      "infra-S0074",
+      "infra-S0075",
+      "infra-S0076",
+      "infra-S0077",
+      "infra-S0087",
+      "infra-S0088",
+      "infra-S0089",
+      "infra-S0090",
+      "infra-S0091",
+      "infra-S0092",
+      "infra-S0093",
+      "infra-S0084",
+      "infra-S0085",
+      "infra-S0086",
+      "infra-S0078",
+      "infra-S0079",
+      "infra-S0080",
+      "infra-S0081",
+      "infra-S0082",
+      "infra-S0083"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "M"
+    ],
+    "url": "https://github.com/unionai-oss/pandera",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-infra-ui",
+    "name": "Interfaz de investigación",
+    "candidate_ids": [
+      "infra-marimo",
+      "infra-streamlit",
+      "infra-datasette",
+      "infra-panel",
+      "infra-perspective"
+    ],
+    "preferred": "marimo para explorar supuestos; Streamlit/Panel para panel; Datasette para tablas; Perspective para pivotes.",
+    "tradeoff": "Exportar solo lo necesario; reactividad no garantiza frescura; hosting separado.",
+    "confidence": "media; revisión estática",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "infra-S0152",
+      "infra-S0153",
+      "infra-S0154",
+      "infra-S0155",
+      "infra-S0156",
+      "infra-S0157",
+      "infra-S0158",
+      "infra-S0149",
+      "infra-S0150",
+      "infra-S0151",
+      "infra-S0061",
+      "infra-S0062",
+      "infra-S0063",
+      "infra-S0159",
+      "infra-S0160",
+      "infra-S0161",
+      "infra-S0177",
+      "infra-S0178",
+      "infra-S0179"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "L",
+      "M"
+    ],
+    "url": "https://github.com/marimo-team/marimo",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-infra-ingest",
+    "name": "Ingesta y caché",
+    "candidate_ids": [
+      "infra-dlt",
+      "infra-requests-cache",
+      "infra-hishel",
+      "infra-httpx",
+      "infra-ingestr"
+    ],
+    "preferred": "HTTPX/requests y snapshots para pocos endpoints; dlt al crecer conectores.",
+    "tradeoff": "Caché no es archivo; cursor puede perder revisiones; ingestr FSL.",
+    "confidence": "media; revisión estática",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "infra-S0029",
+      "infra-S0030",
+      "infra-S0031",
+      "infra-S0032",
+      "infra-S0033",
+      "infra-S0034",
+      "infra-S0097",
+      "infra-S0098",
+      "infra-S0099",
+      "infra-S0100",
+      "infra-S0101",
+      "infra-S0102",
+      "infra-S0103",
+      "infra-S0104",
+      "infra-S0105",
+      "infra-S0106",
+      "infra-S0107",
+      "infra-S0108",
+      "infra-S0109",
+      "infra-S0035",
+      "infra-S0036",
+      "infra-S0037"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "M"
+    ],
+    "url": "https://github.com/dlt-hub/dlt",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-infra-temporal",
+    "name": "Conocimiento temporal",
+    "candidate_ids": [
+      "infra-qfs",
+      "infra-xtdb",
+      "infra-sirix",
+      "infra-alpha-lake",
+      "infra-point-in-time-datawarehouse"
+    ],
+    "preferred": "Extraer invariantes y usar tabla append-only antes de operar otro sistema.",
+    "tradeoff": "QFS y warehouse sin licencia verificada; no copiar. XTDB/otros añaden coste de operación.",
+    "confidence": "media; revisión estática",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "infra-S0232",
+      "infra-S0233",
+      "infra-S0234",
+      "infra-S0235",
+      "infra-S0236",
+      "infra-S0200",
+      "infra-S0201",
+      "infra-S0202",
+      "infra-S0203",
+      "infra-S0204",
+      "infra-S0205",
+      "infra-S0239",
+      "infra-S0240",
+      "infra-S0241",
+      "infra-S0237",
+      "infra-S0238"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "M"
+    ],
+    "url": "https://github.com/sophie-nguyenthuthuy/quant-feature-store",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-infra-diff",
+    "name": "Reconciliación de fuentes",
+    "candidate_ids": [
+      "infra-datacompy",
+      "infra-data-diff",
+      "infra-sqlglot"
+    ],
+    "preferred": "DataComPy o SQL pequeño para cambios entre snapshots.",
+    "tradeoff": "data-diff archivado; linaje SQL no implica procedencia económica por fila.",
+    "confidence": "media; revisión estática",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "infra-S0215",
+      "infra-S0216",
+      "infra-S0217",
+      "infra-S0218",
+      "infra-S0219",
+      "infra-S0220",
+      "infra-S0221",
+      "infra-S0222",
+      "infra-S0212",
+      "infra-S0213",
+      "infra-S0214",
+      "infra-S0026",
+      "infra-S0027",
+      "infra-S0028"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "M"
+    ],
+    "url": "https://github.com/capitalone/datacompy",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-quant-backtest",
+    "name": "Exploración vs secuencia de ejecución",
+    "candidate_ids": [
+      "quant-vectorbt",
+      "quant-bt",
+      "quant-backtesting-py",
+      "quant-nautilus-trader",
+      "quant-lean"
+    ],
+    "winner_by_scenario": {
+      "barridos y sensibilidad": "vectorbt condicionado por licencia y registro de ensayos",
+      "asignación mensual": "bt o cálculo de ledger simple",
+      "orden de eventos/funding/latencia material": "Nautilus o LEAN tras verificar instrumento y datos"
+    },
+    "tradeoff": "Mayor fidelidad de motor no compensa datos malos ni hace útil un problema de HFT fuera de alcance.",
+    "confidence": "media; estático",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-f9593f1f6735",
+      "src-quant-cf2ecc2fca26",
+      "src-quant-23097088dac5",
+      "src-quant-db60e9f1f770",
+      "src-quant-3c3bf8f64d60"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "url": "https://github.com/nautechsystems/nautilus_trader",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-quant-portfolios",
+    "name": "Optimización y validación de cartera",
+    "candidate_ids": [
+      "quant-pyportfolioopt",
+      "quant-skfolio",
+      "quant-riskfolio-lib",
+      "quant-cvxportfolio"
+    ],
+    "winner_by_scenario": {
+      "covarianza y escenarios fáciles de inspeccionar": "PyPortfolioOpt",
+      "validación y selección integradas": "skfolio",
+      "catálogo amplio de medidas de riesgo": "Riskfolio-Lib",
+      "costes de negociación en asignación": "cvxportfolio"
+    },
+    "tradeoff": "Más objetivos amplían el espacio de búsqueda; exigir equal-weight/BTC-ETH de referencia y sensibilidad.",
+    "confidence": "media-alta para dos primeras revisadas",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-ef1281afffe9",
+      "src-quant-6f7eab9a9664",
+      "src-quant-f82b41f44759",
+      "src-quant-7de3d2fa2ef5"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "url": "https://github.com/PyPortfolio/PyPortfolioOpt",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-quant-macro",
+    "name": "Conector macro ligero vs plataforma",
+    "candidate_ids": [
+      "quant-fredapi",
+      "quant-openbb",
+      "quant-sdmx",
+      "quant-pandasdmx"
+    ],
+    "winner_by_scenario": {
+      "FRED/ALFRED y trazabilidad estrecha": "fredapi con selección correcta de vintages o HTTP oficial",
+      "muchos proveedores": "OpenBB con snapshot original independiente",
+      "agencias SDMX": "sdmx1, revisar capacidades por organismo"
+    },
+    "tradeoff": "La normalización puede eliminar campos de conocimiento; retener respuesta bruta y derechos.",
+    "confidence": "alta en rutas fredapi/OpenBB inspeccionadas",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-18c2e3ea2386",
+      "src-quant-f3d50a990482",
+      "src-quant-d7177639a659",
+      "src-quant-88d72837ba6a"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "url": "https://github.com/khaeru/sdmx",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-quant-regime",
+    "name": "Cambio estructural vs estado latente",
+    "candidate_ids": [
+      "quant-ruptures",
+      "quant-strucchange",
+      "quant-hmmlearn",
+      "quant-statsmodels"
+    ],
+    "winner_by_scenario": {
+      "explorar retrospectivamente": "ruptures",
+      "monitorizar residuo con umbral": "strucchange/CUSUM",
+      "estados probabilísticos con supuestos": "MarkovRegression/HMM"
+    },
+    "tradeoff": "Offline, filtrado y suavizado responden preguntas distintas; replay obligatorio para alertas.",
+    "confidence": "media-alta",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-15f65d50dc59",
+      "src-quant-a0b7439a4aa0",
+      "src-quant-928a89280ed9",
+      "src-quant-f2162116a2fb"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "url": "https://github.com/statsmodels/statsmodels",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-quant-robustness",
+    "name": "Pruebas estadísticas de selección",
+    "candidate_ids": [
+      "quant-arch",
+      "quant-skepsis",
+      "quant-dsr-paper",
+      "quant-pbo-paper"
+    ],
+    "winner_by_scenario": {
+      "comparación múltiple de pérdidas": "arch SPA/StepM/MCS",
+      "diagnóstico DSR/PBO": "papers y candidato skepsis para revisión adicional"
+    },
+    "tradeoff": "Ningún test estadístico certifica ausencia de leakage; skepsis alpha no auditado integralmente.",
+    "confidence": "alta para arch estático; baja para skepsis",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-db7852bd19a2",
+      "src-quant-8ff3cf4021d0",
+      "src-quant-e91e270877d1",
+      "src-quant-915fd7ab2c42"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "url": "https://github.com/abhinay/skepsis",
+    "provider_ids": []
+  },
+  {
+    "id": "cmp-quant-events",
+    "name": "Asociación de evento vs identificación causal",
+    "candidate_ids": [
+      "quant-eventstudy",
+      "quant-pyfixest",
+      "quant-dowhy",
+      "quant-bsts-paper"
+    ],
+    "winner_by_scenario": {
+      "reacción descriptiva": "event study con benchmark",
+      "cambio comparativo con controles plausibles": "DiD/contrafactual",
+      "explicitar supuestos y refutaciones": "DoWhy"
+    },
+    "tradeoff": "Elegir diseño identificable antes que biblioteca; contagio entre protocolos compromete controles.",
+    "confidence": "media",
+    "verified_at": "2026-11-04",
+    "categories": [
+      "G",
+      "A",
+      "J",
+      "K"
+    ],
+    "source_ids": [
+      "src-quant-426fad7b9b9a",
+      "src-quant-e720bf00caeb",
+      "src-quant-ea53b38aafa7",
+      "src-quant-78e452dbcb9a"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "url": "https://github.com/py-why/dowhy",
+    "provider_ids": []
+  },
+  {
+    "id": "crypto-compare-exchange-clients",
+    "candidates": [
+      "crypto-ccxt-ccxt",
+      "crypto-bmoscon-cryptofeed",
+      "crypto-hummingbot-hummingbot"
+    ],
+    "decision": "CCXT para snapshots REST de lectura; Cryptofeed si hace falta streaming y se acepta AGPL+atribución; Hummingbot sólo referencia",
+    "reason": "Horizonte inversor y coste operativo no justifican motor de ejecución",
+    "unmeasured": "Latencia, cobertura real de endpoints y mantenimiento futuro",
+    "verified_at": "2026-11-04",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "B",
+      "C",
+      "M",
+      "G"
+    ],
+    "url": "https://raw.githubusercontent.com/ccxt/ccxt/28d9b2ca6e06173ce00f020cfd5bfac3275604d4/README.md",
+    "candidate_ids": [
+      "crypto-ccxt-ccxt",
+      "crypto-bmoscon-cryptofeed",
+      "crypto-hummingbot-hummingbot"
+    ],
+    "name": "exchange-clients",
+    "provider_ids": [],
+    "source_ids": [
+      "crypto-src-dfe8317fea6b",
+      "crypto-src-6ad812685ef7",
+      "crypto-src-7fc11a8215f1",
+      "crypto-src-6933f09286b1",
+      "crypto-src-ddf19a997fc4",
+      "crypto-src-e4daf22927fd",
+      "crypto-src-3e1d7b4d0915",
+      "crypto-src-eec1dcbe50ba",
+      "crypto-src-9855b054f1c5",
+      "crypto-src-15443c9ce677",
+      "crypto-src-f52c3171e267",
+      "crypto-src-e0fc5c18221e",
+      "crypto-src-9b65297ff908",
+      "crypto-src-d9e382280b2c",
+      "crypto-src-82bae0033e5f",
+      "crypto-src-d64de6b525fb",
+      "crypto-src-42fe5c61c0b3",
+      "crypto-src-460c2159e649"
+    ]
+  },
+  {
+    "id": "crypto-compare-indexers",
+    "candidates": [
+      "crypto-paradigmxyz-cryo",
+      "crypto-ponder-sh-ponder",
+      "crypto-graphprotocol-graph-node",
+      "crypto-subsquid-squid-sdk"
+    ],
+    "decision": "Cryo para extracción batch acotada; Ponder para índice continuo con reorgs; Graph Node/Subsquid cuando exista necesidad de servicio/archivo más amplio",
+    "reason": "Elegir alcance de datos antes de infraestructura",
+    "unmeasured": "Rendimiento, costes RPC y disponibilidad de historial",
+    "verified_at": "2026-11-04",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "D",
+      "M"
+    ],
+    "url": "https://raw.githubusercontent.com/paradigmxyz/cryo/80eedf5355ca7b141d48123126515e6c9dd7d290/README.md",
+    "candidate_ids": [
+      "crypto-paradigmxyz-cryo",
+      "crypto-ponder-sh-ponder",
+      "crypto-graphprotocol-graph-node",
+      "crypto-subsquid-squid-sdk"
+    ],
+    "name": "indexers",
+    "provider_ids": [],
+    "source_ids": [
+      "crypto-src-bbee41f43f48",
+      "crypto-src-d839df8f226b",
+      "crypto-src-2ad6f54f0f1c",
+      "crypto-src-8b5b2f4216d8",
+      "crypto-src-395b136fc581",
+      "crypto-src-abe0618ac88c",
+      "crypto-src-6795aab63528",
+      "crypto-src-897927a77eda",
+      "crypto-src-ab0ee2c4c0c2",
+      "crypto-src-c75f790d807c",
+      "crypto-src-cddda0ab0459",
+      "crypto-src-5c3c7f211c02",
+      "crypto-src-49ac3a6e3c46",
+      "crypto-src-4b3aa864dc37",
+      "crypto-src-6bbd8ca8ac61",
+      "crypto-src-280ab8858adb",
+      "crypto-src-2e97e530d15a",
+      "crypto-src-efc732696310",
+      "crypto-src-c0560a7ea743",
+      "crypto-src-e56653e1a1f7",
+      "crypto-src-52fa16599378",
+      "crypto-src-a4f74d85f557",
+      "crypto-src-fd6247b148bd",
+      "crypto-src-c6bbdb6684d4",
+      "crypto-src-2712045abe80"
+    ]
+  },
+  {
+    "id": "crypto-compare-prediction-sdk",
+    "candidates": [
+      "crypto-polymarket-py-sdk",
+      "crypto-polymarket-py-clob-client",
+      "crypto-polymarket-py-clob-client-v2"
+    ],
+    "decision": "SDK unificado actual; repos legados sólo migración y referencia",
+    "reason": "Fuentes oficiales documentan ambas deprecaciones",
+    "unmeasured": "Compatibilidad local y estabilidad futura de API 0.x",
+    "verified_at": "2026-11-04",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "B",
+      "J",
+      "N",
+      "M"
+    ],
+    "url": "https://raw.githubusercontent.com/Polymarket/py-sdk/aa94ec431e3d4946576fb7c0d079fe1c14fcf676/README.md",
+    "candidate_ids": [
+      "crypto-polymarket-py-sdk",
+      "crypto-polymarket-py-clob-client",
+      "crypto-polymarket-py-clob-client-v2"
+    ],
+    "name": "prediction-sdk",
+    "provider_ids": [],
+    "source_ids": [
+      "crypto-src-1fbb1562d530",
+      "crypto-src-825e659fa1c8",
+      "crypto-src-cfdce6240159",
+      "crypto-src-8d824dce1b9e",
+      "crypto-src-718de229f375",
+      "crypto-src-f970475e773d",
+      "crypto-src-ff6dd60a3dba",
+      "crypto-src-c469eaf6e315",
+      "crypto-src-3c70240d0692",
+      "crypto-src-de9361a145aa",
+      "crypto-src-07e8e691a4ac",
+      "crypto-src-72faa7121973",
+      "crypto-src-aafebab7dee9",
+      "crypto-src-83cb297a573f",
+      "crypto-src-823262f725d6"
+    ]
+  },
+  {
+    "id": "crypto-compare-fundamentals",
+    "candidates": [
+      "crypto-defillama-dimension-adapters",
+      "crypto-duneanalytics-spellbook"
+    ],
+    "provider_ids": [
+      "infra-provider-tokenterminal-service",
+      "infra-provider-dune-service"
+    ],
+    "decision": "Fórmulas y eventos versionados para núcleo; proveedores como contraste de definiciones",
+    "reason": "Adaptador público no garantiza upstream abierto; dashboard cerrado no prueba replicabilidad",
+    "unmeasured": "Exactitud de importes e historial de revisiones de cada proveedor",
+    "verified_at": "2026-11-04",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "C",
+      "E",
+      "M",
+      "D"
+    ],
+    "url": "https://raw.githubusercontent.com/DefiLlama/dimension-adapters/c0bbb1a8a1fb5d1342d9d499daeb960d7f277ce9/README.md",
+    "candidate_ids": [
+      "crypto-defillama-dimension-adapters",
+      "crypto-duneanalytics-spellbook"
+    ],
+    "name": "fundamentals",
+    "source_ids": [
+      "crypto-src-78514f63effb",
+      "crypto-src-aae43ed26c93",
+      "crypto-src-fc329eba4d0e",
+      "crypto-src-0204002e5281",
+      "crypto-src-92fcd858b3fb",
+      "crypto-src-0d0c0164930e",
+      "crypto-src-676b9fd41448",
+      "crypto-src-16eb759e7c92",
+      "crypto-src-7f8fbbbef5f0",
+      "crypto-src-4d0d1f0f0a09",
+      "crypto-src-1c93b9685dba",
+      "crypto-src-317a0b2fbe13",
+      "crypto-src-6c9292c0068f",
+      "crypto-src-497fa3b1de8b",
+      "crypto-src-f01b354b1e55",
+      "crypto-src-63a024db9fff",
+      "crypto-src-3311af51b55c"
+    ]
+  },
+  {
+    "id": "AI-CMP-forecasting",
+    "topic": "Forecasting de magnitudes económicas",
+    "candidate_ids": [
+      "AI-statsforecast",
+      "AI-mlforecast",
+      "AI-chronos",
+      "AI-timesfm",
+      "AI-uni2ts"
+    ],
+    "preferred": "StatsForecast/MLForecast baseline; Chronos2 comparador",
+    "reason": "Menor coste inicial y evaluación más controlable; últimas generaciones restringidas no ganan por novedad.",
+    "limits": "No benchmark crypto reproducido; preferencia de ingeniería provisional.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": [
+      "S-AI-chronos-root",
+      "S-AI-chronos-readme",
+      "S-AI-chronos-license",
+      "S-AI-chronos-code-1",
+      "S-AI-chronos-code-2",
+      "S-AI-chronos-code-3",
+      "S-AI-chronos-code-4",
+      "S-AI-timesfm-root",
+      "S-AI-timesfm-readme",
+      "S-AI-timesfm-license",
+      "S-AI-timesfm-code-1",
+      "S-AI-timesfm-code-2",
+      "S-AI-timesfm-code-3",
+      "S-AI-timesfm-code-4",
+      "S-AI-uni2ts-root",
+      "S-AI-uni2ts-readme",
+      "S-AI-uni2ts-license",
+      "S-AI-uni2ts-code-1",
+      "S-AI-uni2ts-code-2",
+      "S-AI-uni2ts-code-3",
+      "S-AI-uni2ts-code-4",
+      "S-AI-statsforecast-root",
+      "S-AI-statsforecast-readme",
+      "S-AI-statsforecast-license",
+      "S-AI-mlforecast-root",
+      "S-AI-mlforecast-readme",
+      "S-AI-mlforecast-license",
+      "S-AI-mlforecast-code-1",
+      "S-AI-mlforecast-code-2",
+      "S-AI-mlforecast-code-3",
+      "S-AI-mlforecast-code-4"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "url": "https://github.com/amazon-science/chronos-forecasting",
+    "name": "Forecasting de magnitudes económicas",
+    "provider_ids": []
+  },
+  {
+    "id": "AI-CMP-evaluation",
+    "topic": "Evaluación de foundation models",
+    "candidate_ids": [
+      "AI-fev",
+      "AI-gift-eval"
+    ],
+    "preferred": "fev para tareas propias; GIFT como referencia",
+    "reason": "Declarar corte, horizonte y covariables por problema; leaderboard no reemplaza validación prospectiva.",
+    "limits": "Ambos relacionados con proveedores de modelos; FinVerse solo abstract consultado.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": [
+      "S-AI-gift-eval-root",
+      "S-AI-gift-eval-readme",
+      "S-AI-gift-eval-license",
+      "S-AI-fev-root",
+      "S-AI-fev-readme",
+      "S-AI-fev-license",
+      "S-AI-fev-code-1",
+      "S-AI-fev-code-2",
+      "S-AI-fev-code-3",
+      "S-AI-fev-code-4"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "G",
+      "H"
+    ],
+    "url": "https://github.com/SalesforceAIResearch/gift-eval",
+    "name": "Evaluación de foundation models",
+    "provider_ids": []
+  },
+  {
+    "id": "AI-CMP-documents",
+    "topic": "Extracción documental",
+    "candidate_ids": [
+      "AI-docling",
+      "AI-trafilatura",
+      "AI-unstructured",
+      "AI-marker"
+    ],
+    "preferred": "Trafilatura HTML; Docling tablas/PDF",
+    "reason": "Escoger parser por formato y evidencia; comprobar pesos/servicios por separado.",
+    "limits": "No corpus local convertido; exactitud aún pendiente.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": [
+      "S-AI-docling-root",
+      "S-AI-docling-readme",
+      "S-AI-docling-license",
+      "S-AI-docling-code-1",
+      "S-AI-docling-code-2",
+      "S-AI-docling-code-3",
+      "S-AI-docling-code-4",
+      "S-AI-docling-code-5",
+      "S-AI-unstructured-root",
+      "S-AI-unstructured-readme",
+      "S-AI-unstructured-license",
+      "S-AI-marker-root",
+      "S-AI-marker-readme",
+      "S-AI-marker-license",
+      "S-AI-trafilatura-root",
+      "S-AI-trafilatura-readme",
+      "S-AI-trafilatura-license"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "I",
+      "J",
+      "M"
+    ],
+    "url": "https://github.com/docling-project/docling",
+    "name": "Extracción documental",
+    "provider_ids": []
+  },
+  {
+    "id": "AI-CMP-agents",
+    "topic": "Investigación asistida por agentes",
+    "candidate_ids": [
+      "AI-tradingagents",
+      "AI-fingpt",
+      "AI-finrobot",
+      "AI-ai-hedge-fund"
+    ],
+    "preferred": "Extraer controles temporales y comparar contra flujo determinista",
+    "reason": "TradingAgents actual tiene controles as-of observados; FinGPTForecaster mantiene ruta temporal problemática.",
+    "limits": "No coste ni calidad de salida medidos; no rentabilidad demostrada.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": [
+      "S-AI-fingpt-root",
+      "S-AI-fingpt-readme",
+      "S-AI-fingpt-license",
+      "S-AI-fingpt-code-1",
+      "S-AI-fingpt-code-2",
+      "S-AI-fingpt-code-3",
+      "S-AI-fingpt-code-4",
+      "S-AI-fingpt-code-5",
+      "S-AI-finrobot-root",
+      "S-AI-finrobot-readme",
+      "S-AI-finrobot-license",
+      "S-AI-tradingagents-root",
+      "S-AI-tradingagents-readme",
+      "S-AI-tradingagents-license",
+      "S-AI-tradingagents-code-1",
+      "S-AI-tradingagents-code-2",
+      "S-AI-tradingagents-code-3",
+      "S-AI-tradingagents-code-4",
+      "S-AI-tradingagents-code-5",
+      "S-AI-ai-hedge-fund-root",
+      "S-AI-ai-hedge-fund-readme",
+      "S-AI-ai-hedge-fund-license"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "I",
+      "G",
+      "H",
+      "J"
+    ],
+    "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+    "name": "Investigación asistida por agentes",
+    "provider_ids": []
+  },
+  {
+    "id": "AI-CMP-drift",
+    "topic": "Drift/anomalías ligeras",
+    "candidate_ids": [
+      "AI-river",
+      "AI-pyod",
+      "AI-adtk",
+      "AI-alibi-detect",
+      "AI-merlion"
+    ],
+    "preferred": "River para online; PyOD para comparación multivariable",
+    "reason": "BSD y piezas reutilizables; Alibi restringido y Merlion archivado.",
+    "limits": "Sensibilidad a autocorrelación y falsos positivos debe medirse.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": [
+      "S-AI-river-root",
+      "S-AI-river-readme",
+      "S-AI-river-license",
+      "S-AI-river-code-1",
+      "S-AI-river-code-2",
+      "S-AI-river-code-3",
+      "S-AI-river-code-4",
+      "S-AI-pyod-root",
+      "S-AI-pyod-readme",
+      "S-AI-pyod-license",
+      "S-AI-merlion-root",
+      "S-AI-merlion-readme",
+      "S-AI-merlion-license",
+      "S-AI-adtk-root",
+      "S-AI-adtk-readme",
+      "S-AI-adtk-license",
+      "S-AI-alibi-detect-root",
+      "S-AI-alibi-detect-readme",
+      "S-AI-alibi-detect-license"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "H",
+      "B",
+      "M",
+      "F"
+    ],
+    "url": "https://github.com/online-ml/river",
+    "name": "Drift/anomalías ligeras",
+    "provider_ids": []
+  },
+  {
+    "id": "AI-CMP-qa",
+    "topic": "Benchmarks de QA financiero",
+    "candidate_ids": [
+      "AI-finqa",
+      "AI-tatqa",
+      "AI-financebench",
+      "AI-convfinqa",
+      "AI-finllm-eval"
+    ],
+    "preferred": "Gold set propio de protocolos apoyado en tareas FinQA/TAT-QA",
+    "reason": "Benchmarks fijos de acciones no cubren tokenomics; FinanceBench150públicos y Tencent depende parcialmente de datos internos.",
+    "limits": "Licencias y contaminación de benchmarks limitan reproducción.",
+    "verified_at": "2026-11-04",
+    "confidence": "media, estática",
+    "source_ids": [
+      "S-AI-finqa-root",
+      "S-AI-finqa-readme",
+      "S-AI-finqa-license",
+      "S-AI-tatqa-root",
+      "S-AI-tatqa-readme",
+      "S-AI-tatqa-license",
+      "S-AI-financebench-root",
+      "S-AI-financebench-readme",
+      "S-AI-convfinqa-root",
+      "S-AI-convfinqa-readme",
+      "S-AI-convfinqa-license",
+      "S-AI-finllm-eval-root",
+      "S-AI-finllm-eval-readme"
+    ],
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "categories": [
+      "H",
+      "I"
+    ],
+    "url": "https://github.com/czyssrs/FinQA",
+    "name": "Benchmarks de QA financiero",
+    "provider_ids": []
+  }
+]

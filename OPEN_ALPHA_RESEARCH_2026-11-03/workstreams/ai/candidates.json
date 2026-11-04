@@ -1,0 +1,5211 @@
+[
+  {
+    "id": "AI-chronos",
+    "name": "Chronos forecasting library",
+    "url": "https://github.com/amazon-science/chronos-forecasting",
+    "organization": "amazon-science",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Forecast probabilístico con covariables y comparación zero-shot",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "1224fafa91e1ecd6674f5204066b159e40b5e4a1",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/1224fafa91e1ecd6674f5204066b159e40b5e4a1/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Series regulares y covariables conocidas",
+    "outputs": "cuantiles por horizonte",
+    "practical_use": "Forecast probabilístico con covariables y comparación zero-shot",
+    "limitations": [
+      "Cross-learning exige sincronizar el conocimiento entre series; no valida rentabilidad",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "MLForecast + modelo naive"
+    ],
+    "evidence_ids": [
+      "E-AI-chronos-1",
+      "E-AI-chronos-2",
+      "E-AI-chronos-3"
+    ],
+    "source_ids": [
+      "S-AI-chronos-root",
+      "S-AI-chronos-readme",
+      "S-AI-chronos-license",
+      "S-AI-chronos-code-1",
+      "S-AI-chronos-code-2",
+      "S-AI-chronos-code-3",
+      "S-AI-chronos-code-4"
+    ],
+    "scores": {
+      "utility": 21,
+      "evidence": 12,
+      "data": 11,
+      "ease": 8,
+      "license": 9,
+      "maintenance": 6,
+      "usability": 5,
+      "differentiation": 6
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_chronos.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [
+      "test/test_chronos2.py"
+    ],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-timesfm",
+    "name": "TimesFM library",
+    "url": "https://github.com/google-research/timesfm",
+    "organization": "google-research",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Estudiar forecasting multivariable y comparar generaciones de modelos",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "e51928e27119cb17bebc005be2696b75e0a9e688",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Historia y covariables",
+    "outputs": "mediana y cuantiles",
+    "practical_use": "Estudiar forecasting multivariable y comparar generaciones de modelos",
+    "limitations": [
+      "Código Apache no cubre pesos3.0; imputación no debe cruzar el corte temporal",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Chronos2; TimesFM2.5"
+    ],
+    "evidence_ids": [
+      "E-AI-timesfm-1",
+      "E-AI-timesfm-2",
+      "E-AI-timesfm-3"
+    ],
+    "source_ids": [
+      "S-AI-timesfm-root",
+      "S-AI-timesfm-readme",
+      "S-AI-timesfm-license",
+      "S-AI-timesfm-code-1",
+      "S-AI-timesfm-code-2",
+      "S-AI-timesfm-code-3",
+      "S-AI-timesfm-code-4"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 11,
+      "data": 10,
+      "ease": 6,
+      "license": 4,
+      "maintenance": 6,
+      "usability": 4,
+      "differentiation": 5
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [
+      "Revisar licencia de pesos antes de uso operativo o redistribución; el código por sí solo no autoriza los pesos."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_timesfm.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [
+      "src/timesfm3/backward_compat_test.py"
+    ],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-uni2ts",
+    "name": "Uni2TS / Moirai",
+    "url": "https://github.com/SalesforceAIResearch/uni2ts",
+    "organization": "SalesforceAIResearch",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Aprovechar tratamiento de máscaras y adaptación de horizontes",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "cfd46d4510ed8896f263116f32928eede05b0a75",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/LICENSE.txt",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Series con missingness",
+    "outputs": "pronósticos probabilísticos",
+    "practical_use": "Aprovechar tratamiento de máscaras y adaptación de horizontes",
+    "limitations": [
+      "Pesos Moirai CC-BY-NC; tests de Moirai1 no certifican Moirai2",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Chronos2"
+    ],
+    "evidence_ids": [
+      "E-AI-uni2ts-1",
+      "E-AI-uni2ts-2",
+      "E-AI-uni2ts-3"
+    ],
+    "source_ids": [
+      "S-AI-uni2ts-root",
+      "S-AI-uni2ts-readme",
+      "S-AI-uni2ts-license",
+      "S-AI-uni2ts-code-1",
+      "S-AI-uni2ts-code-2",
+      "S-AI-uni2ts-code-3",
+      "S-AI-uni2ts-code-4"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 11,
+      "data": 10,
+      "ease": 6,
+      "license": 4,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 5
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [
+      "Revisar licencia de pesos antes de uso operativo o redistribución; el código por sí solo no autoriza los pesos."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_uni2ts.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [
+      "test/model/test_moirai.py"
+    ],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-gift-eval",
+    "name": "GIFT-Eval",
+    "url": "https://github.com/SalesforceAIResearch/gift-eval",
+    "organization": "SalesforceAIResearch",
+    "categories": [
+      "G",
+      "H"
+    ],
+    "resource_type": "benchmark/repositorio de investigación",
+    "description": "Reutilizar protocolo de evaluación y separación pretrain/test",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18/LICENSE.txt",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Datasets heterogéneos",
+    "outputs": "tabla comparable de errores",
+    "practical_use": "Reutilizar protocolo de evaluación y separación pretrain/test",
+    "limitations": [
+      "Benchmark creado por proveedor de modelos; contaminación global no queda descartada",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "fev y evaluación prospectiva propia"
+    ],
+    "evidence_ids": [
+      "E-AI-gift-eval-1",
+      "E-AI-gift-eval-2"
+    ],
+    "source_ids": [
+      "S-AI-gift-eval-root",
+      "S-AI-gift-eval-readme",
+      "S-AI-gift-eval-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 11,
+      "ease": 8,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-fev",
+    "name": "Forecast Evaluation (fev)",
+    "url": "https://github.com/autogluon/fev",
+    "organization": "autogluon",
+    "categories": [
+      "G",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Definir tareas con cortes, covariables y fingerprints reproducibles",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "13b1913881bb7c680d47262bbc32327304bb0571",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/autogluon/fev/13b1913881bb7c680d47262bbc32327304bb0571/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Datasets + tarea",
+    "outputs": "métricas por ventana e ítem",
+    "practical_use": "Definir tareas con cortes, covariables y fingerprints reproducibles",
+    "limitations": [
+      "Known-future depende de clasificación del analista; no comprueba publicación macro",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "MLForecast cross_validation"
+    ],
+    "evidence_ids": [
+      "E-AI-fev-1",
+      "E-AI-fev-2",
+      "E-AI-fev-3"
+    ],
+    "source_ids": [
+      "S-AI-fev-root",
+      "S-AI-fev-readme",
+      "S-AI-fev-license",
+      "S-AI-fev-code-1",
+      "S-AI-fev-code-2",
+      "S-AI-fev-code-3",
+      "S-AI-fev-code-4"
+    ],
+    "scores": {
+      "utility": 23,
+      "evidence": 13,
+      "data": 13,
+      "ease": 10,
+      "license": 9,
+      "maintenance": 6,
+      "usability": 6,
+      "differentiation": 6
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Adoptar biblioteca",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_fev.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [
+      "test/test_task.py"
+    ],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-autogluon",
+    "name": "AutoGluon",
+    "url": "https://github.com/autogluon/autogluon",
+    "organization": "autogluon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Comparar modelos tabulares y temporales dentro de un experimento",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "e3cb3b71386c54ff11155d6e7a67f6b43f117208",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/autogluon/autogluon/e3cb3b71386c54ff11155d6e7a67f6b43f117208/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Tablas/series",
+    "outputs": "selección y ensembles",
+    "practical_use": "Comparar modelos tabulares y temporales dentro de un experimento",
+    "limitations": [
+      "AutoML amplía búsqueda múltiple y coste; modelos integrados tienen licencias propias",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "MLForecast con baseline fijo"
+    ],
+    "evidence_ids": [
+      "E-AI-autogluon-1",
+      "E-AI-autogluon-2"
+    ],
+    "source_ids": [
+      "S-AI-autogluon-root",
+      "S-AI-autogluon-readme",
+      "S-AI-autogluon-license"
+    ],
+    "scores": {
+      "utility": 19,
+      "evidence": 9,
+      "data": 10,
+      "ease": 6,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-gluonts",
+    "name": "GluonTS",
+    "url": "https://github.com/awslabs/gluonts",
+    "organization": "awslabs",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Modelos probabilísticos y representaciones de forecasts",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "d60556ca71167a3ec1ea807b491dd982d1de2112",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/awslabs/gluonts/d60556ca71167a3ec1ea807b491dd982d1de2112/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series y splits",
+    "outputs": "distribuciones/estimaciones",
+    "practical_use": "Modelos probabilísticos y representaciones de forecasts",
+    "limitations": [
+      "No aplica automáticamente costes, universos históricos ni reglas financieras",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "StatsForecast"
+    ],
+    "evidence_ids": [
+      "E-AI-gluonts-1",
+      "E-AI-gluonts-2"
+    ],
+    "source_ids": [
+      "S-AI-gluonts-root",
+      "S-AI-gluonts-readme",
+      "S-AI-gluonts-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 10,
+      "ease": 7,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-statsforecast",
+    "name": "StatsForecast",
+    "url": "https://github.com/Nixtla/statsforecast",
+    "organization": "Nixtla",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Baselines ARIMA/ETS/Theta y naive económicos en CPU",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "798b2093506f1f361f4709dfd0e3cab41a29907a",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/Nixtla/statsforecast/798b2093506f1f361f4709dfd0e3cab41a29907a/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series univariadas regulares",
+    "outputs": "forecasts e intervalos",
+    "practical_use": "Baselines ARIMA/ETS/Theta y naive económicos en CPU",
+    "limitations": [
+      "Estacionalidad y persistencia de magnitudes no prueban predecibilidad del retorno",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "MLForecast"
+    ],
+    "evidence_ids": [
+      "E-AI-statsforecast-1",
+      "E-AI-statsforecast-2"
+    ],
+    "source_ids": [
+      "S-AI-statsforecast-root",
+      "S-AI-statsforecast-readme",
+      "S-AI-statsforecast-license"
+    ],
+    "scores": {
+      "utility": 22,
+      "evidence": 11,
+      "data": 12,
+      "ease": 11,
+      "license": 9,
+      "maintenance": 6,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "bajo",
+    "adoption_mode": "Adoptar biblioteca",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-mlforecast",
+    "name": "MLForecast",
+    "url": "https://github.com/Nixtla/mlforecast",
+    "organization": "Nixtla",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Lags y boosting con validación temporal reproducible",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "74ba65e49cb39282e5f490c8dfd25e4bacacedaf",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/Nixtla/mlforecast/74ba65e49cb39282e5f490c8dfd25e4bacacedaf/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Panel por identificador/fecha",
+    "outputs": "forecasts e intervalos",
+    "practical_use": "Lags y boosting con validación temporal reproducible",
+    "limitations": [
+      "La CV no es purged CV financiera ni reconstruye vintages",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "StatsForecast; Chronos2"
+    ],
+    "evidence_ids": [
+      "E-AI-mlforecast-1",
+      "E-AI-mlforecast-2",
+      "E-AI-mlforecast-3"
+    ],
+    "source_ids": [
+      "S-AI-mlforecast-root",
+      "S-AI-mlforecast-readme",
+      "S-AI-mlforecast-license",
+      "S-AI-mlforecast-code-1",
+      "S-AI-mlforecast-code-2",
+      "S-AI-mlforecast-code-3",
+      "S-AI-mlforecast-code-4"
+    ],
+    "scores": {
+      "utility": 23,
+      "evidence": 13,
+      "data": 12,
+      "ease": 10,
+      "license": 9,
+      "maintenance": 6,
+      "usability": 6,
+      "differentiation": 5
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "bajo",
+    "adoption_mode": "Adoptar biblioteca",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_mlforecast.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [
+      "tests/test_forecast.py"
+    ],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-neuralforecast",
+    "name": "NeuralForecast",
+    "url": "https://github.com/Nixtla/neuralforecast",
+    "organization": "Nixtla",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Comparación de NBEATS/NHITS/TFT y otras arquitecturas",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "9d76fb3cb49a9dd3d0d1a617a01f20c4b74c4f03",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/Nixtla/neuralforecast/9d76fb3cb49a9dd3d0d1a617a01f20c4b74c4f03/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series multivariadas",
+    "outputs": "forecasts",
+    "practical_use": "Comparación de NBEATS/NHITS/TFT y otras arquitecturas",
+    "limitations": [
+      "Mayor coste de búsqueda y ajuste; GPU puede ser útil",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "MLForecast"
+    ],
+    "evidence_ids": [
+      "E-AI-neuralforecast-1",
+      "E-AI-neuralforecast-2"
+    ],
+    "source_ids": [
+      "S-AI-neuralforecast-root",
+      "S-AI-neuralforecast-readme",
+      "S-AI-neuralforecast-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 9,
+      "ease": 6,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-darts",
+    "name": "Darts",
+    "url": "https://github.com/unit8co/darts",
+    "organization": "unit8co",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Interfaz común para forecasting, backtesting y anomalías",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "406ecda0ff7d6e20cf2e19effac5024308057c9f",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/unit8co/darts/406ecda0ff7d6e20cf2e19effac5024308057c9f/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "TimeSeries",
+    "outputs": "forecasts y anomaly scores",
+    "practical_use": "Interfaz común para forecasting, backtesting y anomalías",
+    "limitations": [
+      "Superficie/dependencias amplias para pocas series; covariables futuras pueden filtrar información",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "sktime; MLForecast"
+    ],
+    "evidence_ids": [
+      "E-AI-darts-1",
+      "E-AI-darts-2"
+    ],
+    "source_ids": [
+      "S-AI-darts-root",
+      "S-AI-darts-readme",
+      "S-AI-darts-license"
+    ],
+    "scores": {
+      "utility": 19,
+      "evidence": 9,
+      "data": 10,
+      "ease": 8,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-sktime",
+    "name": "sktime",
+    "url": "https://github.com/sktime/sktime",
+    "organization": "sktime",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Pipelines y validación temporal con múltiples estimadores",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "fa1ea2e66e132614b20163ccc229374755ce53e6",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "BSD-3-Clause",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/sktime/sktime/fa1ea2e66e132614b20163ccc229374755ce53e6/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series/paneles",
+    "outputs": "predicciones/clasificación/cambios",
+    "practical_use": "Pipelines y validación temporal con múltiples estimadores",
+    "limitations": [
+      "Abstracción no sustituye diseño del experimento financiero",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "aeon; StatsForecast"
+    ],
+    "evidence_ids": [
+      "E-AI-sktime-1",
+      "E-AI-sktime-2"
+    ],
+    "source_ids": [
+      "S-AI-sktime-root",
+      "S-AI-sktime-readme",
+      "S-AI-sktime-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 10,
+      "ease": 8,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-pytorch-forecasting",
+    "name": "PyTorch Forecasting",
+    "url": "https://github.com/sktime/pytorch-forecasting",
+    "organization": "sktime",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "TFT y redes con interfaces de entrenamiento",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "3c0e02c2ba645c2c852b85c543086f1fd5dc3be2",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/sktime/pytorch-forecasting/3c0e02c2ba645c2c852b85c543086f1fd5dc3be2/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Dataset temporal",
+    "outputs": "pronósticos entrenados",
+    "practical_use": "TFT y redes con interfaces de entrenamiento",
+    "limitations": [
+      "Datos propios y GPU para entrenamiento; evitar modelo grande sin baseline",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "NeuralForecast"
+    ],
+    "evidence_ids": [
+      "E-AI-pytorch-forecasting-1",
+      "E-AI-pytorch-forecasting-2"
+    ],
+    "source_ids": [
+      "S-AI-pytorch-forecasting-root",
+      "S-AI-pytorch-forecasting-readme",
+      "S-AI-pytorch-forecasting-license"
+    ],
+    "scores": {
+      "utility": 16,
+      "evidence": 9,
+      "data": 8,
+      "ease": 5,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-timeseries-library",
+    "name": "Time-Series-Library",
+    "url": "https://github.com/thuml/Time-Series-Library",
+    "organization": "thuml",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Extraer implementaciones comparables de modelos académicos",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/thuml/Time-Series-Library/4e938a1767106324dd753b2a44832bf870a0252e/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Datasets de forecasting/clasificación",
+    "outputs": "resultados",
+    "practical_use": "Extraer implementaciones comparables de modelos académicos",
+    "limitations": [
+      "README abril2026 avisa menor desarrollo y benchmarks anticuados",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "fev; aeon"
+    ],
+    "evidence_ids": [
+      "E-AI-timeseries-library-1",
+      "E-AI-timeseries-library-2"
+    ],
+    "source_ids": [
+      "S-AI-timeseries-library-root",
+      "S-AI-timeseries-library-readme",
+      "S-AI-timeseries-library-license"
+    ],
+    "scores": {
+      "utility": 14,
+      "evidence": 8,
+      "data": 8,
+      "ease": 5,
+      "license": 9,
+      "maintenance": 3,
+      "usability": 4,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-lag-llama",
+    "name": "Lag-Llama",
+    "url": "https://github.com/time-series-foundation-models/lag-llama",
+    "organization": "time-series-foundation-models",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Estudiar pronósticos probabilísticos con lags",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/time-series-foundation-models/lag-llama/df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Historia",
+    "outputs": "muestras probabilísticas",
+    "practical_use": "Estudiar pronósticos probabilísticos con lags",
+    "limitations": [
+      "Licencia de pesos no revisada; documentación registra corrección crítica de KV cache",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Chronos2"
+    ],
+    "evidence_ids": [
+      "E-AI-lag-llama-1",
+      "E-AI-lag-llama-2"
+    ],
+    "source_ids": [
+      "S-AI-lag-llama-root",
+      "S-AI-lag-llama-readme",
+      "S-AI-lag-llama-license"
+    ],
+    "scores": {
+      "utility": 14,
+      "evidence": 8,
+      "data": 8,
+      "ease": 6,
+      "license": 7,
+      "maintenance": 4,
+      "usability": 4,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-moment",
+    "name": "MOMENT",
+    "url": "https://github.com/moment-timeseries-foundation-model/moment",
+    "organization": "moment-timeseries-foundation-model",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Explorar representación general para clasificación/anomalías",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "38f7310ad594100747ca2a8357e9c7ca7d323e0e",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/moment-timeseries-foundation-model/moment/38f7310ad594100747ca2a8357e9c7ca7d323e0e/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Ventanas de series",
+    "outputs": "embeddings y tareas adaptadas",
+    "practical_use": "Explorar representación general para clasificación/anomalías",
+    "limitations": [
+      "Pesos/datos de Timeseries-PILE no auditados; requiere experimento específico",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "TSFEL + boosting"
+    ],
+    "evidence_ids": [
+      "E-AI-moment-1",
+      "E-AI-moment-2"
+    ],
+    "source_ids": [
+      "S-AI-moment-root",
+      "S-AI-moment-readme",
+      "S-AI-moment-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 8,
+      "ease": 6,
+      "license": 7,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 6
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-granite-tsfm",
+    "name": "IBM Granite TSFM",
+    "url": "https://github.com/ibm-granite/granite-tsfm",
+    "organization": "ibm-granite",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Explorar forecasters compactos y ajuste ligero",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "5991892635904a1ef01d19dd63375fa577524c05",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/5991892635904a1ef01d19dd63375fa577524c05/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series",
+    "outputs": "forecast; utilidades de serving",
+    "practical_use": "Explorar forecasters compactos y ajuste ligero",
+    "limitations": [
+      "Variantes de pesos/horizonte/frecuencia deben seleccionarse explícitamente",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Chronos-Bolt"
+    ],
+    "evidence_ids": [
+      "E-AI-granite-tsfm-1",
+      "E-AI-granite-tsfm-2"
+    ],
+    "source_ids": [
+      "S-AI-granite-tsfm-root",
+      "S-AI-granite-tsfm-readme",
+      "S-AI-granite-tsfm-license"
+    ],
+    "scores": {
+      "utility": 19,
+      "evidence": 9,
+      "data": 10,
+      "ease": 8,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-tirex",
+    "name": "TiRex",
+    "url": "https://github.com/NX-AI/tirex",
+    "organization": "NX-AI",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Referencia xLSTM de forecasting",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "6d882eafdef969dc1b6b28e99db5e9bbca536419",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "NXAI Community License",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://raw.githubusercontent.com/NX-AI/tirex/6d882eafdef969dc1b6b28e99db5e9bbca536419/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Serie",
+    "outputs": "cuantiles",
+    "practical_use": "Referencia xLSTM de forecasting",
+    "limitations": [
+      "NXAI Community License no es licencia permisiva estándar; versión2 separada",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "TiRex2; Chronos2"
+    ],
+    "evidence_ids": [
+      "E-AI-tirex-1",
+      "E-AI-tirex-2"
+    ],
+    "source_ids": [
+      "S-AI-tirex-root",
+      "S-AI-tirex-readme",
+      "S-AI-tirex-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 9,
+      "ease": 6,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Licencia restringida; estudiar versión y uso antes de adoptar."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-tabpfn",
+    "name": "TabPFN",
+    "url": "https://github.com/PriorLabs/TabPFN",
+    "organization": "PriorLabs",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Baseline para pequeños paneles de características",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "953a4b916a19856fbd8dcda089a206b5bfe83696",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/PriorLabs/TabPFN/953a4b916a19856fbd8dcda089a206b5bfe83696/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Tabla de features",
+    "outputs": "predicciones tabulares",
+    "practical_use": "Baseline para pequeños paneles de características",
+    "limitations": [
+      "Licencia de código no cubre automáticamente cada generación de pesos; GPU recomendada por autores",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "LightGBM"
+    ],
+    "evidence_ids": [
+      "E-AI-tabpfn-1",
+      "E-AI-tabpfn-2"
+    ],
+    "source_ids": [
+      "S-AI-tabpfn-root",
+      "S-AI-tabpfn-readme",
+      "S-AI-tabpfn-license"
+    ],
+    "scores": {
+      "utility": 16,
+      "evidence": 9,
+      "data": 9,
+      "ease": 6,
+      "license": 6,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-lightgbm",
+    "name": "LightGBM",
+    "url": "https://github.com/lightgbm-org/LightGBM",
+    "organization": "lightgbm-org",
+    "categories": [
+      "H",
+      "F"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Baseline de árboles para factores y clasificación de escenarios",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "3ee03c26ba8c9e8ddc05fa8687717cae8a7d61d9",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/microsoft/LightGBM/3ee03c26ba8c9e8ddc05fa8687717cae8a7d61d9/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Features tabulares",
+    "outputs": "scores/predicciones",
+    "practical_use": "Baseline de árboles para factores y clasificación de escenarios",
+    "limitations": [
+      "Necesita splits temporales; riesgo de proxies de identidad y leakage",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "CatBoost"
+    ],
+    "evidence_ids": [
+      "E-AI-lightgbm-1",
+      "E-AI-lightgbm-2"
+    ],
+    "source_ids": [
+      "S-AI-lightgbm-root",
+      "S-AI-lightgbm-readme",
+      "S-AI-lightgbm-license"
+    ],
+    "scores": {
+      "utility": 22,
+      "evidence": 10,
+      "data": 11,
+      "ease": 10,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-catboost",
+    "name": "CatBoost",
+    "url": "https://github.com/catboost/catboost",
+    "organization": "catboost",
+    "categories": [
+      "H",
+      "F"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Comparar árboles con variables categóricas de protocolos",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "ecf5e12040890db408ad73fda7b99da3dd394354",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/catboost/catboost/ecf5e12040890db408ad73fda7b99da3dd394354/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Features numéricas/categóricas",
+    "outputs": "scores",
+    "practical_use": "Comparar árboles con variables categóricas de protocolos",
+    "limitations": [
+      "No interpretar importancia de variable como causalidad",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "LightGBM"
+    ],
+    "evidence_ids": [
+      "E-AI-catboost-1",
+      "E-AI-catboost-2"
+    ],
+    "source_ids": [
+      "S-AI-catboost-root",
+      "S-AI-catboost-readme",
+      "S-AI-catboost-license"
+    ],
+    "scores": {
+      "utility": 20,
+      "evidence": 9,
+      "data": 11,
+      "ease": 9,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-xgboost",
+    "name": "XGBoost",
+    "url": "https://github.com/dmlc/xgboost",
+    "organization": "dmlc",
+    "categories": [
+      "H",
+      "F"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Baseline de boosting ampliamente reutilizable",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "a057843ab0fefdfe851390fc32df0408d278000c",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/dmlc/xgboost/a057843ab0fefdfe851390fc32df0408d278000c/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Features",
+    "outputs": "regresión/clasificación",
+    "practical_use": "Baseline de boosting ampliamente reutilizable",
+    "limitations": [
+      "Optimización reiterada requiere holdout protegido y registro de pruebas",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "LightGBM"
+    ],
+    "evidence_ids": [
+      "E-AI-xgboost-1",
+      "E-AI-xgboost-2"
+    ],
+    "source_ids": [
+      "S-AI-xgboost-root",
+      "S-AI-xgboost-readme",
+      "S-AI-xgboost-license"
+    ],
+    "scores": {
+      "utility": 20,
+      "evidence": 9,
+      "data": 11,
+      "ease": 9,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-river",
+    "name": "River",
+    "url": "https://github.com/online-ml/river",
+    "organization": "online-ml",
+    "categories": [
+      "H",
+      "B",
+      "M"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Detectar drift en residuos y métricas de calidad de datos",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "4768de0579f977315e65cd23ee658534c1d62c26",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "BSD-3-Clause",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/online-ml/river/4768de0579f977315e65cd23ee658534c1d62c26/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Observaciones ordenadas",
+    "outputs": "cambios/estadísticos online",
+    "practical_use": "Detectar drift en residuos y métricas de calidad de datos",
+    "limitations": [
+      "ADWIN detecta cambios de distribución, no regímenes rentables; dependencia temporal altera falsas alarmas",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "ruptures; EWMA"
+    ],
+    "evidence_ids": [
+      "E-AI-river-1",
+      "E-AI-river-2",
+      "E-AI-river-3"
+    ],
+    "source_ids": [
+      "S-AI-river-root",
+      "S-AI-river-readme",
+      "S-AI-river-license",
+      "S-AI-river-code-1",
+      "S-AI-river-code-2",
+      "S-AI-river-code-3",
+      "S-AI-river-code-4"
+    ],
+    "scores": {
+      "utility": 22,
+      "evidence": 13,
+      "data": 12,
+      "ease": 10,
+      "license": 9,
+      "maintenance": 6,
+      "usability": 6,
+      "differentiation": 6
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "bajo",
+    "adoption_mode": "Adoptar biblioteca",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_river.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [
+      "tests/drift/test_adwin_regression.py"
+    ],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-pyod",
+    "name": "PyOD",
+    "url": "https://github.com/yzhao062/pyod",
+    "organization": "yzhao062",
+    "categories": [
+      "H",
+      "F"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Comparar detectores de anomalías multivariadas",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "BSD-2-Clause",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/yzhao062/pyod/7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Features normalizadas",
+    "outputs": "anomaly scores",
+    "practical_use": "Comparar detectores de anomalías multivariadas",
+    "limitations": [
+      "Contaminación/escala y dependencia temporal; componente agentic opcional no necesario",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "River; robust z-score"
+    ],
+    "evidence_ids": [
+      "E-AI-pyod-1",
+      "E-AI-pyod-2"
+    ],
+    "source_ids": [
+      "S-AI-pyod-root",
+      "S-AI-pyod-readme",
+      "S-AI-pyod-license"
+    ],
+    "scores": {
+      "utility": 20,
+      "evidence": 9,
+      "data": 11,
+      "ease": 9,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-merlion",
+    "name": "Merlion",
+    "url": "https://github.com/salesforce/Merlion",
+    "organization": "salesforce",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Extraer arquitectura de ensembles de anomalías",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "39507642dc3d7b8d04232e34e9f36b372cf4912d",
+    "maintenance_status": "archivado observado",
+    "license_code": "BSD-3-Clause",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/salesforce/Merlion/39507642dc3d7b8d04232e34e9f36b372cf4912d/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series",
+    "outputs": "alertas/forecasts",
+    "practical_use": "Extraer arquitectura de ensembles de anomalías",
+    "limitations": [
+      "Repositorio archivado observado; no adoptar como nueva dependencia central",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "River; Darts"
+    ],
+    "evidence_ids": [
+      "E-AI-merlion-1",
+      "E-AI-merlion-2"
+    ],
+    "source_ids": [
+      "S-AI-merlion-root",
+      "S-AI-merlion-readme",
+      "S-AI-merlion-license"
+    ],
+    "scores": {
+      "utility": 15,
+      "evidence": 8,
+      "data": 9,
+      "ease": 6,
+      "license": 9,
+      "maintenance": 1,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Conservar como referencia",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-adtk",
+    "name": "ADTK",
+    "url": "https://github.com/arundo/adtk",
+    "organization": "arundo",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Detectores interpretables basados en reglas y agregadores",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "6041f5b9a41a57263d8988bdc26a2dfc7ad675c2",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MPL-2.0",
+    "license_status": "COMPATIBLE CON OBLIGACIONES",
+    "license_url": "https://raw.githubusercontent.com/arundo/adtk/6041f5b9a41a57263d8988bdc26a2dfc7ad675c2/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series",
+    "outputs": "eventos anómalos",
+    "practical_use": "Detectores interpretables basados en reglas y agregadores",
+    "limitations": [
+      "MPL2.0 y compatibilidad de versiones por revisar antes de adaptar",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "River; reglas robustas propias"
+    ],
+    "evidence_ids": [
+      "E-AI-adtk-1",
+      "E-AI-adtk-2"
+    ],
+    "source_ids": [
+      "S-AI-adtk-root",
+      "S-AI-adtk-readme",
+      "S-AI-adtk-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 10,
+      "ease": 9,
+      "license": 7,
+      "maintenance": 4,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-alibi-detect",
+    "name": "Alibi Detect",
+    "url": "https://github.com/SeldonIO/alibi-detect",
+    "organization": "SeldonIO",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Referencia de drift multivariable y pruebas de distribución",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "c2fd0e05c648d353467bdb15fd6149a103b3a981",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "BUSL-1.1",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://raw.githubusercontent.com/SeldonIO/alibi-detect/c2fd0e05c648d353467bdb15fd6149a103b3a981/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Datos referencia/actuales",
+    "outputs": "drift scores",
+    "practical_use": "Referencia de drift multivariable y pruebas de distribución",
+    "limitations": [
+      "BSL1.1 actual limita producción; no asumir Apache histórico",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Evidently; River"
+    ],
+    "evidence_ids": [
+      "E-AI-alibi-detect-1",
+      "E-AI-alibi-detect-2"
+    ],
+    "source_ids": [
+      "S-AI-alibi-detect-root",
+      "S-AI-alibi-detect-readme",
+      "S-AI-alibi-detect-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 10,
+      "ease": 6,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Licencia restringida; estudiar versión y uso antes de adoptar."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-evidently",
+    "name": "Evidently",
+    "url": "https://github.com/evidentlyai/evidently",
+    "organization": "evidentlyai",
+    "categories": [
+      "H",
+      "M"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Informes de calidad y drift de entradas/salidas",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "34771fe41c08ca074d96a52aaf4a45cd640cbaf5",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/evidentlyai/evidently/34771fe41c08ca074d96a52aaf4a45cd640cbaf5/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Tablas/referencias",
+    "outputs": "métricas e informes",
+    "practical_use": "Informes de calidad y drift de entradas/salidas",
+    "limitations": [
+      "Cloud separado del código; drift no identifica causa económica",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Pandera + River"
+    ],
+    "evidence_ids": [
+      "E-AI-evidently-1",
+      "E-AI-evidently-2"
+    ],
+    "source_ids": [
+      "S-AI-evidently-root",
+      "S-AI-evidently-readme",
+      "S-AI-evidently-license"
+    ],
+    "scores": {
+      "utility": 20,
+      "evidence": 9,
+      "data": 11,
+      "ease": 9,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-dowhy",
+    "name": "DoWhy",
+    "url": "https://github.com/py-why/dowhy",
+    "organization": "py-why",
+    "categories": [
+      "J",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Explicitar supuestos causales y refutaciones de hipótesis",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0a05bc12f0d888f843795ccc29f56237ac002c0b",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/py-why/dowhy/0a05bc12f0d888f843795ccc29f56237ac002c0b/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "DAG y datos",
+    "outputs": "estimación/refutaciones",
+    "practical_use": "Explicitar supuestos causales y refutaciones de hipótesis",
+    "limitations": [
+      "Identificación causal depende de supuestos no verificables solo con datos",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Event study controlado"
+    ],
+    "evidence_ids": [
+      "E-AI-dowhy-1",
+      "E-AI-dowhy-2"
+    ],
+    "source_ids": [
+      "S-AI-dowhy-root",
+      "S-AI-dowhy-readme",
+      "S-AI-dowhy-license"
+    ],
+    "scores": {
+      "utility": 19,
+      "evidence": 9,
+      "data": 7,
+      "ease": 6,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 6
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-econml",
+    "name": "EconML",
+    "url": "https://github.com/py-why/EconML",
+    "organization": "py-why",
+    "categories": [
+      "J",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Explorar efectos heterogéneos y double ML",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0b45f8343e08ebcdb93ae859643a0efe20c21e7d",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "BSD-3-Clause",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/py-why/EconML/0b45f8343e08ebcdb93ae859643a0efe20c21e7d/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Tratamiento/outcome/covariables",
+    "outputs": "efectos condicionales",
+    "practical_use": "Explorar efectos heterogéneos y double ML",
+    "limitations": [
+      "Confusión no observada e interferencia entre activos invalidan estimaciones",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "DoWhy; regresión preespecificada"
+    ],
+    "evidence_ids": [
+      "E-AI-econml-1",
+      "E-AI-econml-2"
+    ],
+    "source_ids": [
+      "S-AI-econml-root",
+      "S-AI-econml-readme",
+      "S-AI-econml-license"
+    ],
+    "scores": {
+      "utility": 16,
+      "evidence": 9,
+      "data": 6,
+      "ease": 5,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 6
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-causal-learn",
+    "name": "causal-learn",
+    "url": "https://github.com/py-why/causal-learn",
+    "organization": "py-why",
+    "categories": [
+      "J",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Descubrimiento causal como generador de hipótesis",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0dacacf36390e3084704636bc3c36e82e35ee0cc",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/py-why/causal-learn/0dacacf36390e3084704636bc3c36e82e35ee0cc/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Datos y supuestos",
+    "outputs": "grafo causal candidato",
+    "practical_use": "Descubrimiento causal como generador de hipótesis",
+    "limitations": [
+      "No convierte independencia estadística en causalidad económica demostrada",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "DoWhy"
+    ],
+    "evidence_ids": [
+      "E-AI-causal-learn-1",
+      "E-AI-causal-learn-2"
+    ],
+    "source_ids": [
+      "S-AI-causal-learn-root",
+      "S-AI-causal-learn-readme",
+      "S-AI-causal-learn-license"
+    ],
+    "scores": {
+      "utility": 16,
+      "evidence": 9,
+      "data": 6,
+      "ease": 5,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 6
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-fingpt",
+    "name": "FinGPT",
+    "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+    "organization": "AI4Finance-Foundation",
+    "categories": [
+      "I",
+      "H",
+      "J"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Extraer tareas financieras y estudiar errores de diseño temporal",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinGPT/ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Noticias/series/API",
+    "outputs": "corpus, análisis y adapters LLM",
+    "practical_use": "Extraer tareas financieras y estudiar errores de diseño temporal",
+    "limitations": [
+      "Ruta Forecaster usa perfil actual en histórico y rationale condicionado al resultado; pesos y datos separados",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Flujo determinista con evidencia"
+    ],
+    "evidence_ids": [
+      "E-AI-fingpt-1",
+      "E-AI-fingpt-2",
+      "E-AI-fingpt-3"
+    ],
+    "source_ids": [
+      "S-AI-fingpt-root",
+      "S-AI-fingpt-readme",
+      "S-AI-fingpt-license",
+      "S-AI-fingpt-code-1",
+      "S-AI-fingpt-code-2",
+      "S-AI-fingpt-code-3",
+      "S-AI-fingpt-code-4",
+      "S-AI-fingpt-code-5"
+    ],
+    "scores": {
+      "utility": 14,
+      "evidence": 8,
+      "data": 6,
+      "ease": 4,
+      "license": 7,
+      "maintenance": 4,
+      "usability": 4,
+      "differentiation": 4
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [
+      "No validar inversión con ruta Forecaster sin corregir reconstrucción temporal y evaluar prospectivamente."
+    ],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_fingpt.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-finrobot",
+    "name": "FinRobot",
+    "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+    "organization": "AI4Finance-Foundation",
+    "categories": [
+      "I",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Referencia de organización de herramientas y análisis financiero",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "63e1884a42ea7b729551a5424b4bd6a65af636e0",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinRobot/63e1884a42ea7b729551a5424b4bd6a65af636e0/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Documentos/APIs + LLM",
+    "outputs": "informes",
+    "practical_use": "Referencia de organización de herramientas y análisis financiero",
+    "limitations": [
+      "Framework no es evidencia de rentabilidad ni datos crypto completos; proveedores cerrados",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Pydantic AI mínimo"
+    ],
+    "evidence_ids": [
+      "E-AI-finrobot-1",
+      "E-AI-finrobot-2"
+    ],
+    "source_ids": [
+      "S-AI-finrobot-root",
+      "S-AI-finrobot-readme",
+      "S-AI-finrobot-license"
+    ],
+    "scores": {
+      "utility": 16,
+      "evidence": 8,
+      "data": 7,
+      "ease": 5,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-tradingagents",
+    "name": "TradingAgents",
+    "url": "https://github.com/TauricResearch/TradingAgents",
+    "organization": "TauricResearch",
+    "categories": [
+      "I",
+      "G"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Extraer controles as-of, abstención y registro de contexto",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "c4544913a14ed3df5f1ed7b9e8483270ce20682a",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/TauricResearch/TradingAgents/c4544913a14ed3df5f1ed7b9e8483270ce20682a/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Datos fechados y herramientas",
+    "outputs": "informes/decisiones simuladas",
+    "practical_use": "Extraer controles as-of, abstención y registro de contexto",
+    "limitations": [
+      "Filtros de herramientas no borran memoria de entrenamiento del LLM; coste de debates",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Flujo determinista + un revisor"
+    ],
+    "evidence_ids": [
+      "E-AI-tradingagents-1",
+      "E-AI-tradingagents-2",
+      "E-AI-tradingagents-3"
+    ],
+    "source_ids": [
+      "S-AI-tradingagents-root",
+      "S-AI-tradingagents-readme",
+      "S-AI-tradingagents-license",
+      "S-AI-tradingagents-code-1",
+      "S-AI-tradingagents-code-2",
+      "S-AI-tradingagents-code-3",
+      "S-AI-tradingagents-code-4",
+      "S-AI-tradingagents-code-5"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 11,
+      "data": 8,
+      "ease": 6,
+      "license": 9,
+      "maintenance": 6,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_tradingagents.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [
+      "tests/test_tool_date_enforcement.py",
+      "tests/test_fundamentals_lookahead.py"
+    ],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-ai-hedge-fund",
+    "name": "AI Hedge Fund",
+    "url": "https://github.com/virattt/ai-hedge-fund",
+    "organization": "virattt",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Referencia educativa de análisis por agentes",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "e8655f10453f0c7c0874c8d691ef5ae2d74dab5c",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/virattt/ai-hedge-fund/e8655f10453f0c7c0874c8d691ef5ae2d74dab5c/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "APIs financieras + LLM",
+    "outputs": "señales simuladas",
+    "practical_use": "Referencia educativa de análisis por agentes",
+    "limitations": [
+      "PoC; datos externos; README ofrece ruta de pago con wallet que queda excluida",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Thesis Tracker con lectura sola"
+    ],
+    "evidence_ids": [
+      "E-AI-ai-hedge-fund-1",
+      "E-AI-ai-hedge-fund-2"
+    ],
+    "source_ids": [
+      "S-AI-ai-hedge-fund-root",
+      "S-AI-ai-hedge-fund-readme",
+      "S-AI-ai-hedge-fund-license"
+    ],
+    "scores": {
+      "utility": 12,
+      "evidence": 8,
+      "data": 6,
+      "ease": 5,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 3
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Excluir ejecución/pagos/credenciales de wallet; solo referencia educativa en este mandato."
+    ],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-finbert",
+    "name": "FinBERT code",
+    "url": "https://github.com/ProsusAI/finBERT",
+    "organization": "ProsusAI",
+    "categories": [
+      "H",
+      "J"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Baseline de sentimiento y estudio de truncado/calibración",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "3b4bfed383a8bb6b013db2f1ce9c766ff5100d24",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/ProsusAI/finBERT/3b4bfed383a8bb6b013db2f1ce9c766ff5100d24/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "Texto inglés",
+    "outputs": "positivo/negativo/neutro",
+    "practical_use": "Baseline de sentimiento y estudio de truncado/calibración",
+    "limitations": [
+      "Pesos CC-BY-NC-SA4.0 y datos CC-BY-NC-SA3.0; sentimiento no es retorno",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Clasificador local entrenado sobre etiquetas propias"
+    ],
+    "evidence_ids": [
+      "E-AI-finbert-1",
+      "E-AI-finbert-2",
+      "E-AI-finbert-3"
+    ],
+    "source_ids": [
+      "S-AI-finbert-root",
+      "S-AI-finbert-readme",
+      "S-AI-finbert-license",
+      "S-AI-finbert-code-1",
+      "S-AI-finbert-code-2",
+      "S-AI-finbert-code-3"
+    ],
+    "scores": {
+      "utility": 16,
+      "evidence": 10,
+      "data": 8,
+      "ease": 9,
+      "license": 4,
+      "maintenance": 4,
+      "usability": 6,
+      "differentiation": 3
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [
+      "Revisar licencia de pesos antes de uso operativo o redistribución; el código por sí solo no autoriza los pesos."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_finbert.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-finqa",
+    "name": "FinQA code / benchmark repository",
+    "url": "https://github.com/czyssrs/FinQA",
+    "organization": "czyssrs",
+    "categories": [
+      "H",
+      "I"
+    ],
+    "resource_type": "benchmark/repositorio de investigación",
+    "description": "Evaluar aritmética verificable sobre informes",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0f16e2867befa6840783e58be38c9efb9229d742",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Tabla/texto",
+    "outputs": "programa y resultado numérico",
+    "practical_use": "Evaluar aritmética verificable sobre informes",
+    "limitations": [
+      "README documenta antiguo label leakage corregido; MIT de código no prueba permisos de documentos",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "TAT-QA; test propio"
+    ],
+    "evidence_ids": [
+      "E-AI-finqa-1",
+      "E-AI-finqa-2"
+    ],
+    "source_ids": [
+      "S-AI-finqa-root",
+      "S-AI-finqa-readme",
+      "S-AI-finqa-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 4,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-tatqa",
+    "name": "TAT-QA",
+    "url": "https://github.com/NExTplusplus/TAT-QA",
+    "organization": "NExTplusplus",
+    "categories": [
+      "H",
+      "I"
+    ],
+    "resource_type": "benchmark/repositorio de investigación",
+    "description": "Evaluar combinación de tabla y texto financiero",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "870accc41953dcde885aabeb963d94aabdc0fbc3",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Contexto híbrido",
+    "outputs": "respuesta y operaciones",
+    "practical_use": "Evaluar combinación de tabla y texto financiero",
+    "limitations": [
+      "Datos de empresas cotizadas no cubren tokenomics; permisos subyacentes por revisar",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "FinQA"
+    ],
+    "evidence_ids": [
+      "E-AI-tatqa-1",
+      "E-AI-tatqa-2"
+    ],
+    "source_ids": [
+      "S-AI-tatqa-root",
+      "S-AI-tatqa-readme",
+      "S-AI-tatqa-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 9,
+      "ease": 6,
+      "license": 8,
+      "maintenance": 4,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-financebench",
+    "name": "FinanceBench repository",
+    "url": "https://github.com/patronus-ai/financebench",
+    "organization": "patronus-ai",
+    "categories": [
+      "H",
+      "I"
+    ],
+    "resource_type": "benchmark/repositorio de investigación",
+    "description": "Referencia de preguntas con evidencias documentales",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "cc39aeb4afdf33909ee1412188bf89035950c2eb",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "150 casos públicos",
+    "outputs": "evaluación de QA",
+    "practical_use": "Referencia de preguntas con evidencias documentales",
+    "limitations": [
+      "No LICENSE encontrado en rutas estándar; card HF separada CC-BY-NC; 10231 no todos públicos",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Dataset propio de protocolo"
+    ],
+    "evidence_ids": [
+      "E-AI-financebench-1"
+    ],
+    "source_ids": [
+      "S-AI-financebench-root",
+      "S-AI-financebench-readme"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 8,
+      "data": 9,
+      "ease": 8,
+      "license": 1,
+      "maintenance": 4,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Licencia no localizada en rutas estándar; no adaptar código sin aclaración."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-convfinqa",
+    "name": "ConvFinQA",
+    "url": "https://github.com/czyssrs/ConvFinQA",
+    "organization": "czyssrs",
+    "categories": [
+      "H",
+      "I"
+    ],
+    "resource_type": "benchmark/repositorio de investigación",
+    "description": "Pruebas de razonamiento numérico conversacional",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "cf3eed2d5984960bf06bb8145bcea5e80b0222a6",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/czyssrs/ConvFinQA/cf3eed2d5984960bf06bb8145bcea5e80b0222a6/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Conversaciones + tablas",
+    "outputs": "cadena de operaciones",
+    "practical_use": "Pruebas de razonamiento numérico conversacional",
+    "limitations": [
+      "Dependencias antiguas y datos heredados FinQA; benchmark fijo puede estar contaminado",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "FinQA propio prospectivo"
+    ],
+    "evidence_ids": [
+      "E-AI-convfinqa-1",
+      "E-AI-convfinqa-2"
+    ],
+    "source_ids": [
+      "S-AI-convfinqa-root",
+      "S-AI-convfinqa-readme",
+      "S-AI-convfinqa-license"
+    ],
+    "scores": {
+      "utility": 16,
+      "evidence": 8,
+      "data": 8,
+      "ease": 6,
+      "license": 8,
+      "maintenance": 4,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-docling",
+    "name": "Docling",
+    "url": "https://github.com/docling-project/docling",
+    "organization": "docling-project",
+    "categories": [
+      "I",
+      "J",
+      "M"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Extraer tablas y contenido con estados de fallo para citar fuentes",
+    "verification_level": "V3",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0634e2f74561e5950d69b2cace67ef95400506ad",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/docling-project/docling/0634e2f74561e5950d69b2cace67ef95400506ad/LICENSE",
+    "dependencies": [
+      "ver revisión técnica"
+    ],
+    "data_inputs": "PDF/HTML/Office",
+    "outputs": "documento estructurado",
+    "practical_use": "Extraer tablas y contenido con estados de fallo para citar fuentes",
+    "limitations": [
+      "MIT de código no licencia todos los modelos OCR/VLM; formato correcto no implica cifra correcta",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Trafilatura para HTML"
+    ],
+    "evidence_ids": [
+      "E-AI-docling-1",
+      "E-AI-docling-2",
+      "E-AI-docling-3"
+    ],
+    "source_ids": [
+      "S-AI-docling-root",
+      "S-AI-docling-readme",
+      "S-AI-docling-license",
+      "S-AI-docling-code-1",
+      "S-AI-docling-code-2",
+      "S-AI-docling-code-3",
+      "S-AI-docling-code-4",
+      "S-AI-docling-code-5"
+    ],
+    "scores": {
+      "utility": 23,
+      "evidence": 13,
+      "data": 12,
+      "ease": 9,
+      "license": 8,
+      "maintenance": 6,
+      "usability": 6,
+      "differentiation": 6
+    },
+    "confidence": "media-alta sobre rutas observadas; no sobre eficacia financiera",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Adoptar biblioteca",
+    "deep_review_path": "03_DEEP_TECHNICAL_REVIEWS/ai_docling.md",
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [
+      "tests/test_failed_pages.py",
+      "tests/test_hf_model_download_security.py"
+    ],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-unstructured",
+    "name": "Unstructured library",
+    "url": "https://github.com/Unstructured-IO/unstructured",
+    "organization": "Unstructured-IO",
+    "categories": [
+      "I",
+      "M"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Particionar documentos en elementos",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "d505b6010964de066a33fcce716a644e5887e7d3",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/d505b6010964de066a33fcce716a644e5887e7d3/LICENSE.md",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "PDF/HTML/Office",
+    "outputs": "bloques estructurados",
+    "practical_use": "Particionar documentos en elementos",
+    "limitations": [
+      "API Transform v2 y modelos alojados son producto aparte; no atribuir sus resultados al OSS",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Docling"
+    ],
+    "evidence_ids": [
+      "E-AI-unstructured-1",
+      "E-AI-unstructured-2"
+    ],
+    "source_ids": [
+      "S-AI-unstructured-root",
+      "S-AI-unstructured-readme",
+      "S-AI-unstructured-license"
+    ],
+    "scores": {
+      "utility": 19,
+      "evidence": 9,
+      "data": 11,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-marker",
+    "name": "Marker",
+    "url": "https://github.com/datalab-to/marker",
+    "organization": "datalab-to",
+    "categories": [
+      "I",
+      "M"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Conversión PDF a formato procesable",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "71dd5fd7e51ab24f8624b6ba2fcb6014b4e40ed4",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/datalab-to/marker/71dd5fd7e51ab24f8624b6ba2fcb6014b4e40ed4/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "PDF",
+    "outputs": "Markdown/JSON",
+    "practical_use": "Conversión PDF a formato procesable",
+    "limitations": [
+      "Código Apache actual, pesos con licencia propia y umbral comercial; no licencia única",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Docling"
+    ],
+    "evidence_ids": [
+      "E-AI-marker-1",
+      "E-AI-marker-2"
+    ],
+    "source_ids": [
+      "S-AI-marker-root",
+      "S-AI-marker-readme",
+      "S-AI-marker-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 10,
+      "ease": 7,
+      "license": 6,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-trafilatura",
+    "name": "Trafilatura",
+    "url": "https://github.com/adbar/trafilatura",
+    "organization": "adbar",
+    "categories": [
+      "I",
+      "J"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Extracción ligera de texto y metadatos web",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "1622ce88ef0da929b21724078f8a425e4f753def",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/adbar/trafilatura/1622ce88ef0da929b21724078f8a425e4f753def/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "HTML",
+    "outputs": "texto estructurado",
+    "practical_use": "Extracción ligera de texto y metadatos web",
+    "limitations": [
+      "Derechos de páginas y fecha publicada deben comprobarse aparte; versiones antiguas GPL",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Docling HTML"
+    ],
+    "evidence_ids": [
+      "E-AI-trafilatura-1",
+      "E-AI-trafilatura-2"
+    ],
+    "source_ids": [
+      "S-AI-trafilatura-root",
+      "S-AI-trafilatura-readme",
+      "S-AI-trafilatura-license"
+    ],
+    "scores": {
+      "utility": 22,
+      "evidence": 11,
+      "data": 12,
+      "ease": 11,
+      "license": 9,
+      "maintenance": 6,
+      "usability": 7,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "bajo",
+    "adoption_mode": "Adoptar biblioteca",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-sentence-transformers",
+    "name": "Sentence Transformers",
+    "url": "https://github.com/huggingface/sentence-transformers",
+    "organization": "huggingface",
+    "categories": [
+      "I",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Embeddings y rerankers para recuperar evidencia",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "b26925868810d978e06d731f6b527c2c74579b1b",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/b26925868810d978e06d731f6b527c2c74579b1b/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Texto",
+    "outputs": "vectores/scores",
+    "practical_use": "Embeddings y rerankers para recuperar evidencia",
+    "limitations": [
+      "Licencia por checkpoint independiente; similitud semántica no verifica una cifra",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "BM25"
+    ],
+    "evidence_ids": [
+      "E-AI-sentence-transformers-1",
+      "E-AI-sentence-transformers-2"
+    ],
+    "source_ids": [
+      "S-AI-sentence-transformers-root",
+      "S-AI-sentence-transformers-readme",
+      "S-AI-sentence-transformers-license"
+    ],
+    "scores": {
+      "utility": 21,
+      "evidence": 9,
+      "data": 11,
+      "ease": 9,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-flagembedding",
+    "name": "FlagEmbedding",
+    "url": "https://github.com/FlagOpen/FlagEmbedding",
+    "organization": "FlagOpen",
+    "categories": [
+      "I",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Recuperación híbrida/multilingüe BGE",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "897baa67c0ffddbfccf4e6776ff55310d67809d4",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/897baa67c0ffddbfccf4e6776ff55310d67809d4/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Texto",
+    "outputs": "embeddings/sparse/reranking",
+    "practical_use": "Recuperación híbrida/multilingüe BGE",
+    "limitations": [
+      "Cada peso y tokenizer requiere su propia revisión; latencia por medir",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Sentence Transformers"
+    ],
+    "evidence_ids": [
+      "E-AI-flagembedding-1",
+      "E-AI-flagembedding-2"
+    ],
+    "source_ids": [
+      "S-AI-flagembedding-root",
+      "S-AI-flagembedding-readme",
+      "S-AI-flagembedding-license"
+    ],
+    "scores": {
+      "utility": 20,
+      "evidence": 9,
+      "data": 11,
+      "ease": 8,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-haystack",
+    "name": "Haystack",
+    "url": "https://github.com/deepset-ai/haystack",
+    "organization": "deepset-ai",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Pipelines de recuperación y composición verificable",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "82dce4f7aed816916646542b8ab2c6c10ff46ae4",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/deepset-ai/haystack/82dce4f7aed816916646542b8ab2c6c10ff46ae4/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Documentos/queries",
+    "outputs": "contexto y respuesta",
+    "practical_use": "Pipelines de recuperación y composición verificable",
+    "limitations": [
+      "Demasiados componentes pueden dificultar trazabilidad; modelo/servicio aparte",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Funciones simples + Pydantic"
+    ],
+    "evidence_ids": [
+      "E-AI-haystack-1",
+      "E-AI-haystack-2"
+    ],
+    "source_ids": [
+      "S-AI-haystack-root",
+      "S-AI-haystack-readme",
+      "S-AI-haystack-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 9,
+      "ease": 7,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-llamaindex",
+    "name": "LlamaIndex framework",
+    "url": "https://github.com/run-llama/llama_index",
+    "organization": "run-llama",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Conectores y herramientas de documentos",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "444fdf0684707de62ebb447d658dba137dd9cb99",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/run-llama/llama_index/444fdf0684707de62ebb447d658dba137dd9cb99/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Documentos",
+    "outputs": "índice/consultas/agentes",
+    "practical_use": "Conectores y herramientas de documentos",
+    "limitations": [
+      "README diferencia foco comercial LlamaParse; conectores no transfieren permisos",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Haystack"
+    ],
+    "evidence_ids": [
+      "E-AI-llamaindex-1",
+      "E-AI-llamaindex-2"
+    ],
+    "source_ids": [
+      "S-AI-llamaindex-root",
+      "S-AI-llamaindex-readme",
+      "S-AI-llamaindex-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 9,
+      "ease": 7,
+      "license": 9,
+      "maintenance": 4,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-langgraph",
+    "name": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "organization": "langchain-ai",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Estado durable y pasos explícitos de investigación",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "5db97b9ccab6b8d9a5ab1e8f0bebea7c03a8708a",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/5db97b9ccab6b8d9a5ab1e8f0bebea7c03a8708a/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Estado y herramientas",
+    "outputs": "grafo de ejecución",
+    "practical_use": "Estado durable y pasos explícitos de investigación",
+    "limitations": [
+      "Multiagente es opción, no ventaja probada; servicio LangSmith separado",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Pydantic AI o máquina de estados simple"
+    ],
+    "evidence_ids": [
+      "E-AI-langgraph-1",
+      "E-AI-langgraph-2"
+    ],
+    "source_ids": [
+      "S-AI-langgraph-root",
+      "S-AI-langgraph-readme",
+      "S-AI-langgraph-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 9,
+      "ease": 7,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-pydantic-ai",
+    "name": "Pydantic AI",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "organization": "pydantic",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Esquemas de salida, herramientas tipadas y validación",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "7c076b14edf5a20f54f157ba05653213466ef2cd",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/7c076b14edf5a20f54f157ba05653213466ef2cd/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Evidencias/queries",
+    "outputs": "salidas estructuradas",
+    "practical_use": "Esquemas de salida, herramientas tipadas y validación",
+    "limitations": [
+      "Validación de esquema no demuestra verdad de contenido",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Funciones + JSON Schema"
+    ],
+    "evidence_ids": [
+      "E-AI-pydantic-ai-1",
+      "E-AI-pydantic-ai-2"
+    ],
+    "source_ids": [
+      "S-AI-pydantic-ai-root",
+      "S-AI-pydantic-ai-readme",
+      "S-AI-pydantic-ai-license"
+    ],
+    "scores": {
+      "utility": 21,
+      "evidence": 9,
+      "data": 10,
+      "ease": 9,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-dspy",
+    "name": "DSPy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "organization": "stanfordnlp",
+    "categories": [
+      "I",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Optimizar prompts/pipelines contra tareas medibles",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "c941671b1d2b6e208d472e93f954632b94000277",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/stanfordnlp/dspy/c941671b1d2b6e208d472e93f954632b94000277/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Ejemplos etiquetados",
+    "outputs": "programa optimizado",
+    "practical_use": "Optimizar prompts/pipelines contra tareas medibles",
+    "limitations": [
+      "Optimización del evaluador puede sobreajustar; reservar conjunto humano",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Prompt fijo + evaluación ciega"
+    ],
+    "evidence_ids": [
+      "E-AI-dspy-1",
+      "E-AI-dspy-2"
+    ],
+    "source_ids": [
+      "S-AI-dspy-root",
+      "S-AI-dspy-readme",
+      "S-AI-dspy-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 8,
+      "ease": 6,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 6
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-ragas",
+    "name": "Ragas",
+    "url": "https://github.com/vibrantlabsai/ragas",
+    "organization": "vibrantlabsai",
+    "categories": [
+      "I",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Medir aspectos de recuperación y respuesta",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/explodinggradients/ragas/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Queries/contextos/respuestas",
+    "outputs": "métricas",
+    "practical_use": "Medir aspectos de recuperación y respuesta",
+    "limitations": [
+      "Juez LLM no es evidencia independiente y puede compartir errores",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Inspect AI con gold set humano"
+    ],
+    "evidence_ids": [
+      "E-AI-ragas-1",
+      "E-AI-ragas-2"
+    ],
+    "source_ids": [
+      "S-AI-ragas-root",
+      "S-AI-ragas-readme",
+      "S-AI-ragas-license"
+    ],
+    "scores": {
+      "utility": 19,
+      "evidence": 9,
+      "data": 9,
+      "ease": 7,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-inspect-ai",
+    "name": "Inspect AI",
+    "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+    "organization": "UKGovernmentBEIS",
+    "categories": [
+      "I",
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Evaluaciones reproducibles de LLM y tool use",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "325942c556beeb7d57ece4f89632727a6a5d348f",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/325942c556beeb7d57ece4f89632727a6a5d348f/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Tareas/scorers",
+    "outputs": "logs y puntuaciones",
+    "practical_use": "Evaluaciones reproducibles de LLM y tool use",
+    "limitations": [
+      "Scorer debe comprobar fuentes y aritmética; inferencia puede costar",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Promptfoo"
+    ],
+    "evidence_ids": [
+      "E-AI-inspect-ai-1",
+      "E-AI-inspect-ai-2"
+    ],
+    "source_ids": [
+      "S-AI-inspect-ai-root",
+      "S-AI-inspect-ai-readme",
+      "S-AI-inspect-ai-license"
+    ],
+    "scores": {
+      "utility": 21,
+      "evidence": 9,
+      "data": 10,
+      "ease": 8,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-garak",
+    "name": "garak",
+    "url": "https://github.com/NVIDIA/garak",
+    "organization": "NVIDIA",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Ensayar resistencia a fallos e inyección en entorno controlado",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "b1681c5bf8ff71971f83848fe245c6c1550aff08",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/NVIDIA/garak/b1681c5bf8ff71971f83848fe245c6c1550aff08/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Prompts/targets",
+    "outputs": "vulnerabilidades observadas",
+    "practical_use": "Ensayar resistencia a fallos e inyección en entorno controlado",
+    "limitations": [
+      "No certifica ausencia de fallos; ataques solo sobre sistema propio autorizado",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Pruebas adversariales específicas"
+    ],
+    "evidence_ids": [
+      "E-AI-garak-1",
+      "E-AI-garak-2"
+    ],
+    "source_ids": [
+      "S-AI-garak-root",
+      "S-AI-garak-readme",
+      "S-AI-garak-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 8,
+      "ease": 6,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 4,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-pyrit",
+    "name": "PyRIT (repositorio observado)",
+    "url": "https://github.com/Azure/PyRIT",
+    "organization": "Azure",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Referencia histórica de evaluación de riesgo",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "bec7cb5d6089481d75fb8df143793de3da6905f5",
+    "maintenance_status": "archivado observado",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/Azure/PyRIT/bec7cb5d6089481d75fb8df143793de3da6905f5/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Prompts y objetivos",
+    "outputs": "resultados de pruebas",
+    "practical_use": "Referencia histórica de evaluación de riesgo",
+    "limitations": [
+      "Repositorio observado archivado; sucesor no verificado",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "garak; Inspect AI"
+    ],
+    "evidence_ids": [
+      "E-AI-pyrit-1",
+      "E-AI-pyrit-2"
+    ],
+    "source_ids": [
+      "S-AI-pyrit-root",
+      "S-AI-pyrit-readme",
+      "S-AI-pyrit-license"
+    ],
+    "scores": {
+      "utility": 12,
+      "evidence": 8,
+      "data": 8,
+      "ease": 5,
+      "license": 9,
+      "maintenance": 1,
+      "usability": 4,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Conservar como referencia",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-promptfoo",
+    "name": "Promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "organization": "promptfoo",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Comparar prompts y automatizar evaluaciones",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Casos/configuración",
+    "outputs": "matriz de resultados",
+    "practical_use": "Comparar prompts y automatizar evaluaciones",
+    "limitations": [
+      "Proveedores/API y SaaS separados; costes multiplican por prueba",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Inspect AI"
+    ],
+    "evidence_ids": [
+      "E-AI-promptfoo-1",
+      "E-AI-promptfoo-2"
+    ],
+    "source_ids": [
+      "S-AI-promptfoo-root",
+      "S-AI-promptfoo-readme",
+      "S-AI-promptfoo-license"
+    ],
+    "scores": {
+      "utility": 20,
+      "evidence": 9,
+      "data": 10,
+      "ease": 8,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [
+      "API/modelo opcional según configuración; no contratados"
+    ],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-llm-guard",
+    "name": "LLM Guard",
+    "url": "https://github.com/protectai/llm-guard",
+    "organization": "protectai",
+    "categories": [
+      "I"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Referencia de scanners de contenido",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "168c1034ffdb33837e7ae6fd6a16b80567c1be03",
+    "maintenance_status": "archivado observado",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/protectai/llm-guard/168c1034ffdb33837e7ae6fd6a16b80567c1be03/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Texto",
+    "outputs": "detecciones/sanitización",
+    "practical_use": "Referencia de scanners de contenido",
+    "limitations": [
+      "Repositorio archivado; detector de inyección no crea frontera de confianza",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Allowlist de herramientas + separación de datos"
+    ],
+    "evidence_ids": [
+      "E-AI-llm-guard-1",
+      "E-AI-llm-guard-2"
+    ],
+    "source_ids": [
+      "S-AI-llm-guard-root",
+      "S-AI-llm-guard-readme",
+      "S-AI-llm-guard-license"
+    ],
+    "scores": {
+      "utility": 12,
+      "evidence": 8,
+      "data": 8,
+      "ease": 6,
+      "license": 9,
+      "maintenance": 1,
+      "usability": 5,
+      "differentiation": 3
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Conservar como referencia",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-tsfel",
+    "name": "TSFEL",
+    "url": "https://github.com/fraunhoferportugal/tsfel",
+    "organization": "fraunhoferportugal",
+    "categories": [
+      "H",
+      "F"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Features estadísticas/temporales/espectrales de bajo coste",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "BSD-3-Clause",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/fraunhoferportugal/tsfel/9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274/LICENSE.txt",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Ventanas temporales",
+    "outputs": "vector de características",
+    "practical_use": "Features estadísticas/temporales/espectrales de bajo coste",
+    "limitations": [
+      "Elegir docenas de features sin holdout multiplica falsos hallazgos",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "TSFresh reducido"
+    ],
+    "evidence_ids": [
+      "E-AI-tsfel-1",
+      "E-AI-tsfel-2"
+    ],
+    "source_ids": [
+      "S-AI-tsfel-root",
+      "S-AI-tsfel-readme",
+      "S-AI-tsfel-license"
+    ],
+    "scores": {
+      "utility": 19,
+      "evidence": 9,
+      "data": 11,
+      "ease": 10,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 6,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "bajo",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-tsfresh",
+    "name": "TSFresh",
+    "url": "https://github.com/blue-yonder/tsfresh",
+    "organization": "blue-yonder",
+    "categories": [
+      "H",
+      "F"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Extracción y selección estadística de features",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "6af3c0030b6c9f02c3862a20e00cce87c984aa5b",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "MIT",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/blue-yonder/tsfresh/6af3c0030b6c9f02c3862a20e00cce87c984aa5b/LICENSE.txt",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series etiquetadas",
+    "outputs": "features seleccionadas",
+    "practical_use": "Extracción y selección estadística de features",
+    "limitations": [
+      "Selección debe ocurrir dentro del fold; control FDR no elimina dependencia temporal",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "TSFEL + selección preespecificada"
+    ],
+    "evidence_ids": [
+      "E-AI-tsfresh-1",
+      "E-AI-tsfresh-2"
+    ],
+    "source_ids": [
+      "S-AI-tsfresh-root",
+      "S-AI-tsfresh-readme",
+      "S-AI-tsfresh-license"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 9,
+      "data": 10,
+      "ease": 8,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-aeon",
+    "name": "aeon",
+    "url": "https://github.com/aeon-toolkit/aeon",
+    "organization": "aeon-toolkit",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Clasificación, clustering y anomalías de series con interfaces comunes",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "aabc99f04d64d91c1788a360a996b5dc8b723053",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "BSD-3-Clause",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/aeon-toolkit/aeon/aabc99f04d64d91c1788a360a996b5dc8b723053/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Colecciones de series",
+    "outputs": "tareas ML",
+    "practical_use": "Clasificación, clustering y anomalías de series con interfaces comunes",
+    "limitations": [
+      "No es suite de inversión; verificar entrenamiento solo con pasado",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "sktime"
+    ],
+    "evidence_ids": [
+      "E-AI-aeon-1",
+      "E-AI-aeon-2"
+    ],
+    "source_ids": [
+      "S-AI-aeon-root",
+      "S-AI-aeon-readme",
+      "S-AI-aeon-license"
+    ],
+    "scores": {
+      "utility": 17,
+      "evidence": 9,
+      "data": 10,
+      "ease": 8,
+      "license": 9,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 4
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-tirex2",
+    "name": "TiRex-2",
+    "url": "https://github.com/NX-AI/tirex-2",
+    "organization": "NX-AI",
+    "categories": [
+      "H"
+    ],
+    "resource_type": "biblioteca/framework",
+    "description": "Alternativa actual multivariable al TiRex original",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "b187b7cab3ea11a40909a01601ec9b4ada8769e0",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": "Apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://raw.githubusercontent.com/NX-AI/tirex-2/b187b7cab3ea11a40909a01601ec9b4ada8769e0/LICENSE",
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Series/covariables",
+    "outputs": "forecast",
+    "practical_use": "Alternativa actual multivariable al TiRex original",
+    "limitations": [
+      "Licencia Apache del código verificada; pesos aún no auditados; no heredar issue viejo de flashrnn sin revisar versión",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Chronos2"
+    ],
+    "evidence_ids": [
+      "E-AI-tirex2-1",
+      "E-AI-tirex2-2"
+    ],
+    "source_ids": [
+      "S-AI-tirex2-root",
+      "S-AI-tirex2-readme",
+      "S-AI-tirex2-license"
+    ],
+    "scores": {
+      "utility": 19,
+      "evidence": 9,
+      "data": 10,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-finllm-eval",
+    "name": "Tencent finLLM-Eval",
+    "url": "https://github.com/Tencent/finLLM-Eval",
+    "organization": "Tencent",
+    "categories": [
+      "I",
+      "H"
+    ],
+    "resource_type": "benchmark/repositorio de investigación",
+    "description": "Separar hechos, cadenas lógicas y tripletas activo-fecha-métrica",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "2747fb219d553dea0a183269554ce174aeb00531",
+    "maintenance_status": "no archivado observado; cadencia no cuantificada",
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [
+      "no auditadas"
+    ],
+    "data_inputs": "Respuesta + RAG",
+    "outputs": "evaluación de consistencia",
+    "practical_use": "Separar hechos, cadenas lógicas y tripletas activo-fecha-métrica",
+    "limitations": [
+      "README dice que evaluación de cifras depende de base interna no incluida; licencia no localizada",
+      "Snapshot de rama observado el 4; fecha exacta del commit no reconstruida."
+    ],
+    "alternatives": [
+      "Gold set propio + cálculo determinista"
+    ],
+    "evidence_ids": [
+      "E-AI-finllm-eval-1"
+    ],
+    "source_ids": [
+      "S-AI-finllm-eval-root",
+      "S-AI-finllm-eval-readme"
+    ],
+    "scores": {
+      "utility": 16,
+      "evidence": 7,
+      "data": 5,
+      "ease": 4,
+      "license": 1,
+      "maintenance": 4,
+      "usability": 4,
+      "differentiation": 6
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Licencia no localizada en rutas estándar; no adaptar código sin aclaración."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "revisión estática; ejecución no verificada",
+    "cost_relative": "medio; depende del modelo y datos",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "languages": [
+      "Python; otras rutas no auditadas"
+    ],
+    "last_significant_release": "no comprobado; commit fijado",
+    "tests_reviewed": [],
+    "tests_executed": false,
+    "score_rationale": "Utilidad para investigación personal y evidencia estática; mantenimiento limitado a observación, sin estrellas como indicador. Penalización explícita por licencia o archivo; riesgo bloqueante prevalece sobre puntuación."
+  },
+  {
+    "id": "AI-model-amazon-chronos-2",
+    "name": "amazon/chronos-2",
+    "url": "https://huggingface.co/amazon/chronos-2",
+    "organization": "amazon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Modelo120M para forecasting multivariable con covariables y cuantiles.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "29ec3766d36d6f73f0696f85560a422f50e8498c",
+    "maintenance_status": "lastModified 2026-06-05T11:55:42.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "apache-2.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/amazon/chronos-2/resolve/29ec3766d36d6f73f0696f85560a422f50e8498c/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Modelo120M para forecasting multivariable con covariables y cuantiles.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-amazon-chronos-2-1",
+      "E-AI-model-amazon-chronos-2-2"
+    ],
+    "source_ids": [
+      "S-AI-model-amazon-chronos-2-README-md",
+      "S-AI-model-amazon-chronos-2-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-amazon-chronos-bolt-small",
+    "name": "amazon/chronos-bolt-small",
+    "url": "https://huggingface.co/amazon/chronos-bolt-small",
+    "organization": "amazon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Baseline compacto de forecasting univariado por patches.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "772f3d25d38aec6d914c8949dab4462e2d46f5d8",
+    "maintenance_status": "lastModified 2025-11-21T12:54:10.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "apache-2.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/amazon/chronos-bolt-small/resolve/772f3d25d38aec6d914c8949dab4462e2d46f5d8/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Baseline compacto de forecasting univariado por patches.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-amazon-chronos-bolt-small-1",
+      "E-AI-model-amazon-chronos-bolt-small-2"
+    ],
+    "source_ids": [
+      "S-AI-model-amazon-chronos-bolt-small-README-md",
+      "S-AI-model-amazon-chronos-bolt-small-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-google-timesfm-3-0-pytorch",
+    "name": "google/timesfm-3.0-pytorch",
+    "url": "https://huggingface.co/google/timesfm-3.0-pytorch",
+    "organization": "google",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Pesos multivariables TimesFM3, licencia no comercial/no producción.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+    "maintenance_status": "lastModified 2026-09-02T15:44:59.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "TimesFM Non-Commercial License v1.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/google/timesfm-3.0-pytorch/resolve/43046b85ec22d584a13f8098c2ed39c889e129c2/LICENSE",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Pesos multivariables TimesFM3, licencia no comercial/no producción.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-google-timesfm-3-0-pytorch-1",
+      "E-AI-model-google-timesfm-3-0-pytorch-2",
+      "E-AI-model-google-timesfm-3-0-pytorch-3"
+    ],
+    "source_ids": [
+      "S-AI-model-google-timesfm-3-0-pytorch-README-md",
+      "S-AI-model-google-timesfm-3-0-pytorch-LICENSE",
+      "S-AI-model-google-timesfm-3-0-pytorch-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-google-timesfm-2-5-200m-pytorch",
+    "name": "google/timesfm-2.5-200m-pytorch",
+    "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch",
+    "organization": "google",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Checkpoint200M anterior con declaración Apache2.0.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+    "maintenance_status": "lastModified 2025-10-02T17:21:38.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "apache-2.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Checkpoint200M anterior con declaración Apache2.0.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-google-timesfm-2-5-200m-pytorch-1",
+      "E-AI-model-google-timesfm-2-5-200m-pytorch-2"
+    ],
+    "source_ids": [
+      "S-AI-model-google-timesfm-2-5-200m-pytorch-README-md",
+      "S-AI-model-google-timesfm-2-5-200m-pytorch-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-salesforce-moirai-2-0-r-small",
+    "name": "Salesforce/moirai-2.0-R-small",
+    "url": "https://huggingface.co/Salesforce/moirai-2.0-R-small",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Modelo11.4M, cuantiles, máscaras de observación; CC-BY-NC.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "30f43ff08c8494f4943ae1521e9d4e94a0fbb389",
+    "maintenance_status": "lastModified 2026-01-29T02:01:22.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "cc-by-nc-4.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/Salesforce/moirai-2.0-R-small/resolve/30f43ff08c8494f4943ae1521e9d4e94a0fbb389/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Modelo11.4M, cuantiles, máscaras de observación; CC-BY-NC.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-salesforce-moirai-2-0-r-small-1",
+      "E-AI-model-salesforce-moirai-2-0-r-small-2"
+    ],
+    "source_ids": [
+      "S-AI-model-salesforce-moirai-2-0-r-small-README-md",
+      "S-AI-model-salesforce-moirai-2-0-r-small-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-salesforce-moirai-1-1-r-small",
+    "name": "Salesforce/moirai-1.1-R-small",
+    "url": "https://huggingface.co/Salesforce/moirai-1.1-R-small",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Checkpoint Moirai anterior útil como comparación; CC-BY-NC.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0c24ab99db2c1a70ea2a0fc03bf113329772ac64",
+    "maintenance_status": "lastModified 2025-01-21T09:20:27.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "cc-by-nc-4.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/Salesforce/moirai-1.1-R-small/resolve/0c24ab99db2c1a70ea2a0fc03bf113329772ac64/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Checkpoint Moirai anterior útil como comparación; CC-BY-NC.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-salesforce-moirai-1-1-r-small-1",
+      "E-AI-model-salesforce-moirai-1-1-r-small-2"
+    ],
+    "source_ids": [
+      "S-AI-model-salesforce-moirai-1-1-r-small-README-md",
+      "S-AI-model-salesforce-moirai-1-1-r-small-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-prosusai-finbert",
+    "name": "ProsusAI/finbert",
+    "url": "https://huggingface.co/ProsusAI/finbert",
+    "organization": "ProsusAI",
+    "categories": [
+      "H",
+      "I",
+      "J"
+    ],
+    "resource_type": "model",
+    "description": "Pesos de sentimiento financiero inglés; CC-BY-NC-SA4.0.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031",
+    "maintenance_status": "lastModified 2026-10-12T09:04:17.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "cc-by-nc-sa-4.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/ProsusAI/finbert/resolve/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "texto",
+    "outputs": "sentimiento",
+    "practical_use": "Pesos de sentimiento financiero inglés; CC-BY-NC-SA4.0.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-prosusai-finbert-1",
+      "E-AI-model-prosusai-finbert-2"
+    ],
+    "source_ids": [
+      "S-AI-model-prosusai-finbert-README-md",
+      "S-AI-model-prosusai-finbert-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-baai-bge-m3",
+    "name": "BAAI/bge-m3",
+    "url": "https://huggingface.co/BAAI/bge-m3",
+    "organization": "BAAI",
+    "categories": [
+      "H",
+      "I",
+      "J"
+    ],
+    "resource_type": "model",
+    "description": "Recuperación multilingüe densa, sparse y multivector.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "5617a9f61b028005a4858fdac845db406aefb181",
+    "maintenance_status": "lastModified 2024-07-03T14:50:10.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "mit",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/BAAI/bge-m3/resolve/5617a9f61b028005a4858fdac845db406aefb181/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "texto",
+    "outputs": "embeddings",
+    "practical_use": "Recuperación multilingüe densa, sparse y multivector.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-baai-bge-m3-1",
+      "E-AI-model-baai-bge-m3-2"
+    ],
+    "source_ids": [
+      "S-AI-model-baai-bge-m3-README-md",
+      "S-AI-model-baai-bge-m3-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-baai-bge-small-en-v1-5",
+    "name": "BAAI/bge-small-en-v1.5",
+    "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+    "organization": "BAAI",
+    "categories": [
+      "H",
+      "I",
+      "J"
+    ],
+    "resource_type": "model",
+    "description": "Embeddings compactos para documentos en inglés.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "maintenance_status": "lastModified 2024-02-22T03:36:23.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "mit",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/BAAI/bge-small-en-v1.5/resolve/5c38ec7c405ec4b44b94cc5a9bb96e735b38267a/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "texto",
+    "outputs": "embeddings",
+    "practical_use": "Embeddings compactos para documentos en inglés.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-baai-bge-small-en-v1-5-1",
+      "E-AI-model-baai-bge-small-en-v1-5-2"
+    ],
+    "source_ids": [
+      "S-AI-model-baai-bge-small-en-v1-5-README-md",
+      "S-AI-model-baai-bge-small-en-v1-5-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-ibm-granite-granite-timeseries-ttm-r2",
+    "name": "ibm-granite/granite-timeseries-ttm-r2",
+    "url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2",
+    "organization": "ibm-granite",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Familia compacta TinyTimeMixer; variante por frecuencia/horizonte.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f",
+    "maintenance_status": "lastModified 2025-02-26T13:33:01.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "apache-2.0",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2/resolve/d6a79570cac0f33d526601cd3a0fc7c80a8f9a2f/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Familia compacta TinyTimeMixer; variante por frecuencia/horizonte.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-ibm-granite-granite-timeseries-ttm-r2-1",
+      "E-AI-model-ibm-granite-granite-timeseries-ttm-r2-2"
+    ],
+    "source_ids": [
+      "S-AI-model-ibm-granite-granite-timeseries-ttm-r2-README-md",
+      "S-AI-model-ibm-granite-granite-timeseries-ttm-r2-config-json"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-model-nx-ai-tirex",
+    "name": "NX-AI/TiRex",
+    "url": "https://huggingface.co/NX-AI/TiRex",
+    "organization": "NX-AI",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "model",
+    "description": "Pesos35M xLSTM con licencia comunitaria.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "63c740922493f5fbe60b277609ec62babfba2762",
+    "maintenance_status": "lastModified 2026-02-05T13:20:11.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": "NXAI Community License",
+    "license_data": "fuentes de preentrenamiento no licenciadas por la licencia de pesos",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/NX-AI/TiRex/resolve/63c740922493f5fbe60b277609ec62babfba2762/LICENSE",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "series temporales",
+    "outputs": "pronósticos/cuantiles",
+    "practical_use": "Pesos35M xLSTM con licencia comunitaria.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-model-nx-ai-tirex-1",
+      "E-AI-model-nx-ai-tirex-2"
+    ],
+    "source_ids": [
+      "S-AI-model-nx-ai-tirex-README-md",
+      "S-AI-model-nx-ai-tirex-LICENSE"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-patronusai-financebench",
+    "name": "PatronusAI/financebench",
+    "url": "https://huggingface.co/datasets/PatronusAI/financebench",
+    "organization": "PatronusAI",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Muestra pública150 casos QA con evidencia; CC-BY-NC4.0.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+    "maintenance_status": "lastModified 2024-11-17T18:42:59.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-nc-4.0",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/datasets/PatronusAI/financebench/resolve/e04404e3a97f69f79c14d42f24981a1c9c3bcd18/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Muestra pública150 casos QA con evidencia; CC-BY-NC4.0.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-patronusai-financebench-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-patronusai-financebench-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-takala-financial-phrasebank",
+    "name": "takala/financial_phrasebank",
+    "url": "https://huggingface.co/datasets/takala/financial_phrasebank",
+    "organization": "takala",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Frases financieras inglesas con etiquetas de sentimiento y acuerdo.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964",
+    "maintenance_status": "lastModified 2025-12-15T05:51:57.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-nc-sa-3.0",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/datasets/takala/financial_phrasebank/resolve/8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Frases financieras inglesas con etiquetas de sentimiento y acuerdo.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-takala-financial-phrasebank-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-takala-financial-phrasebank-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-ibm-finqa",
+    "name": "ibm/finqa",
+    "url": "https://huggingface.co/datasets/ibm/finqa",
+    "organization": "ibm",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Distribución HF de preguntas aritméticas financieras; declarar origen/versiones.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "1d0076a55b609744218081ff6ea693aefe824677",
+    "maintenance_status": "lastModified 2024-06-06T08:56:37.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-4.0",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/ibm/finqa/resolve/1d0076a55b609744218081ff6ea693aefe824677/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Distribución HF de preguntas aritméticas financieras; declarar origen/versiones.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-ibm-finqa-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-ibm-finqa-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-salesforce-gifteval",
+    "name": "Salesforce/GiftEval",
+    "url": "https://huggingface.co/datasets/Salesforce/GiftEval",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Benchmark heterogéneo de forecasting; validar permisos por componente.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "30841734ac5cfddbd0c3bad6d09d2b6b32becbb0",
+    "maintenance_status": "lastModified 2025-01-21T09:23:29.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/datasets/Salesforce/GiftEval/resolve/30841734ac5cfddbd0c3bad6d09d2b6b32becbb0/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Benchmark heterogéneo de forecasting; validar permisos por componente.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-salesforce-gifteval-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-salesforce-gifteval-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-salesforce-giftevalpretrain",
+    "name": "Salesforce/GiftEvalPretrain",
+    "url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección de preentrenamiento de gran tamaño; no descargar para este fin.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "6830b624de7ed2b3d3e5b85bb6959d81dcc5d874",
+    "maintenance_status": "lastModified 2025-01-21T09:20:58.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain/resolve/6830b624de7ed2b3d3e5b85bb6959d81dcc5d874/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección de preentrenamiento de gran tamaño; no descargar para este fin.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-salesforce-giftevalpretrain-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-salesforce-giftevalpretrain-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-autogluon-chronos-datasets",
+    "name": "autogluon/chronos_datasets",
+    "url": "https://huggingface.co/datasets/autogluon/chronos_datasets",
+    "organization": "autogluon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección multi-origen con licencias por configuración.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "eeecad0b82a8c237e212ce6f8d1abecb513e2cec",
+    "maintenance_status": "lastModified 2025-03-18T10:38:52.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "other",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/autogluon/chronos_datasets/resolve/eeecad0b82a8c237e212ce6f8d1abecb513e2cec/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección multi-origen con licencias por configuración.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-autogluon-chronos-datasets-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-autogluon-chronos-datasets-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-autogluon-fev-datasets",
+    "name": "autogluon/fev_datasets",
+    "url": "https://huggingface.co/datasets/autogluon/fev_datasets",
+    "organization": "autogluon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección para tareas de forecasting con condiciones por subdataset.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "d3e7e720f4158eab03ebcb021f1cce779cd92acc",
+    "maintenance_status": "lastModified 2026-10-21T15:48:01.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "other",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/autogluon/fev_datasets/resolve/d3e7e720f4158eab03ebcb021f1cce779cd92acc/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección para tareas de forecasting con condiciones por subdataset.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-autogluon-fev-datasets-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-autogluon-fev-datasets-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  }
+]

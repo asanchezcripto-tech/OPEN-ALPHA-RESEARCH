@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-11-04",
+  "checks": [
+    "unique IDs",
+    "candidate/source/evidence references",
+    "relation references",
+    "score totals and maxima",
+    "ten review paths",
+    "relative Markdown links",
+    "external inspection caches removed"
+  ],
+  "errors": [],
+  "counts": {
+    "candidates": 63,
+    "directly_verified": 62,
+    "deep_reviews": 10,
+    "sources": 288,
+    "evidence": 196
+  },
+  "levels": {
+    "V3": 10,
+    "V2": 47,
+    "V1": 5,
+    "D0": 1
+  },
+  "runtime_tests_executed": false,
+  "external_code_executed": false,
+  "caches_removed": true
+}

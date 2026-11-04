@@ -1,0 +1,99 @@
+{
+  "reference_date": "2026-11-03",
+  "observed_at": "2026-11-04",
+  "catalog_resources": 288,
+  "directly_verified": 285,
+  "verification_levels": {
+    "V3": 39,
+    "V2": 208,
+    "V1": 38,
+    "D0": 3
+  },
+  "deep_reviews": 39,
+  "source_records": 1081,
+  "distinct_source_urls": 1072,
+  "evidence_records": 686,
+  "search_queries": 79,
+  "models": 11,
+  "datasets": 22,
+  "papers": 8,
+  "algorithms": 32,
+  "libraries": 196,
+  "providers": 13,
+  "opportunities": 16,
+  "comparisons": 22,
+  "relationships": 43,
+  "duplicate_repo_entries_removed": 2,
+  "by_category": {
+    "A": {
+      "name": "Macro",
+      "resources": 31,
+      "V3": 3
+    },
+    "B": {
+      "name": "Mercado cripto",
+      "resources": 26,
+      "V3": 8
+    },
+    "C": {
+      "name": "Derivados",
+      "resources": 18,
+      "V3": 6
+    },
+    "D": {
+      "name": "On-chain",
+      "resources": 50,
+      "V3": 5
+    },
+    "E": {
+      "name": "Fundamentales y valoración",
+      "resources": 27,
+      "V3": 3
+    },
+    "F": {
+      "name": "Oportunidades",
+      "resources": 11,
+      "V3": 2
+    },
+    "G": {
+      "name": "Validación cuantitativa",
+      "resources": 70,
+      "V3": 12
+    },
+    "H": {
+      "name": "IA y modelos",
+      "resources": 75,
+      "V3": 9
+    },
+    "I": {
+      "name": "Agentes",
+      "resources": 29,
+      "V3": 3
+    },
+    "J": {
+      "name": "Noticias y eventos",
+      "resources": 20,
+      "V3": 4
+    },
+    "K": {
+      "name": "Cartera y riesgo",
+      "resources": 20,
+      "V3": 5
+    },
+    "L": {
+      "name": "Visualización",
+      "resources": 22,
+      "V3": 1
+    },
+    "M": {
+      "name": "Datos e infraestructura",
+      "resources": 106,
+      "V3": 19
+    },
+    "N": {
+      "name": "Fuentes alternativas",
+      "resources": 19,
+      "V3": 3
+    }
+  }
+}

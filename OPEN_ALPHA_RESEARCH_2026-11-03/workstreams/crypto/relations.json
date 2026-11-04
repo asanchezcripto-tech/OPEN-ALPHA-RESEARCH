@@ -1,0 +1,68 @@
+[
+  {
+    "from_id": "crypto-polymarket-py-clob-client",
+    "to_id": "crypto-polymarket-py-sdk",
+    "relation": "sucesor oficial indicado en README",
+    "evidence_source_id": "crypto-src-07e8e691a4ac"
+  },
+  {
+    "from_id": "crypto-polymarket-py-clob-client-v2",
+    "to_id": "crypto-polymarket-py-sdk",
+    "relation": "migración indicada en README",
+    "evidence_source_id": "crypto-src-aafebab7dee9"
+  },
+  {
+    "from_id": "crypto-polymarket-ctf-exchange",
+    "to_id": "crypto-polymarket-ctf-exchange-v2",
+    "relation": "sucesor oficial indicado en README",
+    "evidence_source_id": "crypto-src-a48af7e5a8f2"
+  },
+  {
+    "from_id": "crypto-graphsense-graphsense-tagpack-tool",
+    "to_id": "crypto-graphsense-graphsense-lib",
+    "relation": "migración de repositorio indicada en README",
+    "evidence_source_id": "crypto-src-6274b6a76f9d"
+  },
+  {
+    "from_id": "crypto-aave-aave-v3-core",
+    "to_id": "crypto-aave-dao-aave-v3-origin",
+    "relation": "sucesor indicado en README",
+    "evidence_source_id": "crypto-src-e5e9eebc0a07"
+  },
+  {
+    "from_id": "crypto-defillama-bridges-server",
+    "to_id": "crypto-defillama-dimension-adapters",
+    "relation": "migración a subdirectorio bridges indicada en README",
+    "evidence_source_id": "crypto-src-7886cb7154ac"
+  },
+  {
+    "from_id": "crypto-defillama-dimension-adapters",
+    "to_id": "crypto-defillama-defillama-sdk",
+    "relation": "dependencia de código declarada en manifest",
+    "evidence_source_id": "crypto-src-0d0c0164930e"
+  },
+  {
+    "from_id": "crypto-defillama-defillama-adapters",
+    "to_id": "crypto-defillama-defillama-sdk",
+    "relation": "dependencia de código declarada en manifest",
+    "evidence_source_id": "crypto-src-24a610fe9498"
+  },
+  {
+    "from_id": "crypto-graphsense-graphsense-lib",
+    "to_id": "crypto-graphsense-graphsense-tagpacks",
+    "relation": "compatibilidad de esquema; no requiere importar todo dataset",
+    "evidence_source_id": "crypto-src-464bc8707752"
+  },
+  {
+    "from_id": "crypto-uniswap-protocol-fees",
+    "to_id": "crypto-uniswap-v4-core",
+    "relation": "importación de Currency en ruta inspeccionada",
+    "evidence_source_id": "crypto-src-e3795dee5573"
+  },
+  {
+    "from_id": "crypto-raydium-io-raydium-sdk-v2",
+    "to_id": "crypto-raydium-io-raydium-clmm",
+    "relation": "cliente y protocolo relacionado; contraste propuesto",
+    "evidence_source_id": "crypto-src-06c945bb11e9"
+  }
+]

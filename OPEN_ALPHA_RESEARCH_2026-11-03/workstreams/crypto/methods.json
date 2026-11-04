@@ -1,0 +1,70 @@
+[
+  {
+    "id": "crypto-method-value-bridge",
+    "name": "Puente de captura por mecanismo",
+    "inputs": "Fees, payouts, inventario, conversiones, buybacks, burn y supply",
+    "output": "Magnitudes separadas y residual explicado",
+    "hypothesis": "Evita atribuir al token actividad que corresponde a LP/creadores o ingresos todavía no convertidos",
+    "failure": "Precio/FX, dobles conteos, mecanismos cambiantes o captura sin derecho contractual",
+    "validation": "Reconciliar balances/flujo en un protocolo y días seleccionados",
+    "evidence_type": "Síntesis propuesta, sin experimento",
+    "supporting_ids": [
+      "crypto-defillama-dimension-adapters",
+      "crypto-uniswap-protocol-fees"
+    ]
+  },
+  {
+    "id": "crypto-method-supply-ledger",
+    "name": "Ledger de oferta y desbloqueos",
+    "inputs": "Mint/burn, circulating/locked/treasury/bridge, cronología de anuncios",
+    "output": "Supply total vs circulante y escenarios de disponibilidad",
+    "hypothesis": "Distingue dilución por creación de tokens de liberación de tokens preexistentes",
+    "failure": "Múltiples representaciones del mismo activo y calendarios sin historial de revisiones",
+    "validation": "Identidad de oferta y doble entrada de bridges",
+    "evidence_type": "Método propuesto, sin cálculo de valoración",
+    "supporting_ids": [
+      "crypto-defillama-peggedassets-server"
+    ]
+  },
+  {
+    "id": "crypto-method-derivative-normalization",
+    "name": "Normalización contractual de derivados",
+    "inputs": "Instrumento, contractSize, settlement, OI, fase/intervalo/signo funding",
+    "output": "OI nativo y nocional con precio/timestamp; presión por venue",
+    "hypothesis": "Reduce falsas señales por precio, multiplicador o financiación de duración distinta",
+    "failure": "Instrumentos con especificación incompleta, APIs truncadas y doble conteo económico entre venues",
+    "validation": "Casos de contrato inverso, intervalo cambiante y ausencia de datos",
+    "evidence_type": "Diseño apoyado en rutas estáticas CCXT; no score validado",
+    "supporting_ids": [
+      "crypto-ccxt-ccxt",
+      "crypto-hyperliquid-dex-hyperliquid-python-sdk"
+    ]
+  },
+  {
+    "id": "crypto-method-flow-attribution",
+    "name": "Flujos etiquetados con incertidumbre de entidad",
+    "inputs": "Transferencias, etiquetas, fuentes, timestamps y confianza",
+    "output": "Flujo bruto/neto por etiqueta y sensibilidad a agrupación",
+    "hypothesis": "Evita convertir movimiento entre wallets internas en entrada de capital de inversores",
+    "failure": "Etiquetas retrospectivas, entidades con varias wallets, custodios/bridges y muestra incompleta",
+    "validation": "Contrastar manualmente eventos y publicar discrepancias entre reglas de agrupación",
+    "evidence_type": "Técnica propuesta a partir del esquema GraphSense",
+    "supporting_ids": [
+      "crypto-graphsense-graphsense-lib",
+      "crypto-graphsense-graphsense-tagpacks"
+    ]
+  },
+  {
+    "id": "crypto-method-event-market-link",
+    "name": "Mercados predictivos como evidencia de tesis",
+    "inputs": "Reglas, resolución, precio, spread, profundidad y calendario de fuentes",
+    "output": "Escenarios vinculados a tesis y cambios documentales",
+    "hypothesis": "Aporta señal contextual; no trata precio como probabilidad objetiva",
+    "failure": "Resoluciones distintas, sesgo de selección, falta de mercados cerrados y poca liquidez",
+    "validation": "Muestra curada con revisión humana de equivalencia y fechas",
+    "evidence_type": "Propuesta, sin backtest ni promesa de retornos",
+    "supporting_ids": [
+      "crypto-polymarket-py-sdk"
+    ]
+  }
+]

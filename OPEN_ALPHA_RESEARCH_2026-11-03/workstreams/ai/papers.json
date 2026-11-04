@@ -1,0 +1,87 @@
+[
+  {
+    "id": "AI-PAPER-2606-27100",
+    "title": "Pretrained Time-Series Foundation Models for Financial Return Forecasting",
+    "url": "https://arxiv.org/abs/2606.27100v1",
+    "authors": [
+      "Miquel Noguer I Alonso",
+      "Rodolfo Pereira Franklin"
+    ],
+    "version_or_commit": "v1; 2026-06-25",
+    "categories": [
+      "G",
+      "H"
+    ],
+    "verified_at": "2026-11-04",
+    "verification_level": "V1",
+    "maintenance_status": "preprint, no software auditado",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "confidence": "media sobre abstract; resultados no reproducidos",
+    "contribution": "Comparación rolling-origin en cinco acciones; mejoras frente random walk pequeñas/poco generalizadas según autores.",
+    "limitations": [
+      "No extrapolar a crypto o3-18meses",
+      "Solo abstract e historial examinados",
+      "No auditoría de muestras, costes o pruebas estadísticas del texto completo"
+    ],
+    "source_ids": [
+      "S-AI-PAPER-2606-27100"
+    ]
+  },
+  {
+    "id": "AI-PAPER-2510-13654",
+    "title": "Rethinking Evaluation in the Era of Time Series Foundation Models: (Un)known Information Leakage Challenges",
+    "url": "https://arxiv.org/abs/2510.13654v3",
+    "authors": [
+      "Marcel Meyer",
+      "Sascha Kaltenpoth",
+      "Kevin Zalipski",
+      "Oliver Müller"
+    ],
+    "version_or_commit": "v3; 2026-02-25",
+    "categories": [
+      "G",
+      "H"
+    ],
+    "verified_at": "2026-11-04",
+    "verification_level": "V1",
+    "maintenance_status": "preprint revisado",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "confidence": "media sobre abstract",
+    "contribution": "Distingue solapamiento de muestras y solapamiento temporal de series correlacionadas.",
+    "limitations": [
+      "No reproducción",
+      "No demuestra contaminación de cada checkpoint del catálogo"
+    ],
+    "source_ids": [
+      "S-AI-PAPER-2510-13654"
+    ]
+  },
+  {
+    "id": "AI-PAPER-2608-03259",
+    "title": "FinVerse: Toward More Realistic Evaluation for Financial Time-Series Forecasting",
+    "url": "https://arxiv.org/abs/2608.03259v3",
+    "authors": [
+      "Jaehoon Lee et al."
+    ],
+    "version_or_commit": "v3; 2026-10-23",
+    "categories": [
+      "G",
+      "H",
+      "K"
+    ],
+    "verified_at": "2026-11-04",
+    "verification_level": "V1",
+    "maintenance_status": "preprint revisado",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "confidence": "media sobre abstract; baja sobre reproducibilidad no auditada",
+    "contribution": "Evaluación financiera por significado económico, ranking transversal y cartera; orden de modelos varía frente benchmark genérico.",
+    "limitations": [
+      "Solo abstract e historial examinados",
+      "Código/datos/permiso/coste pendientes",
+      "No recomendar modelos por ranking sin reproducción"
+    ],
+    "source_ids": [
+      "S-AI-PAPER-2608-03259"
+    ]
+  }
+]

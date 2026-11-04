@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "crypto-ev-dfe8317fea6b",
+    "candidate_id": "crypto-ccxt-ccxt",
+    "source_id": "crypto-src-dfe8317fea6b",
+    "claim": "Documentación describe: Biblioteca de normalización de datos y acceso a exchanges",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6933f09286b1",
+    "candidate_id": "crypto-ccxt-ccxt",
+    "source_id": "crypto-src-6933f09286b1",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ddf19a997fc4",
+    "candidate_id": "crypto-ccxt-ccxt",
+    "source_id": "crypto-src-ddf19a997fc4",
+    "claim": "Ruta inspeccionada: package.json; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-e4daf22927fd",
+    "candidate_id": "crypto-ccxt-ccxt",
+    "source_id": "crypto-src-e4daf22927fd",
+    "claim": "Ruta inspeccionada: python/ccxt/base/exchange.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3e1d7b4d0915",
+    "candidate_id": "crypto-ccxt-ccxt",
+    "source_id": "crypto-src-3e1d7b4d0915",
+    "claim": "Ruta inspeccionada: python/ccxt/binance.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-eec1dcbe50ba",
+    "candidate_id": "crypto-ccxt-ccxt",
+    "source_id": "crypto-src-eec1dcbe50ba",
+    "claim": "Ruta inspeccionada: python/ccxt/test/base/test_parse_precision.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-15443c9ce677",
+    "candidate_id": "crypto-hummingbot-hummingbot",
+    "source_id": "crypto-src-15443c9ce677",
+    "claim": "Documentación describe: Framework de negociación; referencia de conectores, no prioridad de ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-f52c3171e267",
+    "candidate_id": "crypto-hummingbot-hummingbot",
+    "source_id": "crypto-src-f52c3171e267",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-867f1e9bd1a0",
+    "candidate_id": "crypto-defillama-defillama-adapters",
+    "source_id": "crypto-src-867f1e9bd1a0",
+    "claim": "Documentación describe: Adaptadores de TVL y composición de activos",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-24a610fe9498",
+    "candidate_id": "crypto-defillama-defillama-adapters",
+    "source_id": "crypto-src-24a610fe9498",
+    "claim": "Ruta inspeccionada: package.json; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-78514f63effb",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "source_id": "crypto-src-78514f63effb",
+    "claim": "Documentación describe: Adaptadores de fees, revenue, volumen y dimensiones de protocolos",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-0d0c0164930e",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "source_id": "crypto-src-0d0c0164930e",
+    "claim": "Ruta inspeccionada: package.json; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-7f8fbbbef5f0",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "source_id": "crypto-src-7f8fbbbef5f0",
+    "claim": "Ruta inspeccionada: fees/hyperliquid-hlp.ts; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6c9292c0068f",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "source_id": "crypto-src-6c9292c0068f",
+    "claim": "Ruta inspeccionada: helpers/hyperliquid.ts; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-497fa3b1de8b",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "source_id": "crypto-src-497fa3b1de8b",
+    "claim": "Ruta inspeccionada: adapters/types.ts; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-7886cb7154ac",
+    "candidate_id": "crypto-defillama-bridges-server",
+    "source_id": "crypto-src-7886cb7154ac",
+    "claim": "Documentación describe: Seguimiento de actividad de bridges",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-83845f3fe89d",
+    "candidate_id": "crypto-defillama-yield-server",
+    "source_id": "crypto-src-83845f3fe89d",
+    "claim": "Documentación describe: Adaptadores y datos de rendimientos DeFi",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-223a36337209",
+    "candidate_id": "crypto-defillama-defillama-sdk",
+    "source_id": "crypto-src-223a36337209",
+    "claim": "Documentación describe: Utilidades de llamadas on-chain y balances",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-b8f613899f89",
+    "candidate_id": "crypto-defillama-defillama-sdk",
+    "source_id": "crypto-src-b8f613899f89",
+    "claim": "Ruta inspeccionada: package.json; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-e19a1a17d6b7",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-e19a1a17d6b7",
+    "claim": "Documentación describe: Cliente oficial para datos y órdenes Hyperliquid",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-b47fb6c586cb",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-b47fb6c586cb",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-a8298909a38c",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-a8298909a38c",
+    "claim": "Ruta inspeccionada: pyproject.toml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3749e1c1e193",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-3749e1c1e193",
+    "claim": "Ruta inspeccionada: hyperliquid/info.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-2afaecf4b710",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-2afaecf4b710",
+    "claim": "Ruta inspeccionada: hyperliquid/websocket_manager.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-bc121834c28c",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-bc121834c28c",
+    "claim": "Ruta inspeccionada: tests/info_test.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-4c15819a94ce",
+    "candidate_id": "crypto-hyperliquid-dex-node",
+    "source_id": "crypto-src-4c15819a94ce",
+    "claim": "Documentación describe: Distribución y documentación de nodo Hyperliquid",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-04b5ec3ace69",
+    "candidate_id": "crypto-hyperliquid-dex-node",
+    "source_id": "crypto-src-04b5ec3ace69",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-1fbb1562d530",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-1fbb1562d530",
+    "claim": "Documentación describe: Cliente oficial unificado de datos y cuenta",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-825e659fa1c8",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-825e659fa1c8",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-cfdce6240159",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-cfdce6240159",
+    "claim": "Ruta inspeccionada: pyproject.toml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-8d824dce1b9e",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-8d824dce1b9e",
+    "claim": "Ruta inspeccionada: src/polymarket/clients/public.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-718de229f375",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-718de229f375",
+    "claim": "Ruta inspeccionada: src/polymarket/clients/_transport.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-f970475e773d",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-f970475e773d",
+    "claim": "Ruta inspeccionada: src/polymarket/pagination.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ff6dd60a3dba",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-ff6dd60a3dba",
+    "claim": "Ruta inspeccionada: tests/unit/test_date_field_contract.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c469eaf6e315",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-c469eaf6e315",
+    "claim": "Ruta inspeccionada: tests/unit/test_public_calls_surface.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3c70240d0692",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-3c70240d0692",
+    "claim": "Ruta inspeccionada: tests/unit/test_data_retry.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-10bda2b74f78",
+    "candidate_id": "crypto-polymarket-ts-sdk",
+    "source_id": "crypto-src-10bda2b74f78",
+    "claim": "Documentación describe: Cliente oficial unificado TypeScript",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-1778d650d877",
+    "candidate_id": "crypto-polymarket-ts-sdk",
+    "source_id": "crypto-src-1778d650d877",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-07e8e691a4ac",
+    "candidate_id": "crypto-polymarket-py-clob-client",
+    "source_id": "crypto-src-07e8e691a4ac",
+    "claim": "Documentación describe: SDK heredado archivado; candidato para descarte",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-72faa7121973",
+    "candidate_id": "crypto-polymarket-py-clob-client",
+    "source_id": "crypto-src-72faa7121973",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-aafebab7dee9",
+    "candidate_id": "crypto-polymarket-py-clob-client-v2",
+    "source_id": "crypto-src-aafebab7dee9",
+    "claim": "Documentación describe: SDK de transición deprecado; revisar migración",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-83cb297a573f",
+    "candidate_id": "crypto-polymarket-py-clob-client-v2",
+    "source_id": "crypto-src-83cb297a573f",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-7fd8f7be4bc7",
+    "candidate_id": "crypto-polymarket-polymarket-subgraph",
+    "source_id": "crypto-src-7fd8f7be4bc7",
+    "claim": "Documentación describe: Indexación de eventos de mercados predictivos",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3e240cacfb94",
+    "candidate_id": "crypto-polymarket-polymarket-subgraph",
+    "source_id": "crypto-src-3e240cacfb94",
+    "claim": "Texto de licencia examinado; clasificación: LGPL-3.0 (ver texto/versiones por archivo)",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-a48af7e5a8f2",
+    "candidate_id": "crypto-polymarket-ctf-exchange",
+    "source_id": "crypto-src-a48af7e5a8f2",
+    "claim": "Documentación describe: Contratos de liquidación de mercados",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-080386147121",
+    "candidate_id": "crypto-polymarket-ctf-exchange",
+    "source_id": "crypto-src-080386147121",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-82b1f16cd7fc",
+    "candidate_id": "crypto-uniswap-v2-core",
+    "source_id": "crypto-src-82b1f16cd7fc",
+    "claim": "Documentación describe: Contratos AMM de producto constante",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-326a755e04a0",
+    "candidate_id": "crypto-uniswap-v2-core",
+    "source_id": "crypto-src-326a755e04a0",
+    "claim": "Texto de licencia examinado; clasificación: GPL-3.0 (ver texto/versiones por archivo)",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-0095483a1294",
+    "candidate_id": "crypto-uniswap-v3-core",
+    "source_id": "crypto-src-0095483a1294",
+    "claim": "Documentación describe: Contratos de liquidez concentrada",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-d0c5fdf2d039",
+    "candidate_id": "crypto-uniswap-v3-core",
+    "source_id": "crypto-src-d0c5fdf2d039",
+    "claim": "Texto de licencia examinado; clasificación: BUSL-1.1; Change License GPL-2.0-or-later desde 2023-04-01 para texto examinado",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-407071d51e07",
+    "candidate_id": "crypto-uniswap-v4-core",
+    "source_id": "crypto-src-407071d51e07",
+    "claim": "Documentación describe: Contratos AMM con hooks y contabilidad singleton",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-0ee966f8c989",
+    "candidate_id": "crypto-uniswap-v4-core",
+    "source_id": "crypto-src-0ee966f8c989",
+    "claim": "Ruta inspeccionada: src/PoolManager.sol; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3406e2813aca",
+    "candidate_id": "crypto-uniswap-v4-core",
+    "source_id": "crypto-src-3406e2813aca",
+    "claim": "Texto de licencia examinado; clasificación: BUSL-1.1",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c503da6d26be",
+    "candidate_id": "crypto-uniswap-sdks",
+    "source_id": "crypto-src-c503da6d26be",
+    "claim": "Documentación describe: Herramientas para interpretar pools y cotizaciones",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c7b702a9d538",
+    "candidate_id": "crypto-uniswap-sdks",
+    "source_id": "crypto-src-c7b702a9d538",
+    "claim": "Ruta inspeccionada: sdks/sdk-core/package.json; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-fcde66eef2df",
+    "candidate_id": "crypto-uniswap-v3-subgraph",
+    "source_id": "crypto-src-fcde66eef2df",
+    "claim": "Documentación describe: Indexador GraphQL de pools y swaps",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6f55e20f59e8",
+    "candidate_id": "crypto-uniswap-v3-subgraph",
+    "source_id": "crypto-src-6f55e20f59e8",
+    "claim": "Texto de licencia examinado; clasificación: GPL-3.0 (ver texto/versiones por archivo)",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-e3fb20c39016",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-e3fb20c39016",
+    "claim": "Documentación describe: Contratos de captura de fees y quema de UNI",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-e3795dee5573",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-e3795dee5573",
+    "claim": "Ruta inspeccionada: src/TokenJar.sol; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-26589c6d8e0d",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-26589c6d8e0d",
+    "claim": "Ruta inspeccionada: src/releasers/ExchangeReleaser.sol; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3f570b0507e0",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-3f570b0507e0",
+    "claim": "Ruta inspeccionada: src/releasers/Firepit.sol; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ac84fc7470e7",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-ac84fc7470e7",
+    "claim": "Ruta inspeccionada: test/Firepit.t.sol; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-b30c15d8f53c",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-b30c15d8f53c",
+    "claim": "Ruta inspeccionada: foundry.toml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-4186f0a81ab1",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-4186f0a81ab1",
+    "claim": "Documentación describe: SDK de pools Raydium y datos Solana",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6bc6afc8ee0d",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-6bc6afc8ee0d",
+    "claim": "Texto de licencia examinado; clasificación: GPL-3.0 (ver texto/versiones por archivo)",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3cb288e3028b",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-3cb288e3028b",
+    "claim": "Ruta inspeccionada: package.json; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-06c945bb11e9",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-06c945bb11e9",
+    "claim": "Ruta inspeccionada: src/raydium/clmm/layout.ts; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-7421afa67ba8",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-7421afa67ba8",
+    "claim": "Ruta inspeccionada: src/raydium/clmm/clmm.ts; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ed54042a99bf",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-ed54042a99bf",
+    "claim": "Ruta inspeccionada: src/raydium/cpmm/cpmm.ts; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-8c05c4e50b45",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-8c05c4e50b45",
+    "claim": "Ruta inspeccionada: test/cpmmSwapQuote.test.js; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-a2aa02faa4eb",
+    "candidate_id": "crypto-raydium-io-raydium-clmm",
+    "source_id": "crypto-src-a2aa02faa4eb",
+    "claim": "Documentación describe: Contratos de liquidez concentrada",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-10b2c6411984",
+    "candidate_id": "crypto-raydium-io-raydium-clmm",
+    "source_id": "crypto-src-10b2c6411984",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-1b8a1aefb070",
+    "candidate_id": "crypto-raydium-io-raydium-cp-swap",
+    "source_id": "crypto-src-1b8a1aefb070",
+    "claim": "Documentación describe: AMM de producto constante con Token2022",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ac472bb2ae9b",
+    "candidate_id": "crypto-raydium-io-raydium-cp-swap",
+    "source_id": "crypto-src-ac472bb2ae9b",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-a2c23a664eb5",
+    "candidate_id": "crypto-pump-fun-pump-public-docs",
+    "source_id": "crypto-src-a2c23a664eb5",
+    "claim": "Documentación describe: Documentación e IDLs de bonding curve, migración y fees",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-1083208bcff9",
+    "candidate_id": "crypto-pump-fun-pump-public-docs",
+    "source_id": "crypto-src-1083208bcff9",
+    "claim": "Documentación describe: Documentación e IDLs de bonding curve, migración y fees",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-d0d3cdf973c2",
+    "candidate_id": "crypto-pump-fun-pump-public-docs",
+    "source_id": "crypto-src-d0d3cdf973c2",
+    "claim": "Documentación describe: Documentación e IDLs de bonding curve, migración y fees",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-a6a5e3182898",
+    "candidate_id": "crypto-pump-fun-pump-public-docs",
+    "source_id": "crypto-src-a6a5e3182898",
+    "claim": "Ruta inspeccionada: docs/instructions/SWEEP_FEES.md; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-63a024db9fff",
+    "candidate_id": "crypto-duneanalytics-spellbook",
+    "source_id": "crypto-src-63a024db9fff",
+    "claim": "Documentación describe: Modelos SQL públicos de datos blockchain",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3311af51b55c",
+    "candidate_id": "crypto-duneanalytics-spellbook",
+    "source_id": "crypto-src-3311af51b55c",
+    "claim": "Texto de licencia examinado; clasificación: BUSL-1.1",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-56a57fe54f27",
+    "candidate_id": "crypto-duneanalytics-dune-client",
+    "source_id": "crypto-src-56a57fe54f27",
+    "claim": "Documentación describe: Cliente de servicio analítico Dune",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-944c1347e962",
+    "candidate_id": "crypto-duneanalytics-dune-client",
+    "source_id": "crypto-src-944c1347e962",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-7645103efcb7",
+    "candidate_id": "crypto-blockchain-etl-ethereum-etl",
+    "source_id": "crypto-src-7645103efcb7",
+    "claim": "Documentación describe: Extracción tabular de bloques, logs y transferencias EVM",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-dcc4ea2728aa",
+    "candidate_id": "crypto-blockchain-etl-ethereum-etl",
+    "source_id": "crypto-src-dcc4ea2728aa",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-e3ce5730871e",
+    "candidate_id": "crypto-blockchain-etl-bitcoin-etl",
+    "source_id": "crypto-src-e3ce5730871e",
+    "claim": "Documentación describe: Extracción de bloques y transacciones Bitcoin",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-d41865e3f32a",
+    "candidate_id": "crypto-blockchain-etl-bitcoin-etl",
+    "source_id": "crypto-src-d41865e3f32a",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-bbee41f43f48",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "source_id": "crypto-src-bbee41f43f48",
+    "claim": "Documentación describe: Extracción EVM hacia formatos analíticos",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-abe0618ac88c",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "source_id": "crypto-src-abe0618ac88c",
+    "claim": "Ruta inspeccionada: Cargo.toml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6795aab63528",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "source_id": "crypto-src-6795aab63528",
+    "claim": "Texto de licencia examinado; clasificación: MIT OR Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-897927a77eda",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "source_id": "crypto-src-897927a77eda",
+    "claim": "Texto de licencia examinado; clasificación: MIT OR Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ab0ee2c4c0c2",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "source_id": "crypto-src-ab0ee2c4c0c2",
+    "claim": "Ruta inspeccionada: crates/freeze/src/freeze.rs; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c75f790d807c",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "source_id": "crypto-src-c75f790d807c",
+    "claim": "Ruta inspeccionada: crates/freeze/src/types/sources.rs; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-cddda0ab0459",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "source_id": "crypto-src-cddda0ab0459",
+    "claim": "Ruta inspeccionada: crates/freeze/src/types/schemas.rs; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-5c3c7f211c02",
+    "candidate_id": "crypto-ponder-sh-ponder",
+    "source_id": "crypto-src-5c3c7f211c02",
+    "claim": "Documentación describe: Indexación TypeScript de eventos EVM con gestión de reorg",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-49ac3a6e3c46",
+    "candidate_id": "crypto-ponder-sh-ponder",
+    "source_id": "crypto-src-49ac3a6e3c46",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-4b3aa864dc37",
+    "candidate_id": "crypto-ponder-sh-ponder",
+    "source_id": "crypto-src-4b3aa864dc37",
+    "claim": "Ruta inspeccionada: packages/core/package.json; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6bbd8ca8ac61",
+    "candidate_id": "crypto-ponder-sh-ponder",
+    "source_id": "crypto-src-6bbd8ca8ac61",
+    "claim": "Ruta inspeccionada: packages/core/src/sync-realtime/index.ts; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-280ab8858adb",
+    "candidate_id": "crypto-ponder-sh-ponder",
+    "source_id": "crypto-src-280ab8858adb",
+    "claim": "Ruta inspeccionada: packages/core/src/sync-realtime/index.test.ts; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-2e97e530d15a",
+    "candidate_id": "crypto-subsquid-squid-sdk",
+    "source_id": "crypto-src-2e97e530d15a",
+    "claim": "Documentación describe: ETL multichain con datos de SQD Network",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-efc732696310",
+    "candidate_id": "crypto-subsquid-squid-sdk",
+    "source_id": "crypto-src-efc732696310",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c0560a7ea743",
+    "candidate_id": "crypto-graphprotocol-graph-node",
+    "source_id": "crypto-src-c0560a7ea743",
+    "claim": "Documentación describe: Indexador de subgraphs para consultas GraphQL",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c6bbdb6684d4",
+    "candidate_id": "crypto-graphprotocol-graph-node",
+    "source_id": "crypto-src-c6bbdb6684d4",
+    "claim": "Texto de licencia examinado; clasificación: MIT OR Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-2712045abe80",
+    "candidate_id": "crypto-graphprotocol-graph-node",
+    "source_id": "crypto-src-2712045abe80",
+    "claim": "Texto de licencia examinado; clasificación: MIT OR Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3c76a7b54535",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-3c76a7b54535",
+    "claim": "Documentación describe: Análisis de transacciones y agrupación de direcciones",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-d71021db4006",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-d71021db4006",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-1766cce4b30e",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-1766cce4b30e",
+    "claim": "Ruta inspeccionada: pyproject.toml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-2e3bd8c46d3b",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-2e3bd8c46d3b",
+    "claim": "Ruta inspeccionada: src/graphsenselib/tagpack/confidence.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-464bc8707752",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-464bc8707752",
+    "claim": "Ruta inspeccionada: src/graphsenselib/tagpack/tagpack_schema.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-be46f79b70c4",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-be46f79b70c4",
+    "claim": "Ruta inspeccionada: src/graphsenselib/tagpack/schema.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ab1cacd60d7d",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-ab1cacd60d7d",
+    "claim": "Ruta inspeccionada: src/graphsenselib/tagpack/conf/tagpack_schema.yaml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-8b8030e1f7ef",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-8b8030e1f7ef",
+    "claim": "Ruta inspeccionada: tests/tagpack/test_tagpack_schema.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-812cde971a1c",
+    "candidate_id": "crypto-graphsense-graphsense-lib",
+    "source_id": "crypto-src-812cde971a1c",
+    "claim": "Ruta inspeccionada: tests/tagpack/test_cluster_staleness.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-d473cbed2ff9",
+    "candidate_id": "crypto-graphsense-graphsense-tagpacks",
+    "source_id": "crypto-src-d473cbed2ff9",
+    "claim": "Documentación describe: Atribuciones públicas con fuente y esquema",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6609a702fd4b",
+    "candidate_id": "crypto-graphsense-graphsense-tagpacks",
+    "source_id": "crypto-src-6609a702fd4b",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6274b6a76f9d",
+    "candidate_id": "crypto-graphsense-graphsense-tagpack-tool",
+    "source_id": "crypto-src-6274b6a76f9d",
+    "claim": "Documentación describe: Validación y gestión de atribuciones de wallets",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-a9d021b78770",
+    "candidate_id": "crypto-graphsense-graphsense-tagpack-tool",
+    "source_id": "crypto-src-a9d021b78770",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-aa815f9a0024",
+    "candidate_id": "crypto-citp-blocksci",
+    "source_id": "crypto-src-aa815f9a0024",
+    "claim": "Documentación describe: Análisis de blockchain UTXO y heurísticas de clusters",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-f10b2ea27c3e",
+    "candidate_id": "crypto-citp-blocksci",
+    "source_id": "crypto-src-f10b2ea27c3e",
+    "claim": "Texto de licencia examinado; clasificación: GPL-3.0 (ver texto/versiones por archivo)",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-16aa49aafbd4",
+    "candidate_id": "crypto-banteg-multicall-py",
+    "source_id": "crypto-src-16aa49aafbd4",
+    "claim": "Documentación describe: Lecturas agrupadas de contratos EVM",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-cde98ab48c79",
+    "candidate_id": "crypto-banteg-multicall-py",
+    "source_id": "crypto-src-cde98ab48c79",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c6de7e0bb76c",
+    "candidate_id": "crypto-banteg-multicall-py",
+    "source_id": "crypto-src-c6de7e0bb76c",
+    "claim": "Ruta inspeccionada: pyproject.toml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-966ca034d498",
+    "candidate_id": "crypto-ethereum-web3-py",
+    "source_id": "crypto-src-966ca034d498",
+    "claim": "Documentación describe: Cliente RPC Ethereum Python",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-fcf9b7ea8441",
+    "candidate_id": "crypto-ethereum-web3-py",
+    "source_id": "crypto-src-fcf9b7ea8441",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-f5df4ca91a3c",
+    "candidate_id": "crypto-wevm-viem",
+    "source_id": "crypto-src-f5df4ca91a3c",
+    "claim": "Documentación describe: Cliente Ethereum TypeScript tipado",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-4168b072dae3",
+    "candidate_id": "crypto-wevm-viem",
+    "source_id": "crypto-src-4168b072dae3",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-e0768fb224e8",
+    "candidate_id": "crypto-wevm-viem",
+    "source_id": "crypto-src-e0768fb224e8",
+    "claim": "Documentación describe: Cliente Ethereum TypeScript tipado",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c301983cdabf",
+    "candidate_id": "crypto-wevm-viem",
+    "source_id": "crypto-src-c301983cdabf",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-05beab500402",
+    "candidate_id": "crypto-coinmetrics-api-client-python",
+    "source_id": "crypto-src-05beab500402",
+    "claim": "Documentación describe: Cliente de métricas de red y mercado",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-b2c1fb937e42",
+    "candidate_id": "crypto-coinmetrics-api-client-python",
+    "source_id": "crypto-src-b2c1fb937e42",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-7d745ae80300",
+    "candidate_id": "crypto-coinmetrics-data",
+    "source_id": "crypto-src-7d745ae80300",
+    "claim": "Documentación describe: Datos comunitarios de métricas cripto",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c3b35d7a288c",
+    "candidate_id": "crypto-coinmetrics-data",
+    "source_id": "crypto-src-c3b35d7a288c",
+    "claim": "Texto de licencia examinado; clasificación: CC-BY-NC-4.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-6f846fa9f13d",
+    "candidate_id": "crypto-tardis-dev-tardis-python",
+    "source_id": "crypto-src-6f846fa9f13d",
+    "claim": "Documentación describe: Cliente de datos históricos de mercado y replay",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-46bbece6af52",
+    "candidate_id": "crypto-tardis-dev-tardis-python",
+    "source_id": "crypto-src-46bbece6af52",
+    "claim": "Texto de licencia examinado; clasificación: MPL-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-e0fc5c18221e",
+    "candidate_id": "crypto-bmoscon-cryptofeed",
+    "source_id": "crypto-src-e0fc5c18221e",
+    "claim": "Documentación describe: Normalización de feeds WebSocket y libros de órdenes",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-9b65297ff908",
+    "candidate_id": "crypto-bmoscon-cryptofeed",
+    "source_id": "crypto-src-9b65297ff908",
+    "claim": "Texto de licencia examinado; clasificación: AGPL-3.0-or-later + atribución adicional",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-d9e382280b2c",
+    "candidate_id": "crypto-bmoscon-cryptofeed",
+    "source_id": "crypto-src-d9e382280b2c",
+    "claim": "Ruta inspeccionada: pyproject.toml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-82bae0033e5f",
+    "candidate_id": "crypto-bmoscon-cryptofeed",
+    "source_id": "crypto-src-82bae0033e5f",
+    "claim": "Ruta inspeccionada: cryptofeed/exchanges/binance.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-d64de6b525fb",
+    "candidate_id": "crypto-bmoscon-cryptofeed",
+    "source_id": "crypto-src-d64de6b525fb",
+    "claim": "Ruta inspeccionada: cryptofeed/exchanges/bybit.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-42fe5c61c0b3",
+    "candidate_id": "crypto-bmoscon-cryptofeed",
+    "source_id": "crypto-src-42fe5c61c0b3",
+    "claim": "Ruta inspeccionada: tests/unit/test_bybit_liquidations.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-460c2159e649",
+    "candidate_id": "crypto-bmoscon-cryptofeed",
+    "source_id": "crypto-src-460c2159e649",
+    "claim": "Ruta inspeccionada: tests/unit/test_binance_depth_stream.py; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-fcefb8cd7e49",
+    "candidate_id": "crypto-binance-binance-public-data",
+    "source_id": "crypto-src-fcefb8cd7e49",
+    "claim": "Documentación describe: Archivos de operaciones y velas públicos",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-67de5dbfc8c5",
+    "candidate_id": "crypto-binance-binance-connector-python",
+    "source_id": "crypto-src-67de5dbfc8c5",
+    "claim": "Documentación describe: Clientes oficiales REST y WebSocket",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-1f98b408f9b1",
+    "candidate_id": "crypto-binance-binance-connector-python",
+    "source_id": "crypto-src-1f98b408f9b1",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-32f5c962c4f4",
+    "candidate_id": "crypto-bybit-exchange-pybit",
+    "source_id": "crypto-src-32f5c962c4f4",
+    "claim": "Documentación describe: Cliente oficial Bybit Python",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-082b3f231828",
+    "candidate_id": "crypto-bybit-exchange-pybit",
+    "source_id": "crypto-src-082b3f231828",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-7a16ae4140e4",
+    "candidate_id": "crypto-gmx-io-gmx-synthetics",
+    "source_id": "crypto-src-7a16ae4140e4",
+    "claim": "Documentación describe: Contratos de derivados on-chain",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ef56067019de",
+    "candidate_id": "crypto-gmx-io-gmx-synthetics",
+    "source_id": "crypto-src-ef56067019de",
+    "claim": "Texto de licencia examinado; clasificación: BUSL-1.1; Change License GPL-2.0-or-later desde 2026-08-31 para texto examinado",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-c86efff92d43",
+    "candidate_id": "crypto-drift-labs-protocol-v2",
+    "source_id": "crypto-src-c86efff92d43",
+    "claim": "Documentación describe: Protocolo de derivados Solana",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-38d50b485c60",
+    "candidate_id": "crypto-drift-labs-protocol-v2",
+    "source_id": "crypto-src-38d50b485c60",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-aeb578a46db5",
+    "candidate_id": "crypto-jito-foundation-geyser-grpc-plugin",
+    "source_id": "crypto-src-aeb578a46db5",
+    "claim": "Documentación describe: Streaming de datos Solana",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-8fc7e976994d",
+    "candidate_id": "crypto-jito-foundation-geyser-grpc-plugin",
+    "source_id": "crypto-src-8fc7e976994d",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-3f454962d494",
+    "candidate_id": "crypto-rpcpool-yellowstone-grpc",
+    "source_id": "crypto-src-3f454962d494",
+    "claim": "Documentación describe: Streaming Solana con filtros",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-afabfc312cc9",
+    "candidate_id": "crypto-rpcpool-yellowstone-grpc",
+    "source_id": "crypto-src-afabfc312cc9",
+    "claim": "Texto de licencia examinado; clasificación: AGPL-3.0 (ver texto/versiones por archivo)",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-282b33f8de3a",
+    "candidate_id": "crypto-orca-so-whirlpools",
+    "source_id": "crypto-src-282b33f8de3a",
+    "claim": "Documentación describe: AMM de liquidez concentrada en Solana",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-cb7d05fd01c1",
+    "candidate_id": "crypto-orca-so-whirlpools",
+    "source_id": "crypto-src-cb7d05fd01c1",
+    "claim": "Texto de licencia examinado; clasificación: Orca License (2025), restricciones de uso",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-8471c320991c",
+    "candidate_id": "crypto-balancer-balancer-v3-monorepo",
+    "source_id": "crypto-src-8471c320991c",
+    "claim": "Documentación describe: Contratos AMM y pools composables",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-0a1bde1fec59",
+    "candidate_id": "crypto-balancer-balancer-v3-monorepo",
+    "source_id": "crypto-src-0a1bde1fec59",
+    "claim": "Texto de licencia examinado; clasificación: GPL-3.0 (ver texto/versiones por archivo)",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-e5e9eebc0a07",
+    "candidate_id": "crypto-aave-aave-v3-core",
+    "source_id": "crypto-src-e5e9eebc0a07",
+    "claim": "Documentación describe: Contratos de préstamos y liquidaciones",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-4c6fb8e1219e",
+    "candidate_id": "crypto-aave-aave-v3-core",
+    "source_id": "crypto-src-4c6fb8e1219e",
+    "claim": "Texto de licencia examinado; clasificación: BUSL-1.1; Change License MIT desde 2023-01-27 para texto examinado",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-dc888d8cbcad",
+    "candidate_id": "crypto-snapshot-labs-snapshot-js",
+    "source_id": "crypto-src-dc888d8cbcad",
+    "claim": "Documentación describe: Cliente de propuestas y votación de gobernanza",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-4a25dd4b96e5",
+    "candidate_id": "crypto-snapshot-labs-snapshot-js",
+    "source_id": "crypto-src-4a25dd4b96e5",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-bf6aade940da",
+    "candidate_id": "crypto-co-messi-hyperdata-terminal",
+    "source_id": "crypto-src-bf6aade940da",
+    "claim": "Documentación describe: Terminal de datos públicos y estrés Hyperliquid; revisar estimaciones",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-ebe8a2e06d3e",
+    "candidate_id": "crypto-co-messi-hyperdata-terminal",
+    "source_id": "crypto-src-ebe8a2e06d3e",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-0e4239b524a7",
+    "candidate_id": "crypto-co-messi-hyperdata-terminal",
+    "source_id": "crypto-src-0e4239b524a7",
+    "claim": "Ruta inspeccionada: pyproject.toml; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-f393c368ef61",
+    "candidate_id": "crypto-co-messi-hyperdata-terminal",
+    "source_id": "crypto-src-f393c368ef61",
+    "claim": "Ruta inspeccionada: docs/DATA_INTEGRITY.md; alcance técnico detallado en revisión o notas, sin ejecución",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-5cefa51ff2e3",
+    "candidate_id": "crypto-0xbaro-hyperliquid",
+    "source_id": "crypto-src-5cefa51ff2e3",
+    "claim": "Documentación describe: Investigación de metaórdenes y dataset Hyperliquid",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-afdfaa7eac97",
+    "candidate_id": "crypto-gaserd-prediction-markets-api",
+    "source_id": "crypto-src-afdfaa7eac97",
+    "claim": "Documentación describe: Normalización multi-venue de mercados predictivos",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-378eef214dfc",
+    "candidate_id": "crypto-gaserd-prediction-markets-api",
+    "source_id": "crypto-src-378eef214dfc",
+    "claim": "Texto de licencia examinado; clasificación: MIT",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-818ac9129a6e",
+    "candidate_id": "crypto-defipy-devs-defipy",
+    "source_id": "crypto-src-818ac9129a6e",
+    "claim": "Documentación describe: Simulación de AMMs para investigación de liquidez",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-2add4db1b815",
+    "candidate_id": "crypto-defipy-devs-defipy",
+    "source_id": "crypto-src-2add4db1b815",
+    "claim": "Texto de licencia examinado; clasificación: Apache-2.0",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-bb7d794a77a4",
+    "candidate_id": "crypto-defillama-peggedassets-server",
+    "source_id": "crypto-src-bb7d794a77a4",
+    "claim": "Documentación describe: Adaptadores y servidor de oferta de stablecoins",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-5747518eb555",
+    "candidate_id": "crypto-polymarket-ctf-exchange-v2",
+    "source_id": "crypto-src-5747518eb555",
+    "claim": "Documentación describe: Sucesor oficial de contratos de liquidacion",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-45a86b07cc48",
+    "candidate_id": "crypto-polymarket-ctf-exchange-v2",
+    "source_id": "crypto-src-45a86b07cc48",
+    "claim": "Texto de licencia examinado; clasificación: BUSL-1.1",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-1559c51b886d",
+    "candidate_id": "crypto-aave-dao-aave-v3-origin",
+    "source_id": "crypto-src-1559c51b886d",
+    "claim": "Documentación describe: Repositorio sucesor de Aave V3 core",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-d7f85d5ef602",
+    "candidate_id": "crypto-aave-dao-aave-v3-origin",
+    "source_id": "crypto-src-d7f85d5ef602",
+    "claim": "Texto de licencia examinado; clasificación: BUSL-1.1",
+    "evidence_type": "static_source_inspection",
+    "limitations": "No demuestra comportamiento en ejecución, exactitud de datos ni estado desplegado. Hash identifica contenido recuperado; fecha de commit no recuperada en todos los casos."
+  },
+  {
+    "id": "crypto-ev-detail-760933edd6a5",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "source_id": "crypto-src-f01b354b1e55",
+    "claim": "La metodología distingue fees, pagos al lado proveedor, revenue del protocolo y captura de holders; la etiqueta debe leerse por protocolo y versión.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-7d5a6b8d6fdf",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-ece43d759c1f",
+    "claim": "La documentación describe conversión automática a HYPE del assistance fund y quema; HIP-3, spot, descuentos y deployers requieren ámbitos y bases separados.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-f183a10d8b13",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-53d77f2340fa",
+    "claim": "El endpoint Info documenta paginación y límites de resultados; una consulta temporal no equivale a descargar todo el historial disponible.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-b065ca7489af",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-de9361a145aa",
+    "claim": "Los límites por IP y endpoint usan ventanas deslizantes y pueden retrasar peticiones; un HTTP exitoso no prueba frescura ni completitud.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-be8ea88cefa2",
+    "candidate_id": "crypto-polymarket-py-clob-client-v2",
+    "source_id": "crypto-src-823262f725d6",
+    "claim": "La release v1.2.1 documenta deprecación del cliente de transición V2 y remite al SDK unificado.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-292c1586f16a",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-d16ece284687",
+    "claim": "Documenta reparto 84/12/4 en CLMM/CPMM y 88/12 en AMM v4; porcentajes sobre fees y denominadores de configuración distintos.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-cfcf5b5ade7d",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-bcff7eb30a60",
+    "claim": "El documento indica custodia del RAY recomprado en dirección del protocolo; no describe esa acumulación como burn.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-93ba7eee3403",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-5d2b459700d8",
+    "claim": "TJAR es anunciado como infraestructura desplegada de conversión configurable; destino, threshold y propietario siguen siendo campos a verificar por despliegue.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-303b93d39c0a",
+    "candidate_id": "crypto-pump-fun-pump-public-docs",
+    "source_id": "crypto-src-ead47f6d2c81",
+    "claim": "El panel anuncia asignación de 50% a buyback/burn, pero advierte cobertura incorrecta de custom pairs y datos de wallets no disponibles.",
+    "evidence_type": "documentary_observation",
+    "limitations": "Declaración del operador; cifras monetarias y transacciones no reconciliadas, no aptas como verdad validada."
+  },
+  {
+    "id": "crypto-ev-detail-7e64ef3f44df",
+    "candidate_id": "crypto-duneanalytics-dune-client",
+    "source_id": "crypto-src-3e5ce1674aa0",
+    "claim": "Cliente abierto y documentación pública no equivalen a infraestructura hospedada ni resultados de consultas con licencia abierta.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-1563456d1806",
+    "candidate_id": "crypto-defillama-peggedassets-server",
+    "source_id": "crypto-src-c7e6dd4bc23e",
+    "claim": "Circle documenta transferencias USDC burn-and-mint entre cadenas: un mint local puede corresponder a migración de oferta, sin entrada fiat nueva.",
+    "evidence_type": "documentary_observation",
+    "limitations": "Inferencia contable del mecanismo documentado; no se midieron flujos concretos ni se auditó CCTP."
+  },
+  {
+    "id": "crypto-ev-detail-1d24d981eb96",
+    "candidate_id": "crypto-citp-blocksci",
+    "source_id": "crypto-src-a8eb4ff87b30",
+    "claim": "Publicación original de la plataforma BlockSci; aporta diseño analítico, no prueba mantenimiento vigente del repositorio.",
+    "evidence_type": "documentary_observation",
+    "limitations": "No demuestra exactitud de datos, ejecución local ni estado desplegado; conservar versión y alcance."
+  },
+  {
+    "id": "crypto-ev-detail-b93ea53379ed",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "source_id": "crypto-src-6c9292c0068f",
+    "claim": "El helper modifica revenue shares por fecha (97/3 y luego 99/1) y contiene fallback a metaAndAssetCtxs actual cuando fallan snapshots recientes. No convertir ese fallback en dato point-in-time histórico.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  },
+  {
+    "id": "crypto-ev-detail-ed5264a20e58",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "source_id": "crypto-src-7f8fbbbef5f0",
+    "claim": "El adaptador HLP asigna revenue cero, supply-side fees y doublecounted=true; sumar indiscriminadamente HLP y protocolo duplica conceptos.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  },
+  {
+    "id": "crypto-ev-detail-5330ea53b775",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "source_id": "crypto-src-3749e1c1e193",
+    "claim": "Info inicia WebSocket por defecto salvo skip_ws; firmas retornan Any para diversos endpoints y una llamada de fundingHistory no garantiza paginación exhaustiva.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  },
+  {
+    "id": "crypto-ev-detail-3d91312b0d8b",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-f970475e773d",
+    "claim": "Page mantiene has_more, next_cursor y limit_reached; llegar al máximo de profundidad no demuestra que se haya comprobado otra página.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  },
+  {
+    "id": "crypto-ev-detail-a967617ec1f6",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "source_id": "crypto-src-718de229f375",
+    "claim": "El transporte interpreta Retry-After numérico/fecha y errores HTTP; no se verificó que todos los métodos reintenten de igual modo.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  },
+  {
+    "id": "crypto-ev-detail-199d40d23b44",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-e3795dee5573",
+    "claim": "TokenJar restringe extracción al releaser, cuyo destino contractual puede cambiar el owner; no asumir inmutabilidad sin leer estado.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  },
+  {
+    "id": "crypto-ev-detail-d12b93f0a1ac",
+    "candidate_id": "crypto-uniswap-protocol-fees",
+    "source_id": "crypto-src-3f570b0507e0",
+    "claim": "Firepit configura el destinatario del recurso como 0xdead; transferencia a esa dirección no prueba por sí misma decremento de totalSupply del ERC20.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  },
+  {
+    "id": "crypto-ev-detail-ab0872144482",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-06c945bb11e9",
+    "claim": "Layouts incluyen tasas trade/protocol/fund y acumuladores; son claves para interpretar cuentas con escala y versión de programa.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  },
+  {
+    "id": "crypto-ev-detail-266a8b8a5b82",
+    "candidate_id": "crypto-raydium-io-raydium-sdk-v2",
+    "source_id": "crypto-src-8c05c4e50b45",
+    "claim": "Tests inspeccionados usan fixtures para exact-in/exact-out, financiación SOL y reutilización de cotización sin mutación; no ejecutados.",
+    "evidence_type": "static_source_inspection",
+    "limitations": "Inspección estática de esta ruta; no se ejecutaron tests ni se verificó comportamiento desplegado."
+  }
+]

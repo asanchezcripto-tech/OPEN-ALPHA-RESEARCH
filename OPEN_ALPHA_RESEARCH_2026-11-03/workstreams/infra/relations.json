@@ -1,0 +1,50 @@
+[
+  {
+    "from_id": "infra-patito",
+    "to_id": "infra-polars",
+    "relation": "dependencia declarada",
+    "evidence_source_id": "infra-S0093"
+  },
+  {
+    "from_id": "infra-patito",
+    "to_id": "infra-pydantic",
+    "relation": "dependencia declarada",
+    "evidence_source_id": "infra-S0093"
+  },
+  {
+    "from_id": "infra-dlt",
+    "to_id": "infra-duckdb",
+    "relation": "destino opcional; manifiesto restringe <2",
+    "evidence_source_id": "infra-S0034"
+  },
+  {
+    "from_id": "infra-marimo",
+    "to_id": "infra-duckdb",
+    "relation": "extra SQL declarado",
+    "evidence_source_id": "infra-S0158"
+  },
+  {
+    "from_id": "infra-qfs",
+    "to_id": "infra-duckdb",
+    "relation": "import observado",
+    "evidence_source_id": "infra-S0236"
+  },
+  {
+    "from_id": "infra-qfs",
+    "to_id": "infra-polars",
+    "relation": "import observado",
+    "evidence_source_id": "infra-S0236"
+  },
+  {
+    "from_id": "infra-datacompy",
+    "to_id": "infra-polars",
+    "relation": "backend observado",
+    "evidence_source_id": "infra-S0221"
+  },
+  {
+    "from_id": "infra-requests-cache",
+    "to_id": "infra-httpx",
+    "relation": "comparación de alternativas, NO dependencia",
+    "evidence_source_id": "infra-S0103"
+  }
+]

@@ -1,0 +1,200 @@
+{
+  "duckdb": {
+    "title": "DuckDB: uniones temporales sin confundir fecha con conocimiento",
+    "scores": [
+      24,
+      13,
+      14,
+      11,
+      10,
+      5,
+      7,
+      6
+    ],
+    "decision": "Adoptar biblioteca para consultas locales; fijar una versión compatible con los conectores.",
+    "architecture": "El operador PhysicalAsOfJoin separa claves de partición y ordenación, asigna orden ascendente o descendente según la desigualdad y trata de forma distinta igualdad ordinaria y equivalencia con nulos. La biblioteca consulta tablas y Parquet en el mismo proceso. La ruta examinada prueba que ASOF es una operación implementada; no verifica todas las optimizaciones, extensiones o conectores.",
+    "value": "Para un panel macro permite asociar una decisión con la última observación publicada antes de ella. Conservar explícitamente los timestamps de ambos lados: una proyección que solo devuelve el tiempo izquierdo oculta la edad del dato. La unidad y el identificador del activo deben formar parte del contrato, pues SQL no detecta que se mezclan OI en contratos y OI en dólares.",
+    "limits": "Un ASOF no resuelve por sí solo la bitemporalidad de datos revisables. Filtrar por tiempo de conocimiento y resolver revisiones por periodo antes de buscar el dato pertinente; si hay dos desigualdades independientes, usar una consulta por ventanas. Igualdades con nulos pueden unir identidades desconocidas: en un catálogo financiero se debe rechazar una identidad nula. No se midió rendimiento ni memoria.",
+    "tests": "Se inspeccionó test_asof_join_nulls.test: diferencia claves de partición con IS NOT DISTINCT FROM, igualdad ordinaria y nulos en el campo temporal. No se ejecutaron tests; la ruta inicial asof_join.test devolvió 404 y fue sustituida por la ruta real.",
+    "dependencies": "Motor C++/CMake; bindings y extensiones tienen superficie propia. dlt inspeccionado limita DuckDB a <2 en sus destinos: no recomendar latest sin resolver versiones.",
+    "alternative": "SQLite para registro de tesis y metadatos; Polars para transformaciones por expresiones. XTDB solo si el coste de mantener bitemporalidad propia supera claramente operar otro servidor.",
+    "experiment": "Preparar 20 casos con publicación tardía, revisión, timestamp duplicado, unidad distinta y dato ausente. Exigir cero lecturas con knowledge_time posterior a la decisión y mostrar cuándo no hay dato válido.",
+    "hardware": "Estimación de diseño: CPU corriente, 8–16 GB RAM para tablas diarias pequeñas; almacenamiento depende de snapshots. No es un benchmark ni un requisito mínimo oficial."
+  },
+  "polars": {
+    "title": "Polars: transformaciones y límites explícitos de antigüedad",
+    "scores": [
+      23,
+      13,
+      14,
+      10,
+      10,
+      5,
+      7,
+      6
+    ],
+    "decision": "Adoptar biblioteca cuando haya transformaciones tabulares; evitar añadirla si SQL y pandas ya resuelven el alcance.",
+    "architecture": "DataFrame.join_asof expone dirección, grupos, tolerancia, coincidencias exactas y comprobación de orden. El wrapper delega en el plan lazy y el motor nativo. Se inspeccionó esta interfaz, su manifiesto y tests; no el motor Rust completo.",
+    "value": "La tolerancia permite declarar que un funding o dato de profundidad es demasiado viejo para usarse, aunque exista una observación anterior. La dirección backward es apropiada para joins de información disponible; nearest o forward pueden incorporar el futuro. Separar uniones de investigación histórica de interpolación descriptiva.",
+    "limits": "Exigir orden dentro de cada grupo, tipos temporales homogéneos y un criterio explícito para empates. La misma fecha puede contener revisiones con distinto conocimiento: join_asof no sustituye ese modelo. La tolerancia debe reflejar la frecuencia de la fuente, no optimizarse sobre rentabilidad. Un cambio de runtime puede afectar resultados y APIs.",
+    "tests": "El archivo test_join_asof.py contiene pruebas de tolerancia, claves nulas, orden, tipos y allow_exact_matches. Se leyó el caso de trades/quotes que excluye coincidencias exactas; no se ejecutó ni se midió cobertura.",
+    "dependencies": "El manifiesto observado declara polars-runtime-32 ==2.1.0 y Python >=3.11; extras opcionales añaden pyarrow, pandas o GPU. La máquina del trabajo usa Python 3.10 para scripts propios: no se instaló ni se probó Polars en ella.",
+    "alternative": "DuckDB ofrece SQL y lectura directa de Parquet; pandas reduce fricción con librerías quant. Elegir un motor principal y convertir únicamente en las fronteras necesarias.",
+    "experiment": "Replay de series desordenadas, publicación tardía y cambios de zona horaria. Comprobar una unión manual de 30 filas y rechazar datos fuera de tolerancia, sin rellenar automáticamente el hueco.",
+    "hardware": "CPU y 8–16 GB RAM como supuesto de un prototipo diario; no requiere GPU para la capacidad propuesta."
+  },
+  "pandera": {
+    "title": "Pandera: calidad estructural con cuarentena de datos",
+    "scores": [
+      22,
+      12,
+      13,
+      10,
+      10,
+      5,
+      6,
+      6
+    ],
+    "decision": "Adoptar biblioteca para controles de calidad explícitos y pequeños.",
+    "architecture": "La API DataFrameSchema.validate recibe head, tail, sample, lazy e inplace. El backend ejecuta parsers, comprobaciones de columnas, coacción de tipos y validadores. La inspección muestra que validar puede transformar los datos; no debe confundirse con comprobar una copia inmutable.",
+    "value": "Un contrato puede exigir unidad conocida, claves únicas, magnitudes finitas y consistencia entre fecha de publicación y adquisición. Las reglas económicas, por ejemplo revenue no equivalente a fees o cambios permitidos de suministro, siguen siendo responsabilidad del analista.",
+    "limits": "head/tail/sample comprueban subconjuntos: una validación correcta de muestra no certifica toda la tabla. drop_invalid_rows exige lazy=True y puede ocultar observaciones si no se guarda un registro de rechazos. Coerce y defaults pueden transformar un fallo de proveedor en un valor aparentemente limpio. Preferir cuarentena con razón antes de descartar silenciosamente.",
+    "tests": "Se inspeccionó el árbol real de tests/pandas y el caso test_drop_invalid_rows_failure_limit.py; el antiguo tests/core/test_schemas.py no existía. No se calculó porcentaje de cobertura ni se ejecutó código.",
+    "dependencies": "Python >=3.10; extras pandas>=2.1.1 y polars>=1.20.0 observados. Elegir un solo backend para el primer alcance.",
+    "alternative": "Pydantic para cada objeto de entrada, Patito si el proyecto es exclusivamente Polars. Great Expectations añade contexto y operación que puede no compensar para un usuario.",
+    "experiment": "Inyectar 12 errores conocidos: unidades mezcladas, timestamps sin zona, duplicados, nulos, infinito, negativo imposible y cambio de esquema. El informe debe identificar todos y conservar la entrada original.",
+    "hardware": "Estimación: CPU, memoria proporcional a la tabla y copia de validación; 8–16 GB para un universo diario pequeño."
+  },
+  "dlt": {
+    "title": "dlt: ingesta incremental que no garantiza un archivo de revisiones",
+    "scores": [
+      22,
+      13,
+      12,
+      8,
+      10,
+      5,
+      6,
+      5
+    ],
+    "decision": "Adoptar biblioteca si hay varias fuentes incrementales; un recolector pequeño puede bastar al principio.",
+    "architecture": "Incremental mantiene estado por recurso y cursor. get_state crea un estado transitorio si existe end_value; en uso normal conserva el avance. bind resuelve contexto del planificador y rango. Faltas de cursor producen errores por defecto. Se inspeccionaron código, manifiesto y pruebas, sin ejecutar un pipeline.",
+    "value": "Reduce trabajo repetido en paginación temporal y recuperación de rangos solapados. Una ventana lag permite volver a consultar observaciones recientes que la fuente corrige. Esto es útil para métricas de protocolos cuyos adaptadores se actualizan después del día al que atribuyen el dato.",
+    "limits": "Un cursor de fecha del evento no detecta una revisión tardía de un evento antiguo si la API no expone updated_at ni se relee ese intervalo. La deduplicación de frontera no equivale a merge global; con lag no deben presumirse las mismas garantías. Un destino con merge puede borrar el estado previo si no se añade una capa append-only de snapshots. El planificador externo también puede cambiar el intervalo efectivo.",
+    "tests": "Se leyó test_missing_cursor_field y su expectativa de IncrementalCursorPathMissing/PipelineStepFailed. El archivo contiene pruebas de solapamientos, nulos, claves compuestas y lag. No se ejecutaron.",
+    "dependencies": "Python >=3.10,<3.15. El manifiesto limita varios extras DuckDB a <2. Este es un bloqueo de compatibilidad para una receta que combine indiscriminadamente las versiones más nuevas.",
+    "alternative": "HTTPX/requests, un cursor persistido y snapshots Parquet para 2–3 endpoints. Prefect/Dagster solo cuando se necesite operación más compleja.",
+    "experiment": "Simular una revisión fuera del lag, fallo después de descarga y reintento. Exigir que no haya pérdida, que repetir sea idempotente y que ambas versiones históricas permanezcan consultables.",
+    "hardware": "Estimación: CPU y 8–16 GB RAM; el coste dominante puede ser el proveedor y el historial, no la biblioteca."
+  },
+  "requests-cache": {
+    "title": "requests-cache: disponibilidad y frescura son propiedades distintas",
+    "scores": [
+      21,
+      13,
+      13,
+      11,
+      9,
+      5,
+      7,
+      5
+    ],
+    "decision": "Adoptar biblioteca de forma limitada, con estado de frescura visible y políticas por endpoint.",
+    "architecture": "CachedSession.send consulta el backend y decide entre respuesta guardada y red. _resend maneja errores de refresco; CacheActions permite reutilizar una respuesta caducada con stale_if_error, incluso sin límite temporal si se habilita con True. Se inspeccionaron estas rutas y sus pruebas.",
+    "value": "Una caché reduce llamadas repetidas a documentación y endpoints lentos. Puede conservar lectura útil durante una caída, siempre que el panel indique fecha original, edad, estado caducado y última actualización fallida.",
+    "limits": "Un HTTP 200 devuelto desde caché no prueba que la fuente siga disponible ni que el valor sea actual. No usar stale_if_error ilimitado para alertas de derivados. La caché es mutable y evictable: no sustituye al archivo de evidencia. Revisar claves de caché y separación por credenciales si algún desarrollo futuro incorpora fuentes autenticadas.",
+    "tests": "test_stale_if_error__exception y test_stale_if_error__error_code comprueban devolución de respuesta antigua con from_cache e is_expired. Esa conducta es una característica deliberada, no un fallo de la biblioteca.",
+    "dependencies": "Python >=3.8 y requests; backends/serializadores opcionales amplían dependencias. No se evaluaron todos los serializadores ni su seguridad.",
+    "alternative": "Hishel para un flujo basado en HTTPX y semántica HTTP. Para unos pocos snapshots diarios, guardar payload y hash sin caché adicional puede ser más transparente.",
+    "experiment": "Interrumpir una fuente en un entorno futuro aislado y comprobar que el panel cambia a dato caducado, conserva retrieved_at original y suspende alertas al superar el umbral.",
+    "hardware": "Estimación: CPU y disco local; volumen de caché acotado por TTL y cuota. No hay necesidad de GPU."
+  },
+  "marimo": {
+    "title": "marimo: investigación reactiva con dependencias visibles",
+    "scores": [
+      22,
+      13,
+      13,
+      10,
+      10,
+      5,
+      8,
+      6
+    ],
+    "decision": "Usar directamente como entorno de investigación después de una instalación autorizada y controlada; aquí solo se revisa.",
+    "architecture": "DirectedGraph registra definiciones y dependencias de las celdas, actualiza aristas y detecta ciclos. El borrado de una celda afecta a sus descendientes. Es un control del flujo de cómputo, no un registro automático de procedencia financiera.",
+    "value": "Sirve para comparar una tesis bajo distintas hipótesis de ingresos, dilución o riesgo sin mantener resultados de celdas ejecutadas en orden arbitrario. Una vista de 10–20 minutos puede mostrar cambios y acceso a las filas que los explican.",
+    "limits": "La reactividad puede repetir llamadas o cálculos costosos si no se separan adquisición y análisis. Leer un notebook ajeno puede acabar ejecutando código; no abrirlo con ejecución automática. Un gráfico actualizado no demuestra que el dataset también esté actualizado ni que el modelo respete knowledge_time.",
+    "tests": "Se leyó test_set_stale: una celda y sus descendientes quedan marcados, mientras una celda independiente no. También se inspeccionó la estructura de pruebas de ciclos/orden y dependencias SQL. No se ejecutaron.",
+    "dependencies": "El manifiesto requiere Python >=3.11. SQL y gráficos incorporan extras; las funciones de IA son opcionales y no necesarias para las propuestas.",
+    "alternative": "Jupyter/Voilà si ya hay notebooks fiables, Streamlit para un panel de uso recurrente o un informe HTML estático si no hace falta recalcular escenarios.",
+    "experiment": "Modificar un supuesto y comprobar qué celdas cambian; usar snapshots fijos para que el resultado sea reproducible. Aceptar la interfaz si reduce tiempo de revisión sin perder citas ni unidades.",
+    "hardware": "Estimación: CPU, 8 GB o más para el alcance pequeño; requisitos reales dependen de lo ejecutado en las celdas, no del editor."
+  },
+  "qfs": {
+    "title": "Quant Feature Store: un ejemplo útil que no debe adoptarse sin licencia",
+    "scores": [
+      20,
+      10,
+      9,
+      7,
+      0,
+      2,
+      5,
+      7
+    ],
+    "decision": "Extraer la técnica conceptual; bloquear copia/adaptación de código mientras la licencia siga sin verificar.",
+    "architecture": "El prototipo guarda versiones de features en Parquet y usa DuckDB/Polars. La ruta rápida depende de unicidad por evento, publicación estrictamente creciente y ausencia de timestamps predictivos. Si no se cumplen, el join usa las dos restricciones temporales y ordena por event_time y knowledge_time.",
+    "value": "Hace visible una diferencia fácil de perder: conocer hoy un valor referido a enero no significa haberlo conocido en enero. La estrategia de escoger camino rápido solo bajo invariantes verificables es transferible a otros sistemas.",
+    "limits": "No se encontró licencia en la raíz ni en el manifiesto inspeccionados: público no equivale a reutilizable. Es un prototipo, sin prueba de operación sostenida. El requisito event_time<=as_of es adecuado para hechos observados, pero no para un calendario de unlocks futuros ya anunciados: ese dominio necesita scheduled_event_time y announced_at separados. Nombres e identificadores interpolados en SQL necesitarían revisión de confianza antes de exponerlos a un agente.",
+    "tests": "Se leyó test_no_lookahead_on_knowledge_time: una revisión publicada después queda excluida y se incorpora al avanzar la fecha de consulta. Los tests son fixtures sintéticos; no certifican que los históricos de yfinance tengan vintages reales.",
+    "dependencies": "Manifiesto 0.1.0, Python>=3.10, DuckDB, Polars, pandas, NumPy, PyArrow y yfinance sin fijación estrecha. Las condiciones del proveedor de datos son independientes.",
+    "alternative": "Diseñar un contrato propio y consultas SQL pequeñas basadas en principios generales; XTDB aporta bitemporalidad nativa a costa de otra base y más operación.",
+    "experiment": "Reproducir el comportamiento requerido con fixtures redactados independientemente: dos revisiones, llegada fuera de orden, publicación simultánea, forecast y evento futuro anunciado. No copiar tests mientras no haya permiso.",
+    "hardware": "Estimación del patrón: un portátil basta para fixtures y series diarias pequeñas. No se evaluó escalabilidad del proyecto."
+  },
+  "datacompy": {
+    "title": "DataComPy: un detector de revisiones y discrepancias, no un árbitro económico",
+    "scores": [
+      21,
+      12,
+      13,
+      10,
+      10,
+      5,
+      7,
+      6
+    ],
+    "decision": "Adoptar biblioteca para reconciliación y comparar snapshots.",
+    "architecture": "PolarsCompare compara tablas por claves y evalúa diferencias numéricas con tolerancias absoluta y relativa. El código resuelve el nombre del parámetro de igualdad de nulos según la interfaz Polars, lo que muestra compatibilidad explícita entre ramas de API.",
+    "value": "Comparar la respuesta de hoy para una fecha pasada contra el snapshot anterior permite detectar que la historia cambió. La diferencia se puede atribuir a precio, cantidad, cobertura o metodología solo si se conservan esos campos: un diff aislado no explica la causa.",
+    "limits": "La tolerancia es relativa al segundo conjunto, por lo que el papel de referencia debe ser consistente. Una tolerancia amplia puede ocultar una corrección material. Claves duplicadas o cambios de identidad pueden crear diferencias aparentes. Reconciliar fees de distinto alcance sin armonizar definición produciría falsos positivos.",
+    "tests": "Se inspeccionó tests/test_polars.py y su compatibilidad con semántica de nulos en CSV; la antigua ruta test_core.py no existía. No se ejecutó la batería ni se midió precisión.",
+    "dependencies": "Python>=3.10; el manifiesto observado declara pandas>=2.2,<=3.1 y polars[pandas]>=0.20.4,<=2.1. Integraciones Spark/Snowflake son opcionales e innecesarias aquí.",
+    "alternative": "EXCEPT/join SQL con diferencias de columnas puede bastar para dos tablas estables. data-diff está archivado según su propio repositorio; conservarlo como referencia.",
+    "experiment": "Crear snapshots con diez revisiones conocidas y cinco diferencias de redondeo. Exigir detectar todas las materialmente relevantes, registrar cambios de esquema y explicar por qué se acepta cada tolerancia.",
+    "hardware": "CPU y memoria proporcional al tamaño de tablas; estimación 8–16 GB para snapshots diarios de un universo pequeño."
+  },
+  "patito": {
+    "title": "Patito: contratos legibles para una herramienta basada en Polars",
+    "scores": [
+      20,
+      12,
+      12,
+      10,
+      10,
+      4,
+      6,
+      6
+    ],
+    "decision": "Adoptar biblioteca solo si simplifica el contrato sobre Polars; mantener Pandera como alternativa más general.",
+    "architecture": "Los modelos Pydantic describen columnas y restricciones que se aplican sobre Polars. validators.py comprueba presencia, nulabilidad, dtype, unicidad y expresiones personalizadas. Model.validate devuelve un DataFrame ligado al modelo.",
+    "value": "Un mismo esquema puede hacer explícitos asset_id, moneda, unidad, fuente y tiempos antes de calcular ratios. Una expresión de validación puede exigir que una observación tenga explicación si cambia su metodología.",
+    "limits": "Permitir columnas ausentes o superfluas cambia la garantía: no habilitar estas opciones de manera global. Las restricciones estructurales no prueban la realidad económica ni la legitimidad de una etiqueta de wallet. Un umbral de cobertura en configuración es un objetivo del proyecto, no cobertura medida por esta investigación.",
+    "tests": "Se leyó test_uniqueness_validation: el conjunto con duplicados debe fallar, el vacío puede pasar. Por ello, un chequeo de unicidad debe acompañarse de completitud y mínimo de observaciones. También se observaron casos de fecha y expresiones personalizadas.",
+    "dependencies": "Manifiesto 0.8.6: Python>=3.9, Pydantic>=2.7 y Polars>=1.32. No hay límite superior observado para Polars: probar compatibilidad antes de adoptar un nuevo major.",
+    "alternative": "Pandera si se necesitan varios backends; Pydantic sin otra capa para unos pocos registros. No introducir dos validadores que dupliquen reglas.",
+    "experiment": "Probar esquemas vacíos, claves nulas, duplicados y unidades mezcladas. Exigir que el contrato dé errores entendibles y que no transforme silenciosamente la muestra financiera.",
+    "hardware": "Estimación: CPU corriente; memoria condicionada por Polars. Sin GPU ni servicio alojado obligatorio."
+  }
+}

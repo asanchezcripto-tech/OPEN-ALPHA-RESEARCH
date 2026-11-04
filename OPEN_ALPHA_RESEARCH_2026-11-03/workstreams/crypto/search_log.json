@@ -1,0 +1,145 @@
+[
+  {
+    "id": "crypto-search-01",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Especialización y migraciones",
+    "queries": [
+      "site:github.com/Polymarket py-clob-client archived clob-client-v2 2026",
+      "site:github.com/Polymarket \"polymarket-client\" Python unified",
+      "site:github.com/graphsense graphsense-tagpack-tool archived successor"
+    ],
+    "outcome": "SDK unificado, deprecaciones y migraciones identificados; versiones verificadas contra README/release y archivos fijados por SHA",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-02",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Captura de valor y protocolo",
+    "queries": [
+      "site:hyperliquid.gitbook.io fees assistance fund HYPE burned",
+      "site:docs.raydium.io protocol fees RAY buyback",
+      "site:docs.uniswap.org protocol fee 2026 burn UNI",
+      "site:blog.uniswap.org UNIfication fees burn 2026",
+      "site:blog.uniswap.org protocol fees burn enabled December 2025 2026",
+      "site:github.com/Uniswap \"protocol-fees\""
+    ],
+    "outcome": "Fuentes oficiales de fees, programa y anuncios; distinguir documentación de estado desplegado",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-03",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Adaptadores, stablecoins y licencias",
+    "queries": [
+      "site:github.com DefiLlama dimension-adapters fees hyperliquid index.ts",
+      "site:github.com \"stablecoins\" DefiLlama",
+      "site:github.com/DefiLlama \"stablecoins\" \"License\"",
+      "site:github.com/DefiLlama \"emissions\" adapters",
+      "DefiLlama stablecoins github peggedassets-server",
+      "DefiLlama token unlocks github emissions adapters",
+      "site:github.com/DefiLlama/dimension-adapters \"license\"",
+      "site:github.com/DefiLlama/defillama-sdk \"license\""
+    ],
+    "outcome": "Ruta stablecoins corregida a peggedassets-server; emisiones no verificadas directamente; ausencia de licencia localizada no se convierte en permiso",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-04",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Infraestructura on-chain",
+    "queries": [
+      "site:github.com crypto onchain analytics open source sqd subsquid ethereum-etl cryo chainbase",
+      "site:github.com paradigmxyz cryo README license",
+      "site:github.com graphsense tagpacks confidence labels license",
+      "site:github.com raydium-io raydium-sdk-V2 license",
+      "site:github.com pump-fun pump-public-docs"
+    ],
+    "outcome": "Indexadores y esquemas comparados; rutas críticas inspeccionadas en diez proyectos",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-05",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Búsqueda internacional y fuera de GitHub",
+    "queries": [
+      "site:github.com 加密 链上 数据 分析 开源 Hyperliquid",
+      "site:codeberg.org blockchain analytics cryptocurrency"
+    ],
+    "outcome": "No produjo candidatos adicionales suficientemente verificados; Codeberg limitado por acceso/robots. Cobertura internacional débil, no exhaustiva",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-06",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Retención, derivados y acceso",
+    "queries": [
+      "site:docs.polymarket.com api rate limits historical data",
+      "site:docs.hyperliquid.xyz historical data candles snapshots retention",
+      "site:docs.deribit.com public get_book_summary_by_currency mark_iv open_interest",
+      "site:developers.binance.com liquidation order streams 1000ms all market",
+      "site:developers.binance.com \"only the latest one liquidation\""
+    ],
+    "outcome": "Rate limits y snapshots documentados; no confirmación actual del supuesto Binance 1/s; no inventar retención completa",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-07",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Fuentes comerciales y definiciones",
+    "queries": [
+      "site:docs.tokenterminal.com financial metrics fees revenue tokenholder revenue",
+      "site:docs.dune.com api pricing query credits data export",
+      "site:tokenterminal.com \"Fees\" \"Tokenholder revenue\"",
+      "site:tokenterminal.com \"Tokenholder revenue\" metrics",
+      "site:tokenterminal.com \"Financial statements\" fees revenue"
+    ],
+    "outcome": "Dune/Token Terminal conservados como servicios cerrados; acceso documental, sin cuenta ni API pagada",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-08",
+    "date": "2026-11-04",
+    "engine": "web.run public web search",
+    "purpose": "Contraejemplos de captura y oferta",
+    "queries": [
+      "site:docs.raydium.io \"12%\" buybacks fees",
+      "site:hyperliquid.gitbook.io \"assistance fund\" \"burn\"",
+      "site:hyperliquid.gitbook.io \"HYPE\" \"burned\"",
+      "site:developers.circle.com CCTP burn mint USDC transfer supply"
+    ],
+    "outcome": "Nueva ruta Raydium consultada; RAY recomprado conservado en cuenta; CCTP aporta contraejemplo mint local versus entrada fiat",
+    "precision": "Registro agrupado de consultas realizadas; no se inventan horas ni número de resultados"
+  },
+  {
+    "id": "crypto-search-direct",
+    "date": "2026-11-04",
+    "engine": "GitHub HTML, raw.githubusercontent.com, git ls-remote (sólo lectura)",
+    "purpose": "Comprobación directa y fijación de versiones",
+    "queries": [
+      "HEAD y rutas README/licencia/manifest/rutas críticas de candidatos; URLs exactas en sources.json"
+    ],
+    "outcome": "63 candidatos catalogados: 62 con lectura directa, 1 D0. Cinco URLs iniciales rechazadas/corregidas se conservan aparte. Diez revisiones estáticas V3",
+    "precision": "HTTP status y SHA256 por ruta recuperada; fecha de commit no recuperada sistemáticamente"
+  },
+  {
+    "id": "crypto-search-canonical-docs",
+    "date": "2026-11-04",
+    "engine": "Navegación directa de documentación oficial",
+    "purpose": "Resolver enlaces rotos y leer mecanismos actuales",
+    "queries": [
+      "docs.raydium.io → reference/fee-comparison → ray/protocol-fees → ray/ray-buybacks",
+      "docs.polymarket.com → api-reference/rate-limits",
+      "developers.circle.com/cctp",
+      "tokenterminal.com/explorer/metrics/tokenholder_revenue"
+    ],
+    "outcome": "URLs canónicas recuperadas y límites documentales anotados; fallos originales preservados",
+    "precision": "Sin autenticación, consultas a servicios de datos, contratos ni estado de wallets"
+  }
+]

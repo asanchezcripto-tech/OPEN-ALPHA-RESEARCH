@@ -1,0 +1,134 @@
+[
+  {
+    "id": "AI-METHOD-asof-covariates",
+    "name": "Covariables con corte de conocimiento",
+    "problem": "Evitar que indicadores revisados o futuros contaminen forecasts.",
+    "assumptions": [
+      "Fecha de disponibilidad real y unidad identificadas"
+    ],
+    "data_frequency": "Diaria/semanal; fuente macro con vintages",
+    "validation": "Casos negativos con publicaciones futuras; comparación de snapshots",
+    "failure_modes": [
+      "Marcar M2 futuro como known-future",
+      "Cross-learning mezcla grupos con cortes distintos"
+    ],
+    "implementations": [
+      "AI-fev",
+      "AI-chronos",
+      "AI-tradingagents"
+    ],
+    "simple_reuse": "Vista temporal antes de toda transformación y separación past/future",
+    "crypto_value": "Comparar fundamentos sin conocimiento posterior",
+    "do_not_use_when": "No existe fecha de disponibilidad: abstenerse o marcar simulación retrospectiva.",
+    "source_ids": [
+      "S-AI-fev-code-1",
+      "S-AI-PAPER-2510-13654"
+    ]
+  },
+  {
+    "id": "AI-METHOD-prequential-drift",
+    "name": "Evaluación prequential y drift sobre residuos",
+    "problem": "Distinguir degradación del modelo/cambio de datos.",
+    "assumptions": [
+      "Observaciones ordenadas; error calculado antes de actualizar",
+      "Dependencia temporal tratada en validación"
+    ],
+    "data_frequency": "Stream o diario",
+    "validation": "Saltos sintéticos, periodos estables, demora y falsas alarmas/mes",
+    "failure_modes": [
+      "Alarma por autocorrelación",
+      "Cambio de API interpretado como mercado"
+    ],
+    "implementations": [
+      "AI-river"
+    ],
+    "simple_reuse": "ADWIN sobre pérdida y calidad de datos",
+    "crypto_value": "Detectar cambios de definición de fees y errores de ingesta",
+    "do_not_use_when": "No hay baseline estable o se pretende inferir dirección de precio.",
+    "source_ids": [
+      "S-AI-river-code-1"
+    ]
+  },
+  {
+    "id": "AI-METHOD-quantile-checks",
+    "name": "Forecast cuantílico con calibración por régimen",
+    "problem": "Expresar incertidumbre en actividad y volatilidad.",
+    "assumptions": [
+      "Cortes limpios",
+      "Errores de calibración relevantes para periodo futuro"
+    ],
+    "data_frequency": "Diaria/semanal",
+    "validation": "Pinball/WQL, cobertura, amplitud y scoring por régimen",
+    "failure_modes": [
+      "Intervalos demasiado estrechos por calibración in-sample",
+      "Cobertura global oculta fallos en crisis"
+    ],
+    "implementations": [
+      "AI-chronos",
+      "AI-mlforecast",
+      "AI-fev"
+    ],
+    "simple_reuse": "Un baseline y un TSFM; reservar periodo prospectivo",
+    "crypto_value": "Priorizar sorpresas de fundamentales para investigación",
+    "do_not_use_when": "Se quiere deducir rentabilidad de un error pequeño en precio nominal.",
+    "source_ids": [
+      "S-AI-chronos-code-1",
+      "S-AI-mlforecast-code-1"
+    ]
+  },
+  {
+    "id": "AI-METHOD-evidence-first-rag",
+    "name": "Recuperación de evidencia con verificación numérica",
+    "problem": "Responder sobre protocolos preservando fuente, unidad y fecha.",
+    "assumptions": [
+      "Documentos permitidos y versionados",
+      "Cálculos separados del generador"
+    ],
+    "data_frequency": "Al aparecer documentos/eventos",
+    "validation": "Gold set humano de citas y cifras; documentos adversariales",
+    "failure_modes": [
+      "Cita existente que no implica afirmación",
+      "OCR pierde signo/escala",
+      "Documento malicioso actúa como instrucción"
+    ],
+    "implementations": [
+      "AI-docling",
+      "AI-trafilatura",
+      "AI-pydantic-ai",
+      "AI-model-baai-bge-m3"
+    ],
+    "simple_reuse": "BM25 primero, extracción tipada y calculadora determinista",
+    "crypto_value": "Comparar fees/revenue/captura de valor sin inventar mecanismo",
+    "do_not_use_when": "No puede localizarse la evidencia o resolver contradicción de unidades.",
+    "source_ids": [
+      "S-AI-docling-code-1",
+      "S-AI-finllm-eval-readme"
+    ]
+  },
+  {
+    "id": "AI-METHOD-prospective-catalysts",
+    "name": "Registro prospectivo de probabilidades de catalizadores",
+    "problem": "Evaluar calibración de hipótesis sin memoria retrospectiva del LLM.",
+    "assumptions": [
+      "Pregunta resoluble con regla previa",
+      "Fecha de forecast inmutable",
+      "Consenso de mercado conocido registrado"
+    ],
+    "data_frequency": "Evento; horizontes días a meses",
+    "validation": "Brier/log loss, fiabilidad por bandas, comparación contra consenso",
+    "failure_modes": [
+      "Cambiar regla después del resultado",
+      "Preguntas seleccionadas por éxito",
+      "Comparar modelos con preguntas diferentes"
+    ],
+    "implementations": [
+      "ForecastBench como referencia conceptual"
+    ],
+    "simple_reuse": "Tabla local de probabilidades y resoluciones",
+    "crypto_value": "Thesis Tracker mide aprendizaje del analista y valor incremental",
+    "do_not_use_when": "Resolución ambigua o datos de mercado ilíquidos presentados como probabilidades precisas.",
+    "source_ids": [
+      "S-AI-ForecastBench-about"
+    ]
+  }
+]

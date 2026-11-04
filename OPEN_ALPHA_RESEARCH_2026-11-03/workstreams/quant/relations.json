@@ -1,0 +1,62 @@
+[
+  {
+    "from_id": "quant-pyportfolioopt",
+    "to_id": "quant-cvxpy",
+    "to_url": "https://github.com/cvxpy/cvxpy",
+    "relation": "dependencia de código declarada",
+    "evidence_source_id": "src-quant-951de53d7e1b"
+  },
+  {
+    "from_id": "quant-qlib",
+    "to_id": "quant-cvxpy",
+    "to_url": "https://github.com/cvxpy/cvxpy",
+    "relation": "dependencia de código declarada",
+    "evidence_source_id": "src-quant-8bb5b1a4fac1"
+  },
+  {
+    "from_id": "quant-arch",
+    "to_id": "quant-statsmodels",
+    "to_url": "https://github.com/statsmodels/statsmodels",
+    "relation": "dependencia de código declarada",
+    "evidence_source_id": "src-quant-1c2bf039cf2d"
+  },
+  {
+    "from_id": "quant-portfolioanalytics",
+    "to_id": "quant-performanceanalytics",
+    "to_url": "https://github.com/braverock/PerformanceAnalytics",
+    "relation": "dependencia de código declarada",
+    "evidence_source_id": "src-quant-ceb3c230ba9c"
+  },
+  {
+    "from_id": "quant-alphalens-reloaded",
+    "to_id": "quant-alphalens",
+    "to_url": "https://github.com/quantopian/alphalens",
+    "relation": "continuación/fork: historia completa no comparada",
+    "evidence_source_id": "src-quant-e34f599f5288"
+  },
+  {
+    "from_id": "quant-empyrical-reloaded",
+    "to_id": "quant-empyrical",
+    "to_url": "https://github.com/quantopian/empyrical",
+    "relation": "continuación/fork: historia completa no comparada",
+    "evidence_source_id": "src-quant-cc7ab8e86837"
+  },
+  {
+    "from_id": "quant-skfolio",
+    "to_id": "quant-arch",
+    "relation": "combinación propuesta, no dependencia existente",
+    "evidence_source_id": null
+  },
+  {
+    "from_id": "quant-ruptures",
+    "to_id": "quant-fredapi",
+    "relation": "combinación propuesta, no dependencia existente",
+    "evidence_source_id": null
+  },
+  {
+    "from_id": "quant-vectorbt",
+    "to_id": "quant-arch",
+    "relation": "combinación propuesta, no dependencia existente",
+    "evidence_source_id": null
+  }
+]

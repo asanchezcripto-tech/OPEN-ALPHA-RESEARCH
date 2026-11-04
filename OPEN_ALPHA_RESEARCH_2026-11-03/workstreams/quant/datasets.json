@@ -1,0 +1,319 @@
+[
+  {
+    "id": "quant-alfred",
+    "name": "FRED / ALFRED",
+    "url": "https://alfred.stlouisfed.org/help",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "proveedor/dataset",
+    "description": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "outputs": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "La documentación confirma archivo de revisiones; fechas desconocidas pueden asignarse por primera disponibilidad en FRED. API requiere clave; derechos de cada serie separados."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-c58b31cabba1"
+    ],
+    "source_ids": [
+      "src-quant-2ecbd04c5b67",
+      "src-quant-4ae564a6ee3e"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-fred-md",
+    "name": "FRED-MD",
+    "url": "https://www.stlouisfed.org/research/economists/mccracken/fred-databases",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "dataset",
+    "description": "Panel macro mensual con transformaciones y vintages.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Panel macro mensual con transformaciones y vintages.",
+    "outputs": "Panel macro mensual con transformaciones y vintages.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "No mezclar current.csv con evaluación histórica; vintage mensual no reproduce todos los instantes de publicación."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-18e3e5964e06"
+    ],
+    "source_ids": [
+      "src-quant-6e38ac63fd95"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-fred-qd",
+    "name": "FRED-QD",
+    "url": "https://www.stlouisfed.org/research/economists/mccracken/fred-databases",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "dataset",
+    "description": "Panel macro trimestral para factores y nowcasting.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Panel macro trimestral para factores y nowcasting.",
+    "outputs": "Panel macro trimestral para factores y nowcasting.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Frecuencia trimestral y revisiones impiden tratar cada día como observación independiente."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-a1574fc81e8f"
+    ],
+    "source_ids": [
+      "src-quant-6e38ac63fd95"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-ofr-fsi",
+    "name": "OFR Financial Stress Index",
+    "url": "https://www.financialresearch.gov/financial-stress-index/",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A",
+      "K"
+    ],
+    "resource_type": "dataset",
+    "description": "Índice diario de estrés financiero global.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Índice diario de estrés financiero global.",
+    "outputs": "Índice diario de estrés financiero global.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Publica con retraso de dos días hábiles; aviso de corrección de feed en mayo2026 demuestra riesgo de revisiones. No es señal cripto validada."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-40968e7f95d4"
+    ],
+    "source_ids": [
+      "src-quant-ae1878ff4f31"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-nfci",
+    "name": "Chicago Fed NFCI / ANFCI",
+    "url": "https://www.chicagofed.org/research/data/nfci/current-data",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A",
+      "K"
+    ],
+    "resource_type": "dataset",
+    "description": "Condiciones financieras semanales de EEUU.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Condiciones financieras semanales de EEUU.",
+    "outputs": "Condiciones financieras semanales de EEUU.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Índice revisable; distinguir fechado de semana, publicación y descarga. Verificar vintage por fecha antes de backtest."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-c5322ac8e48a"
+    ],
+    "source_ids": [
+      "src-quant-5d95134052de"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-gdpnow",
+    "name": "Atlanta Fed GDPNow",
+    "url": "https://www.atlantafed.org/research-and-data/data/gdpnow",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "modelo/dataset",
+    "description": "Nowcast del PIB antes de la publicación oficial.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Nowcast del PIB antes de la publicación oficial.",
+    "outputs": "Nowcast del PIB antes de la publicación oficial.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Nowcast macro no anticipación de retornos; cobertura de históricos intravintage no auditada."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-9678260c64bc"
+    ],
+    "source_ids": [
+      "src-quant-87b24950cc1f"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-bis-gli",
+    "name": "BIS Global Liquidity Indicators",
+    "url": "https://data.bis.org/topics/GLI",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "dataset",
+    "description": "Crédito a prestatarios no bancarios, incluido crédito en divisas.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": "2026-10-29",
+    "license_code": "Condiciones BIS, no licencia de software",
+    "license_status": "COMPATIBLE CON OBLIGACIONES",
+    "license_url": "https://data.bis.org/help/legal",
+    "dependencies": [],
+    "data_inputs": "Crédito a prestatarios no bancarios, incluido crédito en divisas.",
+    "outputs": "Crédito a prestatarios no bancarios, incluido crédito en divisas.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Serie trimestral; no igualar GLI con M2 ni con liquidez negociable de un exchange."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-6d4aab4bfa60"
+    ],
+    "source_ids": [
+      "src-quant-e38a6152e3e7",
+      "src-quant-092e4b8e7cba"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  }
+]

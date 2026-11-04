@@ -1,0 +1,200 @@
+[
+  {
+    "id": "stage-A",
+    "name": "Descubrimiento amplio",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "Catorce áreas A–N; organizaciones, índices, documentación, repositorios y cards.",
+    "verified": "79 consultas registradas y aperturas originales con trazabilidad de acceso.",
+    "discarded": "Resultados genéricos o comerciales sin evidencia primaria suficiente como prueba técnica.",
+    "unchecked": "Cobertura menor de GitLab/Codeberg/SourceHut y ausencia de barrido sistemático de varias fuentes académicas/comunitarias.",
+    "opportunities": "Reconciliación de datos, revisiones temporales y mecanismos de captura de valor.",
+    "reusable_artifacts": [
+      "search_log.json",
+      "sources.json",
+      "../01_SEARCH_COVERAGE.md"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-B",
+    "name": "Catalogación",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "288 recursos diferenciados, clasificados por tipo, utilidad, nivel, permisos y bloqueantes.",
+    "verified": "IDs, URL canónica, fecha/versión disponibles y fichas con alcance explícito.",
+    "discarded": "Interpretar cada card, SDK o servicio como una aplicación independiente lista para usar.",
+    "unchecked": "Campos nulos: idioma, release, issues, pruebas o hardware que no se auditaron en todas las fichas.",
+    "opportunities": "22 componentes útiles como bibliotecas, técnicas o referencias, con bloqueantes separados.",
+    "reusable_artifacts": [
+      "projects.json",
+      "selected_components.json",
+      "../02_PROJECT_CATALOG.md"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-C",
+    "name": "Depuración y eliminación de duplicados",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "Solapamientos entre áreas, recursos originales/forks/mirrors y sucesores oficiales.",
+    "verified": "Dos entradas duplicadas de repositorio consolidadas: DoWhy y EconML; FRED-MD/QD diferenciados por dataset.",
+    "discarded": "Sumar vistas especializadas al total y recomendar los SDK Polymarket anteriores como opción vigente.",
+    "unchecked": "Diff completo y mantenimiento longitudinal de todos los forks.",
+    "opportunities": "Migración documentada al SDK unificado de Polymarket.",
+    "reusable_artifacts": [
+      "deduplication.json",
+      "relations.json",
+      "../03_DEEP_TECHNICAL_REVIEWS/crypto_polymarket_sdk.md"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-D",
+    "name": "Verificación de recursos",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "Documentación original, licencias, cards y archivos técnicos de candidatos.",
+    "verified": "285 recursos con consulta suficiente para su nivel: 38 V1, 208 V2 y 39 V3.",
+    "discarded": "Dar por verificados ECB API, Treasury API y emissions-adapters con evidencia insuficiente; quedan D0.",
+    "unchecked": "Corte exacto al 3-nov y recursos que no permitieron lectura; condiciones completas de algunos datos/servicios.",
+    "opportunities": "Separar permiso de código, pesos, datasets, servicio y contratos de una misma marca.",
+    "reusable_artifacts": [
+      "sources.json",
+      "evidence.json",
+      "licenses.json"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-E",
+    "name": "Análisis técnico profundo",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "39 rutas críticas: 10 quant, 10 crypto, 10 IA y 9 infraestructura.",
+    "verified": "Comportamiento estático documentado, manifiestos y tests seleccionados cuando fueron accesibles.",
+    "discarded": "Equiparar lectura de tests con ejecución, cobertura o seguridad integral.",
+    "unchecked": "Ejecución aislada, rendimiento, dependencias transitivas, cobertura real y comportamiento en producción.",
+    "opportunities": "Controles de vintages, stale cache, nulos, OI/funding y soporte documental.",
+    "reusable_artifacts": [
+      "../03_DEEP_TECHNICAL_REVIEWS/README.md",
+      "evidence.json"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-F",
+    "name": "Evaluación de algoritmos y modelos",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "32 métodos, 11 modelos, 22 fichas de datasets y 8 papers/líneas de investigación.",
+    "verified": "Supuestos, fallos, licencias observadas, función del benchmark y alcance de lectura.",
+    "discarded": "Derivar rentabilidad cripto de forecasting general, sentimiento o resultados de autores no reproducidos.",
+    "unchecked": "Inferencia local, calibración prospectiva, rendimiento por régimen y auditoría completa de los papers.",
+    "opportunities": "Bases estadísticas antes de foundation models; IA acotada para extracción y cambios.",
+    "reusable_artifacts": [
+      "algorithms.json",
+      "models.json",
+      "datasets.json",
+      "papers.json"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-G",
+    "name": "Comparación",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "22 comparaciones por escenario entre bibliotecas, servicios y métodos.",
+    "verified": "Tradeoffs de complejidad, alcance temporal, fuente, licencia y operación personal.",
+    "discarded": "Ranking universal por popularidad o puntuación total sin comprobar bloqueantes.",
+    "unchecked": "Benchmarks comparables de tiempo, coste y precisión sobre datos propios.",
+    "opportunities": "Almacén local, ficha manual y baseline simple como alternativas evaluables.",
+    "reusable_artifacts": [
+      "comparisons.json",
+      "../08_TECHNOLOGY_COMPARISONS.md"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-H",
+    "name": "Descubrimiento de oportunidades",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "16 conceptos autónomos y 12 combinaciones de técnicas con hipótesis comprobables.",
+    "verified": "Problema, datos, arquitectura mínima, resultado visible, coste estimado y métrica de utilidad.",
+    "discarded": "Construcción de una plataforma global, HFT o superagente de inversión durante este mandato.",
+    "unchecked": "Demanda real, ahorro de tiempo y reducción de errores aún no medidos.",
+    "opportunities": "Monitor de revisiones, trazabilidad de tesis y puentes de captura de valor.",
+    "reusable_artifacts": [
+      "opportunities.json",
+      "../09_HIDDEN_GEMS.md",
+      "../10_NOVEL_COMBINATIONS.md"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-I",
+    "name": "Diseño preliminar",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "Protocol Value, Thesis Tracker, Regime Navigator, Derivatives Stress y Event Lab.",
+    "verified": "Flujos, entradas/salidas, alternativa gratuita limitada, abstención y experimentos mínimos.",
+    "discarded": "Implementar productos o prometer históricos completos y plazos sin comprobar fuentes.",
+    "unchecked": "Elección final de protocolo/venues, permisos por fuente y criterios empíricos del futuro piloto.",
+    "opportunities": "Una primera capacidad útil por herramienta sin depender de CIE.",
+    "reusable_artifacts": [
+      "../12_TOP_FIVE_BLUEPRINTS/README.md",
+      "opportunities.json"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-J",
+    "name": "Revisión crítica",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "Revisión cruzada por tres áreas y comprobación de afirmaciones decisivas del coordinador.",
+    "verified": "Correcciones incorporadas de supply, cobertura, temporalidad, citas, permisos, OI/funding, CAR y dependencia.",
+    "discarded": "Cero fallos en muestras pequeñas como garantía de producción; diagnóstico contemporáneo como predicción.",
+    "unchecked": "Auditoría externa y validación económica; los revisores pertenecen al mismo equipo de investigación.",
+    "opportunities": "Criterios de aceptación más precisos y control de información futura a lo largo de toda la canalización.",
+    "reusable_artifacts": [
+      "../QUALITY_REVIEW.md",
+      "../workstreams/quant/critical_review.md",
+      "../workstreams/crypto/critical_review.md",
+      "../workstreams/ai/critical_review.md"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  },
+  {
+    "id": "stage-K",
+    "name": "Consolidación final",
+    "closed_at": "2026-11-04",
+    "status": "Cerrada dentro del alcance documental; límites explícitos.",
+    "examined": "Informes, inventarios CSV/JSON, navegación, manifiesto y paquete local.",
+    "verified": "Integridad comprobada por auxiliar propio; consultar resultado exacto de quality_checks.json.",
+    "discarded": "Cachés de texto externo, bytecode y cualquier publicación remota del paquete.",
+    "unchecked": "No se revisitaron todas las URLs en esta pasada; los resultados documentales no son pruebas de software.",
+    "opportunities": "Continuar por ID y afirmación sin repetir el barrido completo.",
+    "reusable_artifacts": [
+      "README.md",
+      "quality_checks.json",
+      "../README.md",
+      "../FILE_MANIFEST.json"
+    ],
+    "confidence": "Documental; consultar el alcance de cada registro.",
+    "maintenance_status": "Registro de cierre; no etapa de desarrollo de producto."
+  }
+]

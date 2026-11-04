@@ -1,0 +1,352 @@
+[
+  {
+    "from_id": "infra-patito",
+    "to_id": "infra-polars",
+    "relation": "dependencia declarada",
+    "evidence_source_id": "infra-S0093",
+    "id": "relation-0001",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "infra-patito",
+    "to_id": "infra-pydantic",
+    "relation": "dependencia declarada",
+    "evidence_source_id": "infra-S0093",
+    "id": "relation-0002",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "infra-dlt",
+    "to_id": "infra-duckdb",
+    "relation": "destino opcional; manifiesto restringe <2",
+    "evidence_source_id": "infra-S0034",
+    "id": "relation-0003",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "infra-marimo",
+    "to_id": "infra-duckdb",
+    "relation": "extra SQL declarado",
+    "evidence_source_id": "infra-S0158",
+    "id": "relation-0004",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "infra-qfs",
+    "to_id": "infra-duckdb",
+    "relation": "import observado",
+    "evidence_source_id": "infra-S0236",
+    "id": "relation-0005",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "infra-qfs",
+    "to_id": "infra-polars",
+    "relation": "import observado",
+    "evidence_source_id": "infra-S0236",
+    "id": "relation-0006",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "infra-datacompy",
+    "to_id": "infra-polars",
+    "relation": "backend observado",
+    "evidence_source_id": "infra-S0221",
+    "id": "relation-0007",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "infra-requests-cache",
+    "to_id": "infra-httpx",
+    "relation": "comparación de alternativas, NO dependencia",
+    "evidence_source_id": "infra-S0103",
+    "id": "relation-0008",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-pyportfolioopt",
+    "to_id": "quant-cvxpy",
+    "to_url": "https://github.com/cvxpy/cvxpy",
+    "relation": "dependencia de código declarada",
+    "evidence_source_id": "src-quant-951de53d7e1b",
+    "id": "relation-0009",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-qlib",
+    "to_id": "quant-cvxpy",
+    "to_url": "https://github.com/cvxpy/cvxpy",
+    "relation": "dependencia de código declarada",
+    "evidence_source_id": "src-quant-8bb5b1a4fac1",
+    "id": "relation-0010",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-arch",
+    "to_id": "quant-statsmodels",
+    "to_url": "https://github.com/statsmodels/statsmodels",
+    "relation": "dependencia de código declarada",
+    "evidence_source_id": "src-quant-1c2bf039cf2d",
+    "id": "relation-0011",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-portfolioanalytics",
+    "to_id": "quant-performanceanalytics",
+    "to_url": "https://github.com/braverock/PerformanceAnalytics",
+    "relation": "dependencia de código declarada",
+    "evidence_source_id": "src-quant-ceb3c230ba9c",
+    "id": "relation-0012",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-alphalens-reloaded",
+    "to_id": "quant-alphalens",
+    "to_url": "https://github.com/quantopian/alphalens",
+    "relation": "continuación/fork: historia completa no comparada",
+    "evidence_source_id": "src-quant-e34f599f5288",
+    "id": "relation-0013",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-empyrical-reloaded",
+    "to_id": "quant-empyrical",
+    "to_url": "https://github.com/quantopian/empyrical",
+    "relation": "continuación/fork: historia completa no comparada",
+    "evidence_source_id": "src-quant-cc7ab8e86837",
+    "id": "relation-0014",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-skfolio",
+    "to_id": "quant-arch",
+    "relation": "combinación propuesta, no dependencia existente",
+    "evidence_source_id": null,
+    "id": "relation-0015",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-ruptures",
+    "to_id": "quant-fredapi",
+    "relation": "combinación propuesta, no dependencia existente",
+    "evidence_source_id": null,
+    "id": "relation-0016",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "quant-vectorbt",
+    "to_id": "quant-arch",
+    "relation": "combinación propuesta, no dependencia existente",
+    "evidence_source_id": null,
+    "id": "relation-0017",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-polymarket-py-clob-client",
+    "to_id": "crypto-polymarket-py-sdk",
+    "relation": "sucesor oficial indicado en README",
+    "evidence_source_id": "crypto-src-07e8e691a4ac",
+    "id": "relation-0018",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-polymarket-py-clob-client-v2",
+    "to_id": "crypto-polymarket-py-sdk",
+    "relation": "migración indicada en README",
+    "evidence_source_id": "crypto-src-aafebab7dee9",
+    "id": "relation-0019",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-polymarket-ctf-exchange",
+    "to_id": "crypto-polymarket-ctf-exchange-v2",
+    "relation": "sucesor oficial indicado en README",
+    "evidence_source_id": "crypto-src-a48af7e5a8f2",
+    "id": "relation-0020",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-graphsense-graphsense-tagpack-tool",
+    "to_id": "crypto-graphsense-graphsense-lib",
+    "relation": "migración de repositorio indicada en README",
+    "evidence_source_id": "crypto-src-6274b6a76f9d",
+    "id": "relation-0021",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-aave-aave-v3-core",
+    "to_id": "crypto-aave-dao-aave-v3-origin",
+    "relation": "sucesor indicado en README",
+    "evidence_source_id": "crypto-src-e5e9eebc0a07",
+    "id": "relation-0022",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-defillama-bridges-server",
+    "to_id": "crypto-defillama-dimension-adapters",
+    "relation": "migración a subdirectorio bridges indicada en README",
+    "evidence_source_id": "crypto-src-7886cb7154ac",
+    "id": "relation-0023",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-defillama-dimension-adapters",
+    "to_id": "crypto-defillama-defillama-sdk",
+    "relation": "dependencia de código declarada en manifest",
+    "evidence_source_id": "crypto-src-0d0c0164930e",
+    "id": "relation-0024",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-defillama-defillama-adapters",
+    "to_id": "crypto-defillama-defillama-sdk",
+    "relation": "dependencia de código declarada en manifest",
+    "evidence_source_id": "crypto-src-24a610fe9498",
+    "id": "relation-0025",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-graphsense-graphsense-lib",
+    "to_id": "crypto-graphsense-graphsense-tagpacks",
+    "relation": "compatibilidad de esquema; no requiere importar todo dataset",
+    "evidence_source_id": "crypto-src-464bc8707752",
+    "id": "relation-0026",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-uniswap-protocol-fees",
+    "to_id": "crypto-uniswap-v4-core",
+    "relation": "importación de Currency en ruta inspeccionada",
+    "evidence_source_id": "crypto-src-e3795dee5573",
+    "id": "relation-0027",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "crypto-raydium-io-raydium-sdk-v2",
+    "to_id": "crypto-raydium-io-raydium-clmm",
+    "relation": "cliente y protocolo relacionado; contraste propuesto",
+    "evidence_source_id": "crypto-src-06c945bb11e9",
+    "id": "relation-0028",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-chronos",
+    "to_id": "AI-model-amazon-chronos-2",
+    "relation": "runtime para pesos",
+    "evidence_source_id": "S-AI-chronos-readme",
+    "id": "relation-0029",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-chronos",
+    "to_id": "AI-fev",
+    "relation": "integración implementada predict_fev",
+    "evidence_source_id": "S-AI-chronos-readme",
+    "id": "relation-0030",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-timesfm",
+    "to_id": "AI-model-google-timesfm-3-0-pytorch",
+    "relation": "runtime para pesos; licencias distintas",
+    "evidence_source_id": "S-AI-timesfm-readme",
+    "id": "relation-0031",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-uni2ts",
+    "to_id": "AI-model-salesforce-moirai-2-0-r-small",
+    "relation": "runtime para pesos; licencias distintas",
+    "evidence_source_id": "S-AI-uni2ts-readme",
+    "id": "relation-0032",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-uni2ts",
+    "to_id": "AI-gluonts",
+    "relation": "dependencia observada en forecast.py",
+    "evidence_source_id": "S-AI-uni2ts-readme",
+    "id": "relation-0033",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-mlforecast",
+    "to_id": "AI-lightgbm",
+    "relation": "combinación propuesta; estimador compatible",
+    "evidence_source_id": "S-AI-mlforecast-readme",
+    "id": "relation-0034",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-tradingagents",
+    "to_id": "AI-langgraph",
+    "relation": "dependencia observada en tests y orquestación",
+    "evidence_source_id": "S-AI-tradingagents-readme",
+    "id": "relation-0035",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-finbert",
+    "to_id": "AI-model-prosusai-finbert",
+    "relation": "código separado de checkpoint",
+    "evidence_source_id": "S-AI-finbert-readme",
+    "id": "relation-0036",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-model-prosusai-finbert",
+    "to_id": "AI-dataset-takala-financial-phrasebank",
+    "relation": "datos de fine-tuning declarados",
+    "evidence_source_id": "S-AI-model-prosusai-finbert-config-json",
+    "id": "relation-0037",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-docling",
+    "to_id": "AI-model-baai-bge-m3",
+    "relation": "combinación propuesta para extracción y búsqueda",
+    "evidence_source_id": "S-AI-docling-readme",
+    "id": "relation-0038",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-river",
+    "to_id": "AI-mlforecast",
+    "relation": "combinación propuesta: monitorizar error predictivo",
+    "evidence_source_id": "S-AI-river-readme",
+    "id": "relation-0039",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-fingpt",
+    "to_id": "AI-tradingagents",
+    "relation": "comparación de controles de conocimiento temporal",
+    "evidence_source_id": "S-AI-fingpt-readme",
+    "id": "relation-0040",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-tirex",
+    "to_id": "AI-tirex2",
+    "relation": "generación sucesora; revisar licencia por versión",
+    "evidence_source_id": "S-AI-tirex-readme",
+    "id": "relation-0041",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-gift-eval",
+    "to_id": "AI-dataset-salesforce-gifteval",
+    "relation": "benchmark y colección asociada",
+    "evidence_source_id": "S-AI-gift-eval-readme",
+    "id": "relation-0042",
+    "verified_at": "2026-11-04"
+  },
+  {
+    "from_id": "AI-fev",
+    "to_id": "AI-dataset-autogluon-fev-datasets",
+    "relation": "tareas sobre datasets asociados",
+    "evidence_source_id": "S-AI-fev-readme",
+    "id": "relation-0043",
+    "verified_at": "2026-11-04"
+  }
+]

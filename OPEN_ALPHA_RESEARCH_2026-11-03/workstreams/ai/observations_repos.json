@@ -1,0 +1,2190 @@
+[
+  {
+    "slug": "chronos",
+    "repo": "amazon-science/chronos-forecasting",
+    "root": {
+      "url": "https://github.com/amazon-science/chronos-forecasting",
+      "resolved_url": "https://github.com/amazon-science/chronos-forecasting",
+      "status": 200,
+      "sha256": "feeaa5eb09ccc8494a0aa10b236ece17e171d8ad84b6ea7b00703092aeed3d83",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "1224fafa91e1ecd6674f5204066b159e40b5e4a1",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/1224fafa91e1ecd6674f5204066b159e40b5e4a1/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/1224fafa91e1ecd6674f5204066b159e40b5e4a1/README.md",
+        "status": 200,
+        "sha256": "7f9e55723daadb20f79f3d76d23370888301d917f075e9eafa3e780c78f9ff35",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/1224fafa91e1ecd6674f5204066b159e40b5e4a1/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/1224fafa91e1ecd6674f5204066b159e40b5e4a1/LICENSE",
+        "status": 200,
+        "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "timesfm",
+    "repo": "google-research/timesfm",
+    "root": {
+      "url": "https://github.com/google-research/timesfm",
+      "resolved_url": "https://github.com/google-research/timesfm",
+      "status": 200,
+      "sha256": "24a5b6fec7aa3bb84f9e9bd90b2e67a5ee86cc84833e54a38dc1719417710fad",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "e51928e27119cb17bebc005be2696b75e0a9e688",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/README.md",
+        "status": 200,
+        "sha256": "4312675e2c65ce105cb9006e3caba3d3648fc9269b6bc297e3e94e37f76563d8",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/LICENSE",
+        "status": 200,
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "uni2ts",
+    "repo": "SalesforceAIResearch/uni2ts",
+    "root": {
+      "url": "https://github.com/SalesforceAIResearch/uni2ts",
+      "resolved_url": "https://github.com/SalesforceAIResearch/uni2ts",
+      "status": 200,
+      "sha256": "180f259b4ef8209fee109c0e036d64d5afda91f76622ff1f46d5aeaa376798fc",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "cfd46d4510ed8896f263116f32928eede05b0a75",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/README.md",
+        "status": 200,
+        "sha256": "6ea8b71e124158e20fafaf8f154abd29bb8a532ebbce222a671ba7318f5fe363",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/LICENSE.txt",
+        "resolved_url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/LICENSE.txt",
+        "status": 200,
+        "sha256": "f5f58eb4b77c4b1709334b97f1f04772df7e97c7863be1c0d4c639ee1a871cae",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/LICENSE.md",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "gift-eval",
+    "repo": "SalesforceAIResearch/gift-eval",
+    "root": {
+      "url": "https://github.com/SalesforceAIResearch/gift-eval",
+      "resolved_url": "https://github.com/SalesforceAIResearch/gift-eval",
+      "status": 200,
+      "sha256": "2946322838d5c5b3c44d973638e8137949014f95368ff86af6efe6f4ae342de8",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18/README.md",
+        "status": 200,
+        "sha256": "dc9b6ebe04ab7f52472f86e6820222c3660e36a9cc47d877b4d51446f11e3149",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18/LICENSE.txt",
+        "resolved_url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18/LICENSE.txt",
+        "status": 200,
+        "sha256": "86d1a767fde0c9fc06fbcd25ad802b6576816c3b487fb8e0deac0fff81926158",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/SalesforceAIResearch/gift-eval/82f89c3a2de1e7cd98e35dbcb6917cb4ebb6fd18/LICENSE.md",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "fev",
+    "repo": "autogluon/fev",
+    "root": {
+      "url": "https://github.com/autogluon/fev",
+      "resolved_url": "https://github.com/autogluon/fev",
+      "status": 200,
+      "sha256": "96d6a0c7c64daaedd299bb8eb3e8925fcdfc69d882c640de3155483a58b8f203",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "13b1913881bb7c680d47262bbc32327304bb0571",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/autogluon/fev/13b1913881bb7c680d47262bbc32327304bb0571/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/autogluon/fev/13b1913881bb7c680d47262bbc32327304bb0571/README.md",
+        "status": 200,
+        "sha256": "e96dbc76af87de7d3ba560ef5cef3f045bfc3596daa2cf38c45f572d8ec1a87d",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/autogluon/fev/13b1913881bb7c680d47262bbc32327304bb0571/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/autogluon/fev/13b1913881bb7c680d47262bbc32327304bb0571/LICENSE",
+        "status": 200,
+        "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "autogluon",
+    "repo": "autogluon/autogluon",
+    "root": {
+      "url": "https://github.com/autogluon/autogluon",
+      "resolved_url": "https://github.com/autogluon/autogluon",
+      "status": 200,
+      "sha256": "8d41ea136e347325b15cd4ebbf4f940f3c05f9c36266d290771a22603e5350db",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "e3cb3b71386c54ff11155d6e7a67f6b43f117208",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/autogluon/autogluon/e3cb3b71386c54ff11155d6e7a67f6b43f117208/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/autogluon/autogluon/e3cb3b71386c54ff11155d6e7a67f6b43f117208/README.md",
+        "status": 200,
+        "sha256": "93ecf7edc13ca41f27ba529da07e39290e3124f53d55db2867ce70532154aa91",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/autogluon/autogluon/e3cb3b71386c54ff11155d6e7a67f6b43f117208/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/autogluon/autogluon/e3cb3b71386c54ff11155d6e7a67f6b43f117208/LICENSE",
+        "status": 200,
+        "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "gluonts",
+    "repo": "awslabs/gluonts",
+    "root": {
+      "url": "https://github.com/awslabs/gluonts",
+      "resolved_url": "https://github.com/awslabs/gluonts",
+      "status": 200,
+      "sha256": "28346b19e35c9f1a27506027e144cb870c280459a11e223a9a2deda4126a419e",
+      "truncated": false
+    },
+    "branch": "dev",
+    "commit": "d60556ca71167a3ec1ea807b491dd982d1de2112",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/awslabs/gluonts/d60556ca71167a3ec1ea807b491dd982d1de2112/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/awslabs/gluonts/d60556ca71167a3ec1ea807b491dd982d1de2112/README.md",
+        "status": 200,
+        "sha256": "aefd777d754fbf3b4d32ee4f3a7ef9844bf29166e2afcbc40390cfc79e644b87",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/awslabs/gluonts/d60556ca71167a3ec1ea807b491dd982d1de2112/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/awslabs/gluonts/d60556ca71167a3ec1ea807b491dd982d1de2112/LICENSE",
+        "status": 200,
+        "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "statsforecast",
+    "repo": "Nixtla/statsforecast",
+    "root": {
+      "url": "https://github.com/Nixtla/statsforecast",
+      "resolved_url": "https://github.com/Nixtla/statsforecast",
+      "status": 200,
+      "sha256": "d790dd4e34493a35db3227a3c130549dab856fac7cc4f92e6cc8decef06dee12",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "798b2093506f1f361f4709dfd0e3cab41a29907a",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/Nixtla/statsforecast/798b2093506f1f361f4709dfd0e3cab41a29907a/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/Nixtla/statsforecast/798b2093506f1f361f4709dfd0e3cab41a29907a/README.md",
+        "status": 200,
+        "sha256": "e8d6bebd0cb3ced2e9e89419f239bb26049f1e829a2f1e82fa37f59e6fde4306",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/Nixtla/statsforecast/798b2093506f1f361f4709dfd0e3cab41a29907a/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/Nixtla/statsforecast/798b2093506f1f361f4709dfd0e3cab41a29907a/LICENSE",
+        "status": 200,
+        "sha256": "801dc3c84e5d4bee31962f29132c112d127de8ed7536f4194a4397516a8e05b9",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "mlforecast",
+    "repo": "Nixtla/mlforecast",
+    "root": {
+      "url": "https://github.com/Nixtla/mlforecast",
+      "resolved_url": "https://github.com/Nixtla/mlforecast",
+      "status": 200,
+      "sha256": "69ee1d44e6ecb31394513a2d98f42ef4d8b4c624068b698cdd1baef80573c9bb",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "74ba65e49cb39282e5f490c8dfd25e4bacacedaf",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/Nixtla/mlforecast/74ba65e49cb39282e5f490c8dfd25e4bacacedaf/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/Nixtla/mlforecast/74ba65e49cb39282e5f490c8dfd25e4bacacedaf/README.md",
+        "status": 200,
+        "sha256": "ccdfa3bd9d1c4b937a2c4ab681a35095d31b515e2f009d2eff0153f857e52bab",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/Nixtla/mlforecast/74ba65e49cb39282e5f490c8dfd25e4bacacedaf/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/Nixtla/mlforecast/74ba65e49cb39282e5f490c8dfd25e4bacacedaf/LICENSE",
+        "status": 200,
+        "sha256": "030fe23d30721acfd64bd519f6c904536106882fc64a6ea1de437dedb68386c8",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "neuralforecast",
+    "repo": "Nixtla/neuralforecast",
+    "root": {
+      "url": "https://github.com/Nixtla/neuralforecast",
+      "resolved_url": "https://github.com/Nixtla/neuralforecast",
+      "status": 200,
+      "sha256": "f80d83143bd593821429117cdeee826cabbc35e144aeda7bcb863dd9ab8ae6ce",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "9d76fb3cb49a9dd3d0d1a617a01f20c4b74c4f03",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/Nixtla/neuralforecast/9d76fb3cb49a9dd3d0d1a617a01f20c4b74c4f03/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/Nixtla/neuralforecast/9d76fb3cb49a9dd3d0d1a617a01f20c4b74c4f03/README.md",
+        "status": 200,
+        "sha256": "0360a4f3d8ebb24c880e8675a8a57cc325af32210d729b6f492608b102fdfe37",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/Nixtla/neuralforecast/9d76fb3cb49a9dd3d0d1a617a01f20c4b74c4f03/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/Nixtla/neuralforecast/9d76fb3cb49a9dd3d0d1a617a01f20c4b74c4f03/LICENSE",
+        "status": 200,
+        "sha256": "d392f3d2969e354d7e6aef8fc6df5590ef5c20eea4b946191bd76a6138b4e81c",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "darts",
+    "repo": "unit8co/darts",
+    "root": {
+      "url": "https://github.com/unit8co/darts",
+      "resolved_url": "https://github.com/unit8co/darts",
+      "status": 200,
+      "sha256": "6bea8e3595d883e72ed90e176b65f5a5bb6e3fc66e98d56e123fe677ffa455d2",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "406ecda0ff7d6e20cf2e19effac5024308057c9f",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/unit8co/darts/406ecda0ff7d6e20cf2e19effac5024308057c9f/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/unit8co/darts/406ecda0ff7d6e20cf2e19effac5024308057c9f/README.md",
+        "status": 200,
+        "sha256": "43a2dc91a81a9e5694878bb80e51114dd30f3e65f0917991a8757df14fb06c15",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/unit8co/darts/406ecda0ff7d6e20cf2e19effac5024308057c9f/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/unit8co/darts/406ecda0ff7d6e20cf2e19effac5024308057c9f/LICENSE",
+        "status": 200,
+        "sha256": "a9f5092af3beb16a4e210725e991ebfc9bcca4420644730e969f8418173eb31e",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "sktime",
+    "repo": "sktime/sktime",
+    "root": {
+      "url": "https://github.com/sktime/sktime",
+      "resolved_url": "https://github.com/sktime/sktime",
+      "status": 200,
+      "sha256": "fdc761440b441477c134ef586a958e29c17abbd329a75df4537dd52525ab827d",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "fa1ea2e66e132614b20163ccc229374755ce53e6",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/sktime/sktime/fa1ea2e66e132614b20163ccc229374755ce53e6/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/sktime/sktime/fa1ea2e66e132614b20163ccc229374755ce53e6/README.md",
+        "status": 200,
+        "sha256": "9dfb78a706c79450b4b96d6bb209de8196fd0d64d24066b90db3d945dcd6ac59",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/sktime/sktime/fa1ea2e66e132614b20163ccc229374755ce53e6/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/sktime/sktime/fa1ea2e66e132614b20163ccc229374755ce53e6/LICENSE",
+        "status": 200,
+        "sha256": "4f5bdd0f809b9e09f22eab0459a5b8f35fc18fc0207eeadbc2f6107288d2132d",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "BSD-3-Clause",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "pytorch-forecasting",
+    "repo": "sktime/pytorch-forecasting",
+    "root": {
+      "url": "https://github.com/sktime/pytorch-forecasting",
+      "resolved_url": "https://github.com/sktime/pytorch-forecasting",
+      "status": 200,
+      "sha256": "7c44e8a09d53d764698a8e742fdc1ff43f9730684deae8990de124c92362fe88",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "3c0e02c2ba645c2c852b85c543086f1fd5dc3be2",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/sktime/pytorch-forecasting/3c0e02c2ba645c2c852b85c543086f1fd5dc3be2/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/sktime/pytorch-forecasting/3c0e02c2ba645c2c852b85c543086f1fd5dc3be2/README.md",
+        "status": 200,
+        "sha256": "213a8dbc8b954fc3a26af109780a36338903561d1273fe3201c195209abe1251",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/sktime/pytorch-forecasting/3c0e02c2ba645c2c852b85c543086f1fd5dc3be2/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/sktime/pytorch-forecasting/3c0e02c2ba645c2c852b85c543086f1fd5dc3be2/LICENSE",
+        "status": 200,
+        "sha256": "92cacb2bf4a9b3fdc87fb43b6830584d46350867ca73a9b842aaf573f54eb4d0",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "timeseries-library",
+    "repo": "thuml/Time-Series-Library",
+    "root": {
+      "url": "https://github.com/thuml/Time-Series-Library",
+      "resolved_url": "https://github.com/thuml/Time-Series-Library",
+      "status": 200,
+      "sha256": "ed27be2225804e4ae4a319afc92bbf695733ec9b2d9ad4553bfb1716b926bdfb",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/thuml/Time-Series-Library/4e938a1767106324dd753b2a44832bf870a0252e/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/thuml/Time-Series-Library/4e938a1767106324dd753b2a44832bf870a0252e/README.md",
+        "status": 200,
+        "sha256": "2d03e4917e41917105ed647c5ea7537e1394f88b0af190e05715457b55dc5be6",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/thuml/Time-Series-Library/4e938a1767106324dd753b2a44832bf870a0252e/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/thuml/Time-Series-Library/4e938a1767106324dd753b2a44832bf870a0252e/LICENSE",
+        "status": 200,
+        "sha256": "8a6caa178ea3f33ebff5d7bb5558628cf5b423305dc30d3630f86564c7db94a2",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "lag-llama",
+    "repo": "time-series-foundation-models/lag-llama",
+    "root": {
+      "url": "https://github.com/time-series-foundation-models/lag-llama",
+      "resolved_url": "https://github.com/time-series-foundation-models/lag-llama",
+      "status": 200,
+      "sha256": "8a3999d1bf068a08607a88b4de461e137359063e97f9232cb6316d998b2d8648",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/time-series-foundation-models/lag-llama/df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/time-series-foundation-models/lag-llama/df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9/README.md",
+        "status": 200,
+        "sha256": "aa90c3276ed8f0f322cc6311e0522ff63f3f8c77e69fd1fdc1194c25f3e7f0ba",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/time-series-foundation-models/lag-llama/df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/time-series-foundation-models/lag-llama/df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9/LICENSE",
+        "status": 200,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "moment",
+    "repo": "moment-timeseries-foundation-model/moment",
+    "root": {
+      "url": "https://github.com/moment-timeseries-foundation-model/moment",
+      "resolved_url": "https://github.com/moment-timeseries-foundation-model/moment",
+      "status": 200,
+      "sha256": "b7aba745e373587e4b561370083ed31d3eafda55ad642e3aad0c5b3d754c74ad",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "38f7310ad594100747ca2a8357e9c7ca7d323e0e",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/moment-timeseries-foundation-model/moment/38f7310ad594100747ca2a8357e9c7ca7d323e0e/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/moment-timeseries-foundation-model/moment/38f7310ad594100747ca2a8357e9c7ca7d323e0e/README.md",
+        "status": 200,
+        "sha256": "086b0065d67a7f1a14d84d74589efab879e72b610175d4e57666850b21529301",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/moment-timeseries-foundation-model/moment/38f7310ad594100747ca2a8357e9c7ca7d323e0e/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/moment-timeseries-foundation-model/moment/38f7310ad594100747ca2a8357e9c7ca7d323e0e/LICENSE",
+        "status": 200,
+        "sha256": "b91d51e5180bcbcbb06b2f13e124a71efc9df98049e6e9a188ad070ded2fa8c6",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "granite-tsfm",
+    "repo": "ibm-granite/granite-tsfm",
+    "root": {
+      "url": "https://github.com/ibm-granite/granite-tsfm",
+      "resolved_url": "https://github.com/ibm-granite/granite-tsfm",
+      "status": 200,
+      "sha256": "2e2205791510753e02e32449ae5e57d609e1afc198bbf8b573f6cce9a49288f4",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "5991892635904a1ef01d19dd63375fa577524c05",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/5991892635904a1ef01d19dd63375fa577524c05/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/5991892635904a1ef01d19dd63375fa577524c05/README.md",
+        "status": 200,
+        "sha256": "c02873564ce46ecdad7ef8536406d00007bb0d3c1c17f5d825a4dece53b78af7",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/5991892635904a1ef01d19dd63375fa577524c05/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/ibm-granite/granite-tsfm/5991892635904a1ef01d19dd63375fa577524c05/LICENSE",
+        "status": 200,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "tirex",
+    "repo": "NX-AI/tirex",
+    "root": {
+      "url": "https://github.com/NX-AI/tirex",
+      "resolved_url": "https://github.com/NX-AI/tirex",
+      "status": 200,
+      "sha256": "4927189a9b0a914fe827013c8d9247e8d9c8bea6f272b305a218cda0641c2117",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "6d882eafdef969dc1b6b28e99db5e9bbca536419",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/NX-AI/tirex/6d882eafdef969dc1b6b28e99db5e9bbca536419/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/NX-AI/tirex/6d882eafdef969dc1b6b28e99db5e9bbca536419/README.md",
+        "status": 200,
+        "sha256": "b18774bc6b638a6d273eb3276c9175a06614d886825a91dbd10314ad28c09bbe",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/NX-AI/tirex/6d882eafdef969dc1b6b28e99db5e9bbca536419/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/NX-AI/tirex/6d882eafdef969dc1b6b28e99db5e9bbca536419/LICENSE",
+        "status": 200,
+        "sha256": "1e5c072a7193944da8366ebbdf857e572eb6ce5916a219ee66961749d92a0e4e",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "NXAI Community License",
+    "license_status_verified": "SOLO INVESTIGACIÓN / RESTRICCIONES"
+  },
+  {
+    "slug": "tabpfn",
+    "repo": "PriorLabs/TabPFN",
+    "root": {
+      "url": "https://github.com/PriorLabs/TabPFN",
+      "resolved_url": "https://github.com/PriorLabs/TabPFN",
+      "status": 200,
+      "sha256": "12034c1751b5acfe14b5c0f29225da4920c06b82a9d2bbb5a0bf496696fdeb68",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "953a4b916a19856fbd8dcda089a206b5bfe83696",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/PriorLabs/TabPFN/953a4b916a19856fbd8dcda089a206b5bfe83696/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/PriorLabs/TabPFN/953a4b916a19856fbd8dcda089a206b5bfe83696/README.md",
+        "status": 200,
+        "sha256": "72e9662b9b5da7879be5470b5c68de5aafbdee277fd822cc4e0d652c64b1e6d3",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/PriorLabs/TabPFN/953a4b916a19856fbd8dcda089a206b5bfe83696/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/PriorLabs/TabPFN/953a4b916a19856fbd8dcda089a206b5bfe83696/LICENSE",
+        "status": 200,
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "lightgbm",
+    "repo": "microsoft/LightGBM",
+    "root": {
+      "url": "https://github.com/microsoft/LightGBM",
+      "resolved_url": "https://github.com/lightgbm-org/LightGBM",
+      "status": 200,
+      "sha256": "f80fee2e26d129ad531d0e03b82e265f3895d7d7b676b434aff03c5541ea5e12",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "3ee03c26ba8c9e8ddc05fa8687717cae8a7d61d9",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/microsoft/LightGBM/3ee03c26ba8c9e8ddc05fa8687717cae8a7d61d9/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/microsoft/LightGBM/3ee03c26ba8c9e8ddc05fa8687717cae8a7d61d9/README.md",
+        "status": 200,
+        "sha256": "799982daa89a30b8d0af069cc250c0e448149835105b406ad4c23e3f0aee84e1",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/microsoft/LightGBM/3ee03c26ba8c9e8ddc05fa8687717cae8a7d61d9/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/microsoft/LightGBM/3ee03c26ba8c9e8ddc05fa8687717cae8a7d61d9/LICENSE",
+        "status": 200,
+        "sha256": "ca70f15d841f7e76c8bbd284d25300cd4ae2ef1035e7e5252b13b73449464305",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "catboost",
+    "repo": "catboost/catboost",
+    "root": {
+      "url": "https://github.com/catboost/catboost",
+      "resolved_url": "https://github.com/catboost/catboost",
+      "status": 200,
+      "sha256": "85f23e106343560766a0c9e662ebf53f15c556a4ac352318d87c02f844f8b25d",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "ecf5e12040890db408ad73fda7b99da3dd394354",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/catboost/catboost/ecf5e12040890db408ad73fda7b99da3dd394354/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/catboost/catboost/ecf5e12040890db408ad73fda7b99da3dd394354/README.md",
+        "status": 200,
+        "sha256": "9c874adb3b5ce9e14a0de3f6b646b11b13532b37c84a16450315d017ac47333e",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/catboost/catboost/ecf5e12040890db408ad73fda7b99da3dd394354/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/catboost/catboost/ecf5e12040890db408ad73fda7b99da3dd394354/LICENSE",
+        "status": 200,
+        "sha256": "a2574dd20dd0af8e0bd25b34b38c1bb11912ff319ee4f41436395df0b1d19309",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "xgboost",
+    "repo": "dmlc/xgboost",
+    "root": {
+      "url": "https://github.com/dmlc/xgboost",
+      "resolved_url": "https://github.com/dmlc/xgboost",
+      "status": 200,
+      "sha256": "cefd46f8ef378ccaa048dc0a0e13cda189957c60a4efd58954943f70533fd7cf",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "a057843ab0fefdfe851390fc32df0408d278000c",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/dmlc/xgboost/a057843ab0fefdfe851390fc32df0408d278000c/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/dmlc/xgboost/a057843ab0fefdfe851390fc32df0408d278000c/README.md",
+        "status": 200,
+        "sha256": "e59e190ef0d17e289c86a2b8b76c623f86128d724300fecaec2a4c46075e2367",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/dmlc/xgboost/a057843ab0fefdfe851390fc32df0408d278000c/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/dmlc/xgboost/a057843ab0fefdfe851390fc32df0408d278000c/LICENSE",
+        "status": 200,
+        "sha256": "b96f9cead5f4ea4c0a217bd9d879427443a353598fb72694f2d8c4428b53a6af",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "river",
+    "repo": "online-ml/river",
+    "root": {
+      "url": "https://github.com/online-ml/river",
+      "resolved_url": "https://github.com/online-ml/river",
+      "status": 200,
+      "sha256": "81125ecb6bf90d581ad096972fba682fa1e69089d5ec8e4ef7e433157c517be7",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "4768de0579f977315e65cd23ee658534c1d62c26",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/online-ml/river/4768de0579f977315e65cd23ee658534c1d62c26/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/online-ml/river/4768de0579f977315e65cd23ee658534c1d62c26/README.md",
+        "status": 200,
+        "sha256": "92c6f56635966b25877a8661dc7652a10e27b980d879118f909e4019cb763c98",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/online-ml/river/4768de0579f977315e65cd23ee658534c1d62c26/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/online-ml/river/4768de0579f977315e65cd23ee658534c1d62c26/LICENSE",
+        "status": 200,
+        "sha256": "e87f2c8f1ba611702af10cba745e6ceb773d32310135ed55aa2722c55dd0d077",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "BSD-3-Clause",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "pyod",
+    "repo": "yzhao062/pyod",
+    "root": {
+      "url": "https://github.com/yzhao062/pyod",
+      "resolved_url": "https://github.com/yzhao062/pyod",
+      "status": 200,
+      "sha256": "1d7ab794ae5e2ac7c4518c9856755a8381d43fe9eac7af069e6ccd2cebd21545",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/yzhao062/pyod/7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c/README.rst",
+        "resolved_url": "https://raw.githubusercontent.com/yzhao062/pyod/7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c/README.rst",
+        "status": 200,
+        "sha256": "91b04c004324dde9de19ff293ddf8b3f9aed34a86c6de0b767512cf8faf110c0",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/yzhao062/pyod/7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/yzhao062/pyod/7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c/LICENSE",
+        "status": 200,
+        "sha256": "2aad003d1faca304e013f82e5088e8cb1c364470d4755e1e2175922a9872bf56",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/yzhao062/pyod/7e1330e10ac5c56ed402fbbaa41b225efb4bbc5c/README.md",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": "BSD-2-Clause",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "merlion",
+    "repo": "salesforce/Merlion",
+    "root": {
+      "url": "https://github.com/salesforce/Merlion",
+      "resolved_url": "https://github.com/salesforce/Merlion",
+      "status": 200,
+      "sha256": "00638e925e0a9d2b378e31f5a7bdf3503324a6f488c9bc168a145d9a87d38bb4",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "39507642dc3d7b8d04232e34e9f36b372cf4912d",
+    "archived": true,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/salesforce/Merlion/39507642dc3d7b8d04232e34e9f36b372cf4912d/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/salesforce/Merlion/39507642dc3d7b8d04232e34e9f36b372cf4912d/README.md",
+        "status": 200,
+        "sha256": "f8b87b2fcf80413b8cca6079c4606033746cbe17f262b556be72c74490434df2",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/salesforce/Merlion/39507642dc3d7b8d04232e34e9f36b372cf4912d/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/salesforce/Merlion/39507642dc3d7b8d04232e34e9f36b372cf4912d/LICENSE",
+        "status": 200,
+        "sha256": "4637ec5716603169de9d96e549661ee2b662e58af7fa3d2463cfa063e39374b7",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "BSD-3-Clause",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "adtk",
+    "repo": "arundo/adtk",
+    "root": {
+      "url": "https://github.com/arundo/adtk",
+      "resolved_url": "https://github.com/arundo/adtk",
+      "status": 200,
+      "sha256": "a747282e35f85d8e1642c5f7828d806689a149b5c64c0d650024c5caa367181e",
+      "truncated": false
+    },
+    "branch": "develop",
+    "commit": "6041f5b9a41a57263d8988bdc26a2dfc7ad675c2",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/arundo/adtk/6041f5b9a41a57263d8988bdc26a2dfc7ad675c2/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/arundo/adtk/6041f5b9a41a57263d8988bdc26a2dfc7ad675c2/README.md",
+        "status": 200,
+        "sha256": "7834c40626ddc1269a02eb615a9836afbf0fecb3841cf319528667568b3b26f3",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/arundo/adtk/6041f5b9a41a57263d8988bdc26a2dfc7ad675c2/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/arundo/adtk/6041f5b9a41a57263d8988bdc26a2dfc7ad675c2/LICENSE",
+        "status": 200,
+        "sha256": "4b89d4518bd135ab4ee154a7bce722246b57a98c3d7efc1a09409898160c2bd1",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MPL-2.0",
+    "license_status_verified": "COMPATIBLE CON OBLIGACIONES"
+  },
+  {
+    "slug": "alibi-detect",
+    "repo": "SeldonIO/alibi-detect",
+    "root": {
+      "url": "https://github.com/SeldonIO/alibi-detect",
+      "resolved_url": "https://github.com/SeldonIO/alibi-detect",
+      "status": 200,
+      "sha256": "6aa191b26e80c43e4890ede9d4efe0fb255bfe3c184670ef756f8e9963f1c219",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "c2fd0e05c648d353467bdb15fd6149a103b3a981",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/SeldonIO/alibi-detect/c2fd0e05c648d353467bdb15fd6149a103b3a981/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/SeldonIO/alibi-detect/c2fd0e05c648d353467bdb15fd6149a103b3a981/README.md",
+        "status": 200,
+        "sha256": "827c2e7c0896a59583796c61ee0abffcfa0d29b42a54146334786118e0e61d2a",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/SeldonIO/alibi-detect/c2fd0e05c648d353467bdb15fd6149a103b3a981/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/SeldonIO/alibi-detect/c2fd0e05c648d353467bdb15fd6149a103b3a981/LICENSE",
+        "status": 200,
+        "sha256": "7669366b3f680ec640e19f521999d378fc2c31e87b32b31cd7a8621cab93905d",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "BUSL-1.1",
+    "license_status_verified": "SOLO INVESTIGACIÓN / RESTRICCIONES"
+  },
+  {
+    "slug": "evidently",
+    "repo": "evidentlyai/evidently",
+    "root": {
+      "url": "https://github.com/evidentlyai/evidently",
+      "resolved_url": "https://github.com/evidentlyai/evidently",
+      "status": 200,
+      "sha256": "32736408c516e3214876f4fef69236eb38a6bd5f1d988868248a69cb40776f40",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "34771fe41c08ca074d96a52aaf4a45cd640cbaf5",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/evidentlyai/evidently/34771fe41c08ca074d96a52aaf4a45cd640cbaf5/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/evidentlyai/evidently/34771fe41c08ca074d96a52aaf4a45cd640cbaf5/README.md",
+        "status": 200,
+        "sha256": "c8ac72c2363a2f0b7c36f38a6e7801817e5659507a2e6a37212702ad1cd51c20",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/evidentlyai/evidently/34771fe41c08ca074d96a52aaf4a45cd640cbaf5/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/evidentlyai/evidently/34771fe41c08ca074d96a52aaf4a45cd640cbaf5/LICENSE",
+        "status": 200,
+        "sha256": "379054a067cbe8e134e084287550e9391d2804636687c4723f80a2c58a463f0e",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "dowhy",
+    "repo": "py-why/dowhy",
+    "root": {
+      "url": "https://github.com/py-why/dowhy",
+      "resolved_url": "https://github.com/py-why/dowhy",
+      "status": 200,
+      "sha256": "703e173a77572ca6b431b8d6b3c18d099f8552947047db0c4358478032c1256e",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "0a05bc12f0d888f843795ccc29f56237ac002c0b",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/py-why/dowhy/0a05bc12f0d888f843795ccc29f56237ac002c0b/README.rst",
+        "resolved_url": "https://raw.githubusercontent.com/py-why/dowhy/0a05bc12f0d888f843795ccc29f56237ac002c0b/README.rst",
+        "status": 200,
+        "sha256": "395d8bdb8e5d03268e85f0e6315d46b49097264e76e695d8d05da1110a2f2a59",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/py-why/dowhy/0a05bc12f0d888f843795ccc29f56237ac002c0b/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/py-why/dowhy/0a05bc12f0d888f843795ccc29f56237ac002c0b/LICENSE",
+        "status": 200,
+        "sha256": "4be08a194b9c970bf9309ac19f09e7deaecb763957091bf08298bf0e897e7eab",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/py-why/dowhy/0a05bc12f0d888f843795ccc29f56237ac002c0b/README.md",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "econml",
+    "repo": "py-why/EconML",
+    "root": {
+      "url": "https://github.com/py-why/EconML",
+      "resolved_url": "https://github.com/py-why/EconML",
+      "status": 200,
+      "sha256": "8b6a1c52fa4131d9432392560d38fcf61a7ed30d885f78cce5b3ef72931f8e86",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "0b45f8343e08ebcdb93ae859643a0efe20c21e7d",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/py-why/EconML/0b45f8343e08ebcdb93ae859643a0efe20c21e7d/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/py-why/EconML/0b45f8343e08ebcdb93ae859643a0efe20c21e7d/README.md",
+        "status": 200,
+        "sha256": "bb565d2ae4a7cc11ec67b3b8d884efb5314ddb82888738640dfa0b350a266b16",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/py-why/EconML/0b45f8343e08ebcdb93ae859643a0efe20c21e7d/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/py-why/EconML/0b45f8343e08ebcdb93ae859643a0efe20c21e7d/LICENSE",
+        "status": 200,
+        "sha256": "e4503a01022a819cc3654273977885e4984cce87cd06bd81063d1bb36a056250",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "BSD-3-Clause",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "causal-learn",
+    "repo": "py-why/causal-learn",
+    "root": {
+      "url": "https://github.com/py-why/causal-learn",
+      "resolved_url": "https://github.com/py-why/causal-learn",
+      "status": 200,
+      "sha256": "ffa2847f682807bb2f1b681143e3e462940f87db79dc7c438f7f81cbe2984218",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "0dacacf36390e3084704636bc3c36e82e35ee0cc",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/py-why/causal-learn/0dacacf36390e3084704636bc3c36e82e35ee0cc/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/py-why/causal-learn/0dacacf36390e3084704636bc3c36e82e35ee0cc/README.md",
+        "status": 200,
+        "sha256": "df04829f8199b8d1f19ab82a362e0b908767621cf82b67c6150796034008d261",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/py-why/causal-learn/0dacacf36390e3084704636bc3c36e82e35ee0cc/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/py-why/causal-learn/0dacacf36390e3084704636bc3c36e82e35ee0cc/LICENSE",
+        "status": 200,
+        "sha256": "9e71f9277846b06991c7121d015186cc21e155c3bc521ec4287fe085ea07da29",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "fingpt",
+    "repo": "AI4Finance-Foundation/FinGPT",
+    "root": {
+      "url": "https://github.com/AI4Finance-Foundation/FinGPT",
+      "resolved_url": "https://github.com/AI4Finance-Foundation/FinGPT",
+      "status": 200,
+      "sha256": "347af160083a62faabbe2940b30fef67c879037f6b44b1762ba6e8b21a097778",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinGPT/ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinGPT/ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8/README.md",
+        "status": 200,
+        "sha256": "8f2b9963d39c4a6e9ef558db018cfa1abf66126906912a55a8dc261647140aaf",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinGPT/ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinGPT/ac5c5443fbeeafad801e7a3c188e4f24cfaad4d8/LICENSE",
+        "status": 200,
+        "sha256": "2a3183a35138275582698c16b07e9b33992d822434bb4c7728673c6204bb1848",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "finrobot",
+    "repo": "AI4Finance-Foundation/FinRobot",
+    "root": {
+      "url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "resolved_url": "https://github.com/AI4Finance-Foundation/FinRobot",
+      "status": 200,
+      "sha256": "ae1fa7b422ea5e00f8a0ef9acb7d401b0be41fae36a093007bd4b579ae290157",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "63e1884a42ea7b729551a5424b4bd6a65af636e0",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinRobot/63e1884a42ea7b729551a5424b4bd6a65af636e0/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinRobot/63e1884a42ea7b729551a5424b4bd6a65af636e0/README.md",
+        "status": 200,
+        "sha256": "a18b26396e0ca785364e0379dc9c40d2efa988d1b591d5199e357478f1f911eb",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinRobot/63e1884a42ea7b729551a5424b4bd6a65af636e0/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/AI4Finance-Foundation/FinRobot/63e1884a42ea7b729551a5424b4bd6a65af636e0/LICENSE",
+        "status": 200,
+        "sha256": "bbcb4226500b503737713f0c9a9da17efce56fa6989b9f0538071dcb60826af5",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "tradingagents",
+    "repo": "TauricResearch/TradingAgents",
+    "root": {
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "resolved_url": "https://github.com/TauricResearch/TradingAgents",
+      "status": 200,
+      "sha256": "e2a14f1d640f92780e329ca9bfde4db736d08c7466e19769f6e65fb3025e24c9",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "c4544913a14ed3df5f1ed7b9e8483270ce20682a",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/TauricResearch/TradingAgents/c4544913a14ed3df5f1ed7b9e8483270ce20682a/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/TauricResearch/TradingAgents/c4544913a14ed3df5f1ed7b9e8483270ce20682a/README.md",
+        "status": 200,
+        "sha256": "dbbaf3de3698f39664b2ea40d1e3b3dd92deaf8e1a4f3129d01bd6ff4211229f",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/TauricResearch/TradingAgents/c4544913a14ed3df5f1ed7b9e8483270ce20682a/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/TauricResearch/TradingAgents/c4544913a14ed3df5f1ed7b9e8483270ce20682a/LICENSE",
+        "status": 200,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "ai-hedge-fund",
+    "repo": "virattt/ai-hedge-fund",
+    "root": {
+      "url": "https://github.com/virattt/ai-hedge-fund",
+      "resolved_url": "https://github.com/virattt/ai-hedge-fund",
+      "status": 200,
+      "sha256": "fc318dce4bff7c4bd81db8dc5d8fe328b44a5b562b38ea67cd94537649db9217",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "e8655f10453f0c7c0874c8d691ef5ae2d74dab5c",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/virattt/ai-hedge-fund/e8655f10453f0c7c0874c8d691ef5ae2d74dab5c/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/virattt/ai-hedge-fund/e8655f10453f0c7c0874c8d691ef5ae2d74dab5c/README.md",
+        "status": 200,
+        "sha256": "ec6e2890cf433fbda716d78918e80dac439d4d8bcf6e9a36276201cb31508ffd",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/virattt/ai-hedge-fund/e8655f10453f0c7c0874c8d691ef5ae2d74dab5c/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/virattt/ai-hedge-fund/e8655f10453f0c7c0874c8d691ef5ae2d74dab5c/LICENSE",
+        "status": 200,
+        "sha256": "6cb192c4a37c69c84459d2e1b3da7af51b06d91e35be521c898107bdae18e2a4",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "finbert",
+    "repo": "ProsusAI/finBERT",
+    "root": {
+      "url": "https://github.com/ProsusAI/finBERT",
+      "resolved_url": "https://github.com/ProsusAI/finBERT",
+      "status": 200,
+      "sha256": "77969b6dc179def11f15bc74658da05e0031542a989ea585b16b409a3221b326",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "3b4bfed383a8bb6b013db2f1ce9c766ff5100d24",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/ProsusAI/finBERT/3b4bfed383a8bb6b013db2f1ce9c766ff5100d24/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/ProsusAI/finBERT/3b4bfed383a8bb6b013db2f1ce9c766ff5100d24/README.md",
+        "status": 200,
+        "sha256": "00ede8d3f15bbf93bc72a866bc1ec0036e1a954ae256701a326b4d13e22774e2",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/ProsusAI/finBERT/3b4bfed383a8bb6b013db2f1ce9c766ff5100d24/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/ProsusAI/finBERT/3b4bfed383a8bb6b013db2f1ce9c766ff5100d24/LICENSE",
+        "status": 200,
+        "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "finqa",
+    "repo": "czyssrs/FinQA",
+    "root": {
+      "url": "https://github.com/czyssrs/FinQA",
+      "resolved_url": "https://github.com/czyssrs/FinQA",
+      "status": 200,
+      "sha256": "eba0fd434fbac7565edc27172443cac4e4cd207999e05c88d0b898049e22e360",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "0f16e2867befa6840783e58be38c9efb9229d742",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/README.md",
+        "status": 200,
+        "sha256": "eb86779cfed6f0a253913761d8e4fabe032a29d9fcf2944e56c23bf007064605",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/LICENSE",
+        "status": 200,
+        "sha256": "92c0e67bd762c15c07ba60de09558338315a8ebf99aac4f51f487179809ac087",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "tatqa",
+    "repo": "NExTplusplus/TAT-QA",
+    "root": {
+      "url": "https://github.com/NExTplusplus/TAT-QA",
+      "resolved_url": "https://github.com/NExTplusplus/TAT-QA",
+      "status": 200,
+      "sha256": "f75fadcd9d8642ede9831d9889cde17c1847798aa74e628af80220d299b42224",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "870accc41953dcde885aabeb963d94aabdc0fbc3",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/README.md",
+        "status": 200,
+        "sha256": "85c398173d771a2531abea5b81f3696914296642da2af78c2c34545715c14d5f",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/LICENSE",
+        "status": 200,
+        "sha256": "46e27ffbc49c3fd44a9595c2213f8a5f4319a81b53238e49ce1eec39e7e25662",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "financebench",
+    "repo": "patronus-ai/financebench",
+    "root": {
+      "url": "https://github.com/patronus-ai/financebench",
+      "resolved_url": "https://github.com/patronus-ai/financebench",
+      "status": 200,
+      "sha256": "2ed79b19879848900ebe3b0111bfbc9efdfca9f280a4d62bcf93a9c11250ff20",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "cc39aeb4afdf33909ee1412188bf89035950c2eb",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/README.md",
+        "status": 200,
+        "sha256": "ab1b914821c5f6329836d0f2c503dbaaa6504721bd0b1d0f70f43fbb23987cec",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/LICENSE.md",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/patronus-ai/financebench/cc39aeb4afdf33909ee1412188bf89035950c2eb/LICENSE.txt",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": null,
+    "license_status_verified": "LICENCIA NO VERIFICADA"
+  },
+  {
+    "slug": "convfinqa",
+    "repo": "czyssrs/ConvFinQA",
+    "root": {
+      "url": "https://github.com/czyssrs/ConvFinQA",
+      "resolved_url": "https://github.com/czyssrs/ConvFinQA",
+      "status": 200,
+      "sha256": "3ae51b5c8fc90b5819876d6af1b914555e717066e15572c681aee07597aa21ab",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "cf3eed2d5984960bf06bb8145bcea5e80b0222a6",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/czyssrs/ConvFinQA/cf3eed2d5984960bf06bb8145bcea5e80b0222a6/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/czyssrs/ConvFinQA/cf3eed2d5984960bf06bb8145bcea5e80b0222a6/README.md",
+        "status": 200,
+        "sha256": "c5f329640aaffa142984e559b89e7cabd6934d03751260e9860b9278979c4c69",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/czyssrs/ConvFinQA/cf3eed2d5984960bf06bb8145bcea5e80b0222a6/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/czyssrs/ConvFinQA/cf3eed2d5984960bf06bb8145bcea5e80b0222a6/LICENSE",
+        "status": 200,
+        "sha256": "5c7b6fe25d37f4b6cc7e0e76267bce7146765b7661d4bb0e9ecc4eb0ed34fb4c",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "docling",
+    "repo": "docling-project/docling",
+    "root": {
+      "url": "https://github.com/docling-project/docling",
+      "resolved_url": "https://github.com/docling-project/docling",
+      "status": 200,
+      "sha256": "9a7ad7a3fda15cc011f5f3d4e68995cc34e3476ccd920c36778b958e58058ed5",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "0634e2f74561e5950d69b2cace67ef95400506ad",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/docling-project/docling/0634e2f74561e5950d69b2cace67ef95400506ad/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/docling-project/docling/0634e2f74561e5950d69b2cace67ef95400506ad/README.md",
+        "status": 200,
+        "sha256": "ce605634509dc87d79182131ad001e5fddf6053963b9045b971c6e87e6b9bfa1",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/docling-project/docling/0634e2f74561e5950d69b2cace67ef95400506ad/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/docling-project/docling/0634e2f74561e5950d69b2cace67ef95400506ad/LICENSE",
+        "status": 200,
+        "sha256": "edb765d1e3e60d0c7a7d5fba5f2bb2c3c29f7465cecb5c22cf1185c884954e4c",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "unstructured",
+    "repo": "Unstructured-IO/unstructured",
+    "root": {
+      "url": "https://github.com/Unstructured-IO/unstructured",
+      "resolved_url": "https://github.com/Unstructured-IO/unstructured",
+      "status": 200,
+      "sha256": "b1dca9456e1a4bec8f2ac56fde45ace8334ba4919c6581b06f7d1558b5c37169",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "d505b6010964de066a33fcce716a644e5887e7d3",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/d505b6010964de066a33fcce716a644e5887e7d3/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/d505b6010964de066a33fcce716a644e5887e7d3/README.md",
+        "status": 200,
+        "sha256": "1bfbe83efecca7e534636346d6f91792df6db63bb4e4f9949e6866d02b6d5db0",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/d505b6010964de066a33fcce716a644e5887e7d3/LICENSE.md",
+        "resolved_url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/d505b6010964de066a33fcce716a644e5887e7d3/LICENSE.md",
+        "status": 200,
+        "sha256": "4b190a3ffeb6b8800a6fd99bd5e1fb147e0a9f66984f4f5f8232a926de4fc939",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/Unstructured-IO/unstructured/d505b6010964de066a33fcce716a644e5887e7d3/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "marker",
+    "repo": "datalab-to/marker",
+    "root": {
+      "url": "https://github.com/datalab-to/marker",
+      "resolved_url": "https://github.com/datalab-to/marker",
+      "status": 200,
+      "sha256": "a6e6272217e8f0cb712681574771ef71b6348e70d3e2887aeae6245a60ff7562",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "71dd5fd7e51ab24f8624b6ba2fcb6014b4e40ed4",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/datalab-to/marker/71dd5fd7e51ab24f8624b6ba2fcb6014b4e40ed4/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/datalab-to/marker/71dd5fd7e51ab24f8624b6ba2fcb6014b4e40ed4/README.md",
+        "status": 200,
+        "sha256": "2d672fd432a6b243edac3a20bab741a2c438e5423e691c7c90491e0ce59401a2",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/datalab-to/marker/71dd5fd7e51ab24f8624b6ba2fcb6014b4e40ed4/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/datalab-to/marker/71dd5fd7e51ab24f8624b6ba2fcb6014b4e40ed4/LICENSE",
+        "status": 200,
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "trafilatura",
+    "repo": "adbar/trafilatura",
+    "root": {
+      "url": "https://github.com/adbar/trafilatura",
+      "resolved_url": "https://github.com/adbar/trafilatura",
+      "status": 200,
+      "sha256": "75e9ff3e5d63cc06b082fd4459ec4d08386b41881c980bad107686f4b069f34c",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "1622ce88ef0da929b21724078f8a425e4f753def",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/adbar/trafilatura/1622ce88ef0da929b21724078f8a425e4f753def/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/adbar/trafilatura/1622ce88ef0da929b21724078f8a425e4f753def/README.md",
+        "status": 200,
+        "sha256": "42962884fec6a66270f58a71f2b7494e294cf0b0881691eb79e50bbec55bc25a",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/adbar/trafilatura/1622ce88ef0da929b21724078f8a425e4f753def/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/adbar/trafilatura/1622ce88ef0da929b21724078f8a425e4f753def/LICENSE",
+        "status": 200,
+        "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "sentence-transformers",
+    "repo": "UKPLab/sentence-transformers",
+    "root": {
+      "url": "https://github.com/UKPLab/sentence-transformers",
+      "resolved_url": "https://github.com/huggingface/sentence-transformers",
+      "status": 200,
+      "sha256": "fb86842af71ea0ac4897fc8d4b332b30e87e4a18a566ef93f5194a39af121c57",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "b26925868810d978e06d731f6b527c2c74579b1b",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/b26925868810d978e06d731f6b527c2c74579b1b/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/b26925868810d978e06d731f6b527c2c74579b1b/README.md",
+        "status": 200,
+        "sha256": "77d3457b8233da01a844c64fc8a69e06b71fa0dd69a2e12d4c7b0bce015ee98d",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/b26925868810d978e06d731f6b527c2c74579b1b/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/UKPLab/sentence-transformers/b26925868810d978e06d731f6b527c2c74579b1b/LICENSE",
+        "status": 200,
+        "sha256": "624b030fd62b8b989dd502d5bb6322cbc0dbb524ab9c9708f32efe33d7275735",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "flagembedding",
+    "repo": "FlagOpen/FlagEmbedding",
+    "root": {
+      "url": "https://github.com/FlagOpen/FlagEmbedding",
+      "resolved_url": "https://github.com/FlagOpen/FlagEmbedding",
+      "status": 200,
+      "sha256": "95e4fb263478b296a5988606db411a73699c8f793050fd82400b1a09661454f9",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "897baa67c0ffddbfccf4e6776ff55310d67809d4",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/897baa67c0ffddbfccf4e6776ff55310d67809d4/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/897baa67c0ffddbfccf4e6776ff55310d67809d4/README.md",
+        "status": 200,
+        "sha256": "46500109787496a729e233c6a74ac5be2148a48108ad26e39e7de964dc0f5ca3",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/897baa67c0ffddbfccf4e6776ff55310d67809d4/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/FlagOpen/FlagEmbedding/897baa67c0ffddbfccf4e6776ff55310d67809d4/LICENSE",
+        "status": 200,
+        "sha256": "587a673933425dbc36ec61268d3b954051b2d3ef3c9b322ede357976055ffdd5",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "haystack",
+    "repo": "deepset-ai/haystack",
+    "root": {
+      "url": "https://github.com/deepset-ai/haystack",
+      "resolved_url": "https://github.com/deepset-ai/haystack",
+      "status": 200,
+      "sha256": "3172856c26e56ed28fec04f2df94044a1f3300fe90126b960caeae2b364cdad5",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "82dce4f7aed816916646542b8ab2c6c10ff46ae4",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/deepset-ai/haystack/82dce4f7aed816916646542b8ab2c6c10ff46ae4/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/deepset-ai/haystack/82dce4f7aed816916646542b8ab2c6c10ff46ae4/README.md",
+        "status": 200,
+        "sha256": "e016e944fa840265e85e73520522c6152798330720d53d3d64fdffcc448554e6",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/deepset-ai/haystack/82dce4f7aed816916646542b8ab2c6c10ff46ae4/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/deepset-ai/haystack/82dce4f7aed816916646542b8ab2c6c10ff46ae4/LICENSE",
+        "status": 200,
+        "sha256": "3f0a3af7e9b0f3b6358aaa3c7501ab522a67dc5483b870e9a8b3db41ea42e249",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "llamaindex",
+    "repo": "run-llama/llama_index",
+    "root": {
+      "url": "https://github.com/run-llama/llama_index",
+      "resolved_url": "https://github.com/run-llama/llama_index",
+      "status": 200,
+      "sha256": "978503eeeb61cbbd4fb85f2a5d2a0100a281a95281034f66dfa1590879e471a5",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "444fdf0684707de62ebb447d658dba137dd9cb99",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/run-llama/llama_index/444fdf0684707de62ebb447d658dba137dd9cb99/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/run-llama/llama_index/444fdf0684707de62ebb447d658dba137dd9cb99/README.md",
+        "status": 200,
+        "sha256": "625c49e7dedf84826b350be28d118e7823e669504689105611e91ff709406d1f",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/run-llama/llama_index/444fdf0684707de62ebb447d658dba137dd9cb99/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/run-llama/llama_index/444fdf0684707de62ebb447d658dba137dd9cb99/LICENSE",
+        "status": 200,
+        "sha256": "24f40b5190fdacabc24ddbb5f76364d15e4f030925220ea300d8a2dd4993c8cb",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "langgraph",
+    "repo": "langchain-ai/langgraph",
+    "root": {
+      "url": "https://github.com/langchain-ai/langgraph",
+      "resolved_url": "https://github.com/langchain-ai/langgraph",
+      "status": 200,
+      "sha256": "38a1492c1041195bbf4b8c9df40f1579420d6a23cb2f5c0d661c93441ccc9db9",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "5db97b9ccab6b8d9a5ab1e8f0bebea7c03a8708a",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/5db97b9ccab6b8d9a5ab1e8f0bebea7c03a8708a/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/5db97b9ccab6b8d9a5ab1e8f0bebea7c03a8708a/README.md",
+        "status": 200,
+        "sha256": "3a13e257af1216962d53d72414a7f44ac1fc5cea34d994bdff60ea2a3b045933",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/langchain-ai/langgraph/5db97b9ccab6b8d9a5ab1e8f0bebea7c03a8708a/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/langchain-ai/langgraph/5db97b9ccab6b8d9a5ab1e8f0bebea7c03a8708a/LICENSE",
+        "status": 200,
+        "sha256": "d9bb52f2e3540d60ff50d8f0f5b6ba649b7fd346948c4c3d086c8afb120763c7",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "pydantic-ai",
+    "repo": "pydantic/pydantic-ai",
+    "root": {
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "resolved_url": "https://github.com/pydantic/pydantic-ai",
+      "status": 200,
+      "sha256": "4711ed55e3d6da45778f61aeb5c41169ea4a32f0d5a220883408ff6363049d99",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "7c076b14edf5a20f54f157ba05653213466ef2cd",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/7c076b14edf5a20f54f157ba05653213466ef2cd/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/7c076b14edf5a20f54f157ba05653213466ef2cd/README.md",
+        "status": 200,
+        "sha256": "27ddeb27c19a889ec462fa1a255edd78a98e2b5cccfc89d6716224eed4dd6855",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/7c076b14edf5a20f54f157ba05653213466ef2cd/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/pydantic/pydantic-ai/7c076b14edf5a20f54f157ba05653213466ef2cd/LICENSE",
+        "status": 200,
+        "sha256": "bc0e89738f36944c8106e1947c3d69631f9c33b8f1bcb60ec4f89d677d2dfcf4",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "dspy",
+    "repo": "stanfordnlp/dspy",
+    "root": {
+      "url": "https://github.com/stanfordnlp/dspy",
+      "resolved_url": "https://github.com/stanfordnlp/dspy",
+      "status": 200,
+      "sha256": "859a55b0dac8f495dcc4e96c00a2aaceba4cee64b792e28ab2ab4f680cb3856e",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "c941671b1d2b6e208d472e93f954632b94000277",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/stanfordnlp/dspy/c941671b1d2b6e208d472e93f954632b94000277/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/stanfordnlp/dspy/c941671b1d2b6e208d472e93f954632b94000277/README.md",
+        "status": 200,
+        "sha256": "4bee0c96a98daa5521ef4dc9ead9640fdaafd75fe8d5c8896db383838d5fd76f",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/stanfordnlp/dspy/c941671b1d2b6e208d472e93f954632b94000277/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/stanfordnlp/dspy/c941671b1d2b6e208d472e93f954632b94000277/LICENSE",
+        "status": 200,
+        "sha256": "fc84421fcf968a696680dacf66ad53db769f699f557690127c5ccb3f6358cfdb",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "ragas",
+    "repo": "explodinggradients/ragas",
+    "root": {
+      "url": "https://github.com/explodinggradients/ragas",
+      "resolved_url": "https://github.com/vibrantlabsai/ragas",
+      "status": 200,
+      "sha256": "79e4e4f066c27d1e5b57285e293b09efec530c05b4efe215ed65bab124701ef8",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "298b68274234c060deacab3cf5fb52aa3a20e885",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/explodinggradients/ragas/298b68274234c060deacab3cf5fb52aa3a20e885/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/explodinggradients/ragas/298b68274234c060deacab3cf5fb52aa3a20e885/README.md",
+        "status": 200,
+        "sha256": "af20b2258507b12bf930e897b63ee5bb87aac4a4696da078ea5a3c29addb6db7",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/explodinggradients/ragas/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/explodinggradients/ragas/298b68274234c060deacab3cf5fb52aa3a20e885/LICENSE",
+        "status": 200,
+        "sha256": "664b930830f291c2936ab30bcd6ef9ca6c9c7384cc475ae0c526156a27d5a6c6",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "inspect-ai",
+    "repo": "UKGovernmentBEIS/inspect_ai",
+    "root": {
+      "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "resolved_url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+      "status": 200,
+      "sha256": "88403d5fc812dccd6fb98176542a556f6322e81261539e588192ee4f637cd281",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "325942c556beeb7d57ece4f89632727a6a5d348f",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/325942c556beeb7d57ece4f89632727a6a5d348f/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/325942c556beeb7d57ece4f89632727a6a5d348f/README.md",
+        "status": 200,
+        "sha256": "4c589b974013c2c161c1c6081c885a24cf31c09c4d9bb8a1813369408299d5da",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/325942c556beeb7d57ece4f89632727a6a5d348f/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/UKGovernmentBEIS/inspect_ai/325942c556beeb7d57ece4f89632727a6a5d348f/LICENSE",
+        "status": 200,
+        "sha256": "c593c2afc81388521eaeb03f0d1a4b01bc3e5147ed9cb16c1f129e5be353b6af",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "garak",
+    "repo": "NVIDIA/garak",
+    "root": {
+      "url": "https://github.com/NVIDIA/garak",
+      "resolved_url": "https://github.com/NVIDIA/garak",
+      "status": 200,
+      "sha256": "72adfbfc0c5619d840511258542a50c8e6fe6918129b73963dce8f63ae7e9b6d",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "b1681c5bf8ff71971f83848fe245c6c1550aff08",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/NVIDIA/garak/b1681c5bf8ff71971f83848fe245c6c1550aff08/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/NVIDIA/garak/b1681c5bf8ff71971f83848fe245c6c1550aff08/README.md",
+        "status": 200,
+        "sha256": "640626790dc73543d58857ea0ebc7e47ccdb38cd9dd8fc56467147f7f3a5798e",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/NVIDIA/garak/b1681c5bf8ff71971f83848fe245c6c1550aff08/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/NVIDIA/garak/b1681c5bf8ff71971f83848fe245c6c1550aff08/LICENSE",
+        "status": 200,
+        "sha256": "f12c175308d657ab393ca79f063063501273d43c14200d3ba7b214ca8e50523e",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "pyrit",
+    "repo": "Azure/PyRIT",
+    "root": {
+      "url": "https://github.com/Azure/PyRIT",
+      "resolved_url": "https://github.com/Azure/PyRIT",
+      "status": 200,
+      "sha256": "c40763775535278b85da69f1d5c52141759811f37c4ab296848fa9d31b9e933a",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "bec7cb5d6089481d75fb8df143793de3da6905f5",
+    "archived": true,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/Azure/PyRIT/bec7cb5d6089481d75fb8df143793de3da6905f5/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/Azure/PyRIT/bec7cb5d6089481d75fb8df143793de3da6905f5/README.md",
+        "status": 200,
+        "sha256": "9a74554ac18ebae4f174c4c65cece673cc57a0c099b9df5555a8d26937953907",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/Azure/PyRIT/bec7cb5d6089481d75fb8df143793de3da6905f5/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/Azure/PyRIT/bec7cb5d6089481d75fb8df143793de3da6905f5/LICENSE",
+        "status": 200,
+        "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "promptfoo",
+    "repo": "promptfoo/promptfoo",
+    "root": {
+      "url": "https://github.com/promptfoo/promptfoo",
+      "resolved_url": "https://github.com/promptfoo/promptfoo",
+      "status": 200,
+      "sha256": "d09e358f298bfbeb860b213b324268dc6d082a3758c7de4cea4700b55e490049",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/promptfoo/promptfoo/f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a/README.md",
+        "status": 200,
+        "sha256": "7fd57809624e22da73bf6b6feb027c9e09aec74e0099bdea711fe2e276e87c4a",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/promptfoo/promptfoo/f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/promptfoo/promptfoo/f2b012e3c9f9ffb7b23edf4cf88ea63febf72f5a/LICENSE",
+        "status": 200,
+        "sha256": "bf813686553f451e1b833fbd827488aee49b60b189626915bf3108d10b754e44",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "llm-guard",
+    "repo": "protectai/llm-guard",
+    "root": {
+      "url": "https://github.com/protectai/llm-guard",
+      "resolved_url": "https://github.com/protectai/llm-guard",
+      "status": 200,
+      "sha256": "232ea8ece307ce7b22c986b6188e38faf0e9cd939cc3a869e7319f756b3b3253",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "168c1034ffdb33837e7ae6fd6a16b80567c1be03",
+    "archived": true,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/protectai/llm-guard/168c1034ffdb33837e7ae6fd6a16b80567c1be03/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/protectai/llm-guard/168c1034ffdb33837e7ae6fd6a16b80567c1be03/README.md",
+        "status": 200,
+        "sha256": "4a4a0f0e04388af27c6ef5907f9ec0f869447d964b77e2522848db25780a4033",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/protectai/llm-guard/168c1034ffdb33837e7ae6fd6a16b80567c1be03/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/protectai/llm-guard/168c1034ffdb33837e7ae6fd6a16b80567c1be03/LICENSE",
+        "status": 200,
+        "sha256": "31dcbe8e380febbbe677c74631d0d84108bb48fc9de5f8ac2cac5c9862741822",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "tsfel",
+    "repo": "fraunhoferportugal/tsfel",
+    "root": {
+      "url": "https://github.com/fraunhoferportugal/tsfel",
+      "resolved_url": "https://github.com/fraunhoferportugal/tsfel",
+      "status": 200,
+      "sha256": "2c669b7b48e1e53b8d15cabed4b881b5cedfac0a72b722b018aa6d348d634cfc",
+      "truncated": false
+    },
+    "branch": "master",
+    "commit": "9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/fraunhoferportugal/tsfel/9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/fraunhoferportugal/tsfel/9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274/README.md",
+        "status": 200,
+        "sha256": "d8cb28567d39a645b558e3679da1933c22441ebbee006aa3eeec035df7f98760",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/fraunhoferportugal/tsfel/9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274/LICENSE.txt",
+        "resolved_url": "https://raw.githubusercontent.com/fraunhoferportugal/tsfel/9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274/LICENSE.txt",
+        "status": 200,
+        "sha256": "b8f68990bee0d6c6cfceab3c13f4da6a74ce66db8eacdad89a12614e5f551aed",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/fraunhoferportugal/tsfel/9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/fraunhoferportugal/tsfel/9c1b01ca44d9282b0e03a54fd0b5fe4b3047f274/LICENSE.md",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": "BSD-3-Clause",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "tsfresh",
+    "repo": "blue-yonder/tsfresh",
+    "root": {
+      "url": "https://github.com/blue-yonder/tsfresh",
+      "resolved_url": "https://github.com/blue-yonder/tsfresh",
+      "status": 200,
+      "sha256": "f3dbaa5e9052b68662ff520c2bf2d47c545ecce61ea61633fca4f993bea4df2e",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "6af3c0030b6c9f02c3862a20e00cce87c984aa5b",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/blue-yonder/tsfresh/6af3c0030b6c9f02c3862a20e00cce87c984aa5b/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/blue-yonder/tsfresh/6af3c0030b6c9f02c3862a20e00cce87c984aa5b/README.md",
+        "status": 200,
+        "sha256": "e4c2b0b68e48874f0e25afa5c0eb32f1edda4854e1feb426fab346bedd719571",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/blue-yonder/tsfresh/6af3c0030b6c9f02c3862a20e00cce87c984aa5b/LICENSE.txt",
+        "resolved_url": "https://raw.githubusercontent.com/blue-yonder/tsfresh/6af3c0030b6c9f02c3862a20e00cce87c984aa5b/LICENSE.txt",
+        "status": 200,
+        "sha256": "1804283622c8e51a4427aaa772d5ca522f89932fd610b294055435922af1c748",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/blue-yonder/tsfresh/6af3c0030b6c9f02c3862a20e00cce87c984aa5b/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/blue-yonder/tsfresh/6af3c0030b6c9f02c3862a20e00cce87c984aa5b/LICENSE.md",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": "MIT",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "aeon",
+    "repo": "aeon-toolkit/aeon",
+    "root": {
+      "url": "https://github.com/aeon-toolkit/aeon",
+      "resolved_url": "https://github.com/aeon-toolkit/aeon",
+      "status": 200,
+      "sha256": "5eb546f618af1744b2a3553491f8f92e28d9b8bf0fd1c258dab81cc263d4eaee",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "aabc99f04d64d91c1788a360a996b5dc8b723053",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/aeon-toolkit/aeon/aabc99f04d64d91c1788a360a996b5dc8b723053/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/aeon-toolkit/aeon/aabc99f04d64d91c1788a360a996b5dc8b723053/README.md",
+        "status": 200,
+        "sha256": "d2d94a15b24f7a01190f0cc40536b21f5dc27af6f0bcf1de3aeacb3e2eed14ea",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/aeon-toolkit/aeon/aabc99f04d64d91c1788a360a996b5dc8b723053/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/aeon-toolkit/aeon/aabc99f04d64d91c1788a360a996b5dc8b723053/LICENSE",
+        "status": 200,
+        "sha256": "dc3459a1fd14b6bcd10d13172dde23dd8c296660320dcb2b784efee5cd27c329",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "BSD-3-Clause",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "tirex2",
+    "repo": "NX-AI/tirex-2",
+    "root": {
+      "url": "https://github.com/NX-AI/tirex-2",
+      "resolved_url": "https://github.com/NX-AI/tirex-2",
+      "status": 200,
+      "sha256": "e93ffda1564a4df58a8f17cd70a7776dea7ecd5ebbddadb9e73901284cda9919",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "b187b7cab3ea11a40909a01601ec9b4ada8769e0",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/NX-AI/tirex-2/b187b7cab3ea11a40909a01601ec9b4ada8769e0/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/NX-AI/tirex-2/b187b7cab3ea11a40909a01601ec9b4ada8769e0/README.md",
+        "status": 200,
+        "sha256": "2788803422c0cdf7ccb12f3991a0cfbd9aa68fdad9407dc00563f16863f82bd4",
+        "truncated": false
+      },
+      "license": {
+        "url": "https://raw.githubusercontent.com/NX-AI/tirex-2/b187b7cab3ea11a40909a01601ec9b4ada8769e0/LICENSE",
+        "resolved_url": "https://raw.githubusercontent.com/NX-AI/tirex-2/b187b7cab3ea11a40909a01601ec9b4ada8769e0/LICENSE",
+        "status": 200,
+        "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+        "truncated": false
+      }
+    },
+    "failed_reads": [],
+    "accessed_at": "2026-11-04",
+    "license_verified": "Apache-2.0",
+    "license_status_verified": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE"
+  },
+  {
+    "slug": "finllm-eval",
+    "repo": "Tencent/finLLM-Eval",
+    "root": {
+      "url": "https://github.com/Tencent/finLLM-Eval",
+      "resolved_url": "https://github.com/Tencent/finLLM-Eval",
+      "status": 200,
+      "sha256": "fdd00b74b49a9bd0b1bb61d983d80c7ef80137b29cfa1298834611302a9b603f",
+      "truncated": false
+    },
+    "branch": "main",
+    "commit": "2747fb219d553dea0a183269554ce174aeb00531",
+    "archived": false,
+    "files": {
+      "readme": {
+        "url": "https://raw.githubusercontent.com/Tencent/finLLM-Eval/2747fb219d553dea0a183269554ce174aeb00531/README.md",
+        "resolved_url": "https://raw.githubusercontent.com/Tencent/finLLM-Eval/2747fb219d553dea0a183269554ce174aeb00531/README.md",
+        "status": 200,
+        "sha256": "afd68bb5c4b049ca416d81d7cfe46ef6937b1bb80adca84783f3a139903403d0",
+        "truncated": false
+      }
+    },
+    "failed_reads": [
+      {
+        "url": "https://raw.githubusercontent.com/Tencent/finLLM-Eval/2747fb219d553dea0a183269554ce174aeb00531/LICENSE",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Tencent/finLLM-Eval/2747fb219d553dea0a183269554ce174aeb00531/LICENSE.md",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Tencent/finLLM-Eval/2747fb219d553dea0a183269554ce174aeb00531/LICENSE.txt",
+        "status": "error",
+        "error": "HTTP Error 404: Not Found"
+      }
+    ],
+    "accessed_at": "2026-11-04",
+    "license_verified": null,
+    "license_status_verified": "LICENCIA NO VERIFICADA"
+  }
+]

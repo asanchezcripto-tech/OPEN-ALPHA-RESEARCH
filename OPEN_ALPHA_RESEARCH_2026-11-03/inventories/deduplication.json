@@ -1,0 +1,12 @@
+[
+  {
+    "alias_id": "AI-dowhy",
+    "canonical_id": "quant-dowhy",
+    "reason": "Mismo repositorio canónico; se conservan fuentes y evaluaciones de ambas áreas."
+  },
+  {
+    "alias_id": "AI-econml",
+    "canonical_id": "quant-econml",
+    "reason": "Mismo repositorio canónico; se conservan fuentes y evaluaciones de ambas áreas."
+  }
+]

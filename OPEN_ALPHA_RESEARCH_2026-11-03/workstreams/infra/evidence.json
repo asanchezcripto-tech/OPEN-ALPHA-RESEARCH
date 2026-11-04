@@ -1,0 +1,1410 @@
+[
+  {
+    "id": "infra-E0001",
+    "candidate_id": "infra-duckdb",
+    "source_id": "infra-S0001",
+    "claim": "Motor SQL embebido para consultar Parquet y unir series; candidato base de almacenamiento analítico.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0002",
+    "candidate_id": "infra-duckdb",
+    "source_id": "infra-S0002",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0003",
+    "candidate_id": "infra-duckdb",
+    "source_id": "infra-S0004",
+    "claim": "El operador PhysicalAsOfJoin separa claves de partición y ordenación, asigna orden ascendente o descendente según la desigualdad y trata de forma distinta igualdad ordinaria y equivalencia con nulos. La biblioteca consulta tablas y Parquet en el mismo proceso. La ruta examinada prueba que ASOF es una operación implementada; no verifica todas las optimizaciones, extensiones o conectores.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0004",
+    "candidate_id": "infra-duckdb",
+    "source_id": "infra-S0006",
+    "claim": "El operador PhysicalAsOfJoin separa claves de partición y ordenación, asigna orden ascendente o descendente según la desigualdad y trata de forma distinta igualdad ordinaria y equivalencia con nulos. La biblioteca consulta tablas y Parquet en el mismo proceso. La ruta examinada prueba que ASOF es una operación implementada; no verifica todas las optimizaciones, extensiones o conectores.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0005",
+    "candidate_id": "infra-duckdb",
+    "source_id": "infra-S0007",
+    "claim": "Se inspeccionó test_asof_join_nulls.test: diferencia claves de partición con IS NOT DISTINCT FROM, igualdad ordinaria y nulos en el campo temporal. No se ejecutaron tests; la ruta inicial asof_join.test devolvió 404 y fue sustituida por la ruta real.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0006",
+    "candidate_id": "infra-polars",
+    "source_id": "infra-S0008",
+    "claim": "Dataframes columnares con ejecución lazy y joins temporales.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0007",
+    "candidate_id": "infra-polars",
+    "source_id": "infra-S0009",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0008",
+    "candidate_id": "infra-polars",
+    "source_id": "infra-S0011",
+    "claim": "DataFrame.join_asof expone dirección, grupos, tolerancia, coincidencias exactas y comprobación de orden. El wrapper delega en el plan lazy y el motor nativo. Se inspeccionó esta interfaz, su manifiesto y tests; no el motor Rust completo.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0009",
+    "candidate_id": "infra-polars",
+    "source_id": "infra-S0012",
+    "claim": "DataFrame.join_asof expone dirección, grupos, tolerancia, coincidencias exactas y comprobación de orden. El wrapper delega en el plan lazy y el motor nativo. Se inspeccionó esta interfaz, su manifiesto y tests; no el motor Rust completo.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0010",
+    "candidate_id": "infra-polars",
+    "source_id": "infra-S0013",
+    "claim": "El manifiesto observado declara polars-runtime-32 ==2.1.0 y Python >=3.11; extras opcionales añaden pyarrow, pandas o GPU. La máquina del trabajo usa Python 3.10 para scripts propios: no se instaló ni se probó Polars en ella.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0011",
+    "candidate_id": "infra-arrow",
+    "source_id": "infra-S0014",
+    "claim": "Formato y bibliotecas de intercambio columnar; evitar conversiones innecesarias.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0012",
+    "candidate_id": "infra-arrow",
+    "source_id": "infra-S0015",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0013",
+    "candidate_id": "infra-pandas",
+    "source_id": "infra-S0017",
+    "claim": "Dataframes para investigación y compatibilidad con bibliotecas cuantitativas.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0014",
+    "candidate_id": "infra-pandas",
+    "source_id": "infra-S0018",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0015",
+    "candidate_id": "infra-ibis",
+    "source_id": "infra-S0020",
+    "claim": "Expresiones analíticas portables entre motores; evaluar coste de abstracción.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0016",
+    "candidate_id": "infra-ibis",
+    "source_id": "infra-S0021",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0017",
+    "candidate_id": "infra-dbt-duckdb",
+    "source_id": "infra-S0023",
+    "claim": "Adaptador dbt para transformaciones SQL y pruebas sobre DuckDB.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0018",
+    "candidate_id": "infra-dbt-duckdb",
+    "source_id": "infra-S0024",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0019",
+    "candidate_id": "infra-sqlglot",
+    "source_id": "infra-S0026",
+    "claim": "Parser/transpilador SQL; extracción de linaje limitada a semántica SQL.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0020",
+    "candidate_id": "infra-sqlglot",
+    "source_id": "infra-S0027",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0021",
+    "candidate_id": "infra-dlt",
+    "source_id": "infra-S0029",
+    "claim": "Ingesta incremental declarativa con estado y destinos analíticos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0022",
+    "candidate_id": "infra-dlt",
+    "source_id": "infra-S0030",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0023",
+    "candidate_id": "infra-dlt",
+    "source_id": "infra-S0032",
+    "claim": "Incremental mantiene estado por recurso y cursor. get_state crea un estado transitorio si existe end_value; en uso normal conserva el avance. bind resuelve contexto del planificador y rango. Faltas de cursor producen errores por defecto. Se inspeccionaron código, manifiesto y pruebas, sin ejecutar un pipeline.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0024",
+    "candidate_id": "infra-dlt",
+    "source_id": "infra-S0033",
+    "claim": "Se leyó test_missing_cursor_field y su expectativa de IncrementalCursorPathMissing/PipelineStepFailed. El archivo contiene pruebas de solapamientos, nulos, claves compuestas y lag. No se ejecutaron.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0025",
+    "candidate_id": "infra-dlt",
+    "source_id": "infra-S0034",
+    "claim": "Python >=3.10,<3.15. El manifiesto limita varios extras DuckDB a <2. Este es un bloqueo de compatibilidad para una receta que combine indiscriminadamente las versiones más nuevas.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0026",
+    "candidate_id": "infra-ingestr",
+    "source_id": "infra-S0035",
+    "claim": "Traslado incremental entre fuentes y destinos; dependencia de conectores.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0027",
+    "candidate_id": "infra-ingestr",
+    "source_id": "infra-S0036",
+    "claim": "Licencia/capa observada: FSL-1.1-ALv2",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0028",
+    "candidate_id": "infra-meltano",
+    "source_id": "infra-S0038",
+    "claim": "Orquestación de conectores Singer; evaluar coste operativo personal.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0029",
+    "candidate_id": "infra-meltano",
+    "source_id": "infra-S0039",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0030",
+    "candidate_id": "infra-ducklake",
+    "source_id": "infra-S0041",
+    "claim": "Catálogo transaccional de datos Parquet; más complejidad que ficheros simples.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0031",
+    "candidate_id": "infra-ducklake",
+    "source_id": "infra-S0042",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0032",
+    "candidate_id": "infra-delta-rs",
+    "source_id": "infra-S0043",
+    "claim": "Lectura/escritura de tablas Delta en Rust y Python.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0033",
+    "candidate_id": "infra-delta-rs",
+    "source_id": "infra-S0044",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0034",
+    "candidate_id": "infra-datafusion",
+    "source_id": "infra-S0046",
+    "claim": "Motor SQL embebible en Rust; alternativa de ingeniería a DuckDB.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0035",
+    "candidate_id": "infra-datafusion",
+    "source_id": "infra-S0047",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0036",
+    "candidate_id": "infra-questdb",
+    "source_id": "infra-S0049",
+    "claim": "Base de series temporales con ingestión y consultas temporales.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0037",
+    "candidate_id": "infra-questdb",
+    "source_id": "infra-S0050",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0038",
+    "candidate_id": "infra-clickhouse",
+    "source_id": "infra-S0052",
+    "claim": "Motor analítico columnar servidor para volúmenes superiores al uso personal inicial.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0039",
+    "candidate_id": "infra-clickhouse",
+    "source_id": "infra-S0053",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0040",
+    "candidate_id": "infra-timescaledb",
+    "source_id": "infra-S0055",
+    "claim": "Extensión temporal PostgreSQL; revisar capas de licencias.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0041",
+    "candidate_id": "infra-timescaledb",
+    "source_id": "infra-S0056",
+    "claim": "Licencia/capa observada: Apache-2.0 + Timescale License por directorio",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0042",
+    "candidate_id": "infra-sqlite",
+    "source_id": "infra-S0058",
+    "claim": "Mirror de SQLite; metadatos locales y catálogos pequeños.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0043",
+    "candidate_id": "infra-sqlite",
+    "source_id": "infra-S0059",
+    "claim": "Licencia/capa observada: Dominio público en componentes identificados; revisar terceros",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0044",
+    "candidate_id": "infra-datasette",
+    "source_id": "infra-S0061",
+    "claim": "Exploración y publicación controlada de tablas SQLite.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0045",
+    "candidate_id": "infra-datasette",
+    "source_id": "infra-S0062",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0046",
+    "candidate_id": "infra-sqlite-utils",
+    "source_id": "infra-S0064",
+    "claim": "Utilidades para carga y mantenimiento de tablas SQLite.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0047",
+    "candidate_id": "infra-sqlite-utils",
+    "source_id": "infra-S0065",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0048",
+    "candidate_id": "infra-frictionless",
+    "source_id": "infra-S0067",
+    "claim": "Esquemas y validación de paquetes de datos intercambiables.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0049",
+    "candidate_id": "infra-frictionless",
+    "source_id": "infra-S0068",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0050",
+    "candidate_id": "infra-pandera",
+    "source_id": "infra-S0070",
+    "claim": "Validación de esquemas y restricciones de tablas.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0051",
+    "candidate_id": "infra-pandera",
+    "source_id": "infra-S0071",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0052",
+    "candidate_id": "infra-pandera",
+    "source_id": "infra-S0073",
+    "claim": "La API DataFrameSchema.validate recibe head, tail, sample, lazy e inplace. El backend ejecuta parsers, comprobaciones de columnas, coacción de tipos y validadores. La inspección muestra que validar puede transformar los datos; no debe confundirse con comprobar una copia inmutable.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0053",
+    "candidate_id": "infra-pandera",
+    "source_id": "infra-S0074",
+    "claim": "La API DataFrameSchema.validate recibe head, tail, sample, lazy e inplace. El backend ejecuta parsers, comprobaciones de columnas, coacción de tipos y validadores. La inspección muestra que validar puede transformar los datos; no debe confundirse con comprobar una copia inmutable.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0054",
+    "candidate_id": "infra-pandera",
+    "source_id": "infra-S0076",
+    "claim": "Python >=3.10; extras pandas>=2.1.1 y polars>=1.20.0 observados. Elegir un solo backend para el primer alcance.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0055",
+    "candidate_id": "infra-pandera",
+    "source_id": "infra-S0077",
+    "claim": "Se inspeccionó el árbol real de tests/pandas y el caso test_drop_invalid_rows_failure_limit.py; el antiguo tests/core/test_schemas.py no existía. No se calculó porcentaje de cobertura ni se ejecutó código.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0056",
+    "candidate_id": "infra-great-expectations",
+    "source_id": "infra-S0078",
+    "claim": "Framework de expectativas y documentación de calidad; evaluar complejidad.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0057",
+    "candidate_id": "infra-great-expectations",
+    "source_id": "infra-S0079",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0058",
+    "candidate_id": "infra-soda-core",
+    "source_id": "infra-S0081",
+    "claim": "Comprobaciones declarativas de datos; distinguir núcleo y oferta comercial.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0059",
+    "candidate_id": "infra-soda-core",
+    "source_id": "infra-S0082",
+    "claim": "Licencia/capa observada: Elastic-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0060",
+    "candidate_id": "infra-pydantic",
+    "source_id": "infra-S0084",
+    "claim": "Validación de tipos en contratos de entrada/salida.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0061",
+    "candidate_id": "infra-pydantic",
+    "source_id": "infra-S0085",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0062",
+    "candidate_id": "infra-patito",
+    "source_id": "infra-S0087",
+    "claim": "Esquemas sobre Polars con modelos Pydantic.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0063",
+    "candidate_id": "infra-patito",
+    "source_id": "infra-S0088",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0064",
+    "candidate_id": "infra-patito",
+    "source_id": "infra-S0090",
+    "claim": "Los modelos Pydantic describen columnas y restricciones que se aplican sobre Polars. validators.py comprueba presencia, nulabilidad, dtype, unicidad y expresiones personalizadas. Model.validate devuelve un DataFrame ligado al modelo.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0065",
+    "candidate_id": "infra-patito",
+    "source_id": "infra-S0091",
+    "claim": "Los modelos Pydantic describen columnas y restricciones que se aplican sobre Polars. validators.py comprueba presencia, nulabilidad, dtype, unicidad y expresiones personalizadas. Model.validate devuelve un DataFrame ligado al modelo.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0066",
+    "candidate_id": "infra-patito",
+    "source_id": "infra-S0092",
+    "claim": "Se leyó test_uniqueness_validation: el conjunto con duplicados debe fallar, el vacío puede pasar. Por ello, un chequeo de unicidad debe acompañarse de completitud y mínimo de observaciones. También se observaron casos de fecha y expresiones personalizadas.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0067",
+    "candidate_id": "infra-patito",
+    "source_id": "infra-S0093",
+    "claim": "Manifiesto 0.8.6: Python>=3.9, Pydantic>=2.7 y Polars>=1.32. No hay límite superior observado para Polars: probar compatibilidad antes de adoptar un nuevo major.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0068",
+    "candidate_id": "infra-tenacity",
+    "source_id": "infra-S0094",
+    "claim": "Reintentos programables; no sustituyen límites del proveedor.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0069",
+    "candidate_id": "infra-tenacity",
+    "source_id": "infra-S0095",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0070",
+    "candidate_id": "infra-requests-cache",
+    "source_id": "infra-S0097",
+    "claim": "Caché HTTP persistente con políticas de expiración.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0071",
+    "candidate_id": "infra-requests-cache",
+    "source_id": "infra-S0098",
+    "claim": "Licencia/capa observada: BSD-2-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0072",
+    "candidate_id": "infra-requests-cache",
+    "source_id": "infra-S0100",
+    "claim": "CachedSession.send consulta el backend y decide entre respuesta guardada y red. _resend maneja errores de refresco; CacheActions permite reutilizar una respuesta caducada con stale_if_error, incluso sin límite temporal si se habilita con True. Se inspeccionaron estas rutas y sus pruebas.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0073",
+    "candidate_id": "infra-requests-cache",
+    "source_id": "infra-S0101",
+    "claim": "CachedSession.send consulta el backend y decide entre respuesta guardada y red. _resend maneja errores de refresco; CacheActions permite reutilizar una respuesta caducada con stale_if_error, incluso sin límite temporal si se habilita con True. Se inspeccionaron estas rutas y sus pruebas.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0074",
+    "candidate_id": "infra-requests-cache",
+    "source_id": "infra-S0102",
+    "claim": "test_stale_if_error__exception y test_stale_if_error__error_code comprueban devolución de respuesta antigua con from_cache e is_expired. Esa conducta es una característica deliberada, no un fallo de la biblioteca.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0075",
+    "candidate_id": "infra-requests-cache",
+    "source_id": "infra-S0103",
+    "claim": "Python >=3.8 y requests; backends/serializadores opcionales amplían dependencias. No se evaluaron todos los serializadores ni su seguridad.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0076",
+    "candidate_id": "infra-hishel",
+    "source_id": "infra-S0104",
+    "claim": "Caché HTTP respetuosa de semántica HTTP para clientes modernos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0077",
+    "candidate_id": "infra-hishel",
+    "source_id": "infra-S0105",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0078",
+    "candidate_id": "infra-httpx",
+    "source_id": "infra-S0107",
+    "claim": "Cliente HTTP síncrono/asíncrono; núcleo de conectores pequeños.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0079",
+    "candidate_id": "infra-httpx",
+    "source_id": "infra-S0108",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0080",
+    "candidate_id": "infra-fsspec",
+    "source_id": "infra-S0110",
+    "claim": "Interfaz homogénea a sistemas de ficheros locales/remotos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0081",
+    "candidate_id": "infra-fsspec",
+    "source_id": "infra-S0111",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0082",
+    "candidate_id": "infra-intake",
+    "source_id": "infra-S0113",
+    "claim": "Catálogos declarativos de fuentes y acceso a datos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0083",
+    "candidate_id": "infra-intake",
+    "source_id": "infra-S0114",
+    "claim": "Licencia/capa observada: BSD-2-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0084",
+    "candidate_id": "infra-dvc",
+    "source_id": "infra-S0116",
+    "claim": "Versionado de datos y procesos con almacén externo.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0085",
+    "candidate_id": "infra-dvc",
+    "source_id": "infra-S0117",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0086",
+    "candidate_id": "infra-lakefs",
+    "source_id": "infra-S0119",
+    "claim": "Versionado tipo Git sobre almacenamiento de objetos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0087",
+    "candidate_id": "infra-lakefs",
+    "source_id": "infra-S0120",
+    "claim": "Licencia/capa observada: BUSL-1.1; Additional Use Grant limitado",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0088",
+    "candidate_id": "infra-openlineage",
+    "source_id": "infra-S0122",
+    "claim": "Especificación y clientes de eventos de linaje.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0089",
+    "candidate_id": "infra-openlineage",
+    "source_id": "infra-S0123",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0090",
+    "candidate_id": "infra-openlineage",
+    "source_id": "infra-S0124",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0091",
+    "candidate_id": "infra-datahub",
+    "source_id": "infra-S0126",
+    "claim": "Catálogo de metadatos empresarial; referencia más que componente inicial.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0092",
+    "candidate_id": "infra-datahub",
+    "source_id": "infra-S0127",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0093",
+    "candidate_id": "infra-dagster",
+    "source_id": "infra-S0129",
+    "claim": "Orquestación basada en activos y estado de materializaciones.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0094",
+    "candidate_id": "infra-dagster",
+    "source_id": "infra-S0130",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0095",
+    "candidate_id": "infra-prefect",
+    "source_id": "infra-S0132",
+    "claim": "Orquestación Python con reintentos y observabilidad.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0096",
+    "candidate_id": "infra-prefect",
+    "source_id": "infra-S0133",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0097",
+    "candidate_id": "infra-luigi",
+    "source_id": "infra-S0135",
+    "claim": "Dependencias de tareas batch y objetivos persistentes.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0098",
+    "candidate_id": "infra-luigi",
+    "source_id": "infra-S0136",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0099",
+    "candidate_id": "infra-apscheduler",
+    "source_id": "infra-S0138",
+    "claim": "Planificación local de trabajos periódicos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0100",
+    "candidate_id": "infra-apscheduler",
+    "source_id": "infra-S0139",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0101",
+    "candidate_id": "infra-joblib",
+    "source_id": "infra-S0141",
+    "claim": "Caché de cálculos y paralelismo local.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0102",
+    "candidate_id": "infra-joblib",
+    "source_id": "infra-S0142",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0103",
+    "candidate_id": "infra-diskcache",
+    "source_id": "infra-S0144",
+    "claim": "Caché local persistente sobre disco.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0104",
+    "candidate_id": "infra-diskcache",
+    "source_id": "infra-S0145",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0105",
+    "candidate_id": "infra-orjson",
+    "source_id": "infra-S0147",
+    "claim": "Serialización JSON rápida; atención a timestamps y números.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0106",
+    "candidate_id": "infra-streamlit",
+    "source_id": "infra-S0149",
+    "claim": "Dashboards interactivos Python; distinguir framework y hosting.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0107",
+    "candidate_id": "infra-streamlit",
+    "source_id": "infra-S0150",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0108",
+    "candidate_id": "infra-marimo",
+    "source_id": "infra-S0152",
+    "claim": "Cuadernos reactivos reproducibles guardados como Python.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0109",
+    "candidate_id": "infra-marimo",
+    "source_id": "infra-S0153",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0110",
+    "candidate_id": "infra-marimo",
+    "source_id": "infra-S0155",
+    "claim": "DirectedGraph registra definiciones y dependencias de las celdas, actualiza aristas y detecta ciclos. El borrado de una celda afecta a sus descendientes. Es un control del flujo de cómputo, no un registro automático de procedencia financiera.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0111",
+    "candidate_id": "infra-marimo",
+    "source_id": "infra-S0157",
+    "claim": "Se leyó test_set_stale: una celda y sus descendientes quedan marcados, mientras una celda independiente no. También se inspeccionó la estructura de pruebas de ciclos/orden y dependencias SQL. No se ejecutaron.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0112",
+    "candidate_id": "infra-marimo",
+    "source_id": "infra-S0158",
+    "claim": "El manifiesto requiere Python >=3.11. SQL y gráficos incorporan extras; las funciones de IA son opcionales y no necesarias para las propuestas.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0113",
+    "candidate_id": "infra-panel",
+    "source_id": "infra-S0159",
+    "claim": "Aplicaciones de datos sobre Bokeh y ecosistema HoloViz.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0114",
+    "candidate_id": "infra-panel",
+    "source_id": "infra-S0160",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0115",
+    "candidate_id": "infra-voila",
+    "source_id": "infra-S0162",
+    "claim": "Convierte notebooks en interfaces; evaluar estado oculto.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0116",
+    "candidate_id": "infra-voila",
+    "source_id": "infra-S0163",
+    "claim": "Licencia/capa observada: BSD (texto consultado; variante no resuelta)",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0117",
+    "candidate_id": "infra-plotly",
+    "source_id": "infra-S0165",
+    "claim": "Gráficos interactivos exportables.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0118",
+    "candidate_id": "infra-plotly",
+    "source_id": "infra-S0166",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0119",
+    "candidate_id": "infra-altair",
+    "source_id": "infra-S0168",
+    "claim": "Gráficos declarativos basados en Vega-Lite.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0120",
+    "candidate_id": "infra-altair",
+    "source_id": "infra-S0169",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0121",
+    "candidate_id": "infra-echarts",
+    "source_id": "infra-S0171",
+    "claim": "Gráficos interactivos web de propósito general.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0122",
+    "candidate_id": "infra-echarts",
+    "source_id": "infra-S0172",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0123",
+    "candidate_id": "infra-lightweight-charts",
+    "source_id": "infra-S0174",
+    "claim": "Gráficos financieros web; revisar atribución de interfaz.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0124",
+    "candidate_id": "infra-lightweight-charts",
+    "source_id": "infra-S0175",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0125",
+    "candidate_id": "infra-perspective",
+    "source_id": "infra-S0177",
+    "claim": "Visor analítico con pivotes, filtros y motor WebAssembly.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0126",
+    "candidate_id": "infra-perspective",
+    "source_id": "infra-S0178",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0127",
+    "candidate_id": "infra-hvplot",
+    "source_id": "infra-S0180",
+    "claim": "Visualización declarativa desde dataframes.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0128",
+    "candidate_id": "infra-hvplot",
+    "source_id": "infra-S0181",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0129",
+    "candidate_id": "infra-bokeh",
+    "source_id": "infra-S0183",
+    "claim": "Visualización interactiva web desde Python.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0130",
+    "candidate_id": "infra-bokeh",
+    "source_id": "infra-S0184",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0131",
+    "candidate_id": "infra-networkx",
+    "source_id": "infra-S0186",
+    "claim": "Análisis de grafos; las direcciones no equivalen a entidades.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0132",
+    "candidate_id": "infra-networkx",
+    "source_id": "infra-S0187",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0133",
+    "candidate_id": "infra-igraph",
+    "source_id": "infra-S0189",
+    "claim": "Bindings Python para analítica de grafos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0134",
+    "candidate_id": "infra-igraph",
+    "source_id": "infra-S0190",
+    "claim": "Licencia/capa observada: GPL-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0135",
+    "candidate_id": "infra-cytoscapejs",
+    "source_id": "infra-S0192",
+    "claim": "Visualización y manipulación de grafos en navegador.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0136",
+    "candidate_id": "infra-cytoscapejs",
+    "source_id": "infra-S0193",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0137",
+    "candidate_id": "infra-graphistry",
+    "source_id": "infra-S0195",
+    "claim": "Cliente de análisis visual de grafos; backend/servicios separados.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0138",
+    "candidate_id": "infra-graphistry",
+    "source_id": "infra-S0196",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0139",
+    "candidate_id": "infra-pyvis",
+    "source_id": "infra-S0198",
+    "claim": "Visualización ligera de redes desde Python.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0140",
+    "candidate_id": "infra-xtdb",
+    "source_id": "infra-S0200",
+    "claim": "Base bitemporal SQL con tiempos válido/sistema.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0141",
+    "candidate_id": "infra-xtdb",
+    "source_id": "infra-S0201",
+    "claim": "Licencia/capa observada: MPL-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0142",
+    "candidate_id": "infra-sirix",
+    "source_id": "infra-S0203",
+    "claim": "Historial inmutable bitemporal y snapshots estructuralmente compartidos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0143",
+    "candidate_id": "infra-sirix",
+    "source_id": "infra-S0204",
+    "claim": "Licencia/capa observada: BSD-3-Clause",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0144",
+    "candidate_id": "infra-narwhals",
+    "source_id": "infra-S0206",
+    "claim": "Compatibilidad entre bibliotecas de dataframes.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0145",
+    "candidate_id": "infra-narwhals",
+    "source_id": "infra-S0207",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0146",
+    "candidate_id": "infra-ydata-profiling",
+    "source_id": "infra-S0209",
+    "claim": "Perfilado exploratorio; no confundir descriptivos con integridad temporal.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0147",
+    "candidate_id": "infra-ydata-profiling",
+    "source_id": "infra-S0210",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0148",
+    "candidate_id": "infra-data-diff",
+    "source_id": "infra-S0212",
+    "claim": "Comparación de tablas; comprobar mantenimiento y transición a comercial.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0149",
+    "candidate_id": "infra-data-diff",
+    "source_id": "infra-S0213",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0150",
+    "candidate_id": "infra-datacompy",
+    "source_id": "infra-S0215",
+    "claim": "Comparación tabular para detectar revisiones de series.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0151",
+    "candidate_id": "infra-datacompy",
+    "source_id": "infra-S0216",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0152",
+    "candidate_id": "infra-datacompy",
+    "source_id": "infra-S0219",
+    "claim": "PolarsCompare compara tablas por claves y evalúa diferencias numéricas con tolerancias absoluta y relativa. El código resuelve el nombre del parámetro de igualdad de nulos según la interfaz Polars, lo que muestra compatibilidad explícita entre ramas de API.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0153",
+    "candidate_id": "infra-datacompy",
+    "source_id": "infra-S0221",
+    "claim": "Python>=3.10; el manifiesto observado declara pandas>=2.2,<=3.1 y polars[pandas]>=0.20.4,<=2.1. Integraciones Spark/Snowflake son opcionales e innecesarias aquí.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0154",
+    "candidate_id": "infra-datacompy",
+    "source_id": "infra-S0222",
+    "claim": "Se inspeccionó tests/test_polars.py y su compatibilidad con semántica de nulos en CSV; la antigua ruta test_core.py no existía. No se ejecutó la batería ni se midió precisión.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0155",
+    "candidate_id": "infra-visidata",
+    "source_id": "infra-S0223",
+    "claim": "Exploración de tablas desde terminal.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0156",
+    "candidate_id": "infra-visidata",
+    "source_id": "infra-S0224",
+    "claim": "Licencia/capa observada: GPL-3.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0157",
+    "candidate_id": "infra-evidence",
+    "source_id": "infra-S0226",
+    "claim": "Informes de datos con SQL y Markdown.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0158",
+    "candidate_id": "infra-evidence",
+    "source_id": "infra-S0227",
+    "claim": "Licencia/capa observada: MIT",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0159",
+    "candidate_id": "infra-observable-framework",
+    "source_id": "infra-S0229",
+    "claim": "Aplicaciones e informes de datos estáticos interactivos.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0160",
+    "candidate_id": "infra-observable-framework",
+    "source_id": "infra-S0230",
+    "claim": "Licencia/capa observada: ISC",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0161",
+    "candidate_id": "infra-qfs",
+    "source_id": "infra-S0232",
+    "claim": "Prototipo bitemporal pequeño de prevención de leakage descubierto en búsqueda.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0162",
+    "candidate_id": "infra-qfs",
+    "source_id": "infra-S0234",
+    "claim": "El prototipo guarda versiones de features en Parquet y usa DuckDB/Polars. La ruta rápida depende de unicidad por evento, publicación estrictamente creciente y ausencia de timestamps predictivos. Si no se cumplen, el join usa las dos restricciones temporales y ordena por event_time y knowledge_time.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0163",
+    "candidate_id": "infra-qfs",
+    "source_id": "infra-S0235",
+    "claim": "Se leyó test_no_lookahead_on_knowledge_time: una revisión publicada después queda excluida y se incorpora al avanzar la fecha de consulta. Los tests son fixtures sintéticos; no certifican que los históricos de yfinance tengan vintages reales.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0164",
+    "candidate_id": "infra-qfs",
+    "source_id": "infra-S0236",
+    "claim": "Manifiesto 0.1.0, Python>=3.10, DuckDB, Polars, pandas, NumPy, PyArrow y yfinance sin fijación estrecha. Las condiciones del proveedor de datos son independientes.",
+    "evidence_type": "static_inspection",
+    "limitations": "Lectura de rutas relevantes; sin ejecución ni auditoría completa."
+  },
+  {
+    "id": "infra-E0165",
+    "candidate_id": "infra-point-in-time-datawarehouse",
+    "source_id": "infra-S0237",
+    "claim": "Ejemplo de restricciones bitemporales y reconciliación de proveedores.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0166",
+    "candidate_id": "infra-alpha-lake",
+    "source_id": "infra-S0239",
+    "claim": "Lakehouse de investigación tritemporal; extraer patrones sin adoptar plataforma.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0167",
+    "candidate_id": "infra-alpha-lake",
+    "source_id": "infra-S0240",
+    "claim": "Licencia/capa observada: Apache-2.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0168",
+    "candidate_id": "infra-ptdata-methodology",
+    "source_id": "infra-S0242",
+    "claim": "Especificación pública de servicio de datos point-in-time; no confundir con implementación abierta.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0169",
+    "candidate_id": "infra-ptdata-methodology",
+    "source_id": "infra-S0243",
+    "claim": "Licencia/capa observada: CC-BY-4.0 para documentación",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-E0170",
+    "candidate_id": "infra-row-level-prov",
+    "source_id": "infra-S0245",
+    "claim": "Prototipo de linaje por fila/campo con restricciones de uso comercial.",
+    "evidence_type": "documentation",
+    "limitations": "Función declarada; no prueba de rendimiento ni de ejecución."
+  },
+  {
+    "id": "infra-E0171",
+    "candidate_id": "infra-row-level-prov",
+    "source_id": "infra-S0246",
+    "claim": "Licencia/capa observada: PolyForm-Noncommercial-1.0.0",
+    "evidence_type": "license",
+    "limitations": "No incluye automáticamente dependencias, datos, pesos ni servicios."
+  },
+  {
+    "id": "infra-provider-evidence-defillama-api",
+    "candidate_id": "infra-provider-defillama-api",
+    "source_id": "infra-provider-source-defillama-api",
+    "claim": "Agregados DeFi; permisos y acceso del servicio se revisan aparte de adaptadores.",
+    "evidence_type": "documentación primaria",
+    "limitations": "Servicio no ejecutado/contratado; no licencia de datos inferida de documentación pública."
+  },
+  {
+    "id": "infra-provider-evidence-hyperliquid-api",
+    "candidate_id": "infra-provider-hyperliquid-api",
+    "source_id": "infra-provider-source-hyperliquid-api",
+    "claim": "Contexto/info de mercados; diferenciar snapshot actual, histórico y retención.",
+    "evidence_type": "documentación primaria",
+    "limitations": "Servicio no ejecutado/contratado; no licencia de datos inferida de documentación pública."
+  },
+  {
+    "id": "infra-provider-evidence-polymarket-api",
+    "candidate_id": "infra-provider-polymarket-api",
+    "source_id": "infra-provider-source-polymarket-api",
+    "claim": "Datos de eventos, mercados, precios e historial; no se invocaron operaciones.",
+    "evidence_type": "documentación primaria",
+    "limitations": "Servicio no ejecutado/contratado; no licencia de datos inferida de documentación pública."
+  },
+  {
+    "id": "infra-provider-evidence-dune-service",
+    "candidate_id": "infra-provider-dune-service",
+    "source_id": "infra-provider-source-dune-service",
+    "claim": "Servicio de consultas/resultados: referencia funcional cerrada; clientes/Spellbook tienen permisos diferentes.",
+    "evidence_type": "documentación primaria",
+    "limitations": "Servicio no ejecutado/contratado; no licencia de datos inferida de documentación pública."
+  },
+  {
+    "id": "infra-provider-evidence-tokenterminal-service",
+    "candidate_id": "infra-provider-tokenterminal-service",
+    "source_id": "infra-provider-source-tokenterminal-service",
+    "claim": "Referencia comercial de definiciones; no implica datos/código abiertos ni validación independiente.",
+    "evidence_type": "documentación primaria",
+    "limitations": "Servicio no ejecutado/contratado; no licencia de datos inferida de documentación pública."
+  }
+]

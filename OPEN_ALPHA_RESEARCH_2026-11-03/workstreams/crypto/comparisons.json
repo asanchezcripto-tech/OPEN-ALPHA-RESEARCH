@@ -1,0 +1,50 @@
+[
+  {
+    "id": "crypto-compare-exchange-clients",
+    "candidates": [
+      "crypto-ccxt-ccxt",
+      "crypto-bmoscon-cryptofeed",
+      "crypto-hummingbot-hummingbot"
+    ],
+    "decision": "CCXT para snapshots REST de lectura; Cryptofeed si hace falta streaming y se acepta AGPL+atribución; Hummingbot sólo referencia",
+    "reason": "Horizonte inversor y coste operativo no justifican motor de ejecución",
+    "unmeasured": "Latencia, cobertura real de endpoints y mantenimiento futuro"
+  },
+  {
+    "id": "crypto-compare-indexers",
+    "candidates": [
+      "crypto-paradigmxyz-cryo",
+      "crypto-ponder-sh-ponder",
+      "crypto-graphprotocol-graph-node",
+      "crypto-subsquid-squid-sdk"
+    ],
+    "decision": "Cryo para extracción batch acotada; Ponder para índice continuo con reorgs; Graph Node/Subsquid cuando exista necesidad de servicio/archivo más amplio",
+    "reason": "Elegir alcance de datos antes de infraestructura",
+    "unmeasured": "Rendimiento, costes RPC y disponibilidad de historial"
+  },
+  {
+    "id": "crypto-compare-prediction-sdk",
+    "candidates": [
+      "crypto-polymarket-py-sdk",
+      "crypto-polymarket-py-clob-client",
+      "crypto-polymarket-py-clob-client-v2"
+    ],
+    "decision": "SDK unificado actual; repos legados sólo migración y referencia",
+    "reason": "Fuentes oficiales documentan ambas deprecaciones",
+    "unmeasured": "Compatibilidad local y estabilidad futura de API 0.x"
+  },
+  {
+    "id": "crypto-compare-fundamentals",
+    "candidates": [
+      "crypto-defillama-dimension-adapters",
+      "crypto-duneanalytics-spellbook"
+    ],
+    "provider_ids": [
+      "crypto-provider-token-terminal",
+      "crypto-provider-dune"
+    ],
+    "decision": "Fórmulas y eventos versionados para núcleo; proveedores como contraste de definiciones",
+    "reason": "Adaptador público no garantiza upstream abierto; dashboard cerrado no prueba replicabilidad",
+    "unmeasured": "Exactitud de importes e historial de revisiones de cada proveedor"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "method-infra-bitemporal-join",
+    "name": "Selección bitemporal por ventanas",
+    "url": "https://github.com/duckdb/duckdb",
+    "categories": [
+      "M",
+      "G"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "método; implementaciones versionadas",
+    "confidence": "alta sobre principio; utilidad propuesta no medida",
+    "problem": "Elegir datos conocidos sin usar revisiones posteriores.",
+    "assumptions": "Identidad y tiempos de evento/conocimiento distintos.",
+    "data_frequency": "Según métrica; diario/semanal en el alcance inicial.",
+    "validation": "Invariancia de consultas pasadas al añadir futuro.",
+    "common_failures": "ASOF por fecha económica; empates no resueltos; eventos futuros conocidos excluidos.",
+    "implementations": [
+      "infra-duckdb",
+      "infra-qfs"
+    ],
+    "simple_implementation": "Consultar diseño y revisión del componente; no se implementó aquí.",
+    "crypto_value": "Hace auditables fundamentales y macro.",
+    "do_not_use_when": "No inventar fecha de publicación; si falta, marcar reconstrucción.",
+    "source_ids": [
+      "infra-S0001",
+      "infra-S0002",
+      "infra-S0003",
+      "infra-S0004",
+      "infra-S0005",
+      "infra-S0006",
+      "infra-S0007"
+    ]
+  },
+  {
+    "id": "method-infra-reconciliation",
+    "name": "Reconciliación y tolerancias por unidad",
+    "url": "https://github.com/capitalone/datacompy",
+    "categories": [
+      "M",
+      "G"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "método; implementaciones versionadas",
+    "confidence": "alta sobre principio; utilidad propuesta no medida",
+    "problem": "Distinguir cambios de proveedor de cambios económicos.",
+    "assumptions": "Misma definición, unidad, cobertura y claves.",
+    "data_frequency": "Según métrica; diario/semanal en el alcance inicial.",
+    "validation": "Cambios sintéticos materiales/no materiales y revisión humana.",
+    "common_failures": "Tolerancia global oculta cambios; referencia numérica asimétrica.",
+    "implementations": [
+      "infra-datacompy",
+      "infra-pandera"
+    ],
+    "simple_implementation": "Consultar diseño y revisión del componente; no se implementó aquí.",
+    "crypto_value": "Detecta artefactos de revenue/supply antes de rankear.",
+    "do_not_use_when": "No comparar métricas con beneficiarios o periodos distintos.",
+    "source_ids": [
+      "infra-S0215",
+      "infra-S0216",
+      "infra-S0217",
+      "infra-S0218",
+      "infra-S0219",
+      "infra-S0220",
+      "infra-S0221",
+      "infra-S0222"
+    ]
+  },
+  {
+    "id": "method-infra-freshness",
+    "name": "Presupuesto de frescura y retraso",
+    "url": "https://github.com/requests-cache/requests-cache",
+    "categories": [
+      "M",
+      "G"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "método; implementaciones versionadas",
+    "confidence": "alta sobre principio; utilidad propuesta no medida",
+    "problem": "Evitar que fallos se interpreten como calma de mercado.",
+    "assumptions": "Timestamp original/acquisición y política por métrica.",
+    "data_frequency": "Según métrica; diario/semanal en el alcance inicial.",
+    "validation": "Cortes simulados, datos caducados y estado de abstención.",
+    "common_failures": "HTTP200 desde caché tratado como dato nuevo.",
+    "implementations": [
+      "infra-requests-cache",
+      "infra-dlt"
+    ],
+    "simple_implementation": "Consultar diseño y revisión del componente; no se implementó aquí.",
+    "crypto_value": "Reduce alertas financieras basadas en feed congelado.",
+    "do_not_use_when": "No afirmar latencia exacta sin hora pública verificable.",
+    "source_ids": [
+      "infra-S0097",
+      "infra-S0098",
+      "infra-S0099",
+      "infra-S0100",
+      "infra-S0101",
+      "infra-S0102",
+      "infra-S0103"
+    ]
+  },
+  {
+    "id": "method-infra-dependency-graph",
+    "name": "Grafo de dependencias de cálculos",
+    "url": "https://github.com/marimo-team/marimo",
+    "categories": [
+      "M",
+      "G"
+    ],
+    "verified_at": "2026-11-04",
+    "maintenance_status": "método; implementaciones versionadas",
+    "confidence": "alta sobre principio; utilidad propuesta no medida",
+    "problem": "Recalcular solo lo afectado al cambiar supuestos.",
+    "assumptions": "Dependencias explícitas y entradas versionadas.",
+    "data_frequency": "Según métrica; diario/semanal en el alcance inicial.",
+    "validation": "Modificar un supuesto y cotejar descendientes/resultados.",
+    "common_failures": "Estado externo, llamada repetida o datos cambiantes fuera del grafo.",
+    "implementations": [
+      "infra-marimo"
+    ],
+    "simple_implementation": "Consultar diseño y revisión del componente; no se implementó aquí.",
+    "crypto_value": "Exploración reproducible de tesis y escenarios.",
+    "do_not_use_when": "No usar como sustituto de provenance de datos.",
+    "source_ids": [
+      "infra-S0152",
+      "infra-S0153",
+      "infra-S0154",
+      "infra-S0155",
+      "infra-S0156",
+      "infra-S0157",
+      "infra-S0158"
+    ]
+  }
+]

@@ -1,0 +1,246 @@
+[
+  {
+    "id": "infra-provider-defillama-api",
+    "name": "DefiLlama: servicio y metodología",
+    "url": "https://docs.llama.fi/",
+    "organization": "DefiLlama",
+    "categories": [
+      "E",
+      "D",
+      "M"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Agregados DeFi; permisos y acceso del servicio se revisan aparte de adaptadores.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-defillama-api"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-defillama-api"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Agregados DeFi; permisos y acceso del servicio se revisan aparte de adaptadores.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null
+  },
+  {
+    "id": "infra-provider-hyperliquid-api",
+    "name": "Hyperliquid: API pública",
+    "url": "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/api",
+    "organization": "Hyperliquid",
+    "categories": [
+      "B",
+      "C",
+      "M"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Contexto/info de mercados; diferenciar snapshot actual, histórico y retención.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-hyperliquid-api"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-hyperliquid-api"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Contexto/info de mercados; diferenciar snapshot actual, histórico y retención.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null
+  },
+  {
+    "id": "infra-provider-polymarket-api",
+    "name": "Polymarket: API de datos",
+    "url": "https://docs.polymarket.com/api-reference/predictions/overview",
+    "organization": "Polymarket",
+    "categories": [
+      "N",
+      "J",
+      "M"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Datos de eventos, mercados, precios e historial; no se invocaron operaciones.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-polymarket-api"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-polymarket-api"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Datos de eventos, mercados, precios e historial; no se invocaron operaciones.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null
+  },
+  {
+    "id": "infra-provider-dune-service",
+    "name": "Dune Analytics API",
+    "url": "https://docs.dune.com/api-reference/overview/introduction",
+    "organization": "Dune Analytics API",
+    "categories": [
+      "D",
+      "M",
+      "L"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Servicio de consultas/resultados: referencia funcional cerrada; clientes/Spellbook tienen permisos diferentes.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-dune-service"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-dune-service"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Servicio de consultas/resultados: referencia funcional cerrada; clientes/Spellbook tienen permisos diferentes.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null
+  },
+  {
+    "id": "infra-provider-tokenterminal-service",
+    "name": "Token Terminal: métricas",
+    "url": "https://tokenterminal.com/explorer/metrics/tokenholder_revenue",
+    "organization": "Token Terminal",
+    "categories": [
+      "E",
+      "L"
+    ],
+    "resource_type": "proveedor/API o servicio comercial de referencia",
+    "description": "Referencia comercial de definiciones; no implica datos/código abiertos ni validación independiente.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "documentación consultada; SLA/actividad no auditados",
+    "license_code": null,
+    "license_data": "Términos del servicio/dataset pendientes de caso concreto",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "source_ids": [
+      "infra-provider-source-tokenterminal-service"
+    ],
+    "evidence_ids": [
+      "infra-provider-evidence-tokenterminal-service"
+    ],
+    "scores": null,
+    "confidence": "media en alcance documental; baja en acceso operativo",
+    "blockers": [
+      "Verificar condiciones, retención, límites y coste antes de usar datos."
+    ],
+    "commercial_dependencies": [
+      "Servicio externo; no contratado."
+    ],
+    "maturity": "No probada mediante llamadas operativas",
+    "cost_relative": "No cotizado",
+    "adoption_mode": "Conservar como referencia",
+    "practical_use": "Referencia comercial de definiciones; no implica datos/código abiertos ni validación independiente.",
+    "data_inputs": "Consultas y parámetros permitidos",
+    "outputs": "Datos/documentación según servicio; disponibilidad no ensayada",
+    "limitations": [
+      "La documentación puede cambiar; no constituye garantía de acceso gratuito ni de reutilización."
+    ],
+    "alternatives": [
+      "Consulta manual o captura propia permitida con alcance menor"
+    ],
+    "dependencies": [],
+    "deep_review_path": null
+  }
+]

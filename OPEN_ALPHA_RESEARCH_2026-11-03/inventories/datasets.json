@@ -1,0 +1,971 @@
+[
+  {
+    "id": "quant-alfred",
+    "name": "FRED / ALFRED",
+    "url": "https://alfred.stlouisfed.org/help",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "proveedor/dataset",
+    "description": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "outputs": "Vintages de series macro; distinguir fecha del periodo, publicación y disponibilidad.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "La documentación confirma archivo de revisiones; fechas desconocidas pueden asignarse por primera disponibilidad en FRED. API requiere clave; derechos de cada serie separados."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-c58b31cabba1"
+    ],
+    "source_ids": [
+      "src-quant-2ecbd04c5b67",
+      "src-quant-4ae564a6ee3e"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-fred-md",
+    "name": "FRED-MD",
+    "url": "https://www.stlouisfed.org/research/economists/mccracken/fred-databases",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "dataset",
+    "description": "Panel macro mensual con transformaciones y vintages.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Panel macro mensual con transformaciones y vintages.",
+    "outputs": "Panel macro mensual con transformaciones y vintages.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "No mezclar current.csv con evaluación histórica; vintage mensual no reproduce todos los instantes de publicación."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-18e3e5964e06"
+    ],
+    "source_ids": [
+      "src-quant-6e38ac63fd95"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-fred-qd",
+    "name": "FRED-QD",
+    "url": "https://www.stlouisfed.org/research/economists/mccracken/fred-databases",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "dataset",
+    "description": "Panel macro trimestral para factores y nowcasting.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Panel macro trimestral para factores y nowcasting.",
+    "outputs": "Panel macro trimestral para factores y nowcasting.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Frecuencia trimestral y revisiones impiden tratar cada día como observación independiente."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-a1574fc81e8f"
+    ],
+    "source_ids": [
+      "src-quant-6e38ac63fd95"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-ofr-fsi",
+    "name": "OFR Financial Stress Index",
+    "url": "https://www.financialresearch.gov/financial-stress-index/",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A",
+      "K"
+    ],
+    "resource_type": "dataset",
+    "description": "Índice diario de estrés financiero global.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Índice diario de estrés financiero global.",
+    "outputs": "Índice diario de estrés financiero global.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Publica con retraso de dos días hábiles; aviso de corrección de feed en mayo2026 demuestra riesgo de revisiones. No es señal cripto validada."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-40968e7f95d4"
+    ],
+    "source_ids": [
+      "src-quant-ae1878ff4f31"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-nfci",
+    "name": "Chicago Fed NFCI / ANFCI",
+    "url": "https://www.chicagofed.org/research/data/nfci/current-data",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A",
+      "K"
+    ],
+    "resource_type": "dataset",
+    "description": "Condiciones financieras semanales de EEUU.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Condiciones financieras semanales de EEUU.",
+    "outputs": "Condiciones financieras semanales de EEUU.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Índice revisable; distinguir fechado de semana, publicación y descarga. Verificar vintage por fecha antes de backtest."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-c5322ac8e48a"
+    ],
+    "source_ids": [
+      "src-quant-5d95134052de"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-gdpnow",
+    "name": "Atlanta Fed GDPNow",
+    "url": "https://www.atlantafed.org/research-and-data/data/gdpnow",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "modelo/dataset",
+    "description": "Nowcast del PIB antes de la publicación oficial.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": null,
+    "license_code": null,
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": null,
+    "dependencies": [],
+    "data_inputs": "Nowcast del PIB antes de la publicación oficial.",
+    "outputs": "Nowcast del PIB antes de la publicación oficial.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Nowcast macro no anticipación de retornos; cobertura de históricos intravintage no auditada."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-9678260c64bc"
+    ],
+    "source_ids": [
+      "src-quant-87b24950cc1f"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [
+      "Permisos y timestamps por serie pendientes"
+    ],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "quant-bis-gli",
+    "name": "BIS Global Liquidity Indicators",
+    "url": "https://data.bis.org/topics/GLI",
+    "organization": "Autor/organismo original indicado en la URL",
+    "categories": [
+      "A"
+    ],
+    "resource_type": "dataset",
+    "description": "Crédito a prestatarios no bancarios, incluido crédito en divisas.",
+    "verification_level": "V2",
+    "verified_at": "2026-11-04",
+    "version_or_commit": null,
+    "maintenance_status": "Fuente primaria actual consultada; historial no auditado",
+    "last_significant_release": "2026-10-29",
+    "license_code": "Condiciones BIS, no licencia de software",
+    "license_status": "COMPATIBLE CON OBLIGACIONES",
+    "license_url": "https://data.bis.org/help/legal",
+    "dependencies": [],
+    "data_inputs": "Crédito a prestatarios no bancarios, incluido crédito en divisas.",
+    "outputs": "Crédito a prestatarios no bancarios, incluido crédito en divisas.",
+    "practical_use": "Contexto macro para escenarios de inversión, con timestamps y revisión de permisos",
+    "limitations": [
+      "Serie trimestral; no igualar GLI con M2 ni con liquidez negociable de un exchange."
+    ],
+    "alternatives": [
+      "Consultar métodos y comparaciones del área"
+    ],
+    "evidence_ids": [
+      "ev-quant-6d4aab4bfa60"
+    ],
+    "source_ids": [
+      "src-quant-e38a6152e3e7",
+      "src-quant-092e4b8e7cba"
+    ],
+    "scores": null,
+    "confidence": "media para alcance; limitada para reutilización o disponibilidad histórica",
+    "blockers": [],
+    "commercial_dependencies": "No contratado; algunas series subyacentes pueden tener derechos de terceros",
+    "maturity": "Fuente científica/oficial; no validación de utilidad cripto",
+    "cost_relative": "bajo para lectura; integración no estimada",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null
+  },
+  {
+    "id": "crypto-data-binance-public",
+    "candidate_id": "crypto-binance-binance-public-data",
+    "name": "Binance public data archives",
+    "access": "Archivos públicos descargables; sin descarga masiva realizada",
+    "coverage": "OHLCV/trades/aggTrades y productos documentados; no equiparar a histórico completo de OI/profundidad",
+    "temporal_risk": "Spot usa microsegundos desde 2025-01-01 según README; publicación diaria posterior al día observado y revisiones posibles",
+    "license": "No verificada para redistribución del dataset",
+    "free_alternative": "Snapshots prospectivos de endpoints públicos con permiso de uso revisado",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-fcefb8cd7e49",
+      "crypto-src-70e6e9607aef",
+      "crypto-src-055a011c9ab7",
+      "crypto-src-b225628dbc69",
+      "crypto-src-6d0a8f3aa57f"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "B",
+      "C",
+      "G"
+    ],
+    "url": "https://raw.githubusercontent.com/binance/binance-public-data/d571690eb66760763b0bd6e27e8cd35603c7e244/README.md"
+  },
+  {
+    "id": "crypto-data-coinmetrics-community",
+    "candidate_id": "crypto-coinmetrics-data",
+    "name": "Coin Metrics community CSV",
+    "access": "Repositorio público de CSV",
+    "coverage": "Subconjunto de activos/métricas; archivos no descargados ni integridad medida",
+    "temporal_risk": "Última versión puede incluir revisiones retrospectivas; fecha de archivo no equivale a disponibilidad original",
+    "license": "CC-BY-NC-4.0 en dataset; cliente Python MIT separado",
+    "free_alternative": "Métricas derivadas de fuentes originales con definición propia",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-7d745ae80300",
+      "crypto-src-c3b35d7a288c"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "A",
+      "B",
+      "D"
+    ],
+    "url": "https://raw.githubusercontent.com/coinmetrics/data/f1a36afb962731c387bb03982758ab0103063da5/README.md"
+  },
+  {
+    "id": "crypto-data-graphsense-tagpacks",
+    "candidate_id": "crypto-graphsense-graphsense-tagpacks",
+    "name": "GraphSense tagpacks",
+    "access": "Repositorio público; esquema y licencia inspeccionados",
+    "coverage": "Etiquetas parciales de direcciones/servicios, no censo de titulares",
+    "temporal_risk": "Etiquetas pueden conocerse después del evento; guardar observed_at, source y validez",
+    "license": "MIT del repositorio inspeccionado; verificar condiciones de fuentes externas de cada etiqueta",
+    "free_alternative": "Etiquetas documentadas manualmente y marcadas como hipótesis",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-d473cbed2ff9",
+      "crypto-src-6609a702fd4b"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "D",
+      "N"
+    ],
+    "url": "https://raw.githubusercontent.com/graphsense/graphsense-tagpacks/541071c414606a5d61d18f129e5fca01f5a09d42/README.md"
+  },
+  {
+    "id": "crypto-data-defillama-dimensions",
+    "candidate_id": "crypto-defillama-dimension-adapters",
+    "name": "DefiLlama financial dimensions",
+    "access": "Código público de adaptadores; disponibilidad de upstreams desigual",
+    "coverage": "Protocolo/métrica/fecha/adaptador; no auditado el dataset completo",
+    "temporal_risk": "Cambios de fórmulas y fallback a contextos actuales; historial del proveedor no necesariamente vintage",
+    "license": "Licencia de copia del adaptador no localizada; derechos de servicio distintos",
+    "free_alternative": "Muestra manual de eventos y contratos públicos",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-78514f63effb",
+      "crypto-src-aae43ed26c93",
+      "crypto-src-fc329eba4d0e",
+      "crypto-src-0204002e5281",
+      "crypto-src-92fcd858b3fb",
+      "crypto-src-0d0c0164930e",
+      "crypto-src-676b9fd41448",
+      "crypto-src-16eb759e7c92",
+      "crypto-src-7f8fbbbef5f0",
+      "crypto-src-4d0d1f0f0a09",
+      "crypto-src-1c93b9685dba",
+      "crypto-src-317a0b2fbe13",
+      "crypto-src-6c9292c0068f",
+      "crypto-src-497fa3b1de8b",
+      "crypto-src-f01b354b1e55"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "C",
+      "E",
+      "M"
+    ],
+    "url": "https://raw.githubusercontent.com/DefiLlama/dimension-adapters/c0bbb1a8a1fb5d1342d9d499daeb960d7f277ce9/README.md"
+  },
+  {
+    "id": "crypto-data-stablecoin-supply",
+    "candidate_id": "crypto-defillama-peggedassets-server",
+    "name": "Stablecoin balances and supply",
+    "access": "Adaptadores públicos; frontend/API y permisos por revisar",
+    "coverage": "Oferta por activo/cadena; no reservas bancarias ni entrada fiat observada",
+    "temporal_risk": "Bridges, mint/burn, reclasificaciones de circulating supply y cambios de precios",
+    "license": "No verificada",
+    "free_alternative": "Balance/supply de contratos originales y documentos del emisor",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-bb7d794a77a4",
+      "crypto-src-df2be993e7c9",
+      "crypto-src-0e6c0caaf381",
+      "crypto-src-545b694f1307",
+      "crypto-src-1086d84bee0f",
+      "crypto-src-c7e6dd4bc23e"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "A",
+      "D",
+      "M"
+    ],
+    "url": "https://raw.githubusercontent.com/DefiLlama/peggedassets-server/7772746c5164ce10bb0d646a2590c08a2e4059b3/README.md"
+  },
+  {
+    "id": "crypto-data-hyperliquid-public",
+    "candidate_id": "crypto-hyperliquid-dex-hyperliquid-python-sdk",
+    "name": "Hyperliquid Info public market data",
+    "access": "Documentación/API pública, sin necesidad de firmar para consultas de mercado",
+    "coverage": "Mercados y cuentas conocidas; retención/paginación específicas",
+    "temporal_risk": "Estado actual no sustituye archivo; muestras de wallets no son censo",
+    "license": "MIT del SDK no concede derechos generales sobre servicio/datos",
+    "free_alternative": "Snapshots prospectivos acotados",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-e19a1a17d6b7",
+      "crypto-src-c82fa6620a46",
+      "crypto-src-b47fb6c586cb",
+      "crypto-src-a8298909a38c",
+      "crypto-src-3749e1c1e193",
+      "crypto-src-2afaecf4b710",
+      "crypto-src-bc121834c28c",
+      "crypto-src-ece43d759c1f",
+      "crypto-src-53d77f2340fa"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "B",
+      "C",
+      "D",
+      "M"
+    ],
+    "url": "https://raw.githubusercontent.com/hyperliquid-dex/hyperliquid-python-sdk/2fdb18f9517675ea03695a0962bd19eece9c83f0/README.md"
+  },
+  {
+    "id": "crypto-data-polymarket-public",
+    "candidate_id": "crypto-polymarket-py-sdk",
+    "name": "Polymarket public market and resolution data",
+    "access": "SDK PublicClient y endpoints documentados",
+    "coverage": "Mercados, precios, reglas, actividad; no se descargó universo histórico",
+    "temporal_risk": "Mercados cerrados/retirados y revisiones de resolución; cursores y truncamiento",
+    "license": "MIT del SDK; licencia/ToS de datos separadas",
+    "free_alternative": "Cesta manual de mercados y snapshots de reglas",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-1fbb1562d530",
+      "crypto-src-825e659fa1c8",
+      "crypto-src-cfdce6240159",
+      "crypto-src-8d824dce1b9e",
+      "crypto-src-718de229f375",
+      "crypto-src-f970475e773d",
+      "crypto-src-ff6dd60a3dba",
+      "crypto-src-c469eaf6e315",
+      "crypto-src-3c70240d0692",
+      "crypto-src-de9361a145aa"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "B",
+      "J",
+      "N",
+      "M"
+    ],
+    "url": "https://raw.githubusercontent.com/Polymarket/py-sdk/aa94ec431e3d4946576fb7c0d079fe1c14fcf676/README.md"
+  },
+  {
+    "id": "crypto-data-evm-events",
+    "candidate_id": "crypto-paradigmxyz-cryo",
+    "name": "Selected EVM logs/transactions",
+    "access": "RPC público o propio con límites; cliente no garantiza archivo",
+    "coverage": "Cadena/contratos/bloques seleccionados; depende del nodo",
+    "temporal_risk": "Reorgs, finality, archive RPC y metadata que cambia; tx timestamp no equals acquisition",
+    "license": "Código Cryo MIT OR Apache-2.0; términos del proveedor RPC separados",
+    "free_alternative": "Explorador y muestras manuales para primer prototipo",
+    "verified_at": "2026-11-04",
+    "source_ids": [
+      "crypto-src-bbee41f43f48",
+      "crypto-src-d839df8f226b",
+      "crypto-src-2ad6f54f0f1c",
+      "crypto-src-8b5b2f4216d8",
+      "crypto-src-395b136fc581",
+      "crypto-src-abe0618ac88c",
+      "crypto-src-6795aab63528",
+      "crypto-src-897927a77eda",
+      "crypto-src-ab0ee2c4c0c2",
+      "crypto-src-c75f790d807c",
+      "crypto-src-cddda0ab0459"
+    ],
+    "verification_scope": "Fuente y estructura documentales; no descarga, limpieza ni benchmark del dataset completo",
+    "maintenance_status": "No evaluado longitudinalmente; ver fuente/versión.",
+    "confidence": "media documental; no resultados propios ejecutados.",
+    "categories": [
+      "D",
+      "M"
+    ],
+    "url": "https://raw.githubusercontent.com/paradigmxyz/cryo/80eedf5355ca7b141d48123126515e6c9dd7d290/README.md"
+  },
+  {
+    "id": "AI-dataset-patronusai-financebench",
+    "name": "PatronusAI/financebench",
+    "url": "https://huggingface.co/datasets/PatronusAI/financebench",
+    "organization": "PatronusAI",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Muestra pública150 casos QA con evidencia; CC-BY-NC4.0.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "e04404e3a97f69f79c14d42f24981a1c9c3bcd18",
+    "maintenance_status": "lastModified 2024-11-17T18:42:59.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-nc-4.0",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/datasets/PatronusAI/financebench/resolve/e04404e3a97f69f79c14d42f24981a1c9c3bcd18/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Muestra pública150 casos QA con evidencia; CC-BY-NC4.0.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-patronusai-financebench-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-patronusai-financebench-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-takala-financial-phrasebank",
+    "name": "takala/financial_phrasebank",
+    "url": "https://huggingface.co/datasets/takala/financial_phrasebank",
+    "organization": "takala",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Frases financieras inglesas con etiquetas de sentimiento y acuerdo.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964",
+    "maintenance_status": "lastModified 2025-12-15T05:51:57.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-nc-sa-3.0",
+    "license_status": "SOLO INVESTIGACIÓN / RESTRICCIONES",
+    "license_url": "https://huggingface.co/datasets/takala/financial_phrasebank/resolve/8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Frases financieras inglesas con etiquetas de sentimiento y acuerdo.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-takala-financial-phrasebank-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-takala-financial-phrasebank-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-ibm-finqa",
+    "name": "ibm/finqa",
+    "url": "https://huggingface.co/datasets/ibm/finqa",
+    "organization": "ibm",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Distribución HF de preguntas aritméticas financieras; declarar origen/versiones.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "1d0076a55b609744218081ff6ea693aefe824677",
+    "maintenance_status": "lastModified 2024-06-06T08:56:37.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "cc-by-4.0",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/ibm/finqa/resolve/1d0076a55b609744218081ff6ea693aefe824677/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Distribución HF de preguntas aritméticas financieras; declarar origen/versiones.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-ibm-finqa-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-ibm-finqa-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-salesforce-gifteval",
+    "name": "Salesforce/GiftEval",
+    "url": "https://huggingface.co/datasets/Salesforce/GiftEval",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Benchmark heterogéneo de forecasting; validar permisos por componente.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "30841734ac5cfddbd0c3bad6d09d2b6b32becbb0",
+    "maintenance_status": "lastModified 2025-01-21T09:23:29.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/datasets/Salesforce/GiftEval/resolve/30841734ac5cfddbd0c3bad6d09d2b6b32becbb0/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Benchmark heterogéneo de forecasting; validar permisos por componente.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-salesforce-gifteval-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-salesforce-gifteval-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-salesforce-giftevalpretrain",
+    "name": "Salesforce/GiftEvalPretrain",
+    "url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain",
+    "organization": "Salesforce",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección de preentrenamiento de gran tamaño; no descargar para este fin.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "6830b624de7ed2b3d3e5b85bb6959d81dcc5d874",
+    "maintenance_status": "lastModified 2025-01-21T09:20:58.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "apache-2.0",
+    "license_status": "REUTILIZACIÓN POTENCIALMENTE COMPATIBLE",
+    "license_url": "https://huggingface.co/datasets/Salesforce/GiftEvalPretrain/resolve/6830b624de7ed2b3d3e5b85bb6959d81dcc5d874/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección de preentrenamiento de gran tamaño; no descargar para este fin.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-salesforce-giftevalpretrain-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-salesforce-giftevalpretrain-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 8,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-autogluon-chronos-datasets",
+    "name": "autogluon/chronos_datasets",
+    "url": "https://huggingface.co/datasets/autogluon/chronos_datasets",
+    "organization": "autogluon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección multi-origen con licencias por configuración.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "eeecad0b82a8c237e212ce6f8d1abecb513e2cec",
+    "maintenance_status": "lastModified 2025-03-18T10:38:52.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "other",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/autogluon/chronos_datasets/resolve/eeecad0b82a8c237e212ce6f8d1abecb513e2cec/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección multi-origen con licencias por configuración.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-autogluon-chronos-datasets-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-autogluon-chronos-datasets-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  },
+  {
+    "id": "AI-dataset-autogluon-fev-datasets",
+    "name": "autogluon/fev_datasets",
+    "url": "https://huggingface.co/datasets/autogluon/fev_datasets",
+    "organization": "autogluon",
+    "categories": [
+      "H",
+      "G"
+    ],
+    "resource_type": "dataset",
+    "description": "Colección para tareas de forecasting con condiciones por subdataset.",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "version_or_commit": "d3e7e720f4158eab03ebcb021f1cce779cd92acc",
+    "maintenance_status": "lastModified 2026-10-21T15:48:01.000Z; cadencia no auditada",
+    "license_code": null,
+    "license_weights": null,
+    "license_data": "other",
+    "license_status": "LICENCIA NO VERIFICADA",
+    "license_url": "https://huggingface.co/datasets/autogluon/fev_datasets/resolve/d3e7e720f4158eab03ebcb021f1cce779cd92acc/README.md",
+    "dependencies": [
+      "runtime y tokenizer deben fijarse por versión"
+    ],
+    "data_inputs": "consulta/evaluación",
+    "outputs": "casos/series de benchmark",
+    "practical_use": "Colección para tareas de forecasting con condiciones por subdataset.",
+    "limitations": [
+      "No inferencia ni descarga de pesos/datasets. La licencia indicada procede de card o archivo citado; no transfiere derechos de todas las fuentes subyacentes.",
+      "Benchmark general o de acciones no valida rentabilidad crypto ni horizonte3-18meses."
+    ],
+    "alternatives": [
+      "Baselines simples y test prospectivo propio"
+    ],
+    "evidence_ids": [
+      "E-AI-dataset-autogluon-fev-datasets-1"
+    ],
+    "source_ids": [
+      "S-AI-dataset-autogluon-fev-datasets-README-md"
+    ],
+    "scores": {
+      "utility": 18,
+      "evidence": 10,
+      "data": 9,
+      "ease": 7,
+      "license": 3,
+      "maintenance": 5,
+      "usability": 5,
+      "differentiation": 5
+    },
+    "confidence": "media documental",
+    "blockers": [
+      "Permisos por aclarar antes de uso operativo o redistribución."
+    ],
+    "commercial_dependencies": [],
+    "maturity": "checkpoint/dataset accesible; rendimiento no reproducido",
+    "cost_relative": "sin medición local; ver matriz de hardware",
+    "adoption_mode": "Investigar más",
+    "deep_review_path": null,
+    "tests_executed": false
+  }
+]

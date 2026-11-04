@@ -1,0 +1,64 @@
+[
+  {
+    "id": "crypto-provider-dune",
+    "name": "Dune hosted analytics",
+    "category": "Servicio cerrado con cliente y modelos públicos separados",
+    "source_ids": [
+      "crypto-src-3e5ce1674aa0"
+    ],
+    "use": "Contraste de consultas y exploración de resultados",
+    "constraint": "Cuenta/clave, cuotas y derechos de exportación/redistribución por revisar; Spellbook BUSL, cliente Apache-2.0",
+    "cost": "No cotizado ni contratado",
+    "substitute": "Cryo o Ponder + SQL propio sobre contratos acotados",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "not_open_source_substitute": true
+  },
+  {
+    "id": "crypto-provider-token-terminal",
+    "name": "Token Terminal",
+    "category": "Servicio analítico comercial cerrado",
+    "source_ids": [
+      "crypto-src-232a0557a14b",
+      "crypto-src-b2b0c8e776cb",
+      "crypto-src-28df4ae0e892"
+    ],
+    "use": "Comparar definiciones, métricas y forma de presentar estados económicos",
+    "constraint": "No se accedió a API autenticada, planes ni dataset íntegro; metodología textual generada automáticamente no prueba implementación",
+    "cost": "No cotizado ni contratado",
+    "substitute": "Adaptador revisado + eventos originales + reconciliación manual",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "not_open_source_substitute": true
+  },
+  {
+    "id": "crypto-provider-deribit",
+    "name": "Deribit public market API",
+    "category": "Mercado cerrado con documentación/API pública",
+    "source_ids": [
+      "crypto-src-1252acd36e5e"
+    ],
+    "use": "OI, mark/index, IV y funding de instrumentos específicos",
+    "constraint": "Mark IV es magnitud modelada y específica del instrumento; no histórico integral por consultar snapshot",
+    "cost": "No cotizado ni autenticado",
+    "substitute": "Observación prospectiva limitada; API de otro venue con especificación comparable",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "not_open_source_substitute": true
+  },
+  {
+    "id": "crypto-provider-circle",
+    "name": "Circle documentation and CCTP",
+    "category": "Emisor/protocolo con documentación pública",
+    "source_ids": [
+      "crypto-src-c7e6dd4bc23e"
+    ],
+    "use": "Identificar migraciones de oferta y evitar contar mint intercadena como entrada fiat",
+    "constraint": "Documentación no es prueba de reservas ni licencia de datos general",
+    "cost": "No transacciones ni contratación",
+    "substitute": "Eventos del contrato y reconciliación entre cadenas",
+    "verification_level": "V1",
+    "verified_at": "2026-11-04",
+    "not_open_source_substitute": true
+  }
+]
